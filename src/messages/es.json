@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "title": "Clínica Hispana Airline Houston | Médicos en Español Houston TX",
+    "titleTemplate": "%s | Clínica Hispana Airline",
+    "description": "Clínica médica hispana en Houston, TX. Atención profesional 100% en español, sin cita previa, aceptamos pacientes con o sin seguro. Medicina familiar, exámenes de inmigración, laboratorio y más.",
+    "ogDescription": "Su clínica de confianza en Houston. Atención médica profesional en español para toda la familia. Sin cita previa, precios accesibles. 491 reseñas 5 estrellas en Google."
+  },
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "testimonials": "Testimonios",
+    "location": "Ubicación",
+    "contact": "Contacto",
+    "faq": "Preguntas",
+    "blog": "Blog",
+    "privacy": "Privacidad",
+    "menu": "Menú",
+    "closeMenu": "Cerrar menú"
+  },
+  "hero": {
+    "title": "Clínica Hispana Airline",
+    "subtitle": "Atención médica profesional 100% en español",
+    "cta": "Agendar Cita",
+    "ctaSecondary": "Llamar Ahora",
+    "scrollDown": "Ver más",
+    "features": {
+      "1": "Sin cita previa",
+      "2": "Aceptamos pacientes sin seguro",
+      "3": "Precios accesibles"
+    },
+    "badges": {
+      "rating": "Google",
+      "uninsured": "Sin Seguro Bienvenido",
+      "prices": "Precios Accesibles",
+      "sameDay": "Citas el Mismo Día"
+    }
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Atención médica integral para toda la familia",
+    "viewAll": "Ver Todos los Servicios",
+    "callNow": "Llamar",
+    "getDirections": "Ubicación",
+    "learnMore": "Más Información",
+    "bookNow": "Agendar Cita",
+    "included": "Incluido en este servicio",
+    "backToServices": "Volver a Servicios"
+  },
+  "testimonials": {
+    "title": "Lo Que Dicen Nuestros Pacientes",
+    "subtitle": "Testimonios reales de Google Reviews",
+    "leaveReview": "Dejar una Reseña",
+    "verifiedReview": "Reseña verificada de Google",
+    "rating": "calificación",
+    "reviews": "reseñas"
+  },
+  "contact": {
+    "title": "Contáctenos",
+    "subtitle": "Estamos aquí para ayudarle",
+    "form": {
+      "name": "Nombre Completo",
+      "namePlaceholder": "Su nombre",
+      "phone": "Teléfono",
+      "phonePlaceholder": "(713) 555-1234",
+      "email": "Correo Electrónico (opcional)",
+      "emailPlaceholder": "correo@ejemplo.com",
+      "service": "Servicio de Interés",
+      "servicePlaceholder": "Seleccione un servicio",
+      "message": "Mensaje (opcional)",
+      "messagePlaceholder": "¿En qué podemos ayudarle?",
+      "submit": "Enviar Mensaje",
+      "submitting": "Enviando...",
+      "success": "¡Mensaje enviado! Nos comunicaremos pronto.",
+      "error": "Error al enviar. Por favor intente de nuevo."
+    },
+    "info": {
+      "address": "Dirección",
+      "phone": "Teléfono",
+      "hours": "Horario",
+      "email": "Correo"
+    }
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Respuestas a las preguntas más comunes",
+    "q1": "¿Necesito cita previa?",
+    "a1": "No, atendemos pacientes sin cita previa. Simplemente venga a nuestra clínica durante nuestro horario de atención y lo atenderemos lo más pronto posible. Sin embargo, si prefiere asegurar un horario específico, puede llamarnos para hacer una cita.",
+    "q2": "¿Aceptan pacientes sin seguro médico?",
+    "a2": "Sí, aceptamos pacientes con o sin seguro médico. Ofrecemos precios accesibles y planes de pago flexibles para que todos puedan recibir la atención médica que necesitan.",
+    "q3": "¿Hablan español en la clínica?",
+    "a3": "Sí, todo nuestro personal habla español. Nuestra clínica fue creada específicamente para servir a la comunidad hispana de Houston, y nos aseguramos de que pueda comunicarse cómodamente en su idioma.",
+    "q4": "¿Cuáles son sus horarios de atención?",
+    "a4": "Atendemos de lunes a domingo. Nuestro horario regular es de 9:00 AM a 9:00 PM de lunes a viernes, y de 10:00 AM a 6:00 PM los fines de semana. Por favor llámenos para confirmar horarios en días festivos.",
+    "q5": "¿Qué formas de pago aceptan?",
+    "a5": "Aceptamos efectivo, todas las tarjetas de crédito y débito principales (Visa, MasterCard, American Express, Discover), y la mayoría de los seguros médicos. También trabajamos con varios planes de seguro estatales y federales.",
+    "q6": "¿Ofrecen planes de pago?",
+    "a6": "Sí, ofrecemos planes de pago flexibles para ayudarle a manejar los costos de su atención médica. Hable con nuestra recepcionista sobre las opciones disponibles para su situación particular."
+  },
+  "location": {
+    "title": "Nuestra Ubicación",
+    "subtitle": "Visítenos en Houston, TX",
+    "howToGetHere": "Cómo Llegar",
+    "getDirections": "Obtener Direcciones",
+    "openInMaps": "Abrir en Google Maps",
+    "features": {
+      "parking": "Estacionamiento Gratuito",
+      "wheelchair": "Acceso para Sillas de Ruedas",
+      "bus": "Acceso en Autobús",
+      "security": "Área Segura"
+    }
+  },
+  "footer": {
+    "tagline": "Su salud es nuestra prioridad",
+    "quickLinks": "Enlaces Rápidos",
+    "contactInfo": "Información de Contacto",
+    "followUs": "Síguenos",
+    "copyright": "© {year} Clínica Hispana Airline. Todos los derechos reservados.",
+    "madeBy": "Desarrollado por",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "hipaa": "Aviso HIPAA"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Ha ocurrido un error",
+    "tryAgain": "Intentar de nuevo",
+    "close": "Cerrar",
+    "open": "Abrir",
+    "readMore": "Leer más",
+    "showLess": "Mostrar menos",
+    "all": "Todos",
+    "phone": "Teléfono",
+    "email": "Correo",
+    "address": "Dirección",
+    "hours": "Horario"
+  },
+  "cta": {
+    "callNow": "Llamar Ahora",
+    "getDirections": "Cómo Llegar",
+    "bookAppointment": "Agendar Cita",
+    "learnMore": "Más Información",
+    "contactUs": "Contáctenos",
+    "viewServices": "Ver Servicios"
+  },
+  "accessibility": {
+    "skipToContent": "Saltar al contenido",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "scrollToTop": "Volver arriba",
+    "previousSlide": "Diapositiva anterior",
+    "nextSlide": "Siguiente diapositiva"
+  },
+  "blog": {
+    "title": "Blog de Salud",
+    "subtitle": "Consejos de salud, noticias y actualizaciones de nuestra clínica",
+    "metaTitle": "Blog | Clínica Hispana Airline Houston",
+    "metaDescription": "Consejos de salud, información médica y noticias de Clínica Hispana Airline en Houston, TX. Artículos en español sobre medicina familiar, prevención y bienestar.",
+    "featured": "Destacado",
+    "readMore": "Leer Más",
+    "minRead": "min de lectura",
+    "noPosts": "No hay publicaciones disponibles.",
+    "backToBlog": "Volver al Blog",
+    "by": "Por",
+    "relatedPosts": "Artículos Relacionados",
+    "ctaTitle": "¿Necesita atención médica?",
+    "ctaDescription": "Estamos aquí para ayudarle. Llame ahora para agendar su cita o visite nuestra clínica sin cita previa.",
+    "callNow": "Llamar ahora:"
+  }
+}

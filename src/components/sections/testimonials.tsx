@@ -1,0 +1,108 @@
+import { getTranslations } from "next-intl/server";
+import { Star, GoogleLogo } from "@phosphor-icons/react/dist/ssr";
+import { TestimonialsCarousel } from "@/components/sections/testimonials-carousel";
+import { Button } from "@/components/ui/button";
+import { CONTACT_INFO, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
+
+// Mock reviews - in production, fetch from Google Places API
+const mockReviews = [
+  {
+    author_name: "María García",
+    rating: 5,
+    text: "Excelente atención, todo el personal habla español y me sentí muy cómoda. El doctor fue muy amable y profesional. Recomiendo esta clínica a toda la comunidad hispana.",
+    time: Date.now(),
+    relative_time_description: "hace 2 semanas",
+    profile_photo_url: "/images/avatars/avatar-1.webp",
+  },
+  {
+    author_name: "Carlos Rodríguez",
+    rating: 5,
+    text: "Muy buen servicio, no tuve que esperar mucho y los precios son muy accesibles. Me atendieron sin cita y resolvieron mi problema de salud rápidamente.",
+    time: Date.now(),
+    relative_time_description: "hace 1 mes",
+    profile_photo_url: "/images/avatars/avatar-2.webp",
+  },
+  {
+    author_name: "Ana Martínez",
+    rating: 5,
+    text: "La mejor clínica hispana en Houston. Llevé a mis hijos y los trataron con mucho cariño. El laboratorio es muy eficiente y los resultados fueron rápidos.",
+    time: Date.now(),
+    relative_time_description: "hace 3 semanas",
+    profile_photo_url: "/images/avatars/avatar-3.webp",
+  },
+  {
+    author_name: "José López",
+    rating: 5,
+    text: "Muy profesionales y atentos. Me explicaron todo en español y me dieron opciones de pago. Definitivamente volveré para mis chequeos regulares.",
+    time: Date.now(),
+    relative_time_description: "hace 2 meses",
+    profile_photo_url: "/images/avatars/avatar-4.webp",
+  },
+  {
+    author_name: "Laura Hernández",
+    rating: 5,
+    text: "Excelente experiencia. El personal es muy amable y el lugar está muy limpio. Me sentí como en casa. Los recomiendo ampliamente.",
+    time: Date.now(),
+    relative_time_description: "hace 1 semana",
+    profile_photo_url: "/images/avatars/avatar-5.webp",
+  },
+];
+
+export async function Testimonials() {
+  const t = await getTranslations("testimonials");
+
+  // Using hardcoded values from Google Reviews - will be replaced with API data
+  const averageRating = GOOGLE_REVIEWS_DATA.averageRating;
+  const totalReviews = GOOGLE_REVIEWS_DATA.totalReviews;
+
+  return (
+    <section id="testimonials" className="py-16 md:py-24 bg-white">
+      <div className="container mx-auto px-4">
+        {/* Section Header */}
+        <div className="text-center max-w-2xl mx-auto mb-12 md:mb-16">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-slate-dark mb-4">
+            {t("title")}
+          </h2>
+          <p className="text-lg text-muted-foreground mb-6">
+            {t("subtitle")}
+          </p>
+
+          {/* Google Rating Summary */}
+          <div className="inline-flex items-center gap-3 bg-blue-bg rounded-full px-6 py-3">
+            <GoogleLogo className="size-6 text-blue-primary" weight="bold" />
+            <div className="flex items-center gap-1">
+              {[...Array(5)].map((_, i) => (
+                <Star
+                  key={i}
+                  className="size-5 text-yellow-400"
+                  weight="fill"
+                />
+              ))}
+            </div>
+            <span className="font-bold text-slate-dark">{averageRating}</span>
+            <span className="text-muted-foreground">
+              ({totalReviews} {t("reviews")})
+            </span>
+          </div>
+        </div>
+
+        {/* Testimonials Carousel */}
+        <TestimonialsCarousel reviews={mockReviews} />
+
+        {/* Leave Review CTA */}
+        <div className="text-center mt-12">
+          <Button asChild variant="outline" size="lg" className="gap-2">
+            <a
+              href={CONTACT_INFO.googleReviewUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GoogleLogo className="size-5" weight="bold" />
+              {t("leaveReview")}
+            </a>
+          </Button>
+        </div>
+      </div>
+    </section>
+  );
+}
