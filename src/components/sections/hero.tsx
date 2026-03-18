@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
-import { Phone, CaretDown, Star, ShieldCheck, CurrencyDollar, CalendarCheck } from "@phosphor-icons/react/dist/ssr";
+import { Phone, MapPin, Clock, Star, CheckCircle } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
-import { CONTACT_INFO } from "@/lib/constants";
+import { CONTACT_INFO, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
 
 export async function Hero() {
   const t = await getTranslations("hero");
@@ -13,7 +13,7 @@ export async function Hero() {
       {/* Background Image */}
       <Image
         src="/images/hero-bg.webp"
-        alt="Clínica Hispana Houston - Atención médica profesional"
+        alt="Clínica Hispana Airline - Atención médica profesional"
         fill
         priority
         quality={85}
@@ -21,97 +21,107 @@ export async function Hero() {
         sizes="100vw"
       />
 
-      {/* Gradient Overlays - Warm Medical Red */}
-      <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 via-slate-800/70 to-slate-700/40" />
-      <div className="absolute inset-0 bg-gradient-to-b from-red-dark/10 via-transparent to-slate-900/60" />
+      {/* Gradient Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-b from-slate-900/80 via-slate-900/70 to-slate-900/90" />
 
       {/* Content */}
-      <div className="container relative z-10 mx-auto px-4 pt-24 pb-32 md:pt-28 md:pb-40">
-        <div className="max-w-3xl">
+      <div className="container relative z-10 mx-auto px-4 pt-28 md:pt-32 pb-40 md:pb-32">
+        <div className="max-w-4xl mx-auto text-center">
+
+          {/* Google Rating Badge */}
+          <div className="animate-hero-title inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-5 py-2.5 mb-6">
+            <div className="flex items-center gap-0.5">
+              {[...Array(5)].map((_, i) => (
+                <Star key={i} className="size-5 text-yellow-400" weight="fill" />
+              ))}
+            </div>
+            <span className="text-white/80 text-sm">{GOOGLE_REVIEWS_DATA.totalReviews}+ reseñas en Google</span>
+          </div>
+
           {/* Title */}
-          <h1 className="animate-hero-title text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-heading font-bold text-white mb-4 md:mb-6 leading-tight">
+          <h1 className="animate-hero-subtitle text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white mb-4 md:mb-6 leading-tight">
             {t("title")}
           </h1>
 
           {/* Subtitle */}
-          <p className="animate-hero-subtitle text-xl sm:text-2xl md:text-3xl text-white/90 mb-6 md:mb-8 font-light">
+          <p className="animate-hero-features text-lg md:text-xl text-white/80 mb-8 max-w-2xl mx-auto">
             {t("subtitle")}
           </p>
 
-          {/* Features List */}
-          <ul className="animate-hero-features flex flex-wrap gap-x-6 gap-y-2 mb-8 md:mb-10">
-            {(["1", "2", "3"] as const).map((key) => (
-              <li key={key} className="flex items-center gap-2 text-white/80 text-sm sm:text-base">
-                <span className="size-2 rounded-full bg-red-primary" />
-                {t(`features.${key}`)}
-              </li>
-            ))}
-          </ul>
-
           {/* CTA Buttons */}
-          <div className="animate-hero-cta flex flex-col sm:flex-row gap-4 mb-12 md:mb-16">
-            <Button asChild size="lg" className="text-base sm:text-lg px-8 py-6">
-              <Link href="#contact">{t("cta")}</Link>
+          <div className="animate-hero-cta flex flex-col sm:flex-row gap-3 justify-center mb-8">
+            <Button asChild size="lg" className="text-base md:text-lg px-8 py-6 gap-2 shadow-lg shadow-red-primary/30">
+              <a href={`tel:${CONTACT_INFO.phone}`}>
+                <Phone className="size-5" weight="fill" />
+                {t("ctaCall")}
+              </a>
             </Button>
             <Button
               asChild
               size="lg"
               variant="outline"
-              className="text-base sm:text-lg px-8 py-6 bg-white/10 text-white border-white/30 hover:bg-white/20 hover:text-white"
+              className="text-base md:text-lg px-8 py-6 gap-2 bg-white text-slate-dark border-white hover:bg-white/90"
             >
-              <a href={`tel:${CONTACT_INFO.phone}`} className="gap-2">
-                <Phone className="size-5" weight="bold" />
-                {t("ctaSecondary")}
+              <a
+                href={CONTACT_INFO.googleMapsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <MapPin className="size-5" weight="fill" />
+                {t("ctaLocation")}
               </a>
             </Button>
           </div>
-        </div>
 
-        {/* Scroll Indicator */}
-        <div className="animate-hero-scroll absolute bottom-24 md:bottom-28 left-1/2 -translate-x-1/2">
-          <Link
-            href="#services"
-            className="flex flex-col items-center text-white/70 hover:text-white transition-colors group"
-          >
-            <span className="text-sm mb-2">{t("scrollDown")}</span>
-            <CaretDown className="size-6 animate-hero-bounce group-hover:text-red-primary" weight="bold" />
-          </Link>
-        </div>
-      </div>
-
-      {/* Trust Badges */}
-      <div className="animate-hero-badges absolute bottom-0 left-0 right-0 bg-red-dark/80 backdrop-blur-md border-t border-white/10">
-        <div className="container mx-auto px-4 py-4 md:py-5">
-          <div className="flex flex-wrap justify-center gap-4 md:gap-8 lg:gap-12">
-            {/* Google Rating */}
-            <div className="flex items-center gap-2 text-white/90">
-              <div className="flex items-center gap-1 text-yellow-400">
-                <Star className="size-5" weight="fill" />
-                <span className="font-bold">4.9</span>
+          {/* Features - Hidden on mobile, visible on tablet+ */}
+          <div className="animate-hero-badges hidden md:flex flex-wrap justify-center gap-x-6 gap-y-2">
+            {(["1", "2", "3", "4"] as const).map((key) => (
+              <div key={key} className="flex items-center gap-2">
+                <CheckCircle className="size-4 text-red-primary shrink-0" weight="fill" />
+                <span className="text-white/80 text-sm">{t(`features.${key}`)}</span>
               </div>
-              <span className="text-sm text-white/70">{t("badges.rating")}</span>
-            </div>
-
-            {/* Uninsured Welcome */}
-            <div className="flex items-center gap-2 text-white/90">
-              <ShieldCheck className="size-5 text-red-primary" weight="fill" />
-              <span className="text-sm">{t("badges.uninsured")}</span>
-            </div>
-
-            {/* Affordable */}
-            <div className="flex items-center gap-2 text-white/90">
-              <CurrencyDollar className="size-5 text-green-400" weight="fill" />
-              <span className="text-sm">{t("badges.prices")}</span>
-            </div>
-
-            {/* Same Day */}
-            <div className="flex items-center gap-2 text-white/90">
-              <CalendarCheck className="size-5 text-red-primary" weight="fill" />
-              <span className="text-sm">{t("badges.sameDay")}</span>
-            </div>
+            ))}
           </div>
         </div>
       </div>
+
+      {/* Bottom Bar */}
+      <div className="absolute bottom-0 left-0 right-0 bg-red-dark/90 backdrop-blur-sm border-t border-white/10">
+        <div className="container mx-auto px-4 py-4">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 text-white">
+            {/* Hours */}
+            <div className="flex items-center gap-2">
+              <Clock className="size-5" weight="fill" />
+              <span className="text-sm font-medium">{CONTACT_INFO.hours}</span>
+            </div>
+
+            <div className="hidden md:block w-px h-5 bg-white/30" />
+
+            {/* Address */}
+            <a
+              href={CONTACT_INFO.googleMapsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 hover:text-white/80 transition-colors"
+            >
+              <MapPin className="size-5" weight="fill" />
+              <span className="text-sm">{CONTACT_INFO.address}, {CONTACT_INFO.city}, {CONTACT_INFO.state}</span>
+            </a>
+
+            <div className="hidden md:block w-px h-5 bg-white/30" />
+
+            {/* Phone */}
+            <a
+              href={`tel:${CONTACT_INFO.phone}`}
+              className="flex items-center gap-2 hover:text-white/80 transition-colors font-semibold"
+            >
+              <Phone className="size-5" weight="fill" />
+              <span>{CONTACT_INFO.phoneFormatted}</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
     </section>
   );
 }

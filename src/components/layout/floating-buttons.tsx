@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Phone, WhatsappLogo, MapPin } from "@phosphor-icons/react";
+import { Phone, MapPin } from "@phosphor-icons/react";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { CONTACT_INFO } from "@/lib/constants";
 import { cn } from "@/lib/utils";
@@ -17,10 +17,6 @@ export function FloatingButtons() {
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
-  const whatsappNumber = CONTACT_INFO.phone.replace(/\D/g, "");
-  const whatsappMessage = encodeURIComponent("Hola, me gustaría obtener información sobre sus servicios médicos.");
-  const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
   return (
     <div
@@ -44,24 +40,6 @@ export function FloatingButtons() {
         </TooltipTrigger>
         <TooltipContent side="left">
           <p>Cómo Llegar</p>
-        </TooltipContent>
-      </Tooltip>
-
-      {/* WhatsApp Button */}
-      <Tooltip>
-        <TooltipTrigger asChild>
-          <a
-            href={whatsappUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="size-14 rounded-full bg-[#25D366] text-white shadow-lg flex items-center justify-center hover:bg-[#128C7E] transition-colors"
-            aria-label="Contactar por WhatsApp"
-          >
-            <WhatsappLogo className="size-7" weight="fill" />
-          </a>
-        </TooltipTrigger>
-        <TooltipContent side="left">
-          <p>WhatsApp</p>
         </TooltipContent>
       </Tooltip>
 

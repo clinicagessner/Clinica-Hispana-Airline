@@ -18,21 +18,18 @@
     "closeMenu": "Close menu"
   },
   "hero": {
-    "title": "Clinica Hispana Airline",
-    "subtitle": "Professional medical care 100% in Spanish",
-    "cta": "Book Appointment",
-    "ctaSecondary": "Call Now",
-    "scrollDown": "Learn more",
+    "badge": "Quality medical care",
+    "title": "Your Trusted Hispanic Clinic in Houston",
+    "subtitle": "Professional medical care 100% in Spanish. Walk-ins welcome, affordable prices.",
+    "ctaCall": "Call Now",
+    "ctaLocation": "Get Directions",
+    "cardTitle": "Why choose us?",
+    "cardSubtitle": "The best care for you and your family",
     "features": {
-      "1": "Walk-ins welcome",
-      "2": "Uninsured patients accepted",
-      "3": "Affordable prices"
-    },
-    "badges": {
-      "rating": "Google",
-      "uninsured": "Uninsured Welcome",
-      "prices": "Affordable Prices",
-      "sameDay": "Same Day Appointments"
+      "1": "100% Spanish speaking staff",
+      "2": "No appointment necessary",
+      "3": "Uninsured patients welcome",
+      "4": "Affordable and transparent prices"
     }
   },
   "services": {

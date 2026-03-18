@@ -18,21 +18,18 @@
     "closeMenu": "Cerrar menú"
   },
   "hero": {
-    "title": "Clínica Hispana Airline",
-    "subtitle": "Atención médica profesional 100% en español",
-    "cta": "Agendar Cita",
-    "ctaSecondary": "Llamar Ahora",
-    "scrollDown": "Ver más",
+    "badge": "Atención médica de calidad",
+    "title": "Su Clínica Hispana de Confianza en Houston",
+    "subtitle": "Atención médica profesional 100% en español. Sin cita previa, precios accesibles.",
+    "ctaCall": "Llamar Ahora",
+    "ctaLocation": "Cómo Llegar",
+    "cardTitle": "¿Por qué elegirnos?",
+    "cardSubtitle": "La mejor atención para usted y su familia",
     "features": {
-      "1": "Sin cita previa",
-      "2": "Aceptamos pacientes sin seguro",
-      "3": "Precios accesibles"
-    },
-    "badges": {
-      "rating": "Google",
-      "uninsured": "Sin Seguro Bienvenido",
-      "prices": "Precios Accesibles",
-      "sameDay": "Citas el Mismo Día"
+      "1": "Atención 100% en español",
+      "2": "Sin cita previa necesaria",
+      "3": "Aceptamos pacientes sin seguro",
+      "4": "Precios accesibles y transparentes"
     }
   },
   "services": {
