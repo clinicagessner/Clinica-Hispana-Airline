@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { List, X, Phone } from "@phosphor-icons/react";
+import { List, Phone } from "@phosphor-icons/react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet";
 import { LanguageSwitcher } from "@/components/layout/language-switcher";
@@ -15,6 +15,7 @@ export function Header() {
   const t = useTranslations();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState("home");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -25,8 +26,43 @@ export function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Scroll spy to detect active section
+  useEffect(() => {
+    const sections = NAV_ITEMS
+      .filter(item => item.href.startsWith("#"))
+      .map(item => item.href.replace("#", ""));
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActiveSection(entry.target.id);
+          }
+        });
+      },
+      {
+        rootMargin: "-20% 0px -70% 0px",
+        threshold: 0,
+      }
+    );
+
+    sections.forEach((sectionId) => {
+      const element = document.getElementById(sectionId);
+      if (element) observer.observe(element);
+    });
+
+    return () => observer.disconnect();
+  }, []);
+
   const handleLinkClick = () => {
     setIsOpen(false);
+  };
+
+  const isActiveLink = (href: string) => {
+    if (href.startsWith("#")) {
+      return activeSection === href.replace("#", "");
+    }
+    return false;
   };
 
   return (
@@ -60,10 +96,14 @@ export function Header() {
                 key={item.href}
                 href={item.href}
                 className={cn(
-                  "px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-red-light/50",
-                  isScrolled
-                    ? "text-slate-dark hover:text-red-primary"
-                    : "text-white/90 hover:text-white hover:bg-white/10"
+                  "px-3 py-2 rounded-md text-sm font-medium transition-colors",
+                  isActiveLink(item.href)
+                    ? isScrolled
+                      ? "bg-red-light text-red-primary"
+                      : "bg-white/20 text-white"
+                    : isScrolled
+                      ? "text-slate-dark hover:text-red-primary hover:bg-red-light/50"
+                      : "text-white/90 hover:text-white hover:bg-white/10"
                 )}
               >
                 {t(item.label)}
@@ -121,7 +161,12 @@ export function Header() {
                         key={item.href}
                         href={item.href}
                         onClick={handleLinkClick}
-                        className="px-4 py-3 rounded-lg text-slate-dark hover:bg-red-light hover:text-red-dark font-medium transition-colors"
+                        className={cn(
+                          "px-4 py-3 rounded-lg font-medium transition-colors",
+                          isActiveLink(item.href)
+                            ? "bg-red-light text-red-primary"
+                            : "text-slate-dark hover:bg-red-light hover:text-red-dark"
+                        )}
                       >
                         {t(item.label)}
                       </Link>

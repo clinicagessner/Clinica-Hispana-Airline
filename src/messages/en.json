@@ -8,6 +8,7 @@
   "nav": {
     "home": "Home",
     "services": "Services",
+    "greenCard": "Green Card",
     "testimonials": "Testimonials",
     "location": "Location",
     "contact": "Contact",
@@ -154,6 +155,7 @@
     "metaDescription": "Health tips, medical information and news from Clinica Hispana Airline in Houston, TX. Articles in Spanish about family medicine, prevention and wellness.",
     "featured": "Featured",
     "readMore": "Read More",
+    "viewAll": "View All Articles",
     "minRead": "min read",
     "noPosts": "No posts available.",
     "backToBlog": "Back to Blog",

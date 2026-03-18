@@ -21,7 +21,7 @@ export const CONTACT_INFO: ContactInfo = {
   hours: "Lunes a Domingo: 9:00 AM - 9:00 PM",
   hoursWeekday: "Lunes a Viernes: 9:00 AM - 9:00 PM",
   hoursWeekend: "Sábado y Domingo: 10:00 AM - 6:00 PM",
-  googleMapsUrl: "https://www.google.com/maps/dir//Clinica+Hispana+Airline,+934+E+Tidwell+Rd,+Houston,+TX+77022/@29.8449071,-95.384934,17z",
+  googleMapsUrl: "https://www.google.com/maps/search/Clinica+Hispana+Airline+934+E+Tidwell+Rd+Houston+TX+77022",
   googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3461.5!2d-95.3577!3d29.8279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640b99b732517b3%3A0x6071796769ab0bc8!2sCl%C3%ADnica%20Hispana%20Airline!5e0!3m2!1sen!2sus!4v1710600000000!5m2!1sen!2sus",
   googleReviewUrl: "https://search.google.com/local/writereview?placeid=ChIJsxclc5m5QIYRyAurHml5cWA",
   placeId: "ChIJsxclc5m5QIYRyAurHml5cWA",
@@ -517,13 +517,10 @@ export const FAQ_ITEMS: FAQItem[] = [
 ];
 
 export const NAV_ITEMS = [
-  { label: "nav.home", href: "#home" },
   { label: "nav.services", href: "#services" },
-  { label: "nav.testimonials", href: "#testimonials" },
-  { label: "nav.faq", href: "#faq" },
-  { label: "nav.location", href: "#location" },
+  { label: "nav.greenCard", href: "/services/examenes-inmigracion" },
+  { label: "nav.blog", href: "#blog" },
   { label: "nav.contact", href: "#contact" },
-  { label: "nav.blog", href: "/blog" },
 ];
 
 export const BLOG_POSTS: BlogPost[] = [

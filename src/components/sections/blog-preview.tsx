@@ -1,0 +1,102 @@
+import Image from "next/image";
+import Link from "next/link";
+import { getTranslations } from "next-intl/server";
+import { ArrowRight, Calendar, Clock } from "@phosphor-icons/react/dist/ssr";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { BLOG_POSTS } from "@/lib/constants";
+
+export async function BlogPreview() {
+  const t = await getTranslations("blog");
+
+  // Get the featured post or the most recent one
+  const featuredPost = BLOG_POSTS.find((post) => post.featured) || BLOG_POSTS[0];
+
+  if (!featuredPost) return null;
+
+  return (
+    <section id="blog" className="py-16 md:py-24 bg-white">
+      <div className="container mx-auto px-4">
+        {/* Section Header */}
+        <div className="text-center max-w-2xl mx-auto mb-12">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-slate-dark mb-4">
+            {t("title")}
+          </h2>
+          <p className="text-lg text-muted-foreground">
+            {t("subtitle")}
+          </p>
+        </div>
+
+        {/* Featured Post Card */}
+        <div className="max-w-4xl mx-auto mb-10">
+          <Card className="overflow-hidden border-0 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="grid md:grid-cols-2 gap-0">
+              {/* Image */}
+              <div className="relative h-64 md:h-full min-h-[300px]">
+                <Image
+                  src={featuredPost.image || "/images/blog/default.webp"}
+                  alt={featuredPost.title}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+                {featuredPost.category && (
+                  <Badge className="absolute top-4 left-4 bg-red-primary">
+                    {featuredPost.category}
+                  </Badge>
+                )}
+              </div>
+
+              {/* Content */}
+              <CardContent className="p-6 md:p-8 flex flex-col justify-center">
+                <div className="flex items-center gap-4 text-sm text-muted-foreground mb-4">
+                  <div className="flex items-center gap-1.5">
+                    <Calendar className="size-4" weight="fill" />
+                    <span>{new Date(featuredPost.date).toLocaleDateString("es-MX", {
+                      year: "numeric",
+                      month: "long",
+                      day: "numeric"
+                    })}</span>
+                  </div>
+                  {featuredPost.readTime && (
+                    <div className="flex items-center gap-1.5">
+                      <Clock className="size-4" weight="fill" />
+                      <span>{featuredPost.readTime} min</span>
+                    </div>
+                  )}
+                </div>
+
+                <h3 className="text-2xl md:text-3xl font-heading font-bold text-slate-dark mb-4">
+                  {featuredPost.title}
+                </h3>
+
+                <p className="text-muted-foreground mb-6 line-clamp-3">
+                  {featuredPost.description}
+                </p>
+
+                <Link
+                  href={`/blog/${featuredPost.slug}`}
+                  className="inline-flex items-center gap-2 text-red-primary font-semibold hover:gap-3 transition-all"
+                >
+                  {t("readMore")}
+                  <ArrowRight className="size-5" />
+                </Link>
+              </CardContent>
+            </div>
+          </Card>
+        </div>
+
+        {/* CTA Button */}
+        <div className="text-center">
+          <Button asChild size="lg" variant="outline" className="gap-2">
+            <Link href="/blog">
+              {t("viewAll")}
+              <ArrowRight className="size-5" />
+            </Link>
+          </Button>
+        </div>
+      </div>
+    </section>
+  );
+}

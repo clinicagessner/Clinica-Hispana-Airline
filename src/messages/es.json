@@ -8,6 +8,7 @@
   "nav": {
     "home": "Inicio",
     "services": "Servicios",
+    "greenCard": "Green Card",
     "testimonials": "Testimonios",
     "location": "Ubicación",
     "contact": "Contacto",
@@ -154,6 +155,7 @@
     "metaDescription": "Consejos de salud, información médica y noticias de Clínica Hispana Airline en Houston, TX. Artículos en español sobre medicina familiar, prevención y bienestar.",
     "featured": "Destacado",
     "readMore": "Leer Más",
+    "viewAll": "Ver Todos los Artículos",
     "minRead": "min de lectura",
     "noPosts": "No hay publicaciones disponibles.",
     "backToBlog": "Volver al Blog",

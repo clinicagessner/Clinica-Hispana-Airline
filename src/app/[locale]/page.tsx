@@ -4,6 +4,7 @@ import { Testimonials } from "@/components/sections/testimonials";
 import { Contact } from "@/components/sections/contact";
 import { FAQ } from "@/components/sections/faq";
 import { Location } from "@/components/sections/location";
+import { BlogPreview } from "@/components/sections/blog-preview";
 
 export default function HomePage() {
   return (
@@ -13,6 +14,7 @@ export default function HomePage() {
       <Testimonials />
       <FAQ />
       <Location />
+      <BlogPreview />
       <Contact />
     </>
   );
