@@ -21,9 +21,9 @@ export async function Hero() {
         sizes="100vw"
       />
 
-      {/* Gradient Overlays */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
-      <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/60" />
+      {/* Gradient Overlays - Warm Medical Red */}
+      <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 via-slate-800/70 to-slate-700/40" />
+      <div className="absolute inset-0 bg-gradient-to-b from-red-dark/10 via-transparent to-slate-900/60" />
 
       {/* Content */}
       <div className="container relative z-10 mx-auto px-4 pt-24 pb-32 md:pt-28 md:pb-40">
@@ -42,7 +42,7 @@ export async function Hero() {
           <ul className="animate-hero-features flex flex-wrap gap-x-6 gap-y-2 mb-8 md:mb-10">
             {(["1", "2", "3"] as const).map((key) => (
               <li key={key} className="flex items-center gap-2 text-white/80 text-sm sm:text-base">
-                <span className="size-2 rounded-full bg-blue-primary" />
+                <span className="size-2 rounded-full bg-red-primary" />
                 {t(`features.${key}`)}
               </li>
             ))}
@@ -74,13 +74,13 @@ export async function Hero() {
             className="flex flex-col items-center text-white/70 hover:text-white transition-colors group"
           >
             <span className="text-sm mb-2">{t("scrollDown")}</span>
-            <CaretDown className="size-6 animate-hero-bounce group-hover:text-blue-primary" weight="bold" />
+            <CaretDown className="size-6 animate-hero-bounce group-hover:text-red-primary" weight="bold" />
           </Link>
         </div>
       </div>
 
       {/* Trust Badges */}
-      <div className="animate-hero-badges absolute bottom-0 left-0 right-0 bg-black/60 backdrop-blur-sm border-t border-white/10">
+      <div className="animate-hero-badges absolute bottom-0 left-0 right-0 bg-red-dark/80 backdrop-blur-md border-t border-white/10">
         <div className="container mx-auto px-4 py-4 md:py-5">
           <div className="flex flex-wrap justify-center gap-4 md:gap-8 lg:gap-12">
             {/* Google Rating */}
@@ -94,7 +94,7 @@ export async function Hero() {
 
             {/* Uninsured Welcome */}
             <div className="flex items-center gap-2 text-white/90">
-              <ShieldCheck className="size-5 text-blue-primary" weight="fill" />
+              <ShieldCheck className="size-5 text-red-primary" weight="fill" />
               <span className="text-sm">{t("badges.uninsured")}</span>
             </div>
 
@@ -106,7 +106,7 @@ export async function Hero() {
 
             {/* Same Day */}
             <div className="flex items-center gap-2 text-white/90">
-              <CalendarCheck className="size-5 text-blue-primary" weight="fill" />
+              <CalendarCheck className="size-5 text-red-primary" weight="fill" />
               <span className="text-sm">{t("badges.sameDay")}</span>
             </div>
           </div>

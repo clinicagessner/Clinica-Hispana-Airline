@@ -148,18 +148,18 @@ export default async function BlogPostPage({ params }: Props) {
                 prose-headings:text-primary prose-headings:font-bold
                 prose-h1:text-3xl prose-h2:text-2xl prose-h3:text-xl
                 prose-p:text-slate-dark prose-p:leading-relaxed
-                prose-a:text-blue-primary prose-a:no-underline hover:prose-a:underline
+                prose-a:text-red-primary prose-a:no-underline hover:prose-a:underline
                 prose-strong:text-primary
                 prose-ul:list-disc prose-ol:list-decimal
                 prose-li:text-slate-dark
-                prose-blockquote:border-l-4 prose-blockquote:border-blue-primary prose-blockquote:bg-blue-light/30 prose-blockquote:py-2 prose-blockquote:px-4 prose-blockquote:rounded-r-lg
+                prose-blockquote:border-l-4 prose-blockquote:border-red-primary prose-blockquote:bg-red-light/30 prose-blockquote:py-2 prose-blockquote:px-4 prose-blockquote:rounded-r-lg
               "
             >
               <div dangerouslySetInnerHTML={{ __html: parseMarkdown(post.content) }} />
             </div>
 
             {/* CTA Section */}
-            <div className="mt-12 p-8 bg-gradient-to-r from-primary to-blue-primary rounded-xl text-white text-center">
+            <div className="mt-12 p-8 bg-gradient-to-r from-primary to-red-primary rounded-xl text-white text-center">
               <h3 className="text-2xl font-bold mb-4">
                 {t("ctaTitle")}
               </h3>
@@ -168,7 +168,7 @@ export default async function BlogPostPage({ params }: Props) {
               </p>
               <a
                 href={`tel:${CONTACT_INFO.phone}`}
-                className="inline-flex items-center gap-2 bg-white text-primary font-semibold px-6 py-3 rounded-lg hover:bg-blue-light transition-colors"
+                className="inline-flex items-center gap-2 bg-white text-primary font-semibold px-6 py-3 rounded-lg hover:bg-red-light transition-colors"
               >
                 <Phone className="w-5 h-5" />
                 {t("callNow")} {CONTACT_INFO.phoneFormatted}
@@ -201,7 +201,7 @@ export default async function BlogPostPage({ params }: Props) {
                       </div>
                     )}
                     <div>
-                      <h3 className="font-semibold text-primary group-hover:text-blue-primary transition-colors line-clamp-2">
+                      <h3 className="font-semibold text-primary group-hover:text-red-primary transition-colors line-clamp-2">
                         {relatedPost.title}
                       </h3>
                       <p className="text-sm text-muted-foreground mt-1">

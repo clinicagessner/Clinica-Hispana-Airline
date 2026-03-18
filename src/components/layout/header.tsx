@@ -41,8 +41,8 @@ export function Header() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
-            <div className="relative w-10 h-10 md:w-12 md:h-12">
+          <Link href="/" className="block">
+            <div className="relative w-28 h-12 md:w-36 md:h-14 lg:w-44 lg:h-16 bg-white rounded-md shadow-sm p-1">
               <Image
                 src="/images/logo.webp"
                 alt={SITE_CONFIG.name}
@@ -50,16 +50,6 @@ export function Header() {
                 className="object-contain"
                 priority
               />
-            </div>
-            <div className="hidden sm:block">
-              <span
-                className={cn(
-                  "font-heading font-bold text-lg transition-colors",
-                  isScrolled ? "text-blue-dark" : "text-white"
-                )}
-              >
-                {SITE_CONFIG.shortName}
-              </span>
             </div>
           </Link>
 
@@ -70,9 +60,9 @@ export function Header() {
                 key={item.href}
                 href={item.href}
                 className={cn(
-                  "px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-blue-light/50",
+                  "px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-red-light/50",
                   isScrolled
-                    ? "text-slate-dark hover:text-blue-primary"
+                    ? "text-slate-dark hover:text-red-primary"
                     : "text-white/90 hover:text-white hover:bg-white/10"
                 )}
               >
@@ -113,8 +103,8 @@ export function Header() {
                 <SheetTitle className="sr-only">{t("nav.menu")}</SheetTitle>
                 <div className="flex flex-col h-full">
                   <div className="flex items-center justify-between mb-8">
-                    <Link href="/" onClick={handleLinkClick} className="flex items-center gap-2">
-                      <div className="relative w-10 h-10">
+                    <Link href="/" onClick={handleLinkClick} className="block">
+                      <div className="relative w-32 h-12 bg-white rounded-md shadow-sm p-1">
                         <Image
                           src="/images/logo.webp"
                           alt={SITE_CONFIG.name}
@@ -122,9 +112,6 @@ export function Header() {
                           className="object-contain"
                         />
                       </div>
-                      <span className="font-heading font-bold text-lg text-blue-dark">
-                        {SITE_CONFIG.shortName}
-                      </span>
                     </Link>
                   </div>
 
@@ -134,7 +121,7 @@ export function Header() {
                         key={item.href}
                         href={item.href}
                         onClick={handleLinkClick}
-                        className="px-4 py-3 rounded-lg text-slate-dark hover:bg-blue-light hover:text-blue-dark font-medium transition-colors"
+                        className="px-4 py-3 rounded-lg text-slate-dark hover:bg-red-light hover:text-red-dark font-medium transition-colors"
                       >
                         {t(item.label)}
                       </Link>

@@ -38,7 +38,7 @@ export async function Footer() {
                   href={SOCIAL_LINKS.facebook}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="size-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-blue-primary transition-colors"
+                  className="size-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-red-primary transition-colors"
                   aria-label="Facebook"
                 >
                   <FacebookLogo className="size-5" weight="fill" />
@@ -49,7 +49,7 @@ export async function Footer() {
                   href={SOCIAL_LINKS.x}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="size-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-blue-primary transition-colors"
+                  className="size-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-red-primary transition-colors"
                   aria-label="X (Twitter)"
                 >
                   <XLogo className="size-5" weight="fill" />
@@ -60,7 +60,7 @@ export async function Footer() {
                   href={SOCIAL_LINKS.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="size-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-blue-primary transition-colors"
+                  className="size-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-red-primary transition-colors"
                   aria-label="LinkedIn"
                 >
                   <LinkedinLogo className="size-5" weight="fill" />
@@ -71,7 +71,7 @@ export async function Footer() {
                   href={SOCIAL_LINKS.google}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="size-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-blue-primary transition-colors"
+                  className="size-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-red-primary transition-colors"
                   aria-label="Google Business"
                 >
                   <GoogleLogo className="size-5" weight="fill" />
@@ -82,7 +82,7 @@ export async function Footer() {
                   href={SOCIAL_LINKS.instagram}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="size-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-blue-primary transition-colors"
+                  className="size-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-red-primary transition-colors"
                   aria-label="Instagram"
                 >
                   <InstagramLogo className="size-5" weight="fill" />

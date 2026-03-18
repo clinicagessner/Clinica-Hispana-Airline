@@ -42,7 +42,7 @@ export default async function BlogPage({ params }: Props) {
   const regularPosts = BLOG_POSTS.filter((post) => !post.featured);
 
   return (
-    <section className="py-16 md:py-24 bg-gradient-to-b from-blue-light/30 to-background">
+    <section className="py-16 md:py-24 bg-gradient-to-b from-red-light/30 to-background">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-12">
@@ -68,7 +68,7 @@ export default async function BlogPage({ params }: Props) {
                       className="object-cover"
                       priority
                     />
-                    <Badge className="absolute top-4 left-4 bg-blue-primary">
+                    <Badge className="absolute top-4 left-4 bg-red-primary">
                       {t("featured")}
                     </Badge>
                   </div>
@@ -78,7 +78,7 @@ export default async function BlogPage({ params }: Props) {
                         {featuredPost.category}
                       </Badge>
                     )}
-                    <h2 className="text-2xl md:text-3xl font-bold text-primary mb-4 group-hover:text-blue-primary transition-colors">
+                    <h2 className="text-2xl md:text-3xl font-bold text-primary mb-4 group-hover:text-red-primary transition-colors">
                       {featuredPost.title}
                     </h2>
                     <p className="text-muted-foreground mb-6">
@@ -100,7 +100,7 @@ export default async function BlogPage({ params }: Props) {
                         </span>
                       )}
                     </div>
-                    <span className="inline-flex items-center gap-2 text-blue-primary font-medium group-hover:gap-3 transition-all">
+                    <span className="inline-flex items-center gap-2 text-red-primary font-medium group-hover:gap-3 transition-all">
                       {t("readMore")}
                       <ArrowRight className="w-4 h-4" />
                     </span>
@@ -131,7 +131,7 @@ export default async function BlogPage({ params }: Props) {
                         {post.category}
                       </Badge>
                     )}
-                    <h3 className="text-xl font-bold text-primary group-hover:text-blue-primary transition-colors line-clamp-2">
+                    <h3 className="text-xl font-bold text-primary group-hover:text-red-primary transition-colors line-clamp-2">
                       {post.title}
                     </h3>
                   </CardHeader>

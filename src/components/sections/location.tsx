@@ -52,7 +52,7 @@ export async function Location() {
             {/* Address Card */}
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 md:p-8 mb-6">
               <div className="flex items-start gap-4 mb-6">
-                <div className="size-14 rounded-xl bg-blue-primary flex items-center justify-center shrink-0">
+                <div className="size-14 rounded-xl bg-red-primary flex items-center justify-center shrink-0">
                   <MapPin className="size-7" weight="fill" />
                 </div>
                 <div>
@@ -93,7 +93,7 @@ export async function Location() {
                     className="flex items-center gap-3 bg-white/5 rounded-xl p-4"
                   >
                     <IconComponent
-                      className="size-6 text-blue-primary"
+                      className="size-6 text-red-primary"
                       weight="duotone"
                     />
                     <span className="text-sm text-white/80">{feature.label}</span>

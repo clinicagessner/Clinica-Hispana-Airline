@@ -5,14 +5,14 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* AZUL - Color Principal */
-  --blue-dark: #1E3A5F;
-  --blue-primary: #2563EB;
-  --blue-medium: #3B82F6;
-  --blue-light: #DBEAFE;
-  --blue-bg: #EFF6FF;
-  --blue-bg-alt: #E0EFFF;
-  --blue-warm: #F0F7FF;
+  /* ROJO - Color Principal (del logo) */
+  --red-dark: #B91C1C;
+  --red-primary: #DC2626;
+  --red-medium: #EF4444;
+  --red-light: #FECACA;
+  --red-bg: #FEF2F2;
+  --red-bg-alt: #FEE2E2;
+  --red-warm: #FFF5F5;
 
   /* SLATE - Color Secundario */
   --slate-dark: #1E293B;
@@ -29,72 +29,72 @@
 
   /* shadcn/ui tokens */
   --radius: 0.625rem;
-  --background: #F0F7FF;
+  --background: #FFFAFA;
   --foreground: #1E293B;
   --card: #FFFFFF;
   --card-foreground: #1E293B;
   --popover: #FFFFFF;
   --popover-foreground: #1E293B;
-  --primary: #1E3A5F;
+  --primary: #DC2626;
   --primary-foreground: #FFFFFF;
   --secondary: #475569;
   --secondary-foreground: #FFFFFF;
-  --muted: #EFF6FF;
+  --muted: #FEF2F2;
   --muted-foreground: #64748B;
-  --accent: #DBEAFE;
-  --accent-foreground: #1E3A5F;
-  --destructive: #DC2626;
+  --accent: #FECACA;
+  --accent-foreground: #B91C1C;
+  --destructive: #B91C1C;
   --destructive-foreground: #FFFFFF;
-  --border: #CBD5E1;
-  --input: #CBD5E1;
-  --ring: #2563EB;
+  --border: #E5E7EB;
+  --input: #E5E7EB;
+  --ring: #DC2626;
 
   /* Sidebar */
   --sidebar: #FFFFFF;
   --sidebar-foreground: #1E293B;
-  --sidebar-primary: #1E3A5F;
+  --sidebar-primary: #DC2626;
   --sidebar-primary-foreground: #FFFFFF;
-  --sidebar-accent: #DBEAFE;
-  --sidebar-accent-foreground: #1E3A5F;
-  --sidebar-border: #CBD5E1;
-  --sidebar-ring: #2563EB;
+  --sidebar-accent: #FECACA;
+  --sidebar-accent-foreground: #B91C1C;
+  --sidebar-border: #E5E7EB;
+  --sidebar-ring: #DC2626;
 
   /* Charts */
-  --chart-1: #2563EB;
-  --chart-2: #3B82F6;
-  --chart-3: #60A5FA;
-  --chart-4: #93C5FD;
-  --chart-5: #BFDBFE;
+  --chart-1: #DC2626;
+  --chart-2: #EF4444;
+  --chart-3: #F87171;
+  --chart-4: #FCA5A5;
+  --chart-5: #FECACA;
 }
 
 .dark {
-  --background: #0F172A;
-  --foreground: #F8FAFC;
-  --card: #1E293B;
-  --card-foreground: #F8FAFC;
-  --popover: #1E293B;
-  --popover-foreground: #F8FAFC;
-  --primary: #60A5FA;
-  --primary-foreground: #0F172A;
-  --secondary: #334155;
-  --secondary-foreground: #F8FAFC;
-  --muted: #334155;
-  --muted-foreground: #94A3B8;
-  --accent: #1E3A5F;
-  --accent-foreground: #F8FAFC;
+  --background: #1C1917;
+  --foreground: #F5F5F4;
+  --card: #292524;
+  --card-foreground: #F5F5F4;
+  --popover: #292524;
+  --popover-foreground: #F5F5F4;
+  --primary: #F87171;
+  --primary-foreground: #1C1917;
+  --secondary: #44403C;
+  --secondary-foreground: #F5F5F4;
+  --muted: #44403C;
+  --muted-foreground: #A8A29E;
+  --accent: #7F1D1D;
+  --accent-foreground: #F5F5F4;
   --destructive: #EF4444;
   --destructive-foreground: #FFFFFF;
-  --border: #334155;
-  --input: #334155;
-  --ring: #60A5FA;
-  --sidebar: #1E293B;
-  --sidebar-foreground: #F8FAFC;
-  --sidebar-primary: #60A5FA;
-  --sidebar-primary-foreground: #0F172A;
-  --sidebar-accent: #334155;
-  --sidebar-accent-foreground: #F8FAFC;
-  --sidebar-border: #334155;
-  --sidebar-ring: #60A5FA;
+  --border: #44403C;
+  --input: #44403C;
+  --ring: #F87171;
+  --sidebar: #292524;
+  --sidebar-foreground: #F5F5F4;
+  --sidebar-primary: #F87171;
+  --sidebar-primary-foreground: #1C1917;
+  --sidebar-accent: #44403C;
+  --sidebar-accent-foreground: #F5F5F4;
+  --sidebar-border: #44403C;
+  --sidebar-ring: #F87171;
 }
 
 @theme inline {
@@ -136,14 +136,14 @@
   --color-chart-4: var(--chart-4);
   --color-chart-5: var(--chart-5);
 
-  /* Paleta Azul */
-  --color-blue-dark: var(--blue-dark);
-  --color-blue-primary: var(--blue-primary);
-  --color-blue-medium: var(--blue-medium);
-  --color-blue-light: var(--blue-light);
-  --color-blue-bg: var(--blue-bg);
-  --color-blue-bg-alt: var(--blue-bg-alt);
-  --color-blue-warm: var(--blue-warm);
+  /* Paleta Roja */
+  --color-red-dark: var(--red-dark);
+  --color-red-primary: var(--red-primary);
+  --color-red-medium: var(--red-medium);
+  --color-red-light: var(--red-light);
+  --color-red-bg: var(--red-bg);
+  --color-red-bg-alt: var(--red-bg-alt);
+  --color-red-warm: var(--red-warm);
 
   /* Paleta Slate */
   --color-slate-dark: var(--slate-dark);
@@ -233,11 +233,11 @@ h1, h2, h3, h4, h5, h6 {
 @keyframes pulse-float {
   0%, 100% {
     transform: scale(1);
-    box-shadow: 0 0 0 0 rgba(30, 58, 95, 0.7);
+    box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.7);
   }
   50% {
     transform: scale(1.05);
-    box-shadow: 0 0 0 15px rgba(30, 58, 95, 0);
+    box-shadow: 0 0 0 15px rgba(220, 38, 38, 0);
   }
 }
 
@@ -253,8 +253,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Selection */
 ::selection {
-  background-color: var(--blue-light);
-  color: var(--blue-dark);
+  background-color: var(--red-light);
+  color: var(--red-dark);
 }
 
 /* Reduced motion */

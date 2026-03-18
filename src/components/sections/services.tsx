@@ -56,7 +56,7 @@ export function Services() {
   const highlightedServices = SERVICES.filter((s) => s.highlighted).slice(0, 6);
 
   return (
-    <section id="services" className="py-16 md:py-24 bg-blue-warm">
+    <section id="services" className="py-16 md:py-24 bg-red-warm">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-12 md:mb-16">
@@ -91,7 +91,7 @@ export function Services() {
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-slate-900/70 via-slate-900/20 to-transparent" />
 
                     {/* Icon Badge */}
                     <div className="absolute bottom-4 left-4">
@@ -102,14 +102,14 @@ export function Services() {
 
                     {/* Highlighted Badge */}
                     {service.highlighted && (
-                      <Badge className="absolute top-4 right-4 bg-blue-primary">
+                      <Badge className="absolute top-4 right-4 bg-red-primary">
                         Popular
                       </Badge>
                     )}
                   </div>
 
                   <CardContent className="p-6">
-                    <h3 className="text-xl font-heading font-bold text-slate-dark mb-2 group-hover:text-blue-primary transition-colors">
+                    <h3 className="text-xl font-heading font-bold text-slate-dark mb-2 group-hover:text-red-primary transition-colors">
                       {service.title}
                     </h3>
                     <p className="text-muted-foreground text-sm mb-4 line-clamp-2">
@@ -120,7 +120,7 @@ export function Services() {
                     <ul className="space-y-1 mb-4">
                       {service.features.slice(0, 3).map((feature, idx) => (
                         <li key={idx} className="text-sm text-slate-primary flex items-center gap-2">
-                          <span className="size-1.5 rounded-full bg-blue-primary" />
+                          <span className="size-1.5 rounded-full bg-red-primary" />
                           {feature}
                         </li>
                       ))}
@@ -128,7 +128,7 @@ export function Services() {
 
                     <Link
                       href={`/services/${service.slug}`}
-                      className="inline-flex items-center gap-1 text-blue-primary font-medium text-sm hover:gap-2 transition-all"
+                      className="inline-flex items-center gap-1 text-red-primary font-medium text-sm hover:gap-2 transition-all"
                     >
                       {t("learnMore")}
                       <ArrowRight className="size-4" />

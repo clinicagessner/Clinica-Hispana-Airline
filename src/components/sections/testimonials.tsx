@@ -3,9 +3,10 @@ import { Star, GoogleLogo } from "@phosphor-icons/react/dist/ssr";
 import { TestimonialsCarousel } from "@/components/sections/testimonials-carousel";
 import { Button } from "@/components/ui/button";
 import { CONTACT_INFO, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
+import { getGooglePlaceData, type GoogleReview } from "@/lib/google-places";
 
-// Mock reviews - in production, fetch from Google Places API
-const mockReviews = [
+// Fallback reviews when API is unavailable
+const fallbackReviews: GoogleReview[] = [
   {
     author_name: "María García",
     rating: 5,
@@ -51,9 +52,12 @@ const mockReviews = [
 export async function Testimonials() {
   const t = await getTranslations("testimonials");
 
-  // Using hardcoded values from Google Reviews - will be replaced with API data
-  const averageRating = GOOGLE_REVIEWS_DATA.averageRating;
-  const totalReviews = GOOGLE_REVIEWS_DATA.totalReviews;
+  // Fetch real Google reviews, fall back to hardcoded data
+  const googleData = await getGooglePlaceData();
+
+  const averageRating = googleData?.rating ?? GOOGLE_REVIEWS_DATA.averageRating;
+  const totalReviews = googleData?.totalReviews ?? GOOGLE_REVIEWS_DATA.totalReviews;
+  const reviews = googleData?.reviews?.length ? googleData.reviews : fallbackReviews;
 
   return (
     <section id="testimonials" className="py-16 md:py-24 bg-white">
@@ -68,8 +72,8 @@ export async function Testimonials() {
           </p>
 
           {/* Google Rating Summary */}
-          <div className="inline-flex items-center gap-3 bg-blue-bg rounded-full px-6 py-3">
-            <GoogleLogo className="size-6 text-blue-primary" weight="bold" />
+          <div className="inline-flex items-center gap-3 bg-red-bg rounded-full px-6 py-3">
+            <GoogleLogo className="size-6 text-red-primary" weight="bold" />
             <div className="flex items-center gap-1">
               {[...Array(5)].map((_, i) => (
                 <Star
@@ -87,7 +91,7 @@ export async function Testimonials() {
         </div>
 
         {/* Testimonials Carousel */}
-        <TestimonialsCarousel reviews={mockReviews} />
+        <TestimonialsCarousel reviews={reviews} />
 
         {/* Leave Review CTA */}
         <div className="text-center mt-12">

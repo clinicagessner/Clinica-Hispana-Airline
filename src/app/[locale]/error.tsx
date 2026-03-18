@@ -18,7 +18,7 @@ export default function Error({ error, reset }: ErrorProps) {
   }, [error]);
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-blue-warm px-4">
+    <div className="min-h-screen flex items-center justify-center bg-red-warm px-4">
       <div className="text-center max-w-md">
         <div className="inline-flex items-center justify-center size-20 rounded-full bg-error-light mb-8">
           <WarningCircle

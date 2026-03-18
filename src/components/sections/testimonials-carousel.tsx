@@ -9,18 +9,10 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { CaretLeft, CaretRight } from "@phosphor-icons/react";
 import { useCallback } from "react";
-
-interface Review {
-  author_name: string;
-  rating: number;
-  text: string;
-  time: number;
-  relative_time_description: string;
-  profile_photo_url: string;
-}
+import type { GoogleReview } from "@/lib/google-places";
 
 interface TestimonialsCarouselProps {
-  reviews: Review[];
+  reviews: GoogleReview[];
 }
 
 export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
@@ -59,11 +51,11 @@ export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
               key={index}
               className="flex-[0_0_100%] min-w-0 sm:flex-[0_0_50%] lg:flex-[0_0_33.333%]"
             >
-              <Card className="h-full bg-blue-bg border-0">
+              <Card className="h-full bg-red-bg border-0">
                 <CardContent className="p-6">
                   {/* Quote Icon */}
                   <Quotes
-                    className="size-8 text-blue-primary/30 mb-4"
+                    className="size-8 text-red-primary/30 mb-4"
                     weight="fill"
                   />
 
@@ -89,7 +81,7 @@ export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
 
                   {/* Author */}
                   <div className="flex items-center gap-3">
-                    <div className="relative size-12 rounded-full overflow-hidden bg-blue-light">
+                    <div className="relative size-12 rounded-full overflow-hidden bg-red-light">
                       <Image
                         src={review.profile_photo_url}
                         alt={review.author_name}

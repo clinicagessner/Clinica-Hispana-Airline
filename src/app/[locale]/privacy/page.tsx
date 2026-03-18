@@ -13,7 +13,7 @@ export default async function PrivacyPage() {
   const t = await getTranslations("footer");
 
   return (
-    <div className="pt-24 pb-16 md:pb-24 bg-blue-warm min-h-screen">
+    <div className="pt-24 pb-16 md:pb-24 bg-red-warm min-h-screen">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-heading font-bold text-slate-dark mb-8">

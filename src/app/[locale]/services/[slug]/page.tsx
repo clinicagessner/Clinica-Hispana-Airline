@@ -89,12 +89,12 @@ export default async function ServicePage({ params }: Props) {
 
   return (
     <>
-      <div className="pt-24 pb-16 md:pb-24 bg-blue-warm min-h-screen">
+      <div className="pt-24 pb-16 md:pb-24 bg-red-warm min-h-screen">
         <div className="container mx-auto px-4">
           {/* Back Link */}
           <Link
             href="/services"
-            className="inline-flex items-center gap-2 text-blue-primary hover:text-blue-dark mb-8 transition-colors"
+            className="inline-flex items-center gap-2 text-red-primary hover:text-red-dark mb-8 transition-colors"
           >
             <ArrowLeft className="size-5" />
             {t("backToServices")}
@@ -112,7 +112,7 @@ export default async function ServicePage({ params }: Props) {
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
               {service.highlighted && (
-                <Badge className="absolute top-4 left-4 bg-blue-primary">
+                <Badge className="absolute top-4 left-4 bg-red-primary">
                   Popular
                 </Badge>
               )}
@@ -195,10 +195,10 @@ export default async function ServicePage({ params }: Props) {
                     <Link key={related.id} href={`/services/${related.slug}`}>
                       <Card className="group hover:shadow-lg transition-all duration-300 border-0 bg-white">
                         <CardContent className="p-6">
-                          <div className="size-12 rounded-xl bg-blue-light text-blue-primary flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
+                          <div className="size-12 rounded-xl bg-red-light text-red-primary flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
                             <RelatedIcon className="size-6" weight="duotone" />
                           </div>
-                          <h3 className="font-heading font-bold text-slate-dark mb-2 group-hover:text-blue-primary transition-colors">
+                          <h3 className="font-heading font-bold text-slate-dark mb-2 group-hover:text-red-primary transition-colors">
                             {related.title}
                           </h3>
                           <p className="text-sm text-muted-foreground line-clamp-2">

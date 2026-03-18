@@ -7,10 +7,10 @@ export default async function NotFound() {
   const t = await getTranslations("common");
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-blue-warm px-4">
+    <div className="min-h-screen flex items-center justify-center bg-red-warm px-4">
       <div className="text-center max-w-md">
-        <div className="inline-flex items-center justify-center size-20 rounded-full bg-blue-light mb-8">
-          <HouseLine className="size-10 text-blue-primary" weight="duotone" />
+        <div className="inline-flex items-center justify-center size-20 rounded-full bg-red-light mb-8">
+          <HouseLine className="size-10 text-red-primary" weight="duotone" />
         </div>
 
         <h1 className="text-6xl font-heading font-bold text-slate-dark mb-4">

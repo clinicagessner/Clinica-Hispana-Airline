@@ -29,7 +29,7 @@ export function LanguageSwitcher({ isScrolled = true }: LanguageSwitcherProps) {
       className={cn(
         "gap-1.5 font-medium",
         isScrolled
-          ? "text-slate-dark hover:text-blue-primary hover:bg-blue-light/50"
+          ? "text-slate-dark hover:text-red-primary hover:bg-red-light/50"
           : "text-white/90 hover:text-white hover:bg-white/10"
       )}
       aria-label={locale === "es" ? "Switch to English" : "Cambiar a Español"}

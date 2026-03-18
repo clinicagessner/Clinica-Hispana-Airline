@@ -47,7 +47,7 @@ export default async function ServicesPage() {
   };
 
   return (
-    <div className="pt-24 pb-16 md:pb-24 bg-blue-warm min-h-screen">
+    <div className="pt-24 pb-16 md:pb-24 bg-red-warm min-h-screen">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
@@ -75,7 +75,7 @@ export default async function ServicesPage() {
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-slate-900/70 via-slate-900/20 to-transparent" />
 
                     <div className="absolute bottom-3 left-3">
                       <div className="size-10 rounded-lg bg-primary text-primary-foreground flex items-center justify-center shadow-lg">
@@ -84,20 +84,20 @@ export default async function ServicesPage() {
                     </div>
 
                     {service.highlighted && (
-                      <Badge className="absolute top-3 right-3 bg-blue-primary text-xs">
+                      <Badge className="absolute top-3 right-3 bg-red-primary text-xs">
                         Popular
                       </Badge>
                     )}
                   </div>
 
                   <CardContent className="p-4">
-                    <h2 className="text-lg font-heading font-bold text-slate-dark mb-1 group-hover:text-blue-primary transition-colors">
+                    <h2 className="text-lg font-heading font-bold text-slate-dark mb-1 group-hover:text-red-primary transition-colors">
                       {service.title}
                     </h2>
                     <p className="text-sm text-muted-foreground line-clamp-2 mb-3">
                       {service.description}
                     </p>
-                    <span className="inline-flex items-center gap-1 text-blue-primary font-medium text-sm group-hover:gap-2 transition-all">
+                    <span className="inline-flex items-center gap-1 text-red-primary font-medium text-sm group-hover:gap-2 transition-all">
                       {t("learnMore")}
                       <ArrowRight className="size-4" />
                     </span>
