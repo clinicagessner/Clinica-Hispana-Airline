@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 import { Phone, MapPin, Clock, Star, CheckCircle } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
@@ -22,7 +21,7 @@ export async function Hero() {
       />
 
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-slate-900/80 via-slate-900/70 to-slate-900/90" />
+      <div className="absolute inset-0 bg-linear-gradient(to bottom, var(--slate-900/80), var(--slate-900/70), var(--slate-900/90))" />
 
       {/* Content */}
       <div className="container relative z-10 mx-auto px-4 pt-28 md:pt-32 pb-40 md:pb-32">

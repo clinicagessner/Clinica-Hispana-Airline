@@ -54,7 +54,7 @@ export const SERVICES: Service[] = [
     description: "Atención médica integral para toda la familia, desde niños hasta adultos mayores.",
     longDescription: "Nuestro servicio de medicina familiar ofrece atención médica completa y continua para pacientes de todas las edades. Nos enfocamos en la prevención, diagnóstico y tratamiento de enfermedades comunes, manteniendo un historial médico completo de cada miembro de su familia.",
     icon: "Stethoscope",
-    image: "/images/services/medicina-familiar.webp",
+    image: "/images/family-medicine.webp",
     category: "especial",
     keywords: ["medicina familiar Houston", "doctor familia Houston", "médico general Houston", "medicina familiar cerca de mi"],
     features: [
@@ -76,7 +76,7 @@ export const SERVICES: Service[] = [
     description: "Exámenes médicos oficiales requeridos por USCIS para trámites de inmigración.",
     longDescription: "Realizamos exámenes médicos de inmigración (I-693) requeridos por el Servicio de Ciudadanía e Inmigración de Estados Unidos (USCIS). Nuestros médicos están autorizados como Civil Surgeons para completar estos formularios oficiales.",
     icon: "FileText",
-    image: "/images/services/inmigracion.webp",
+    image: "/images/immigration.webp",
     category: "especial",
     keywords: ["examen médico inmigración Houston", "I-693 Houston", "civil surgeon Houston", "médico inmigración"],
     features: [
@@ -120,7 +120,7 @@ export const SERVICES: Service[] = [
     description: "Diagnóstico y tratamiento de condiciones del sistema urinario y reproductivo masculino.",
     longDescription: "Ofrecemos servicios de urología para hombres y mujeres, incluyendo diagnóstico y tratamiento de infecciones urinarias, problemas de próstata, incontinencia, y otras condiciones del sistema urinario.",
     icon: "Activity",
-    image: "/images/services/urologia.webp",
+    image: "/images/services/urology.webp",
     category: "especialidad",
     keywords: ["urología Houston", "urólogo Houston", "problemas próstata Houston"],
     features: [
@@ -142,7 +142,7 @@ export const SERVICES: Service[] = [
     description: "Control y seguimiento de diabetes, hipertensión, colesterol alto y otras condiciones.",
     longDescription: "Programa integral para el manejo de condiciones crónicas como diabetes, hipertensión arterial, colesterol alto, y enfermedades cardíacas. Incluye monitoreo regular, ajuste de medicamentos, y educación para el paciente.",
     icon: "Heart",
-    image: "/images/services/condiciones-cronicas.webp",
+    image: "/images/chronic-conditions.jpg",
     category: "especialidad",
     keywords: ["control diabetes Houston", "hipertensión Houston", "condiciones crónicas Houston"],
     features: [
@@ -164,7 +164,7 @@ export const SERVICES: Service[] = [
     description: "Análisis clínicos completos con resultados rápidos y precisos.",
     longDescription: "Contamos con laboratorio clínico equipado con tecnología moderna para realizar una amplia variedad de análisis. Ofrecemos resultados rápidos para que usted y su médico puedan tomar decisiones informadas sobre su salud.",
     icon: "Flask",
-    image: "/images/services/laboratorio.webp",
+    image: "/images/services/laboratory.webp",
     category: "diagnostico",
     keywords: ["laboratorio clínico Houston", "análisis sangre Houston", "exámenes médicos Houston"],
     features: [
@@ -186,7 +186,7 @@ export const SERVICES: Service[] = [
     description: "Estudios de ultrasonido para diagnóstico de diversas condiciones médicas.",
     longDescription: "Realizamos estudios de ultrasonido para diagnóstico de condiciones abdominales, pélvicas, de tiroides, y más. Tecnología de imagen avanzada con resultados interpretados por profesionales.",
     icon: "Monitor",
-    image: "/images/services/ultrasonido.webp",
+    image: "/images/services/ultrasound.webp",
     category: "diagnostico",
     keywords: ["ultrasonido Houston", "ecografía Houston", "sonograma Houston"],
     features: [
@@ -208,7 +208,7 @@ export const SERVICES: Service[] = [
     description: "Atención integral de salud femenina incluyendo Papanicolaou y exámenes pélvicos.",
     longDescription: "Brindamos atención integral para la salud de la mujer, incluyendo exámenes de Papanicolaou, exámenes de seno, tratamiento de infecciones, y atención prenatal básica. Nuestro equipo entiende sus necesidades.",
     icon: "GenderFemale",
-    image: "/images/services/ginecologia.webp",
+    image: "/images/services/gynecology.webp",
     category: "mujer",
     keywords: ["ginecología Houston", "Papanicolaou Houston", "salud mujer Houston"],
     features: [
@@ -230,7 +230,7 @@ export const SERVICES: Service[] = [
     description: "Consejería y métodos anticonceptivos para planificación familiar responsable.",
     longDescription: "Ofrecemos consejería completa sobre métodos anticonceptivos, incluyendo píldoras, inyecciones, implantes, y DIU. Ayudamos a las parejas a tomar decisiones informadas sobre planificación familiar.",
     icon: "Users",
-    image: "/images/services/planificacion-familiar.webp",
+    image: "/images/services/family-planning.webp",
     category: "mujer",
     keywords: ["planificación familiar Houston", "anticonceptivos Houston", "métodos anticonceptivos"],
     features: [
@@ -252,7 +252,7 @@ export const SERVICES: Service[] = [
     description: "Inyecciones anticonceptivas aplicadas por profesionales de salud.",
     longDescription: "Aplicamos inyecciones anticonceptivas como Depo-Provera con seguimiento médico adecuado. Opción conveniente y efectiva para mujeres que prefieren este método de planificación familiar.",
     icon: "Syringe",
-    image: "/images/services/vacunas-anticonceptivas.webp",
+    image: "/images/services/contraceptive-vaccines.webp",
     category: "mujer",
     keywords: ["inyección anticonceptiva Houston", "Depo-Provera Houston", "anticonceptivo inyectable"],
     features: [
@@ -274,7 +274,7 @@ export const SERVICES: Service[] = [
     description: "Retiro seguro de implantes anticonceptivos subdérmicos.",
     longDescription: "Realizamos la extracción segura de implantes anticonceptivos subdérmicos (Nexplanon/Implanon) cuando sea necesario cambiarlos o cuando la paciente desee otro método anticonceptivo.",
     icon: "Scissors",
-    image: "/images/services/extraccion-implantes.webp",
+    image: "/images/services/implant-removal.webp",
     category: "mujer",
     keywords: ["extracción implante Houston", "quitar Nexplanon Houston", "remover implante anticonceptivo"],
     features: [
@@ -296,7 +296,7 @@ export const SERVICES: Service[] = [
     description: "Estudio de la actividad eléctrica del corazón para detectar problemas cardíacos.",
     longDescription: "Realizamos electrocardiogramas (EKG/ECG) para evaluar la actividad eléctrica del corazón. Este estudio ayuda a detectar arritmias, problemas de conducción, y otras condiciones cardíacas.",
     icon: "Activity",
-    image: "/images/services/electrocardiograma.webp",
+    image: "/images/services/ekg.webp",
     category: "diagnostico",
     keywords: ["electrocardiograma Houston", "EKG Houston", "estudio corazón Houston"],
     features: [
@@ -318,7 +318,7 @@ export const SERVICES: Service[] = [
     description: "Diagnóstico y tratamiento de gripe, bronquitis, asma, COVID-19 y más.",
     longDescription: "Tratamos todo tipo de enfermedades respiratorias incluyendo gripe, resfriado común, bronquitis, sinusitis, asma, y COVID-19. Diagnóstico rápido y tratamiento efectivo para su recuperación.",
     icon: "Wind",
-    image: "/images/services/respiratorias.webp",
+    image: "/images/services/respiratory.webp",
     category: "especial",
     keywords: ["enfermedades respiratorias Houston", "gripe Houston", "bronquitis Houston", "COVID Houston"],
     features: [
@@ -340,7 +340,7 @@ export const SERVICES: Service[] = [
     description: "Diagnóstico y tratamiento de infecciones del tracto urinario.",
     longDescription: "Diagnosticamos y tratamos infecciones urinarias de manera efectiva. Realizamos análisis de orina en el sitio para un diagnóstico rápido y prescribimos el tratamiento antibiótico adecuado.",
     icon: "Droplet",
-    image: "/images/services/infecciones-urinarias.webp",
+    image: "/images/services/urinary-infections.webp",
     category: "especial",
     keywords: ["infección urinaria Houston", "UTI Houston", "cistitis Houston"],
     features: [
@@ -362,7 +362,7 @@ export const SERVICES: Service[] = [
     description: "Diagnóstico y tratamiento de infecciones vaginales por hongos, bacterias y más.",
     longDescription: "Ofrecemos diagnóstico y tratamiento discreto para infecciones vaginales incluyendo candidiasis, vaginosis bacteriana, tricomoniasis y otras. Ambiente de confianza y privacidad.",
     icon: "ShieldCheck",
-    image: "/images/services/infecciones-vaginales.webp",
+    image: "/images/services/vaginal-infections.webp",
     category: "mujer",
     keywords: ["infección vaginal Houston", "candidiasis Houston", "vaginosis Houston"],
     features: [
@@ -384,7 +384,7 @@ export const SERVICES: Service[] = [
     description: "Exámenes físicos certificados para licencia de conducir comercial (CDL).",
     longDescription: "Realizamos exámenes médicos DOT (Department of Transportation) requeridos para obtener o renovar la licencia de conducir comercial (CDL). Médicos certificados y resultados rápidos.",
     icon: "Truck",
-    image: "/images/services/examen-dot.webp",
+    image: "/images/services/dot-exam.webp",
     category: "diagnostico",
     keywords: ["examen DOT Houston", "físico CDL Houston", "examen conductor comercial Houston"],
     features: [
@@ -406,7 +406,7 @@ export const SERVICES: Service[] = [
     description: "Exámenes físicos completos para trabajo, escuela, deportes y más.",
     longDescription: "Realizamos exámenes físicos generales para diversos propósitos: empleo, escuela, deportes, seguro de vida, y chequeos anuales de rutina. Documentación oficial incluida.",
     icon: "ClipboardCheck",
-    image: "/images/services/examenes-generales.webp",
+    image: "/images/services/general-exams.webp",
     category: "diagnostico",
     keywords: ["examen físico Houston", "físico laboral Houston", "examen escolar Houston"],
     features: [
@@ -428,7 +428,7 @@ export const SERVICES: Service[] = [
     description: "Evaluación y tratamiento de dolor muscular, articular y de espalda.",
     longDescription: "Ofrecemos evaluación completa y tratamiento del dolor muscular y articular, incluyendo dolor de espalda, cuello, hombros, rodillas y más. Enfoque integral que puede incluir medicamentos y referencia a terapia física.",
     icon: "Bone",
-    image: "/images/services/dolores-musculares.webp",
+    image: "/images/services/muscle-pain.webp",
     category: "especialidad",
     keywords: ["dolor muscular Houston", "dolor espalda Houston", "dolor articular Houston"],
     features: [
@@ -517,10 +517,10 @@ export const FAQ_ITEMS: FAQItem[] = [
 ];
 
 export const NAV_ITEMS = [
-  { label: "nav.services", href: "#services" },
-  { label: "nav.greenCard", href: "#green-card" },
-  { label: "nav.blog", href: "#blog" },
-  { label: "nav.contact", href: "#contact" },
+  { label: "nav.services", href: "/#services" },
+  { label: "nav.greenCard", href: "/#green-card" },
+  { label: "nav.blog", href: "/#blog" },
+  { label: "nav.contact", href: "/#contact" },
 ];
 
 export const BLOG_POSTS: BlogPost[] = [
@@ -530,7 +530,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description: "Conoce nuestra clínica médica hispana en Houston, TX. Atención profesional en español, precios accesibles y un equipo comprometido con tu salud.",
     date: "2026-03-16",
     author: "Clínica Hispana Airline",
-    image: "/images/blog/bienvenidos.webp",
+    image: "/images/blog/welcome.webp",
     featured: true,
     category: "Anuncios",
     readTime: 4,

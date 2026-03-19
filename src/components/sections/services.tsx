@@ -53,7 +53,7 @@ export function Services() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
-  const highlightedServices = SERVICES.filter((s) => s.highlighted).slice(0, 6);
+  const highlightedServices = SERVICES.filter((s) => s.highlighted).slice(0, 3);
 
   return (
     <section id="services" className="py-16 md:py-24 bg-red-warm">
@@ -91,7 +91,7 @@ export function Services() {
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-slate-900/70 via-slate-900/20 to-transparent" />
+                    <div className="absolute inset-0 bg-linear-gradient(to top, var(--slate-900/70), var(--slate-900/20), transparent)" />
 
                     {/* Icon Badge */}
                     <div className="absolute bottom-4 left-4">

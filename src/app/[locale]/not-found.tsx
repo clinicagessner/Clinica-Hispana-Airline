@@ -1,10 +1,8 @@
 import Link from "next/link";
-import { getTranslations } from "next-intl/server";
 import { HouseLine, ArrowLeft } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 
-export default async function NotFound() {
-  const t = await getTranslations("common");
+export default function NotFound() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-red-warm px-4">
@@ -29,7 +27,7 @@ export default async function NotFound() {
             </Link>
           </Button>
           <Button asChild size="lg" variant="outline" className="gap-2">
-            <Link href="#contact">
+            <Link href="/#contact">
               <ArrowLeft className="size-5" />
               Contactar
             </Link>

@@ -65,7 +65,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function ServicePage({ params }: Props) {
-  const { slug, locale } = await params;
+  const { slug } = await params;
   const t = await getTranslations("services");
 
   const service = SERVICES.find((s) => s.slug === slug);

@@ -68,7 +68,7 @@ export function GreenCard() {
           priority
         />
         {/* Overlay with red tint */}
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/80 to-red-primary/60" />
+        <div className="absolute inset-0 bg-linear-to-r from-slate-900/95 via-slate-900/80 to-red-primary/60" />
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
@@ -111,7 +111,7 @@ export function GreenCard() {
             {/* Desktop Timeline */}
             <div className="hidden md:block">
               {/* Connecting Line */}
-              <div className="absolute top-8 left-[10%] right-[10%] h-1 bg-gradient-to-r from-red-primary via-red-light to-red-primary rounded-full" />
+              <div className="absolute top-8 left-[10%] right-[10%] h-1 bg-linear-gradient(to right, var(--red-primary), var(--red-light), var(--red-primary)) rounded-full" />
 
               <div className="flex justify-between relative">
                 {steps.map((step, idx) => (
@@ -121,7 +121,7 @@ export function GreenCard() {
                     style={{ width: '20%' }}
                   >
                     {/* Number Circle */}
-                    <div className="relative z-10 size-16 rounded-full bg-gradient-to-br from-red-primary to-red-dark text-white flex items-center justify-center font-bold text-xl shadow-lg shadow-red-primary/40 group-hover:scale-110 transition-transform border-4 border-white/20">
+                    <div className="relative z-10 size-16 rounded-full bg-linear-gradient(to bottom, var(--red-primary), var(--red-dark)) text-white flex items-center justify-center font-bold text-xl shadow-lg shadow-red-primary/40 group-hover:scale-110 transition-transform border-4 border-white/20">
                       {step.number}
                     </div>
 
@@ -142,13 +142,13 @@ export function GreenCard() {
             {/* Mobile Timeline - Vertical */}
             <div className="md:hidden relative pl-8">
               {/* Vertical Line */}
-              <div className="absolute left-[18px] top-4 bottom-4 w-1 bg-gradient-to-b from-red-primary via-red-light to-red-primary rounded-full" />
+              <div className="absolute left-[18px] top-4 bottom-4 w-1 bg-linear-gradient(to bottom, var(--red-primary), var(--red-light), var(--red-primary)) rounded-full" />
 
               <div className="space-y-6">
                 {steps.map((step, idx) => (
                   <div key={idx} className="flex items-center gap-4 relative">
                     {/* Number Circle */}
-                    <div className="absolute left-[-32px] size-10 rounded-full bg-gradient-to-br from-red-primary to-red-dark text-white flex items-center justify-center font-bold text-sm shadow-lg border-2 border-white/20 z-10">
+                    <div className="absolute left-[-32px] size-10 rounded-full bg-linear-gradient(to bottom, var(--red-primary), var(--red-dark)) text-white flex items-center justify-center font-bold text-sm shadow-lg border-2 border-white/20 z-10">
                       {step.number}
                     </div>
 
@@ -195,7 +195,7 @@ export function GreenCard() {
               className="bg-red-primary hover:bg-red-dark text-white gap-2 shadow-lg shadow-red-primary/30 text-sm md:text-base px-6 md:px-8 w-full sm:w-auto"
               asChild
             >
-              <Link href="#contact">
+              <Link href="/#contact">
                 <CalendarCheck className="size-5" weight="bold" />
                 {t("ctaSchedule")}
               </Link>

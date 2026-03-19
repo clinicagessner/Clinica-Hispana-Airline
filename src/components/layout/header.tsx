@@ -29,8 +29,8 @@ export function Header() {
   // Scroll spy to detect active section
   useEffect(() => {
     const sectionIds = ["home", ...NAV_ITEMS
-      .filter(item => item.href.startsWith("#"))
-      .map(item => item.href.replace("#", ""))];
+      .filter(item => item.href.includes("#"))
+      .map(item => item.href.split("#")[1])];
 
     const handleScroll = () => {
       const scrollPosition = window.scrollY + 150;
@@ -65,8 +65,8 @@ export function Header() {
   };
 
   const isActiveLink = (href: string) => {
-    if (href.startsWith("#")) {
-      return activeSection === href.replace("#", "");
+    if (href.includes("#")) {
+      return activeSection === href.split("#")[1];
     }
     return false;
   };
