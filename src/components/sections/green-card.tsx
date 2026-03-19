@@ -21,9 +21,9 @@ import { CONTACT_INFO } from "@/lib/constants";
 
 const features = [
   { icon: ShieldCheck, text: "Médico Civil Surgeon certificado por USCIS" },
-  { icon: FileText, text: "Formulario I-693 sellado" },
-  { icon: CheckCircle, text: "100% en español" },
-  { icon: CalendarCheck, text: "Resultados en 3-5 días" },
+  { icon: CalendarCheck, text: "Resultados en 3-5 días hábiles" },
+  { icon: CheckCircle, text: "Atención 100% en español" },
+  { icon: Phone, text: "Sin cita previa necesaria" },
 ];
 
 const steps = [
@@ -170,7 +170,7 @@ export function GreenCard() {
           {/* Features grid */}
           <motion.div
             variants={itemVariants}
-            className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-3 md:gap-4 max-w-5xl mx-auto mb-12"
+            className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4 max-w-5xl mx-auto mb-12"
           >
             {features.map((feature, idx) => (
               <div
