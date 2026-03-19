@@ -21,29 +21,29 @@ export async function Hero() {
       />
 
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-linear-gradient(to bottom, var(--slate-900/80), var(--slate-900/70), var(--slate-900/90))" />
+      <div className="absolute inset-0 bg-slate-900/75" />
 
       {/* Content */}
       <div className="container relative z-10 mx-auto px-4 pt-28 md:pt-32 pb-40 md:pb-32">
         <div className="max-w-4xl mx-auto text-center">
 
           {/* Google Rating Badge */}
-          <div className="animate-hero-title inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-5 py-2.5 mb-6">
+          <div className="animate-hero-title inline-flex items-center gap-3 bg-white/15 backdrop-blur-sm border border-white/30 rounded-full px-5 py-2.5 mb-6">
             <div className="flex items-center gap-0.5">
               {[...Array(5)].map((_, i) => (
                 <Star key={i} className="size-5 text-yellow-400" weight="fill" />
               ))}
             </div>
-            <span className="text-white/80 text-sm">{GOOGLE_REVIEWS_DATA.totalReviews}+ reseñas en Google</span>
+            <span className="text-white font-medium text-sm">{GOOGLE_REVIEWS_DATA.totalReviews}+ reseñas en Google</span>
           </div>
 
           {/* Title */}
-          <h1 className="animate-hero-subtitle text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white mb-4 md:mb-6 leading-tight">
+          <h1 className="animate-hero-subtitle text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white mb-4 md:mb-6 leading-tight drop-shadow-lg">
             {t("title")}
           </h1>
 
           {/* Subtitle */}
-          <p className="animate-hero-features text-lg md:text-xl text-white/80 mb-8 max-w-2xl mx-auto">
+          <p className="animate-hero-features text-lg md:text-xl text-white mb-8 max-w-2xl mx-auto drop-shadow-md">
             {t("subtitle")}
           </p>
 
@@ -75,9 +75,9 @@ export async function Hero() {
           {/* Features - Hidden on mobile, visible on tablet+ */}
           <div className="animate-hero-badges hidden md:flex flex-wrap justify-center gap-x-6 gap-y-2">
             {(["1", "2", "3", "4"] as const).map((key) => (
-              <div key={key} className="flex items-center gap-2">
-                <CheckCircle className="size-4 text-red-primary shrink-0" weight="fill" />
-                <span className="text-white/80 text-sm">{t(`features.${key}`)}</span>
+              <div key={key} className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-1.5">
+                <CheckCircle className="size-4 text-green-400 shrink-0" weight="fill" />
+                <span className="text-white text-sm">{t(`features.${key}`)}</span>
               </div>
             ))}
           </div>

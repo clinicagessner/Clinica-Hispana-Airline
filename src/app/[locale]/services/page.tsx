@@ -2,7 +2,21 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
-import { ArrowRight, Stethoscope, FirstAid, Flask, Heartbeat, Drop, Heart, GenderFemale, Syringe, Clipboard, Virus, Lightning, TestTube } from "@phosphor-icons/react/dist/ssr";
+import {
+  ArrowRight,
+  Stethoscope,
+  FirstAid,
+  Flask,
+  Heartbeat,
+  Drop,
+  Heart,
+  GenderFemale,
+  Syringe,
+  Clipboard,
+  Virus,
+  Lightning,
+  TestTube,
+} from "@phosphor-icons/react/dist/ssr";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { SERVICES, SITE_CONFIG } from "@/lib/constants";
@@ -38,14 +52,6 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function ServicesPage() {
   const t = await getTranslations("services");
 
-  // Group services by category
-  const categories = {
-    especial: SERVICES.filter((s) => s.category === "especial"),
-    diagnostico: SERVICES.filter((s) => s.category === "diagnostico"),
-    especialidad: SERVICES.filter((s) => s.category === "especialidad"),
-    mujer: SERVICES.filter((s) => s.category === "mujer"),
-  };
-
   return (
     <div className="pt-24 pb-16 md:pb-24 bg-red-warm min-h-screen">
       <div className="container mx-auto px-4">
@@ -75,7 +81,7 @@ export default async function ServicesPage() {
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-slate-900/70 via-slate-900/20 to-transparent" />
+                    <div className="absolute inset-0 bg-linear-gradient(to top, var(--slate-900/70), var(--slate-900/20), transparent)" />
 
                     <div className="absolute bottom-3 left-3">
                       <div className="size-10 rounded-lg bg-primary text-primary-foreground flex items-center justify-center shadow-lg">

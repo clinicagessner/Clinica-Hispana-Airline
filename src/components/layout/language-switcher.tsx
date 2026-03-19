@@ -1,7 +1,7 @@
 "use client";
 
 import { useLocale } from "next-intl";
-import { useRouter, usePathname } from "next/navigation";
+import { usePathname, useRouter } from "@/i18n/routing";
 import { Globe } from "@phosphor-icons/react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -17,8 +17,7 @@ export function LanguageSwitcher({ isScrolled = true }: LanguageSwitcherProps) {
 
   const toggleLocale = () => {
     const newLocale = locale === "es" ? "en" : "es";
-    const newPathname = pathname.replace(`/${locale}`, `/${newLocale}`);
-    router.push(newPathname || `/${newLocale}`);
+    router.replace(pathname, { locale: newLocale });
   };
 
   return (
