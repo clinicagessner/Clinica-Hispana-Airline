@@ -21,27 +21,44 @@ Bilingual medical clinic website (Spanish/English) for Houston, TX using Next.js
 - Locale prefix is `as-needed` - Spanish routes have no prefix, English uses `/en`
 - Translations in `src/messages/{es,en}.json`
 - i18n config: `src/i18n/config.ts`, `routing.ts`, `request.ts`
+- next-intl plugin wraps config in `next.config.ts`
 
 ### Key Files
 
-- `src/lib/constants.ts` - All business data: SITE_CONFIG, CONTACT_INFO, SERVICES[], PROMOTIONS[], SOCIAL_LINKS
+- `src/lib/constants.ts` - All business data: SITE_CONFIG, CONTACT_INFO, SERVICES[], PROMOTIONS[], BLOG_POSTS[], SOCIAL_LINKS
 - `src/lib/validations.ts` - Zod schemas for forms (contactFormSchema, contactFormSchemaEn)
 - `src/app/actions/send-contact-email.ts` - Server action for contact form (uses Resend)
 - `src/components/seo/json-ld.tsx` - MedicalClinic, FAQPage, BreadcrumbList schemas
+- `src/app/globals.css` - CSS variables for colors (red primary palette)
 
 ### Component Organization
 
 - `components/ui/` - shadcn/ui primitives (import individually, no barrel exports)
-- `components/sections/` - Page sections: Hero, Services, Testimonials, FAQ, Contact, Location
+- `components/sections/` - Page sections: Hero, Services, Testimonials, FAQ, Contact, Location, BlogPreview
 - `components/layout/` - Header, Footer, FloatingButtons, LanguageSwitcher
 - `components/forms/` - ContactForm with react-hook-form + Zod
 
+### Blog System
+
+- Blog posts defined in `BLOG_POSTS[]` in constants.ts (not markdown files)
+- Posts have inline markdown content, parsed by `parseMarkdown()` in blog page
+- Routes: `/blog` (list), `/blog/[slug]` (post detail)
+- SEO: `JsonLdBlogPosting` component for structured data
+
 ### Data Flow
 
-1. Business data lives in `constants.ts` - edit here to change services, contact info, promotions
+1. Business data lives in `constants.ts` - edit here to change services, contact info, promotions, blog posts
 2. Services use translation keys from messages JSON for display text
 3. Contact form validates client-side with Zod, then server-side in server action
 4. Emails sent via Resend API
+
+### Color System
+
+CSS variables in globals.css - use these instead of hardcoding:
+- `--red-primary` (#DC2626) - Primary brand color
+- `--red-dark` (#B91C1C) - Emphasis/hover
+- `--slate-dark` (#1E293B) - Text
+- `--primary`, `--secondary` - shadcn tokens map to these
 
 ## Development Rules
 

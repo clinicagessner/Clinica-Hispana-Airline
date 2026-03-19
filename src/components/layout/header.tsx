@@ -28,30 +28,36 @@ export function Header() {
 
   // Scroll spy to detect active section
   useEffect(() => {
-    const sections = NAV_ITEMS
+    const sectionIds = ["home", ...NAV_ITEMS
       .filter(item => item.href.startsWith("#"))
-      .map(item => item.href.replace("#", ""));
+      .map(item => item.href.replace("#", ""))];
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setActiveSection(entry.target.id);
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY + 150;
+
+      // Find the section that's currently in view
+      let currentSection = "home";
+
+      for (const sectionId of sectionIds) {
+        const element = document.getElementById(sectionId);
+        if (element) {
+          const offsetTop = element.offsetTop;
+          const offsetHeight = element.offsetHeight;
+
+          if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
+            currentSection = sectionId;
+            break;
           }
-        });
-      },
-      {
-        rootMargin: "-20% 0px -70% 0px",
-        threshold: 0,
+        }
       }
-    );
 
-    sections.forEach((sectionId) => {
-      const element = document.getElementById(sectionId);
-      if (element) observer.observe(element);
-    });
+      setActiveSection(currentSection);
+    };
 
-    return () => observer.disconnect();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    handleScroll(); // Check initial position
+
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const handleLinkClick = () => {
@@ -99,8 +105,8 @@ export function Header() {
                   "px-3 py-2 rounded-md text-sm font-medium transition-colors",
                   isActiveLink(item.href)
                     ? isScrolled
-                      ? "bg-red-light text-red-primary"
-                      : "bg-white/20 text-white"
+                      ? "bg-red-primary text-white"
+                      : "bg-white text-red-primary"
                     : isScrolled
                       ? "text-slate-dark hover:text-red-primary hover:bg-red-light/50"
                       : "text-white/90 hover:text-white hover:bg-white/10"
@@ -164,7 +170,7 @@ export function Header() {
                         className={cn(
                           "px-4 py-3 rounded-lg font-medium transition-colors",
                           isActiveLink(item.href)
-                            ? "bg-red-light text-red-primary"
+                            ? "bg-red-primary text-white"
                             : "text-slate-dark hover:bg-red-light hover:text-red-dark"
                         )}
                       >
