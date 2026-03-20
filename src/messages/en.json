@@ -36,6 +36,9 @@
   "services": {
     "title": "Our Services",
     "subtitle": "Comprehensive medical care for the whole family",
+    "servicesAvailable": "services available",
+    "filterAll": "All",
+    "noServices": "No services found",
     "viewAll": "View All Services",
     "callNow": "Call",
     "getDirections": "Location",

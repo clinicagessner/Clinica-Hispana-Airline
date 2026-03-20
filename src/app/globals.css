@@ -29,7 +29,7 @@
 
   /* shadcn/ui tokens */
   --radius: 0.625rem;
-  --background: #FFFAFA;
+  --background: #FEF2F2;
   --foreground: #1E293B;
   --card: #FFFFFF;
   --card-foreground: #1E293B;
@@ -233,16 +233,16 @@ h1, h2, h3, h4, h5, h6 {
 @keyframes pulse-float {
   0%, 100% {
     transform: scale(1);
-    box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.7);
+    box-shadow: 0 4px 14px -3px var(--red-primary);
   }
   50% {
-    transform: scale(1.05);
-    box-shadow: 0 0 0 15px rgba(220, 38, 38, 0);
+    transform: scale(1.03);
+    box-shadow: 0 6px 20px -2px var(--red-primary);
   }
 }
 
 .animate-pulse-float {
-  animation: pulse-float 2s ease-in-out infinite;
+  animation: pulse-float 2.5s ease-in-out infinite;
 }
 
 /* Focus visible */

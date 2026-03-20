@@ -1,40 +1,16 @@
 import type { Metadata } from "next";
-import Image from "next/image";
-import Link from "next/link";
-import { getTranslations } from "next-intl/server";
-import {
-  ArrowRight,
-  Stethoscope,
-  FirstAid,
-  Flask,
-  Heartbeat,
-  Drop,
-  Heart,
-  GenderFemale,
-  Syringe,
-  Clipboard,
-  Virus,
-  Lightning,
-  TestTube,
-} from "@phosphor-icons/react/dist/ssr";
-import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+import { getTranslations, getLocale } from "next-intl/server";
+import { ServicesFilter } from "@/components/services/services-filter";
 import { SERVICES, SITE_CONFIG } from "@/lib/constants";
 
-const iconMap: Record<string, React.ElementType> = {
-  Stethoscope,
-  FirstAid,
-  Flask,
-  Heartbeat,
-  Drop,
-  Heart,
-  GenderFemale,
-  Syringe,
-  Clipboard,
-  Virus,
-  Lightning,
-  TestTube,
+const categoryInfo: Record<string, { label: string; labelEn: string; iconName: string }> = {
+  especial: { label: "Especiales", labelEn: "Special", iconName: "Star" },
+  especialidad: { label: "Especialidades", labelEn: "Specialties", iconName: "Stethoscope" },
+  diagnostico: { label: "Diagnóstico", labelEn: "Diagnostics", iconName: "TestTube" },
+  mujer: { label: "Salud Mujer", labelEn: "Women's Health", iconName: "GenderFemale" },
 };
+
+const categoryOrder = ["especial", "diagnostico", "mujer", "especialidad"];
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("services");
@@ -51,69 +27,37 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function ServicesPage() {
   const t = await getTranslations("services");
+  const locale = await getLocale();
+
+  const categories = categoryOrder.map((id) => ({
+    id,
+    label: locale === "en" ? categoryInfo[id].labelEn : categoryInfo[id].label,
+    iconName: categoryInfo[id].iconName,
+  }));
+
+  const sortedServices = [...SERVICES].sort((a, b) => a.order - b.order);
 
   return (
-    <div className="pt-24 pb-16 md:pb-24 bg-red-warm min-h-screen">
-      <div className="container mx-auto px-4">
-        {/* Header */}
-        <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-slate-dark mb-4">
-            {t("title")}
-          </h1>
-          <p className="text-lg md:text-xl text-muted-foreground">
-            {t("subtitle")}
-          </p>
+    <main className="min-h-screen bg-background">
+      {/* Hero Header */}
+      <section className="relative pt-28 pb-12 md:pt-32 md:pb-16 overflow-hidden">
+        <div className="absolute inset-0 bg-linear-to-br from-red-primary via-red-dark to-slate-900" />
+        <div className="absolute inset-0 bg-[url('/images/clinic-interior.webp')] bg-cover bg-center opacity-10" />
+
+        <div className="container relative z-10 mx-auto px-4">
+          <div className="text-center max-w-3xl mx-auto">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white mb-4 drop-shadow-lg">
+              {t("title")}
+            </h1>
+            <p className="text-base sm:text-lg md:text-xl text-white/90 max-w-2xl mx-auto">
+              {t("subtitle")}
+            </p>
+          </div>
         </div>
+      </section>
 
-        {/* All Services Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          {SERVICES.sort((a, b) => a.order - b.order).map((service) => {
-            const IconComponent = iconMap[service.icon] || Stethoscope;
-
-            return (
-              <Link key={service.id} href={`/services/${service.slug}`}>
-                <Card className="group h-full hover:shadow-xl transition-all duration-300 border-0 bg-white overflow-hidden">
-                  <div className="relative h-40 overflow-hidden">
-                    <Image
-                      src={service.image}
-                      alt={service.title}
-                      fill
-                      className="object-cover group-hover:scale-105 transition-transform duration-500"
-                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                    />
-                    <div className="absolute inset-0 bg-linear-gradient(to top, var(--slate-900/70), var(--slate-900/20), transparent)" />
-
-                    <div className="absolute bottom-3 left-3">
-                      <div className="size-10 rounded-lg bg-primary text-primary-foreground flex items-center justify-center shadow-lg">
-                        <IconComponent className="size-5" weight="duotone" />
-                      </div>
-                    </div>
-
-                    {service.highlighted && (
-                      <Badge className="absolute top-3 right-3 bg-red-primary text-xs">
-                        Popular
-                      </Badge>
-                    )}
-                  </div>
-
-                  <CardContent className="p-4">
-                    <h2 className="text-lg font-heading font-bold text-slate-dark mb-1 group-hover:text-red-primary transition-colors">
-                      {service.title}
-                    </h2>
-                    <p className="text-sm text-muted-foreground line-clamp-2 mb-3">
-                      {service.description}
-                    </p>
-                    <span className="inline-flex items-center gap-1 text-red-primary font-medium text-sm group-hover:gap-2 transition-all">
-                      {t("learnMore")}
-                      <ArrowRight className="size-4" />
-                    </span>
-                  </CardContent>
-                </Card>
-              </Link>
-            );
-          })}
-        </div>
-      </div>
-    </div>
+      {/* Services with Filter */}
+      <ServicesFilter services={sortedServices} categories={categories} />
+    </main>
   );
 }

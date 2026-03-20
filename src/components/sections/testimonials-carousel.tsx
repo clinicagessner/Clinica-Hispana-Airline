@@ -86,6 +86,7 @@ export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
                         src={review.profile_photo_url}
                         alt={review.author_name}
                         fill
+                        sizes="48px"
                         className="object-cover"
                       />
                     </div>

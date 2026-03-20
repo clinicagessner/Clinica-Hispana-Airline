@@ -4,7 +4,8 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { List, Phone } from "@phosphor-icons/react";
+import { usePathname } from "@/i18n/routing";
+import { List, Phone, MapPin } from "@phosphor-icons/react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet";
 import { LanguageSwitcher } from "@/components/layout/language-switcher";
@@ -13,9 +14,14 @@ import { cn } from "@/lib/utils";
 
 export function Header() {
   const t = useTranslations();
+  const pathname = usePathname();
+  const isHomepage = pathname === "/";
   const [isScrolled, setIsScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
+
+  // Use solid style on inner pages, transparent only on homepage when not scrolled
+  const useTransparentStyle = isHomepage && !isScrolled;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -75,20 +81,21 @@ export function Header() {
     <header
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-        isScrolled
-          ? "bg-white/95 backdrop-blur-md shadow-md py-2"
-          : "bg-transparent py-4"
+        useTransparentStyle
+          ? "bg-transparent py-4"
+          : "bg-white/95 backdrop-blur-md shadow-md py-2"
       )}
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="block">
-            <div className="relative w-28 h-12 md:w-36 md:h-14 lg:w-44 lg:h-16 bg-white rounded-md shadow-sm p-1">
+            <div className="relative w-32 h-14 md:w-40 md:h-16 lg:w-48 lg:h-[72px] bg-white rounded-md shadow-sm p-1">
               <Image
                 src="/images/logo.webp"
                 alt={SITE_CONFIG.name}
                 fill
+                sizes="(max-width: 768px) 128px, (max-width: 1024px) 160px, 192px"
                 className="object-contain"
                 priority
               />
@@ -104,12 +111,10 @@ export function Header() {
                 className={cn(
                   "px-3 py-2 rounded-md text-sm font-medium transition-colors",
                   isActiveLink(item.href)
-                    ? isScrolled
-                      ? "bg-red-primary text-white"
-                      : "bg-white text-red-primary"
-                    : isScrolled
-                      ? "text-slate-dark hover:text-red-primary hover:bg-red-light/50"
-                      : "text-white/90 hover:text-white hover:bg-white/10"
+                    ? "bg-red-primary text-white"
+                    : useTransparentStyle
+                      ? "text-white hover:text-white/80 hover:bg-white/10"
+                      : "text-slate-dark hover:text-red-primary hover:bg-red-light/50"
                 )}
               >
                 {t(item.label)}
@@ -119,7 +124,7 @@ export function Header() {
 
           {/* Desktop Actions */}
           <div className="hidden lg:flex items-center gap-3">
-            <LanguageSwitcher isScrolled={isScrolled} />
+            <LanguageSwitcher isScrolled={!useTransparentStyle} />
             <Button asChild size="sm" className="gap-2">
               <a href={`tel:${CONTACT_INFO.phone}`}>
                 <Phone className="size-4" weight="bold" />
@@ -131,14 +136,16 @@ export function Header() {
 
           {/* Mobile Menu */}
           <div className="flex lg:hidden items-center gap-2">
-            <LanguageSwitcher isScrolled={isScrolled} />
+            <LanguageSwitcher isScrolled={!useTransparentStyle} />
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
               <SheetTrigger asChild>
                 <Button
                   variant="ghost"
                   size="icon"
                   className={cn(
-                    isScrolled ? "text-slate-dark" : "text-white"
+                    useTransparentStyle
+                      ? "text-white hover:text-white/80 hover:bg-white/10"
+                      : "text-slate-dark hover:text-red-primary"
                   )}
                   aria-label={t("nav.menu")}
                 >
@@ -150,11 +157,12 @@ export function Header() {
                 <div className="flex flex-col h-full">
                   <div className="flex items-center justify-between mb-8">
                     <Link href="/" onClick={handleLinkClick} className="block">
-                      <div className="relative w-32 h-12 bg-white rounded-md shadow-sm p-1">
+                      <div className="relative w-36 h-14 bg-white rounded-md shadow-sm p-1">
                         <Image
                           src="/images/logo.webp"
                           alt={SITE_CONFIG.name}
                           fill
+                          sizes="144px"
                           className="object-contain"
                         />
                       </div>
@@ -179,14 +187,25 @@ export function Header() {
                     ))}
                   </nav>
 
-                  <div className="pt-6 border-t">
+                  <div className="pt-6 border-t space-y-3">
                     <Button asChild className="w-full gap-2" size="lg">
-                      <a href={`tel:${CONTACT_INFO.phone}`}>
+                      <a href={`tel:${CONTACT_INFO.phone}`} onClick={handleLinkClick}>
                         <Phone className="size-5" weight="bold" />
                         {t("cta.callNow")}
                       </a>
                     </Button>
-                    <p className="text-center text-sm text-muted-foreground mt-3">
+                    <Button asChild variant="outline" className="w-full gap-2" size="lg">
+                      <a
+                        href={CONTACT_INFO.googleMapsUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={handleLinkClick}
+                      >
+                        <MapPin className="size-5" weight="bold" />
+                        {t("cta.getDirections")}
+                      </a>
+                    </Button>
+                    <p className="text-center text-sm text-muted-foreground">
                       {CONTACT_INFO.phoneFormatted}
                     </p>
                   </div>

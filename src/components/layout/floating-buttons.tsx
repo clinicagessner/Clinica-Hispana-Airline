@@ -32,10 +32,10 @@ export function FloatingButtons() {
             href={CONTACT_INFO.googleMapsUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="size-14 rounded-full bg-slate-dark text-white shadow-lg flex items-center justify-center hover:bg-slate-primary transition-colors"
+            className="size-12 rounded-full bg-white text-slate-dark border border-slate-200 shadow-md flex items-center justify-center hover:bg-slate-50 hover:shadow-lg transition-all"
             aria-label="Ver ubicación en Google Maps"
           >
-            <MapPin className="size-6" weight="fill" />
+            <MapPin className="size-5" weight="fill" />
           </a>
         </TooltipTrigger>
         <TooltipContent side="left">
@@ -48,10 +48,10 @@ export function FloatingButtons() {
         <TooltipTrigger asChild>
           <a
             href={`tel:${CONTACT_INFO.phone}`}
-            className="size-16 rounded-full bg-primary text-primary-foreground shadow-lg flex items-center justify-center animate-pulse-float"
+            className="size-14 rounded-full bg-red-primary text-white shadow-md shadow-red-primary/30 flex items-center justify-center hover:bg-red-dark hover:shadow-lg transition-all animate-pulse-float"
             aria-label="Llamar ahora"
           >
-            <Phone className="size-7" weight="fill" />
+            <Phone className="size-6" weight="fill" />
           </a>
         </TooltipTrigger>
         <TooltipContent side="left">

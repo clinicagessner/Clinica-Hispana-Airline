@@ -36,6 +36,9 @@
   "services": {
     "title": "Nuestros Servicios",
     "subtitle": "Atención médica integral para toda la familia",
+    "servicesAvailable": "servicios disponibles",
+    "filterAll": "Todos",
+    "noServices": "No se encontraron servicios",
     "viewAll": "Ver Todos los Servicios",
     "callNow": "Llamar",
     "getDirections": "Ubicación",

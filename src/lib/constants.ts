@@ -54,7 +54,7 @@ export const SERVICES: Service[] = [
     description: "Atención médica integral para toda la familia, desde niños hasta adultos mayores.",
     longDescription: "Nuestro servicio de medicina familiar ofrece atención médica completa y continua para pacientes de todas las edades. Nos enfocamos en la prevención, diagnóstico y tratamiento de enfermedades comunes, manteniendo un historial médico completo de cada miembro de su familia.",
     icon: "Stethoscope",
-    image: "/images/family-medicine.webp",
+    image: "/images/services/family-medicine.webp",
     category: "especial",
     keywords: ["medicina familiar Houston", "doctor familia Houston", "médico general Houston", "medicina familiar cerca de mi"],
     features: [
@@ -76,7 +76,7 @@ export const SERVICES: Service[] = [
     description: "Exámenes médicos oficiales requeridos por USCIS para trámites de inmigración.",
     longDescription: "Realizamos exámenes médicos de inmigración (I-693) requeridos por el Servicio de Ciudadanía e Inmigración de Estados Unidos (USCIS). Nuestros médicos están autorizados como Civil Surgeons para completar estos formularios oficiales.",
     icon: "FileText",
-    image: "/images/immigration.webp",
+    image: "/images/services/immigration.webp",
     category: "especial",
     keywords: ["examen médico inmigración Houston", "I-693 Houston", "civil surgeon Houston", "médico inmigración"],
     features: [
@@ -142,7 +142,7 @@ export const SERVICES: Service[] = [
     description: "Control y seguimiento de diabetes, hipertensión, colesterol alto y otras condiciones.",
     longDescription: "Programa integral para el manejo de condiciones crónicas como diabetes, hipertensión arterial, colesterol alto, y enfermedades cardíacas. Incluye monitoreo regular, ajuste de medicamentos, y educación para el paciente.",
     icon: "Heart",
-    image: "/images/chronic-conditions.jpg",
+    image: "/images/services/chronic-conditions.jpg",
     category: "especialidad",
     keywords: ["control diabetes Houston", "hipertensión Houston", "condiciones crónicas Houston"],
     features: [

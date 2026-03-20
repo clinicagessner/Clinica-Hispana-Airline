@@ -73,10 +73,12 @@ export function Services() {
                   src={highlightedServices[0].image}
                   alt={highlightedServices[0].title}
                   fill
+                  priority
+                  loading="eager"
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/40 to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent" />
 
                 {/* Content */}
                 <div className="absolute inset-0 p-6 flex flex-col justify-end">
@@ -109,7 +111,7 @@ export function Services() {
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/30 to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent" />
 
                 <div className="absolute inset-0 p-5 flex flex-col justify-end">
                   <h3 className="text-xl font-heading font-bold text-white mb-1">
@@ -138,7 +140,7 @@ export function Services() {
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/30 to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent" />
 
                 <div className="absolute inset-0 p-5 flex flex-col justify-end">
                   <h3 className="text-xl font-heading font-bold text-white mb-1">
@@ -170,7 +172,7 @@ export function Services() {
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                   sizes="(max-width: 768px) 100vw, 66vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 via-slate-900/50 to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-r from-black/80 via-black/40 to-transparent" />
 
                 <div className="absolute inset-0 p-6 flex flex-col justify-center max-w-md">
                   <h3 className="text-2xl font-heading font-bold text-white mb-2">
