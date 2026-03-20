@@ -1,13 +1,19 @@
 import Link from "next/link";
 import Image from "next/image";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, getLocale } from "next-intl/server";
 import { Phone, MapPin, Clock, InstagramLogo, FacebookLogo, XLogo, LinkedinLogo, GoogleLogo } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { SITE_CONFIG, CONTACT_INFO, SOCIAL_LINKS, NAV_ITEMS } from "@/lib/constants";
 
 export async function Footer() {
   const t = await getTranslations();
+  const locale = await getLocale();
   const currentYear = new Date().getFullYear();
+
+  const getLocalizedHref = (href: string) => {
+    if (locale === "es") return href;
+    return href.startsWith("/") ? `/${locale}${href}` : `/${locale}/${href}`;
+  };
 
   return (
     <footer className="bg-slate-dark text-white">
@@ -16,7 +22,7 @@ export async function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12">
           {/* Brand Column */}
           <div className="lg:col-span-1">
-            <Link href="/" className="flex items-center gap-3 mb-4">
+            <Link href={getLocalizedHref("/")} className="flex items-center gap-3 mb-4">
               <div className="relative w-14 h-14">
                 <Image
                   src="/images/logo.webp"
@@ -99,14 +105,14 @@ export async function Footer() {
               {NAV_ITEMS.map((item) => (
                 <Link
                   key={item.href}
-                  href={item.href}
+                  href={getLocalizedHref(item.href)}
                   className="text-white/70 hover:text-white transition-colors text-sm hover:translate-x-1 transform duration-200"
                 >
                   {t(item.label)}
                 </Link>
               ))}
               <Link
-                href="/privacy"
+                href={getLocalizedHref("/privacy")}
                 className="text-white/70 hover:text-white transition-colors text-sm hover:translate-x-1 transform duration-200"
               >
                 {t("footer.privacy")}

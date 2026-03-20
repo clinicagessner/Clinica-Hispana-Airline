@@ -1,9 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import Image from "next/image";
+import { useTranslations, useLocale } from "next-intl";
 import {
   ArrowRight,
   Stethoscope,
@@ -80,7 +80,13 @@ const categoryIconMap: Record<string, React.ElementType> = {
 
 export function ServicesFilter({ services, categories }: ServicesFilterProps) {
   const t = useTranslations("services");
+  const locale = useLocale();
   const [activeCategory, setActiveCategory] = useState<string>("all");
+
+  const getLocalizedHref = (href: string) => {
+    if (locale === "es") return href;
+    return href.startsWith("/") ? `/${locale}${href}` : `/${locale}/${href}`;
+  };
 
   const filteredServices = activeCategory === "all"
     ? services
@@ -132,7 +138,7 @@ export function ServicesFilter({ services, categories }: ServicesFilterProps) {
             return (
               <Link
                 key={service.id}
-                href={`/services/${service.slug}`}
+                href={getLocalizedHref(`/services/${service.slug}`)}
                 className="group block"
               >
                 <article className="relative h-full bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 hover:border-red-200 flex flex-col">

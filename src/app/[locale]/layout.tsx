@@ -54,6 +54,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     authors: [{ name: SITE_CONFIG.name }],
     creator: SITE_CONFIG.name,
     publisher: SITE_CONFIG.name,
+    icons: {
+      icon: [
+        { url: "/favicon.ico", sizes: "any" },
+        { url: "/favicon.svg", type: "image/svg+xml" },
+      ],
+      apple: "/apple-touch-icon.png",
+    },
     metadataBase: new URL(SITE_CONFIG.baseUrl),
     alternates: {
       canonical: "/",
@@ -109,10 +116,8 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html lang={locale} data-scroll-behavior="smooth" className={`${montserrat.variable} ${sourceSans.variable}`}>
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
-        <meta name="theme-color" content="#1E3A5F" />
+        <meta name="theme-color" content="#DC2626" />
       </head>
       <body className="antialiased min-h-screen flex flex-col">
         <NextIntlClientProvider messages={messages}>

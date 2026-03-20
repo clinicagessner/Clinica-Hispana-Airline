@@ -70,6 +70,11 @@ export default async function BlogPostPage({ params }: Props) {
   const { slug, locale } = await params;
   const t = await getTranslations({ locale, namespace: "blog" });
 
+  const getLocalizedHref = (href: string) => {
+    if (locale === "es") return href;
+    return href.startsWith("/") ? `/${locale}${href}` : `/${locale}/${href}`;
+  };
+
   const post = BLOG_POSTS.find((p) => p.slug === slug);
 
   if (!post) {
@@ -84,7 +89,7 @@ export default async function BlogPostPage({ params }: Props) {
         <div className="container mx-auto px-4">
           {/* Back Button */}
           <div className="mb-8">
-            <Link href="/blog">
+            <Link href={getLocalizedHref("/blog")}>
               <Button variant="ghost" className="gap-2">
                 <ArrowLeft className="w-4 h-4" />
                 {t("backToBlog")}
@@ -187,7 +192,7 @@ export default async function BlogPostPage({ params }: Props) {
                 .map((relatedPost) => (
                   <Link
                     key={relatedPost.slug}
-                    href={`/blog/${relatedPost.slug}`}
+                    href={getLocalizedHref(`/blog/${relatedPost.slug}`)}
                     className="group flex gap-4 p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow"
                   >
                     {relatedPost.image && (

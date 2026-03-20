@@ -38,6 +38,11 @@ export default async function BlogPage({ params }: Props) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "blog" });
 
+  const getLocalizedHref = (href: string) => {
+    if (locale === "es") return href;
+    return href.startsWith("/") ? `/${locale}${href}` : `/${locale}/${href}`;
+  };
+
   const featuredPost = BLOG_POSTS.find((post) => post.featured);
   const regularPosts = BLOG_POSTS.filter((post) => !post.featured);
 
@@ -57,7 +62,7 @@ export default async function BlogPage({ params }: Props) {
         {/* Featured Post */}
         {featuredPost && (
           <div className="mb-16">
-            <Link href={`/blog/${featuredPost.slug}`} className="block group">
+            <Link href={getLocalizedHref(`/blog/${featuredPost.slug}`)} className="block group">
               <Card className="overflow-hidden border-0 shadow-lg hover:shadow-xl transition-shadow">
                 <div className="grid md:grid-cols-2 gap-0">
                   <div className="relative aspect-video md:aspect-auto md:min-h-[400px]">
@@ -115,7 +120,7 @@ export default async function BlogPage({ params }: Props) {
         {regularPosts.length > 0 && (
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {regularPosts.map((post) => (
-              <Link key={post.slug} href={`/blog/${post.slug}`} className="group">
+              <Link key={post.slug} href={getLocalizedHref(`/blog/${post.slug}`)} className="group">
                 <Card className="h-full overflow-hidden border-0 shadow-md hover:shadow-lg transition-shadow">
                   <div className="relative aspect-video">
                     <Image

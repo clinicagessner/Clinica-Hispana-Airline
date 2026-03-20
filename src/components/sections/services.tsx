@@ -3,6 +3,7 @@
 import { useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useLocale } from "next-intl";
 import { useTranslations } from "next-intl";
 import { motion, useInView } from "framer-motion";
 import { ArrowRight } from "@phosphor-icons/react";
@@ -33,8 +34,14 @@ const itemVariants = {
 
 export function Services() {
   const t = useTranslations("services");
+  const locale = useLocale();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
+
+  const getLocalizedHref = (href: string) => {
+    if (locale === "es") return href;
+    return href.startsWith("/") ? `/${locale}${href}` : `/${locale}/${href}`;
+  };
 
   const highlightedServices = SERVICES.filter((s) => s.highlighted).slice(0, 4);
 
@@ -66,7 +73,7 @@ export function Services() {
               className="md:row-span-2 group"
             >
               <Link
-                href={`/services/${highlightedServices[0].slug}`}
+                href={getLocalizedHref(`/services/${highlightedServices[0].slug}`)}
                 className="block relative h-72 md:h-full min-h-[280px] md:min-h-[360px] rounded-2xl overflow-hidden"
               >
                 <Image
@@ -101,7 +108,7 @@ export function Services() {
           {highlightedServices[1] && (
             <motion.div variants={itemVariants} className="group">
               <Link
-                href={`/services/${highlightedServices[1].slug}`}
+                href={getLocalizedHref(`/services/${highlightedServices[1].slug}`)}
                 className="block relative h-72 md:h-[calc(50%-10px)] min-h-[170px] rounded-2xl overflow-hidden"
               >
                 <Image
@@ -130,7 +137,7 @@ export function Services() {
           {highlightedServices[2] && (
             <motion.div variants={itemVariants} className="group">
               <Link
-                href={`/services/${highlightedServices[2].slug}`}
+                href={getLocalizedHref(`/services/${highlightedServices[2].slug}`)}
                 className="block relative h-72 md:h-[calc(50%-10px)] min-h-[170px] rounded-2xl overflow-hidden"
               >
                 <Image
@@ -162,7 +169,7 @@ export function Services() {
               className="md:col-span-2 group"
             >
               <Link
-                href={`/services/${highlightedServices[3].slug}`}
+                href={getLocalizedHref(`/services/${highlightedServices[3].slug}`)}
                 className="block relative h-72 md:h-52 rounded-2xl overflow-hidden"
               >
                 <Image
@@ -194,7 +201,7 @@ export function Services() {
         {/* View All Button */}
         <div className="text-center mt-12">
           <Button asChild size="lg" variant="outline" className="gap-2">
-            <Link href="/services">
+            <Link href={getLocalizedHref("/services")}>
               {t("viewAll")}
               <ArrowRight className="size-5" />
             </Link>

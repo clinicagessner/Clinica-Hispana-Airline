@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { usePathname } from "@/i18n/routing";
+import { useLocale } from "next-intl";
 import { List, Phone, MapPin } from "@phosphor-icons/react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger, SheetTitle, SheetDescription } from "@/components/ui/sheet";
@@ -14,11 +15,18 @@ import { cn } from "@/lib/utils";
 
 export function Header() {
   const t = useTranslations();
+  const locale = useLocale();
   const pathname = usePathname();
   const isHomepage = pathname === "/";
   const [isScrolled, setIsScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
+
+  // Build locale-aware href
+  const getLocalizedHref = (href: string) => {
+    if (locale === "es") return href;
+    return href.startsWith("/") ? `/${locale}${href}` : `/${locale}/${href}`;
+  };
 
   // Use solid style on inner pages, transparent only on homepage when not scrolled
   const useTransparentStyle = isHomepage && !isScrolled;
@@ -89,7 +97,7 @@ export function Header() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="block">
+          <Link href={getLocalizedHref("/")} className="block">
             <div className="relative w-32 h-14 md:w-40 md:h-16 lg:w-48 lg:h-[72px] bg-white rounded-md shadow-sm p-1">
               <Image
                 src="/images/logo.webp"
@@ -107,7 +115,7 @@ export function Header() {
             {NAV_ITEMS.map((item) => (
               <Link
                 key={item.href}
-                href={item.href}
+                href={getLocalizedHref(item.href)}
                 className={cn(
                   "px-3 py-2 rounded-md text-sm font-medium transition-colors",
                   isActiveLink(item.href)
@@ -159,7 +167,7 @@ export function Header() {
                 </SheetDescription>
                 <div className="flex flex-col h-full">
                   <div className="flex items-center justify-between mb-8">
-                    <Link href="/" onClick={handleLinkClick} className="block">
+                    <Link href={getLocalizedHref("/")} onClick={handleLinkClick} className="block">
                       <div className="relative w-36 h-14 bg-white rounded-md shadow-sm p-1">
                         <Image
                           src="/images/logo.webp"
@@ -176,7 +184,7 @@ export function Header() {
                     {NAV_ITEMS.map((item) => (
                       <Link
                         key={item.href}
-                        href={item.href}
+                        href={getLocalizedHref(item.href)}
                         onClick={handleLinkClick}
                         className={cn(
                           "px-4 py-3 rounded-lg font-medium transition-colors",

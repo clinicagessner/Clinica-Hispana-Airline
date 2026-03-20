@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, getLocale } from "next-intl/server";
 import { ArrowRight, Calendar, Clock } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -9,6 +9,12 @@ import { BLOG_POSTS } from "@/lib/constants";
 
 export async function BlogPreview() {
   const t = await getTranslations("blog");
+  const locale = await getLocale();
+
+  const getLocalizedHref = (href: string) => {
+    if (locale === "es") return href;
+    return href.startsWith("/") ? `/${locale}${href}` : `/${locale}/${href}`;
+  };
 
   // Get the featured post or the most recent one
   const featuredPost = BLOG_POSTS.find((post) => post.featured) || BLOG_POSTS[0];
@@ -76,7 +82,7 @@ export async function BlogPreview() {
                 </p>
 
                 <Link
-                  href={`/blog/${featuredPost.slug}`}
+                  href={getLocalizedHref(`/blog/${featuredPost.slug}`)}
                   className="inline-flex items-center gap-2 text-red-primary font-semibold hover:gap-3 transition-all"
                 >
                   {t("readMore")}
@@ -90,7 +96,7 @@ export async function BlogPreview() {
         {/* CTA Button */}
         <div className="text-center">
           <Button asChild size="lg" variant="outline" className="gap-2">
-            <Link href="/blog">
+            <Link href={getLocalizedHref("/blog")}>
               {t("viewAll")}
               <ArrowRight className="size-5" />
             </Link>

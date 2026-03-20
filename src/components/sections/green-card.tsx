@@ -3,6 +3,7 @@
 import { useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useLocale } from "next-intl";
 import { useTranslations } from "next-intl";
 import { motion, useInView } from "framer-motion";
 import {
@@ -53,8 +54,14 @@ const itemVariants = {
 
 export function GreenCard() {
   const t = useTranslations("greenCard");
+  const locale = useLocale();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
+
+  const getLocalizedHref = (href: string) => {
+    if (locale === "es") return href;
+    return href.startsWith("/") ? `/${locale}${href}` : `/${locale}/${href}`;
+  };
 
   return (
     <section id="green-card" className="relative py-20 md:py-32 overflow-hidden">
@@ -195,7 +202,7 @@ export function GreenCard() {
               className="bg-red-primary hover:bg-red-dark text-white gap-2 shadow-lg shadow-red-primary/30 text-sm md:text-base px-6 md:px-8 w-full sm:w-auto"
               asChild
             >
-              <Link href="/#contact">
+              <Link href={getLocalizedHref("/#contact")}>
                 <CalendarCheck className="size-5" weight="bold" />
                 {t("ctaSchedule")}
               </Link>
