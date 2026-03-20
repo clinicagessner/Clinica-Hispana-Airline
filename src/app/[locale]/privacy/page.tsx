@@ -12,7 +12,7 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function PrivacyPage() {
   return (
-    <div className="pt-24 pb-16 md:pb-24 bg-red-warm min-h-screen">
+    <div className="pt-28 pb-16 md:pt-32 md:pb-24 bg-red-warm min-h-screen">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           {/* Back Link */}

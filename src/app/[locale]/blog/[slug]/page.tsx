@@ -80,7 +80,7 @@ export default async function BlogPostPage({ params }: Props) {
     <>
       <JsonLdBlogPosting post={post} locale={locale} />
 
-      <article className="py-8 md:py-16">
+      <article className="pt-28 pb-16 md:pt-32 md:pb-24">
         <div className="container mx-auto px-4">
           {/* Back Button */}
           <div className="mb-8">

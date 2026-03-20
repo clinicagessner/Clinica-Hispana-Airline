@@ -87,7 +87,7 @@ export function ServicesFilter({ services, categories }: ServicesFilterProps) {
     : services.filter((s) => s.category === activeCategory);
 
   return (
-    <section className="py-12 md:py-16">
+    <section className="pt-8 pb-16 md:pt-10 md:pb-20">
       <div className="container mx-auto px-4">
         {/* Filter Tabs */}
         <div className="flex flex-wrap items-center justify-center gap-2 mb-10">
@@ -125,7 +125,7 @@ export function ServicesFilter({ services, categories }: ServicesFilterProps) {
         </div>
 
         {/* Services Grid */}
-        <div className="flex flex-wrap justify-center gap-4 md:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {filteredServices.map((service) => {
             const IconComponent = iconMap[service.icon] || Stethoscope;
 
@@ -133,19 +133,19 @@ export function ServicesFilter({ services, categories }: ServicesFilterProps) {
               <Link
                 key={service.id}
                 href={`/services/${service.slug}`}
-                className="group block w-full sm:w-[calc(50%-8px)] lg:w-[calc(33.333%-16px)] xl:w-[calc(25%-18px)]"
+                className="group block"
               >
-                <article className="relative h-full bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 hover:border-red-200">
+                <article className="relative h-full bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 hover:border-red-200 flex flex-col">
                   {/* Image */}
-                  <div className="relative h-36 sm:h-40 overflow-hidden">
+                  <div className="relative h-44 overflow-hidden">
                     <Image
                       src={service.image}
                       alt={service.title}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
-                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     />
-                    <div className="absolute inset-0 bg-linear-to-t from-black/60 via-black/20 to-transparent" />
+                    <div className="absolute inset-0 bg-linear-to-t from-black/70 via-black/30 to-transparent" />
 
                     {/* Icon Badge */}
                     <div className="absolute bottom-3 left-3">
@@ -163,11 +163,11 @@ export function ServicesFilter({ services, categories }: ServicesFilterProps) {
                   </div>
 
                   {/* Content */}
-                  <div className="p-4">
-                    <h3 className="text-base sm:text-lg font-heading font-bold text-slate-dark mb-1.5 group-hover:text-red-primary transition-colors line-clamp-1">
+                  <div className="p-5 flex flex-col flex-1">
+                    <h3 className="text-lg font-heading font-bold text-slate-dark mb-2 group-hover:text-red-primary transition-colors">
                       {service.title}
                     </h3>
-                    <p className="text-sm text-muted-foreground line-clamp-2 mb-3">
+                    <p className="text-sm text-muted-foreground line-clamp-2 mb-4 flex-1">
                       {service.description}
                     </p>
                     <span className="inline-flex items-center gap-1.5 text-red-primary font-medium text-sm group-hover:gap-2.5 transition-all">

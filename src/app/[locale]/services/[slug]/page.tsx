@@ -127,7 +127,7 @@ export default async function ServicePage({ params }: Props) {
     <>
       <main className="min-h-screen bg-background">
         {/* Hero Section */}
-        <section className="relative pt-24 pb-12 md:pt-28 md:pb-16 overflow-hidden">
+        <section className="relative pt-28 pb-12 md:pt-32 md:pb-16 overflow-hidden">
           <div className="absolute inset-0">
             <Image
               src={service.image}

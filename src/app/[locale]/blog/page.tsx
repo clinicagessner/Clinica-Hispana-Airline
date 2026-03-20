@@ -42,7 +42,7 @@ export default async function BlogPage({ params }: Props) {
   const regularPosts = BLOG_POSTS.filter((post) => !post.featured);
 
   return (
-    <section className="py-16 md:py-24 bg-gradient-to-b from-red-light/30 to-background">
+    <section className="pt-28 pb-16 md:pt-32 md:pb-24 bg-linear-to-b from-red-light/30 to-background">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-12">

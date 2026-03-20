@@ -7,7 +7,7 @@ import { useTranslations } from "next-intl";
 import { usePathname } from "@/i18n/routing";
 import { List, Phone, MapPin } from "@phosphor-icons/react";
 import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger, SheetTitle, SheetDescription } from "@/components/ui/sheet";
 import { LanguageSwitcher } from "@/components/layout/language-switcher";
 import { NAV_ITEMS, CONTACT_INFO, SITE_CONFIG } from "@/lib/constants";
 import { cn } from "@/lib/utils";
@@ -154,6 +154,9 @@ export function Header() {
               </SheetTrigger>
               <SheetContent side="right" className="w-[300px] sm:w-[350px]">
                 <SheetTitle className="sr-only">{t("nav.menu")}</SheetTitle>
+                <SheetDescription className="sr-only">
+                  Menú de navegación principal
+                </SheetDescription>
                 <div className="flex flex-col h-full">
                   <div className="flex items-center justify-between mb-8">
                     <Link href="/" onClick={handleLinkClick} className="block">
