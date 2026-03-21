@@ -101,8 +101,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function ServicePage({ params }: Props) {
-  const { slug } = await params;
-  const t = await getTranslations("services");
+  // Parallel fetching - eliminates waterfall
+  const [{ slug }, t] = await Promise.all([
+    params,
+    getTranslations("services")
+  ]);
 
   const service = SERVICES.find((s) => s.slug === slug);
 

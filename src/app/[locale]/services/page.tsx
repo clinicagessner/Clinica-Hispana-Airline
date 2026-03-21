@@ -26,8 +26,11 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function ServicesPage() {
-  const t = await getTranslations("services");
-  const locale = await getLocale();
+  // Parallel fetching - eliminates waterfall
+  const [t, locale] = await Promise.all([
+    getTranslations("services"),
+    getLocale()
+  ]);
 
   const categories = categoryOrder.map((id) => ({
     id,
