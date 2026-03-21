@@ -69,7 +69,7 @@ export function GreenCard() {
       <div className="absolute inset-0">
         <Image
           src="/images/green-card-bg.webp"
-          alt="Exámenes médicos de inmigración"
+          alt="Examen médico de inmigración I-693 en Houston TX - Civil Surgeon certificado USCIS completando formulario para Green Card"
           fill
           className="object-cover"
           priority

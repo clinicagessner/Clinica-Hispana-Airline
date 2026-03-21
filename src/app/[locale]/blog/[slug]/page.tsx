@@ -93,7 +93,7 @@ export default async function BlogPostPage({ params }: Props) {
             <div className="absolute inset-0">
               <Image
                 src={post.image}
-                alt={post.title}
+                alt={`${post.title} - Artículo de salud Clínica Hispana Airline Houston TX`}
                 fill
                 className="object-cover"
                 priority
@@ -192,7 +192,7 @@ export default async function BlogPostPage({ params }: Props) {
                         <div className="relative h-40 overflow-hidden">
                           <Image
                             src={relatedPost.image}
-                            alt={relatedPost.title}
+                            alt={`${relatedPost.title} - Blog Clínica Hispana Airline Houston`}
                             fill
                             className="object-cover group-hover:scale-105 transition-transform duration-500"
                           />

@@ -186,3 +186,81 @@ export function JsonLdBreadcrumb({ items }: BreadcrumbSchemaProps) {
     />
   );
 }
+
+interface MedicalProcedureSchemaProps {
+  name: string;
+  description: string;
+  image: string;
+  url: string;
+  bodyLocation?: string;
+  procedureType?: string;
+}
+
+export function JsonLdMedicalProcedure({
+  name,
+  description,
+  image,
+  url,
+  bodyLocation,
+  procedureType = "NoninvasiveProcedure",
+}: MedicalProcedureSchemaProps) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "MedicalProcedure",
+    name,
+    description,
+    image: `${SITE_CONFIG.baseUrl}${image}`,
+    url,
+    procedureType: `https://schema.org/${procedureType}`,
+    ...(bodyLocation && { bodyLocation }),
+    howPerformed: description,
+    provider: {
+      "@type": "MedicalClinic",
+      "@id": `${SITE_CONFIG.baseUrl}/#clinic`,
+      name: SITE_CONFIG.name,
+      telephone: CONTACT_INFO.phone,
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: CONTACT_INFO.address,
+        addressLocality: CONTACT_INFO.city,
+        addressRegion: CONTACT_INFO.state,
+        postalCode: CONTACT_INFO.zip,
+        addressCountry: "US",
+      },
+    },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+export function JsonLdCollectionPage({ name, description, url }: { name: string; description: string; url: string }) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name,
+    description,
+    url,
+    isPartOf: {
+      "@id": `${SITE_CONFIG.baseUrl}/#website`,
+    },
+    about: {
+      "@id": `${SITE_CONFIG.baseUrl}/#clinic`,
+    },
+    provider: {
+      "@type": "MedicalClinic",
+      "@id": `${SITE_CONFIG.baseUrl}/#clinic`,
+    },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}

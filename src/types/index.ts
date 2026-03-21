@@ -57,12 +57,14 @@ export interface BlogPost {
   title: string;
   description: string;
   date: string;
+  dateModified?: string;
   author: string;
   image?: string;
   featured?: boolean;
   content: string;
   category?: string;
   readTime?: number;
+  keywords?: string[];
 }
 
 export interface FAQItem {

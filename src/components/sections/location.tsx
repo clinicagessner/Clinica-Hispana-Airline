@@ -35,7 +35,7 @@ export async function Location() {
         <div className="grid lg:grid-cols-5 gap-8 max-w-6xl mx-auto">
           {/* Map - Takes 3 columns */}
           <div className="animate-on-scroll fade-left stagger-1 lg:col-span-3 relative rounded-2xl overflow-hidden shadow-2xl">
-            <div className="aspect-[4/3] lg:aspect-[16/10]">
+            <div className="aspect-video lg:aspect-16/10">
               <iframe
                 src={CONTACT_INFO.googleMapsEmbed}
                 width="100%"
@@ -49,7 +49,7 @@ export async function Location() {
               />
             </div>
           </div>
-
+          
           {/* Location Info - Takes 2 columns */}
           <div className="animate-on-scroll fade-right stagger-2 lg:col-span-2 flex flex-col gap-4">
             {/* Address Card */}
@@ -88,8 +88,7 @@ export async function Location() {
                 <Button
                   asChild
                   size="default"
-                  variant="outline"
-                  className="flex-1 gap-2 border-white/30 text-white hover:bg-white/10"
+                  className="flex-1 gap-2 bg-red-primary text-white hover:bg-red-dark border-0"
                 >
                   <a href={`tel:${CONTACT_INFO.phone}`}>
                     <Phone className="size-4" weight="fill" />

@@ -78,7 +78,7 @@ export function Services() {
               >
                 <Image
                   src={highlightedServices[0].image}
-                  alt={highlightedServices[0].title}
+                  alt={`${highlightedServices[0].title} - Clínica Hispana Airline Houston TX`}
                   fill
                   priority
                   loading="eager"
@@ -113,7 +113,7 @@ export function Services() {
               >
                 <Image
                   src={highlightedServices[1].image}
-                  alt={highlightedServices[1].title}
+                  alt={`${highlightedServices[1].title} - Clínica Hispana Airline Houston TX`}
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -142,7 +142,7 @@ export function Services() {
               >
                 <Image
                   src={highlightedServices[2].image}
-                  alt={highlightedServices[2].title}
+                  alt={`${highlightedServices[2].title} - Clínica Hispana Airline Houston TX`}
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -174,7 +174,7 @@ export function Services() {
               >
                 <Image
                   src={highlightedServices[3].image}
-                  alt={highlightedServices[3].title}
+                  alt={`${highlightedServices[3].title} - Clínica Hispana Airline Houston TX`}
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                   sizes="(max-width: 768px) 100vw, 66vw"

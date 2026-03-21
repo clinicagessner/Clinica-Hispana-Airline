@@ -1,6 +1,16 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { HouseLine, ArrowLeft } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
+
+export const metadata: Metadata = {
+  title: "404 - Página No Encontrada",
+  description: "Lo sentimos, la página que busca no existe o ha sido movida. Visite la página principal de Clínica Hispana Airline.",
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 export default function NotFound() {
 

@@ -34,7 +34,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { SERVICES, SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
-import { JsonLdBreadcrumb } from "@/components/seo/json-ld";
+import { JsonLdBreadcrumb, JsonLdMedicalProcedure } from "@/components/seo/json-ld";
 
 const iconMap: Record<string, React.ElementType> = {
   Stethoscope,
@@ -72,7 +72,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { slug } = await params;
+  const { slug, locale } = await params;
   const service = SERVICES.find((s) => s.slug === slug);
 
   if (!service) {
@@ -85,12 +85,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: service.title,
     description: service.description,
     keywords: service.keywords,
+    alternates: {
+      canonical: `${SITE_CONFIG.baseUrl}/services/${slug}`,
+      languages: {
+        es: `/services/${slug}`,
+        en: `/en/services/${slug}`,
+      },
+    },
     openGraph: {
       title: `${service.title} | ${SITE_CONFIG.name}`,
       description: service.description,
+      url: `${SITE_CONFIG.baseUrl}/${locale === "en" ? "en/" : ""}services/${slug}`,
       images: [
         {
-          url: service.image,
+          url: `${SITE_CONFIG.baseUrl}${service.image}`,
           width: 1200,
           height: 630,
           alt: service.title,
@@ -102,7 +110,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function ServicePage({ params }: Props) {
   // Parallel fetching - eliminates waterfall
-  const [{ slug }, t] = await Promise.all([
+  const [{ slug, locale }, t] = await Promise.all([
     params,
     getTranslations("services")
   ]);
@@ -120,10 +128,11 @@ export default async function ServicePage({ params }: Props) {
     (s) => s.category === service.category && s.id !== service.id
   ).slice(0, 3);
 
+  const localePath = locale === "en" ? "/en" : "";
   const breadcrumbs = [
-    { name: "Inicio", url: SITE_CONFIG.baseUrl },
-    { name: "Servicios", url: `${SITE_CONFIG.baseUrl}/services` },
-    { name: service.title, url: `${SITE_CONFIG.baseUrl}/services/${service.slug}` },
+    { name: locale === "en" ? "Home" : "Inicio", url: `${SITE_CONFIG.baseUrl}${localePath}` },
+    { name: locale === "en" ? "Services" : "Servicios", url: `${SITE_CONFIG.baseUrl}${localePath}/services` },
+    { name: service.title, url: `${SITE_CONFIG.baseUrl}${localePath}/services/${service.slug}` },
   ];
 
   return (
@@ -134,7 +143,7 @@ export default async function ServicePage({ params }: Props) {
           <div className="absolute inset-0">
             <Image
               src={service.image}
-              alt={service.title}
+              alt={`${service.title} - Servicio médico Clínica Hispana Airline Houston TX`}
               fill
               priority
               className="object-cover"
@@ -271,7 +280,7 @@ export default async function ServicePage({ params }: Props) {
                         <div className="relative h-32 overflow-hidden">
                           <Image
                             src={related.image}
-                            alt={related.title}
+                            alt={`${related.title} - Clínica Hispana Airline Houston`}
                             fill
                             className="object-cover group-hover:scale-105 transition-transform duration-500"
                             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -306,6 +315,12 @@ export default async function ServicePage({ params }: Props) {
       </main>
 
       <JsonLdBreadcrumb items={breadcrumbs} />
+      <JsonLdMedicalProcedure
+        name={service.title}
+        description={service.longDescription}
+        image={service.image}
+        url={`${SITE_CONFIG.baseUrl}${localePath}/services/${service.slug}`}
+      />
     </>
   );
 }

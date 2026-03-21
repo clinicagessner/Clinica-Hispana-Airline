@@ -12,7 +12,7 @@ export async function Hero() {
       {/* Background Image */}
       <Image
         src="/images/hero-bg.webp"
-        alt="Clínica Hispana Airline - Atención médica profesional"
+        alt="Clínica médica hispana en Houston TX - Doctor atendiendo paciente con atención profesional 100% en español"
         fill
         priority
         quality={85}

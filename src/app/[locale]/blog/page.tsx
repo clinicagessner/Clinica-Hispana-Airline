@@ -6,6 +6,7 @@ import { BLOG_POSTS, SITE_CONFIG } from "@/lib/constants";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { CalendarDots, Clock, ArrowRight } from "@phosphor-icons/react/dist/ssr";
+import { JsonLdCollectionPage } from "@/components/seo/json-ld";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -46,9 +47,17 @@ export default async function BlogPage({ params }: Props) {
   const featuredPost = BLOG_POSTS.find((post) => post.featured);
   const regularPosts = BLOG_POSTS.filter((post) => !post.featured);
 
+  const localePath = locale === "en" ? "/en" : "";
+
   return (
-    <section className="pt-28 pb-16 md:pt-32 md:pb-24 bg-linear-to-b from-red-light/30 to-background">
-      <div className="container mx-auto px-4">
+    <>
+      <JsonLdCollectionPage
+        name={t("metaTitle")}
+        description={t("metaDescription")}
+        url={`${SITE_CONFIG.baseUrl}${localePath}/blog`}
+      />
+      <section className="pt-28 pb-16 md:pt-32 md:pb-24 bg-linear-to-b from-red-light/30 to-background">
+        <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4">
@@ -68,7 +77,7 @@ export default async function BlogPage({ params }: Props) {
                   <div className="relative aspect-video md:aspect-auto md:min-h-[400px]">
                     <Image
                       src={featuredPost.image || "/images/blog/default.webp"}
-                      alt={featuredPost.title}
+                      alt={`${featuredPost.title} - Blog de salud Clínica Hispana Airline Houston`}
                       fill
                       className="object-cover"
                       priority
@@ -125,7 +134,7 @@ export default async function BlogPage({ params }: Props) {
                   <div className="relative aspect-video">
                     <Image
                       src={post.image || "/images/blog/default.webp"}
-                      alt={post.title}
+                      alt={`${post.title} - Blog de salud Clínica Hispana Airline Houston`}
                       fill
                       className="object-cover"
                     />
@@ -173,7 +182,8 @@ export default async function BlogPage({ params }: Props) {
             <p className="text-muted-foreground">{t("noPosts")}</p>
           </div>
         )}
-      </div>
-    </section>
+        </div>
+      </section>
+    </>
   );
 }

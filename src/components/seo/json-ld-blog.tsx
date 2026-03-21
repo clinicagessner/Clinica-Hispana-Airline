@@ -23,7 +23,7 @@ export function JsonLdBlogPosting({ post, locale }: Props) {
       ? `${SITE_CONFIG.baseUrl}${post.image}`
       : `${SITE_CONFIG.baseUrl}/images/og-image.jpg`,
     datePublished: post.date,
-    dateModified: post.date,
+    dateModified: post.dateModified || post.date,
     author: {
       "@type": "Organization",
       name: post.author,
@@ -48,12 +48,14 @@ export function JsonLdBlogPosting({ post, locale }: Props) {
     inLanguage: locale === "es" ? "es-MX" : "en-US",
     wordCount: post.content.split(/\s+/).length,
     articleSection: post.category || "Salud",
-    keywords: [
-      "clínica hispana Houston",
-      "salud",
-      "medicina familiar",
-      post.category?.toLowerCase() || "salud",
-    ].join(", "),
+    keywords: post.keywords?.length
+      ? post.keywords.join(", ")
+      : [
+          "clínica hispana Houston",
+          "salud",
+          "medicina familiar Houston",
+          post.category?.toLowerCase() || "salud",
+        ].join(", "),
   };
 
   const breadcrumbSchema = {

@@ -80,10 +80,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: t("ogDescription"),
       images: [
         {
-          url: "/images/og-image.jpg",
+          url: `${SITE_CONFIG.baseUrl}/images/og-image.jpg`,
           width: 1200,
           height: 630,
-          alt: SITE_CONFIG.name,
+          alt: `${SITE_CONFIG.name} - Clínica médica hispana en Houston TX`,
         },
       ],
     },
@@ -91,7 +91,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: "summary_large_image",
       title: t("title"),
       description: t("ogDescription"),
-      images: ["/images/og-image.jpg"],
+      images: [`${SITE_CONFIG.baseUrl}/images/og-image.jpg`],
     },
     robots: {
       index: true,

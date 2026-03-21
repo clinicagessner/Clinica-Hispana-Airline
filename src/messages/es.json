@@ -95,7 +95,15 @@
     "q5": "¿Qué formas de pago aceptan?",
     "a5": "Aceptamos efectivo, todas las tarjetas de crédito y débito principales (Visa, MasterCard, American Express, Discover), y la mayoría de los seguros médicos. También trabajamos con varios planes de seguro estatales y federales.",
     "q6": "¿Ofrecen planes de pago?",
-    "a6": "Sí, ofrecemos planes de pago flexibles para ayudarle a manejar los costos de su atención médica. Hable con nuestra recepcionista sobre las opciones disponibles para su situación particular."
+    "a6": "Sí, ofrecemos planes de pago flexibles para ayudarle a manejar los costos de su atención médica. Hable con nuestra recepcionista sobre las opciones disponibles para su situación particular.",
+    "q7": "¿Dónde están ubicados en Houston?",
+    "a7": "Estamos ubicados en 934 E Tidwell Rd, Houston, TX 77022, en el área norte de Houston cerca de la autopista 59/69. Contamos con amplio estacionamiento gratuito y fácil acceso en transporte público.",
+    "q8": "¿Realizan exámenes médicos de inmigración I-693?",
+    "a8": "Sí, contamos con médicos Civil Surgeon certificados por USCIS para realizar el examen médico de inmigración I-693 requerido para la Green Card. Ofrecemos resultados rápidos, vacunas disponibles en sitio, y atención 100% en español.",
+    "q9": "¿Cuánto tiempo debo esperar sin cita?",
+    "a9": "El tiempo de espera varía según la demanda del día, pero generalmente atendemos a los pacientes en 15-30 minutos. Le recomendamos llegar temprano para asegurar una atención más rápida.",
+    "q10": "¿Hay estacionamiento disponible?",
+    "a10": "Sí, contamos con amplio estacionamiento gratuito frente a la clínica. Nuestras instalaciones también son accesibles para personas con discapacidad, incluyendo rampas y baños adaptados."
   },
   "location": {
     "title": "Nuestra Ubicación",

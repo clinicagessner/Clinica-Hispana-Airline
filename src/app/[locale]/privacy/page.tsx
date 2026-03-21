@@ -7,6 +7,23 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Política de Privacidad HIPAA",
     description: `Política de privacidad y aviso de prácticas de privacidad HIPAA de ${SITE_CONFIG.name}. Conozca cómo protegemos su información de salud.`,
+    alternates: {
+      canonical: `${SITE_CONFIG.baseUrl}/privacy`,
+      languages: {
+        es: "/privacy",
+        en: "/en/privacy",
+      },
+    },
+    openGraph: {
+      title: `Política de Privacidad HIPAA | ${SITE_CONFIG.name}`,
+      description: `Política de privacidad y aviso de prácticas de privacidad HIPAA. Conozca cómo protegemos su información de salud en ${SITE_CONFIG.name}.`,
+      url: `${SITE_CONFIG.baseUrl}/privacy`,
+      type: "website",
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
   };
 }
 

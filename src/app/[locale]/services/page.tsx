@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { getTranslations, getLocale } from "next-intl/server";
 import { ServicesFilter } from "@/components/services/services-filter";
 import { SERVICES, SITE_CONFIG } from "@/lib/constants";
+import { JsonLdCollectionPage } from "@/components/seo/json-ld";
 
 const categoryInfo: Record<string, { label: string; labelEn: string; iconName: string }> = {
   especial: { label: "Especiales", labelEn: "Special", iconName: "Star" },
@@ -18,9 +19,25 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: t("title"),
     description: `${t("subtitle")} - ${SITE_CONFIG.name}`,
+    alternates: {
+      canonical: `${SITE_CONFIG.baseUrl}/services`,
+      languages: {
+        es: "/services",
+        en: "/en/services",
+      },
+    },
     openGraph: {
       title: t("title"),
       description: t("subtitle"),
+      url: `${SITE_CONFIG.baseUrl}/services`,
+      images: [
+        {
+          url: `${SITE_CONFIG.baseUrl}/images/clinic-interior.webp`,
+          width: 1200,
+          height: 630,
+          alt: t("title"),
+        },
+      ],
     },
   };
 }
@@ -40,27 +57,36 @@ export default async function ServicesPage() {
 
   const sortedServices = [...SERVICES].sort((a, b) => a.order - b.order);
 
+  const localePath = locale === "en" ? "/en" : "";
+
   return (
-    <main className="min-h-screen bg-background">
-      {/* Hero Header */}
-      <section className="relative pt-28 pb-12 md:pt-32 md:pb-16 overflow-hidden">
-        <div className="absolute inset-0 bg-linear-to-br from-red-primary via-red-dark to-slate-900" />
-        <div className="absolute inset-0 bg-[url('/images/clinic-interior.webp')] bg-cover bg-center opacity-10" />
+    <>
+      <JsonLdCollectionPage
+        name={t("title")}
+        description={t("subtitle")}
+        url={`${SITE_CONFIG.baseUrl}${localePath}/services`}
+      />
+      <main className="min-h-screen bg-background">
+        {/* Hero Header */}
+        <section className="relative pt-28 pb-12 md:pt-32 md:pb-16 overflow-hidden">
+          <div className="absolute inset-0 bg-linear-to-br from-red-primary via-red-dark to-slate-900" />
+          <div className="absolute inset-0 bg-[url('/images/clinic-interior.webp')] bg-cover bg-center opacity-10" />
 
-        <div className="container relative z-10 mx-auto px-4">
-          <div className="text-center max-w-3xl mx-auto">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white mb-4 drop-shadow-lg">
-              {t("title")}
-            </h1>
-            <p className="text-base sm:text-lg md:text-xl text-white/90 max-w-2xl mx-auto">
-              {t("subtitle")}
-            </p>
+          <div className="container relative z-10 mx-auto px-4">
+            <div className="text-center max-w-3xl mx-auto">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white mb-4 drop-shadow-lg">
+                {t("title")}
+              </h1>
+              <p className="text-base sm:text-lg md:text-xl text-white/90 max-w-2xl mx-auto">
+                {t("subtitle")}
+              </p>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Services with Filter */}
-      <ServicesFilter services={sortedServices} categories={categories} />
-    </main>
+        {/* Services with Filter */}
+        <ServicesFilter services={sortedServices} categories={categories} />
+      </main>
+    </>
   );
 }
