@@ -23,12 +23,12 @@ export async function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-1">
             <Link href={getLocalizedHref("/")} className="flex items-center gap-3 mb-4">
-              <div className="relative w-14 h-14">
+              <div className="relative w-20 h-20">
                 <Image
                   src="/images/logo.webp"
                   alt={SITE_CONFIG.name}
                   fill
-                  sizes="56px"
+                  sizes="80px"
                   className="object-contain"
                 />
               </div>

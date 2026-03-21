@@ -22,11 +22,11 @@ export const CONTACT_INFO: ContactInfo = {
   hoursWeekday: "Lunes a Viernes: 9:00 AM - 9:00 PM",
   hoursWeekend: "Sábado y Domingo: 10:00 AM - 6:00 PM",
   googleMapsUrl: "https://www.google.com/maps/search/Clinica+Hispana+Airline+934+E+Tidwell+Rd+Houston+TX+77022",
-  googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3461.5!2d-95.3577!3d29.8279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640b99b732517b3%3A0x6071796769ab0bc8!2sCl%C3%ADnica%20Hispana%20Airline!5e0!3m2!1sen!2sus!4v1710600000000!5m2!1sen!2sus",
+  googleMapsEmbed: "https://www.google.com/maps/embed/v1/place?key=AIzaSyCE3MhlqgK7OEbuk4dHEwmSlQtI5eSPUUY&q=place_id:ChIJsxclc5m5QIYRyAurHml5cWA&zoom=17",
   googleReviewUrl: "https://search.google.com/local/writereview?placeid=ChIJsxclc5m5QIYRyAurHml5cWA",
   placeId: "ChIJsxclc5m5QIYRyAurHml5cWA",
   coordinates: {
-    lat: 29.8449071,
+    lat: 29.8449012,
     lng: -95.384934,
   },
 };

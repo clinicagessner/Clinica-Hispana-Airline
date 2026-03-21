@@ -21,18 +21,21 @@ export async function Contact() {
 
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 max-w-6xl mx-auto">
           {/* Contact Form */}
-          <div className="bg-white rounded-2xl shadow-lg p-6 md:p-8 order-2 lg:order-1">
+          <div className="bg-white rounded-2xl shadow-lg border border-slate-100 p-6 md:p-8 order-2 lg:order-1">
             <ContactForm />
           </div>
 
           {/* Contact Information */}
           <div className="order-1 lg:order-2">
-            <div className="bg-primary text-primary-foreground rounded-2xl p-6 md:p-8 h-full">
-              <h3 className="text-2xl font-heading font-bold mb-8">
+            <div className="relative bg-linear-to-br from-red-primary via-red-dark to-slate-dark text-white rounded-2xl p-6 md:p-8 h-full overflow-hidden">
+              {/* Decorative background elements */}
+              <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full -translate-y-1/2 translate-x-1/2" />
+              <div className="absolute bottom-0 left-0 w-48 h-48 bg-white/5 rounded-full translate-y-1/2 -translate-x-1/2" />
+              <h3 className="relative text-2xl font-heading font-bold mb-8">
                 {t("info.address")}
               </h3>
 
-              <div className="space-y-6">
+              <div className="relative space-y-6">
                 {/* Phone */}
                 <a
                   href={`tel:${CONTACT_INFO.phone}`}
@@ -99,9 +102,9 @@ export async function Contact() {
                 </div>
               </div>
 
-              {/* Decorative Elements */}
-              <div className="mt-8 pt-8 border-t border-white/10">
-                <p className="text-white/60 text-sm">
+              {/* Footer note */}
+              <div className="relative mt-8 pt-8 border-t border-white/20">
+                <p className="text-white/70 text-sm">
                   Estamos ubicados en el corazón de Houston, con fácil acceso y estacionamiento gratuito.
                 </p>
               </div>

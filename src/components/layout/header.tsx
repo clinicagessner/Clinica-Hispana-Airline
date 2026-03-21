@@ -98,7 +98,7 @@ export function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href={getLocalizedHref("/")} className="block">
-            <div className="relative w-32 h-14 md:w-40 md:h-16 lg:w-48 lg:h-[72px] bg-white rounded-md shadow-sm p-1">
+            <div className="relative w-32 h-14 md:w-40 md:h-16 lg:w-48 lg:h-[72px]">
               <Image
                 src="/images/logo.webp"
                 alt={SITE_CONFIG.name}
@@ -168,7 +168,7 @@ export function Header() {
                 <div className="flex flex-col h-full">
                   <div className="flex items-center justify-between mb-8">
                     <Link href={getLocalizedHref("/")} onClick={handleLinkClick} className="block">
-                      <div className="relative w-36 h-14 bg-white rounded-md shadow-sm p-1">
+                      <div className="relative w-36 h-14">
                         <Image
                           src="/images/logo.webp"
                           alt={SITE_CONFIG.name}

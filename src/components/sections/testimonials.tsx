@@ -52,7 +52,6 @@ const fallbackReviews: GoogleReview[] = [
 export async function Testimonials() {
   const t = await getTranslations("testimonials");
 
-  // Fetch real Google reviews, fall back to hardcoded data
   const googleData = await getGooglePlaceData();
 
   const averageRating = googleData?.rating ?? GOOGLE_REVIEWS_DATA.averageRating;
@@ -60,42 +59,36 @@ export async function Testimonials() {
   const reviews = googleData?.reviews?.length ? googleData.reviews : fallbackReviews;
 
   return (
-    <section id="testimonials" className="py-16 md:py-24 bg-white">
+    <section id="testimonials" className="py-20 md:py-28">
       <div className="container mx-auto px-4">
-        {/* Section Header */}
-        <div className="text-center max-w-2xl mx-auto mb-12 md:mb-16">
+        {/* Header */}
+        <div className="text-center max-w-2xl mx-auto mb-12">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-slate-dark mb-4">
             {t("title")}
           </h2>
-          <p className="text-lg text-muted-foreground mb-6">
+          <p className="text-lg text-muted-foreground mb-8">
             {t("subtitle")}
           </p>
 
-          {/* Google Rating Summary */}
-          <div className="inline-flex items-center gap-3 bg-red-bg rounded-full px-6 py-3">
-            <GoogleLogo className="size-6 text-red-primary" weight="bold" />
+          {/* Google Stats */}
+          <div className="inline-flex items-center gap-4 bg-white px-6 py-3 rounded-full shadow-sm border border-slate-100">
+            <GoogleLogo className="size-6 text-slate-dark" weight="bold" />
             <div className="flex items-center gap-1">
               {[...Array(5)].map((_, i) => (
-                <Star
-                  key={i}
-                  className="size-5 text-yellow-400"
-                  weight="fill"
-                />
+                <Star key={i} className="size-4 text-yellow-500" weight="fill" />
               ))}
             </div>
             <span className="font-bold text-slate-dark">{averageRating}</span>
-            <span className="text-muted-foreground">
-              ({totalReviews} {t("reviews")})
-            </span>
+            <span className="text-muted-foreground text-sm">({totalReviews}+ {t("reviews")})</span>
           </div>
         </div>
 
-        {/* Testimonials Carousel */}
+        {/* Carousel */}
         <TestimonialsCarousel reviews={reviews} />
 
-        {/* Leave Review CTA */}
-        <div className="text-center mt-12">
-          <Button asChild variant="outline" size="lg" className="gap-2">
+        {/* CTA */}
+        <div className="text-center mt-14">
+          <Button asChild size="lg" variant="outline" className="gap-2 rounded-full px-8">
             <a
               href={CONTACT_INFO.googleReviewUrl}
               target="_blank"

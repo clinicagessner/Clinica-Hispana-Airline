@@ -47,7 +47,7 @@ async function fetchGooglePlaceDetails(): Promise<GooglePlaceData | null> {
     const url = new URL("https://maps.googleapis.com/maps/api/place/details/json");
     url.searchParams.set("place_id", placeId);
     url.searchParams.set("fields", "rating,user_ratings_total,reviews");
-    url.searchParams.set("reviews_sort", "newest");
+    url.searchParams.set("reviews_sort", "most_relevant");
     url.searchParams.set("language", "es");
     url.searchParams.set("key", apiKey);
 
@@ -71,10 +71,10 @@ async function fetchGooglePlaceDetails(): Promise<GooglePlaceData | null> {
       return null;
     }
 
-    return {
-      rating: result.rating ?? 5.0,
-      totalReviews: result.user_ratings_total ?? 0,
-      reviews: (result.reviews ?? []).map((review) => ({
+    // Filter: only 5-star reviews with text
+    const filteredReviews = (result.reviews ?? [])
+      .filter((review) => review.rating === 5 && review.text.trim().length > 0)
+      .map((review) => ({
         author_name: review.author_name,
         rating: review.rating,
         text: review.text,
@@ -82,7 +82,12 @@ async function fetchGooglePlaceDetails(): Promise<GooglePlaceData | null> {
         relative_time_description: review.relative_time_description,
         profile_photo_url: review.profile_photo_url || "/images/avatars/default.webp",
         author_url: review.author_url,
-      })),
+      }));
+
+    return {
+      rating: result.rating ?? 5.0,
+      totalReviews: result.user_ratings_total ?? 0,
+      reviews: filteredReviews,
     };
   } catch (error) {
     console.error("Error fetching Google Place details:", error);

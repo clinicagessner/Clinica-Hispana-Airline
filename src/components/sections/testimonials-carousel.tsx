@@ -1,14 +1,11 @@
 "use client";
 
 import Image from "next/image";
-import { useTranslations } from "next-intl";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
-import { Star, Quotes } from "@phosphor-icons/react";
-import { Card, CardContent } from "@/components/ui/card";
+import { Star, CaretLeft, CaretRight } from "@phosphor-icons/react";
 import { Button } from "@/components/ui/button";
-import { CaretLeft, CaretRight } from "@phosphor-icons/react";
-import { useCallback } from "react";
+import { useCallback, useEffect, useState } from "react";
 import type { GoogleReview } from "@/lib/google-places";
 
 interface TestimonialsCarouselProps {
@@ -16,7 +13,7 @@ interface TestimonialsCarouselProps {
 }
 
 export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
-  const t = useTranslations("testimonials");
+  const [selectedIndex, setSelectedIndex] = useState(0);
 
   const [emblaRef, emblaApi] = useEmblaCarousel(
     {
@@ -27,7 +24,7 @@ export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
     [
       Autoplay({
         delay: 5000,
-        stopOnInteraction: true,
+        stopOnInteraction: false,
         stopOnMouseEnter: true,
       }),
     ]
@@ -41,90 +38,122 @@ export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
     if (emblaApi) emblaApi.scrollNext();
   }, [emblaApi]);
 
+  const scrollTo = useCallback(
+    (index: number) => {
+      if (emblaApi) emblaApi.scrollTo(index);
+    },
+    [emblaApi]
+  );
+
+  useEffect(() => {
+    if (!emblaApi) return;
+
+    const onSelect = () => {
+      setSelectedIndex(emblaApi.selectedScrollSnap());
+    };
+
+    emblaApi.on("select", onSelect);
+    onSelect();
+
+    return () => {
+      emblaApi.off("select", onSelect);
+    };
+  }, [emblaApi]);
+
   return (
     <div className="relative">
       {/* Carousel */}
       <div className="overflow-hidden" ref={emblaRef}>
-        <div className="flex gap-6">
+        <div className="flex -ml-6">
           {reviews.map((review, index) => (
             <div
               key={index}
-              className="flex-[0_0_100%] min-w-0 sm:flex-[0_0_50%] lg:flex-[0_0_33.333%]"
+              className="flex-[0_0_100%] min-w-0 sm:flex-[0_0_50%] lg:flex-[0_0_33.333%] pl-6"
             >
-              <Card className="h-full bg-red-bg border-0">
-                <CardContent className="p-6">
-                  {/* Quote Icon */}
-                  <Quotes
-                    className="size-8 text-red-primary/30 mb-4"
-                    weight="fill"
-                  />
+              {/* Card */}
+              <div className="group relative h-full bg-white rounded-2xl p-6 md:p-7 border border-slate-100 shadow-sm transition-all duration-300 hover:border-red-primary/30 hover:shadow-xl hover:shadow-red-primary/10 hover:-translate-y-1">
+                {/* Accent line */}
+                <div className="absolute top-0 left-0 right-0 h-1 bg-linear-to-r from-red-primary via-red-medium to-red-primary rounded-t-2xl opacity-0 group-hover:opacity-100 transition-opacity" />
 
-                  {/* Rating */}
-                  <div className="flex gap-1 mb-4">
-                    {[...Array(5)].map((_, i) => (
-                      <Star
-                        key={i}
-                        className={`size-5 ${
-                          i < review.rating
-                            ? "text-yellow-400"
-                            : "text-gray-300"
-                        }`}
-                        weight="fill"
-                      />
-                    ))}
+                {/* Stars */}
+                <div className="flex gap-0.5 mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <Star
+                      key={i}
+                      className={`size-4 ${
+                        i < review.rating ? "text-yellow-500" : "text-slate-200"
+                      }`}
+                      weight="fill"
+                    />
+                  ))}
+                </div>
+
+                {/* Review text */}
+                <p className="text-slate-600 leading-relaxed line-clamp-4 mb-6 min-h-[96px]">
+                  &ldquo;{review.text}&rdquo;
+                </p>
+
+                {/* Author */}
+                <div className="flex items-center gap-3 pt-4 border-t border-slate-100">
+                  <div className="relative size-11 rounded-full overflow-hidden ring-2 ring-red-light">
+                    <Image
+                      src={review.profile_photo_url}
+                      alt={review.author_name}
+                      fill
+                      sizes="44px"
+                      className="object-cover"
+                    />
                   </div>
-
-                  {/* Review Text */}
-                  <p className="text-slate-dark mb-6 line-clamp-4">
-                    &ldquo;{review.text}&rdquo;
-                  </p>
-
-                  {/* Author */}
-                  <div className="flex items-center gap-3">
-                    <div className="relative size-12 rounded-full overflow-hidden bg-red-light">
-                      <Image
-                        src={review.profile_photo_url}
-                        alt={review.author_name}
-                        fill
-                        sizes="48px"
-                        className="object-cover"
-                      />
-                    </div>
-                    <div>
-                      <p className="font-semibold text-slate-dark">
-                        {review.author_name}
-                      </p>
-                      <p className="text-sm text-muted-foreground">
-                        {review.relative_time_description}
-                      </p>
-                    </div>
+                  <div>
+                    <p className="font-medium text-slate-dark text-sm">
+                      {review.author_name}
+                    </p>
+                    <p className="text-xs text-slate-400">
+                      {review.relative_time_description}
+                    </p>
                   </div>
-                </CardContent>
-              </Card>
+                </div>
+              </div>
             </div>
           ))}
         </div>
       </div>
 
-      {/* Navigation Buttons */}
-      <div className="flex justify-center gap-4 mt-8">
+      {/* Navigation */}
+      <div className="flex items-center justify-center gap-4 mt-10">
         <Button
-          variant="outline"
+          variant="ghost"
           size="icon"
           onClick={scrollPrev}
-          className="rounded-full"
-          aria-label={t("verifiedReview")}
+          className="size-10 rounded-full hover:bg-red-primary/10 text-slate-500 hover:text-red-primary"
+          aria-label="Anterior"
         >
-          <CaretLeft className="size-5" />
+          <CaretLeft className="size-5" weight="bold" />
         </Button>
+
+        <div className="flex gap-1.5">
+          {reviews.map((_, index) => (
+            <button
+              key={index}
+              onClick={() => scrollTo(index)}
+              className={`rounded-full transition-all duration-300 ${
+                index === selectedIndex
+                  ? "w-6 h-2 bg-red-primary"
+                  : "w-2 h-2 bg-slate-300 hover:bg-red-primary/50"
+              }`}
+              aria-label={`Ir a review ${index + 1}`}
+            />
+          ))}
+        </div>
+
         <Button
-          variant="outline"
+          variant="ghost"
           size="icon"
           onClick={scrollNext}
-          className="rounded-full"
-          aria-label={t("verifiedReview")}
+          className="size-10 rounded-full hover:bg-red-primary/10 text-slate-500 hover:text-red-primary"
+          aria-label="Siguiente"
         >
-          <CaretRight className="size-5" />
+          <CaretRight className="size-5" weight="bold" />
         </Button>
       </div>
     </div>
