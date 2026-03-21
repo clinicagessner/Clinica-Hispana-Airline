@@ -85,142 +85,136 @@ export default async function BlogPostPage({ params }: Props) {
     <>
       <JsonLdBlogPosting post={post} locale={locale} />
 
-      <article className="pt-28 pb-16 md:pt-32 md:pb-24">
-        <div className="container mx-auto px-4">
-          {/* Back Button */}
-          <div className="mb-8">
-            <Link href={getLocalizedHref("/blog")}>
-              <Button variant="ghost" className="gap-2">
-                <ArrowLeft className="w-4 h-4" />
-                {t("backToBlog")}
-              </Button>
-            </Link>
-          </div>
-
-          {/* Header */}
-          <header className="max-w-4xl mx-auto mb-8">
-            {post.category && (
-              <Badge variant="outline" className="mb-4">
-                {post.category}
-              </Badge>
-            )}
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-6">
-              {post.title}
-            </h1>
-            <p className="text-xl text-muted-foreground mb-6">
-              {post.description}
-            </p>
-            <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
-              <span className="flex items-center gap-1">
-                <CalendarDots className="w-4 h-4" />
-                {new Date(post.date).toLocaleDateString(locale, {
-                  year: "numeric",
-                  month: "long",
-                  day: "numeric",
-                })}
-              </span>
-              {post.readTime && (
-                <span className="flex items-center gap-1">
-                  <Clock className="w-4 h-4" />
-                  {post.readTime} {t("minRead")}
-                </span>
-              )}
-              <span>
-                {t("by")} <strong>{post.author}</strong>
-              </span>
-            </div>
-          </header>
-
-          {/* Featured Image */}
+      <article>
+        {/* Hero Header with Background Image */}
+        <header className="relative pt-32 pb-16 md:pt-40 md:pb-24 overflow-hidden">
+          {/* Background Image */}
           {post.image && (
-            <div className="max-w-4xl mx-auto mb-12">
-              <div className="relative aspect-video rounded-xl overflow-hidden shadow-lg">
-                <Image
-                  src={post.image}
-                  alt={post.title}
-                  fill
-                  className="object-cover"
-                  priority
-                />
-              </div>
+            <div className="absolute inset-0">
+              <Image
+                src={post.image}
+                alt={post.title}
+                fill
+                className="object-cover"
+                priority
+              />
+              <div className="absolute inset-0 bg-linear-to-t from-slate-900 via-slate-900/80 to-slate-900/40" />
             </div>
           )}
 
-          {/* Content */}
+          <div className="container mx-auto px-4 relative z-10">
+            {/* Back Button */}
+            <div className="mb-8">
+              <Link href={getLocalizedHref("/blog")}>
+                <Button variant="ghost" className="gap-2 text-white/90 hover:text-white hover:bg-white/10">
+                  <ArrowLeft className="w-4 h-4" />
+                  {t("backToBlog")}
+                </Button>
+              </Link>
+            </div>
+
+            <div className="max-w-3xl">
+              {post.category && (
+                <Badge className="mb-4 bg-red-primary hover:bg-red-dark text-white border-0">
+                  {post.category}
+                </Badge>
+              )}
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-6 leading-tight">
+                {post.title}
+              </h1>
+              <p className="text-lg md:text-xl text-white/80 mb-8 leading-relaxed">
+                {post.description}
+              </p>
+              <div className="flex flex-wrap items-center gap-4 text-sm text-white/70">
+                <span className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-3 py-1.5 rounded-full">
+                  <CalendarDots className="w-4 h-4" weight="fill" />
+                  {new Date(post.date).toLocaleDateString(locale, {
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                  })}
+                </span>
+                {post.readTime && (
+                  <span className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-3 py-1.5 rounded-full">
+                    <Clock className="w-4 h-4" weight="fill" />
+                    {post.readTime} {t("minRead")}
+                  </span>
+                )}
+                <span className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-3 py-1.5 rounded-full">
+                  {t("by")} <strong className="text-white">{post.author}</strong>
+                </span>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        {/* Content Section */}
+        <div className="container mx-auto px-4 py-12 md:py-16">
           <div className="max-w-3xl mx-auto">
-            <div
-              className="prose prose-lg prose-slate max-w-none
-                prose-headings:text-primary prose-headings:font-bold
-                prose-h1:text-3xl prose-h2:text-2xl prose-h3:text-xl
-                prose-p:text-slate-dark prose-p:leading-relaxed
-                prose-a:text-red-primary prose-a:no-underline hover:prose-a:underline
-                prose-strong:text-primary
-                prose-ul:list-disc prose-ol:list-decimal
-                prose-li:text-slate-dark
-                prose-blockquote:border-l-4 prose-blockquote:border-red-primary prose-blockquote:bg-red-light/30 prose-blockquote:py-2 prose-blockquote:px-4 prose-blockquote:rounded-r-lg
-              "
-            >
+            <div className="blog-content">
               <div dangerouslySetInnerHTML={{ __html: parseMarkdown(post.content) }} />
             </div>
 
             {/* CTA Section */}
-            <div className="mt-12 p-8 bg-gradient-to-r from-primary to-red-primary rounded-xl text-white text-center">
-              <h3 className="text-2xl font-bold mb-4">
+            <div className="mt-16 p-8 md:p-10 bg-linear-to-br from-red-primary via-red-dark to-slate-900 rounded-2xl text-white text-center shadow-xl">
+              <h3 className="text-2xl md:text-3xl font-heading font-bold mb-4">
                 {t("ctaTitle")}
               </h3>
-              <p className="mb-6 opacity-90">
+              <p className="mb-8 text-white/90 max-w-md mx-auto">
                 {t("ctaDescription")}
               </p>
               <a
                 href={`tel:${CONTACT_INFO.phone}`}
-                className="inline-flex items-center gap-2 bg-white text-primary font-semibold px-6 py-3 rounded-lg hover:bg-red-light transition-colors"
+                className="inline-flex items-center gap-2 bg-white text-red-primary font-bold px-8 py-4 rounded-full hover:bg-red-light hover:scale-105 transition-all shadow-lg"
               >
-                <Phone className="w-5 h-5" />
+                <Phone className="w-5 h-5" weight="fill" />
                 {t("callNow")} {CONTACT_INFO.phoneFormatted}
               </a>
             </div>
           </div>
 
           {/* Related Posts */}
-          <div className="max-w-4xl mx-auto mt-16">
-            <h2 className="text-2xl font-bold text-primary mb-8">
-              {t("relatedPosts")}
-            </h2>
-            <div className="grid md:grid-cols-2 gap-6">
-              {BLOG_POSTS.filter((p) => p.slug !== slug)
-                .slice(0, 2)
-                .map((relatedPost) => (
-                  <Link
-                    key={relatedPost.slug}
-                    href={getLocalizedHref(`/blog/${relatedPost.slug}`)}
-                    className="group flex gap-4 p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow"
-                  >
-                    {relatedPost.image && (
-                      <div className="relative w-24 h-24 flex-shrink-0 rounded-lg overflow-hidden">
-                        <Image
-                          src={relatedPost.image}
-                          alt={relatedPost.title}
-                          fill
-                          className="object-cover"
-                        />
+          {BLOG_POSTS.filter((p) => p.slug !== slug).length > 0 && (
+            <div className="max-w-4xl mx-auto mt-16">
+              <h2 className="text-2xl font-heading font-bold text-slate-dark mb-8">
+                {t("relatedPosts")}
+              </h2>
+              <div className="grid md:grid-cols-2 gap-6">
+                {BLOG_POSTS.filter((p) => p.slug !== slug)
+                  .slice(0, 2)
+                  .map((relatedPost) => (
+                    <Link
+                      key={relatedPost.slug}
+                      href={getLocalizedHref(`/blog/${relatedPost.slug}`)}
+                      className="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all border border-slate-100 hover:border-red-200"
+                    >
+                      {relatedPost.image && (
+                        <div className="relative h-40 overflow-hidden">
+                          <Image
+                            src={relatedPost.image}
+                            alt={relatedPost.title}
+                            fill
+                            className="object-cover group-hover:scale-105 transition-transform duration-500"
+                          />
+                        </div>
+                      )}
+                      <div className="p-5">
+                        <h3 className="font-heading font-bold text-slate-dark group-hover:text-red-primary transition-colors line-clamp-2 mb-2">
+                          {relatedPost.title}
+                        </h3>
+                        <p className="text-sm text-muted-foreground">
+                          {new Date(relatedPost.date).toLocaleDateString(locale, {
+                            year: "numeric",
+                            month: "long",
+                            day: "numeric",
+                          })}
+                        </p>
                       </div>
-                    )}
-                    <div>
-                      <h3 className="font-semibold text-primary group-hover:text-red-primary transition-colors line-clamp-2">
-                        {relatedPost.title}
-                      </h3>
-                      <p className="text-sm text-muted-foreground mt-1">
-                        {new Date(relatedPost.date).toLocaleDateString(locale, {
-                          year: "numeric",
-                          month: "short",
-                          day: "numeric",
-                        })}
-                      </p>
-                    </div>
-                  </Link>
-                ))}
+                    </Link>
+                  ))}
+              </div>
             </div>
-          </div>
+          )}
         </div>
       </article>
     </>
