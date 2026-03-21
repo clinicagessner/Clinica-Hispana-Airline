@@ -105,7 +105,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       },
     },
     verification: {
-      google: "YOUR_GOOGLE_VERIFICATION_CODE",
+      google: "DCDMoTBSEG-vc4DG4vI-mcHVC_b5UJCfrbAlyMHJx8U",
     },
   };
 }
@@ -119,6 +119,12 @@ export default async function LocaleLayout({ children, params }: Props) {
       <head>
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#DC2626" />
+        {/* CallRail - Call Tracking */}
+        <script
+          type="text/javascript"
+          src="//cdn.callrail.com/companies/257588879/cc932502d2a770c60e21/12/swap.js"
+          async
+        />
       </head>
       <body className="antialiased min-h-screen flex flex-col">
         <NextIntlClientProvider messages={messages}>
