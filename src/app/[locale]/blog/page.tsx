@@ -5,7 +5,7 @@ import { getTranslations } from "next-intl/server";
 import { BLOG_POSTS, SITE_CONFIG } from "@/lib/constants";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
-import { CalendarDays, Clock, ArrowRight } from "lucide-react";
+import { CalendarDots, Clock, ArrowRight } from "@phosphor-icons/react/dist/ssr";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -91,7 +91,7 @@ export default async function BlogPage({ params }: Props) {
                     </p>
                     <div className="flex items-center gap-4 text-sm text-muted-foreground mb-6">
                       <span className="flex items-center gap-1">
-                        <CalendarDays className="w-4 h-4" />
+                        <CalendarDots className="w-4 h-4" />
                         {new Date(featuredPost.date).toLocaleDateString(locale, {
                           year: "numeric",
                           month: "long",
@@ -146,7 +146,7 @@ export default async function BlogPage({ params }: Props) {
                     </p>
                     <div className="flex items-center justify-between text-sm text-muted-foreground">
                       <span className="flex items-center gap-1">
-                        <CalendarDays className="w-4 h-4" />
+                        <CalendarDots className="w-4 h-4" />
                         {new Date(post.date).toLocaleDateString(locale, {
                           year: "numeric",
                           month: "short",

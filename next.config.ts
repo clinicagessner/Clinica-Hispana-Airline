@@ -18,7 +18,7 @@ const nextConfig: NextConfig = {
     ],
   },
   experimental: {
-    optimizePackageImports: ["framer-motion", "@phosphor-icons/react"],
+    optimizePackageImports: ["framer-motion", "@phosphor-icons/react", "lucide-react", "@radix-ui/react-accordion", "@radix-ui/react-dialog", "@radix-ui/react-select"],
   },
 };
 

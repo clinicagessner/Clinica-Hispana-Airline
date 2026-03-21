@@ -6,7 +6,7 @@ import { getTranslations } from "next-intl/server";
 import { BLOG_POSTS, SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { CalendarDays, Clock, ArrowLeft, Phone } from "lucide-react";
+import { CalendarDots, Clock, ArrowLeft, Phone } from "@phosphor-icons/react/dist/ssr";
 import { JsonLdBlogPosting } from "@/components/seo/json-ld-blog";
 
 type Props = {
@@ -112,7 +112,7 @@ export default async function BlogPostPage({ params }: Props) {
             </p>
             <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
               <span className="flex items-center gap-1">
-                <CalendarDays className="w-4 h-4" />
+                <CalendarDots className="w-4 h-4" />
                 {new Date(post.date).toLocaleDateString(locale, {
                   year: "numeric",
                   month: "long",
