@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Phone, MapPin } from "@phosphor-icons/react";
+import { Phone, MapPin } from "@phosphor-icons/react/dist/ssr";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { CONTACT_INFO } from "@/lib/constants";
 import { cn } from "@/lib/utils";

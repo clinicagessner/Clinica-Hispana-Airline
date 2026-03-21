@@ -8,8 +8,11 @@ import { Badge } from "@/components/ui/badge";
 import { BLOG_POSTS } from "@/lib/constants";
 
 export async function BlogPreview() {
-  const t = await getTranslations("blog");
-  const locale = await getLocale();
+  // Parallel fetching - eliminates waterfall
+  const [t, locale] = await Promise.all([
+    getTranslations("blog"),
+    getLocale()
+  ]);
 
   const getLocalizedHref = (href: string) => {
     if (locale === "es") return href;

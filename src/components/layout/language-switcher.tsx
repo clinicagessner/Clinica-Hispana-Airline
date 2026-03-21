@@ -2,7 +2,7 @@
 
 import { useLocale } from "next-intl";
 import { usePathname, useRouter } from "@/i18n/routing";
-import { Globe } from "@phosphor-icons/react";
+import { Globe } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 

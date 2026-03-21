@@ -3,7 +3,7 @@
 import Image from "next/image";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
-import { Star, CaretLeft, CaretRight } from "@phosphor-icons/react";
+import { Star, CaretLeft, CaretRight } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { useCallback, useEffect, useState } from "react";
 import type { GoogleReview } from "@/lib/google-places";

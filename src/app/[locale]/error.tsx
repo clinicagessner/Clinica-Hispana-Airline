@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import { useTranslations } from "next-intl";
-import { WarningCircle, ArrowClockwise } from "@phosphor-icons/react";
+import { WarningCircle, ArrowClockwise } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 
 interface ErrorProps {

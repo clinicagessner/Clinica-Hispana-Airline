@@ -29,7 +29,7 @@ import {
   Bone,
   Monitor,
   FunnelSimple,
-} from "@phosphor-icons/react";
+} from "@phosphor-icons/react/dist/ssr";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";

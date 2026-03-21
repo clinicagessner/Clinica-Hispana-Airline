@@ -6,7 +6,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { usePathname } from "@/i18n/routing";
 import { useLocale } from "next-intl";
-import { List, Phone, MapPin } from "@phosphor-icons/react";
+import { List, Phone, MapPin } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger, SheetTitle, SheetDescription } from "@/components/ui/sheet";
 import { LanguageSwitcher } from "@/components/layout/language-switcher";

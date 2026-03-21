@@ -6,7 +6,7 @@ import Link from "next/link";
 import { useLocale } from "next-intl";
 import { useTranslations } from "next-intl";
 import { motion, useInView } from "framer-motion";
-import { ArrowRight } from "@phosphor-icons/react";
+import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { SERVICES } from "@/lib/constants";
 

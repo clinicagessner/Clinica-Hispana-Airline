@@ -50,9 +50,11 @@ const fallbackReviews: GoogleReview[] = [
 ];
 
 export async function Testimonials() {
-  const t = await getTranslations("testimonials");
-
-  const googleData = await getGooglePlaceData();
+  // Parallel fetching - eliminates waterfall
+  const [t, googleData] = await Promise.all([
+    getTranslations("testimonials"),
+    getGooglePlaceData()
+  ]);
 
   const averageRating = googleData?.rating ?? GOOGLE_REVIEWS_DATA.averageRating;
   const totalReviews = googleData?.totalReviews ?? GOOGLE_REVIEWS_DATA.totalReviews;

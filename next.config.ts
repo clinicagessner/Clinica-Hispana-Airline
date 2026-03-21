@@ -17,6 +17,9 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  experimental: {
+    optimizePackageImports: ["framer-motion", "@phosphor-icons/react"],
+  },
 };
 
 const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");

@@ -15,7 +15,7 @@ import {
   FileText,
   CheckCircle,
   ShieldCheck,
-} from "@phosphor-icons/react";
+} from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { CONTACT_INFO } from "@/lib/constants";
