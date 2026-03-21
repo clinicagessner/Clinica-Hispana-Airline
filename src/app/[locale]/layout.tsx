@@ -8,6 +8,7 @@ import { Footer } from "@/components/layout/footer";
 import { FloatingButtons } from "@/components/layout/floating-buttons";
 import { ScrollToTop } from "@/components/layout/scroll-to-top";
 import { JsonLdMedicalClinic } from "@/components/seo/json-ld";
+import { ScrollAnimations } from "@/components/animations/scroll-animations";
 import { SITE_CONFIG } from "@/lib/constants";
 import "../globals.css";
 
@@ -136,6 +137,7 @@ export default async function LocaleLayout({ children, params }: Props) {
             <FloatingButtons />
             <ScrollToTop />
             <JsonLdMedicalClinic />
+            <ScrollAnimations />
           </TooltipProvider>
         </NextIntlClientProvider>
       </body>

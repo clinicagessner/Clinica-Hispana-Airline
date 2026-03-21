@@ -25,7 +25,7 @@ export async function BlogPreview() {
     <section id="blog" className="py-16 md:py-24 bg-white">
       <div className="container mx-auto px-4">
         {/* Section Header */}
-        <div className="text-center max-w-2xl mx-auto mb-12">
+        <div className="animate-on-scroll fade-up text-center max-w-2xl mx-auto mb-12">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-slate-dark mb-4">
             {t("title")}
           </h2>
@@ -35,7 +35,7 @@ export async function BlogPreview() {
         </div>
 
         {/* Featured Post Card */}
-        <div className="max-w-4xl mx-auto mb-10">
+        <div className="animate-on-scroll scale-in stagger-1 max-w-4xl mx-auto mb-10">
           <Card className="overflow-hidden border-0 shadow-lg hover:shadow-xl transition-shadow">
             <div className="grid md:grid-cols-2 gap-0">
               {/* Image */}

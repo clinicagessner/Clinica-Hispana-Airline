@@ -245,6 +245,110 @@ h1, h2, h3, h4, h5, h6 {
   animation: pulse-float 2.5s ease-in-out infinite;
 }
 
+/* ===========================================
+   SCROLL ANIMATIONS - Subtle & Performant
+   =========================================== */
+
+/* Fade in from bottom */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Fade in from left */
+@keyframes fade-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Fade in from right */
+@keyframes fade-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Scale in */
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Blur in */
+@keyframes blur-in {
+  from {
+    opacity: 0;
+    filter: blur(10px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+/* Base state for animated elements - hidden until in view */
+.animate-on-scroll {
+  opacity: 0;
+}
+
+/* Triggered state */
+.animate-on-scroll.is-visible {
+  animation-duration: 0.6s;
+  animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+  animation-fill-mode: both;
+}
+
+/* Animation variants */
+.animate-on-scroll.is-visible.fade-up {
+  animation-name: fade-in-up;
+}
+
+.animate-on-scroll.is-visible.fade-left {
+  animation-name: fade-in-left;
+}
+
+.animate-on-scroll.is-visible.fade-right {
+  animation-name: fade-in-right;
+}
+
+.animate-on-scroll.is-visible.scale-in {
+  animation-name: scale-in;
+}
+
+.animate-on-scroll.is-visible.blur-in {
+  animation-name: blur-in;
+}
+
+/* Stagger delays for children */
+.stagger-1 { animation-delay: 0.1s; }
+.stagger-2 { animation-delay: 0.2s; }
+.stagger-3 { animation-delay: 0.3s; }
+.stagger-4 { animation-delay: 0.4s; }
+.stagger-5 { animation-delay: 0.5s; }
+
 /* Focus visible */
 :focus-visible {
   outline: 2px solid var(--primary);

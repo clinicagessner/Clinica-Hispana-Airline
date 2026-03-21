@@ -21,7 +21,7 @@ export async function FAQ() {
     <section id="faq" className="py-16 md:py-24 bg-red-bg">
       <div className="container mx-auto px-4">
         {/* Section Header */}
-        <div className="text-center max-w-2xl mx-auto mb-12 md:mb-16">
+        <div className="animate-on-scroll fade-up text-center max-w-2xl mx-auto mb-12 md:mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-slate-dark mb-4">
             {t("faq.title")}
           </h2>
@@ -31,7 +31,7 @@ export async function FAQ() {
         </div>
 
         {/* FAQ Accordion */}
-        <div className="max-w-3xl mx-auto">
+        <div className="animate-on-scroll fade-up stagger-1 max-w-3xl mx-auto">
           <Accordion type="single" collapsible className="space-y-3">
             {FAQ_ITEMS.map((item, index) => (
               <AccordionItem

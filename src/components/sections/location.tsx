@@ -25,7 +25,7 @@ export async function Location() {
     <section id="location" className="py-16 md:py-24 bg-slate-dark text-white overflow-hidden">
       <div className="container mx-auto px-4">
         {/* Section Header */}
-        <div className="text-center max-w-2xl mx-auto mb-12">
+        <div className="animate-on-scroll fade-up text-center max-w-2xl mx-auto mb-12">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold mb-4">
             {t("title")}
           </h2>
@@ -34,7 +34,7 @@ export async function Location() {
 
         <div className="grid lg:grid-cols-5 gap-8 max-w-6xl mx-auto">
           {/* Map - Takes 3 columns */}
-          <div className="lg:col-span-3 relative rounded-2xl overflow-hidden shadow-2xl">
+          <div className="animate-on-scroll fade-left stagger-1 lg:col-span-3 relative rounded-2xl overflow-hidden shadow-2xl">
             <div className="aspect-[4/3] lg:aspect-[16/10]">
               <iframe
                 src={CONTACT_INFO.googleMapsEmbed}
@@ -51,7 +51,7 @@ export async function Location() {
           </div>
 
           {/* Location Info - Takes 2 columns */}
-          <div className="lg:col-span-2 flex flex-col gap-4">
+          <div className="animate-on-scroll fade-right stagger-2 lg:col-span-2 flex flex-col gap-4">
             {/* Address Card */}
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
               <div className="flex items-start gap-4 mb-5">

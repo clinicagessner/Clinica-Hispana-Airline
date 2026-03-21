@@ -62,7 +62,7 @@ export async function Testimonials() {
     <section id="testimonials" className="py-20 md:py-28">
       <div className="container mx-auto px-4">
         {/* Header */}
-        <div className="text-center max-w-2xl mx-auto mb-12">
+        <div className="animate-on-scroll fade-up text-center max-w-2xl mx-auto mb-12">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-slate-dark mb-4">
             {t("title")}
           </h2>

@@ -10,7 +10,7 @@ export async function Contact() {
     <section id="contact" className="py-16 md:py-24 bg-red-warm">
       <div className="container mx-auto px-4">
         {/* Section Header */}
-        <div className="text-center max-w-2xl mx-auto mb-12 md:mb-16">
+        <div className="animate-on-scroll fade-up text-center max-w-2xl mx-auto mb-12 md:mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-slate-dark mb-4">
             {t("title")}
           </h2>
@@ -21,12 +21,12 @@ export async function Contact() {
 
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 max-w-6xl mx-auto">
           {/* Contact Form */}
-          <div className="bg-white rounded-2xl shadow-lg border border-slate-100 p-6 md:p-8 order-2 lg:order-1">
+          <div className="animate-on-scroll fade-left stagger-1 bg-white rounded-2xl shadow-lg border border-slate-100 p-6 md:p-8 order-2 lg:order-1">
             <ContactForm />
           </div>
 
           {/* Contact Information */}
-          <div className="order-1 lg:order-2">
+          <div className="animate-on-scroll fade-right stagger-2 order-1 lg:order-2">
             <div className="relative bg-linear-to-br from-red-primary via-red-dark to-slate-dark text-white rounded-2xl p-6 md:p-8 h-full overflow-hidden">
               {/* Decorative background elements */}
               <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full -translate-y-1/2 translate-x-1/2" />
