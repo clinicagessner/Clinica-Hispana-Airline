@@ -72,7 +72,7 @@ export function GreenCard() {
           alt="Examen médico de inmigración I-693 en Houston TX - Civil Surgeon certificado USCIS completando formulario para Green Card"
           fill
           className="object-cover"
-          quality={75}
+          quality={60}
           sizes="100vw"
         />
         {/* Overlay with red tint */}

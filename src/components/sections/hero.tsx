@@ -16,7 +16,7 @@ export async function Hero() {
         fill
         priority
         fetchPriority="high"
-        quality={75}
+        quality={60}
         className="object-cover"
         sizes="100vw"
       />
