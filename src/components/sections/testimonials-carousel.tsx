@@ -136,11 +136,12 @@ export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
             <button
               key={index}
               onClick={() => scrollTo(index)}
-              className={`rounded-full transition-all duration-300 min-w-[24px] min-h-[24px] flex items-center justify-center ${
+              className={`size-3 rounded-full transition-colors duration-300 ${
                 index === selectedIndex
-                  ? "w-8 h-6 bg-red-primary"
-                  : "w-6 h-6 bg-slate-300 hover:bg-red-primary/50"
+                  ? "bg-red-primary scale-110"
+                  : "bg-slate-300 hover:bg-red-primary/50"
               }`}
+              style={{ transform: index === selectedIndex ? 'scale(1.1)' : 'scale(1)' }}
               aria-label={`Ir a review ${index + 1}`}
             />
           ))}

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { BLOG_POSTS, SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -14,9 +14,13 @@ type Props = {
 };
 
 export async function generateStaticParams() {
-  return BLOG_POSTS.map((post) => ({
-    slug: post.slug,
-  }));
+  const locales = ["es", "en"];
+  return locales.flatMap((locale) =>
+    BLOG_POSTS.map((post) => ({
+      locale,
+      slug: post.slug,
+    }))
+  );
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -68,7 +72,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function BlogPostPage({ params }: Props) {
   const { slug, locale } = await params;
-  const t = await getTranslations({ locale, namespace: "blog" });
+
+  // Enable static rendering for this page
+  setRequestLocale(locale);
+
+  const t = await getTranslations("blog");
 
   const getLocalizedHref = (href: string) => {
     if (locale === "es") return href;

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import {
   ArrowLeft,
   ArrowRight,
@@ -66,9 +66,13 @@ interface Props {
 }
 
 export async function generateStaticParams() {
-  return SERVICES.map((service) => ({
-    slug: service.slug,
-  }));
+  const locales = ["es", "en"];
+  return locales.flatMap((locale) =>
+    SERVICES.map((service) => ({
+      locale,
+      slug: service.slug,
+    }))
+  );
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -109,12 +113,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function ServicePage({ params }: Props) {
-  // Parallel fetching - eliminates waterfall
-  const [{ slug, locale }, t] = await Promise.all([
-    params,
-    getTranslations("services")
-  ]);
+  const { slug, locale } = await params;
 
+  // Enable static rendering for this page
+  setRequestLocale(locale);
+
+  const t = await getTranslations("services");
   const service = SERVICES.find((s) => s.slug === slug);
 
   if (!service) {
@@ -166,10 +170,11 @@ export default async function ServicePage({ params }: Props) {
               {/* Category Badge */}
               <Badge className="mb-4 bg-red-primary/90 hover:bg-red-primary text-white border-0">
                 <IconComponent className="size-3.5 mr-1.5" weight="fill" />
-                {service.category === "especial" && "Servicio Principal"}
-                {service.category === "diagnostico" && "Diagnóstico"}
-                {service.category === "especialidad" && "Especialidad"}
-                {service.category === "mujer" && "Salud de la Mujer"}
+                {service.category === "especial" ? "Servicio Principal" :
+                 service.category === "diagnostico" ? "Diagnóstico" :
+                 service.category === "especialidad" ? "Especialidad" :
+                 service.category === "mujer" ? "Salud de la Mujer" :
+                 "Servicio Médico"}
               </Badge>
 
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-white mb-4 drop-shadow-lg">

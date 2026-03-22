@@ -22,14 +22,16 @@ Bilingual medical clinic website (Spanish/English) for Houston, TX using Next.js
 - Translations in `src/messages/{es,en}.json`
 - i18n config: `src/i18n/config.ts`, `routing.ts`, `request.ts`
 - next-intl plugin wraps config in `next.config.ts`
+- Use `Link` from `@/i18n/routing` for locale-aware navigation
 
 ### Key Files
 
 - `src/lib/constants.ts` - All business data: SITE_CONFIG, CONTACT_INFO, SERVICES[], PROMOTIONS[], BLOG_POSTS[], SOCIAL_LINKS
 - `src/lib/validations.ts` - Zod schemas for forms (contactFormSchema, contactFormSchemaEn)
 - `src/app/actions/send-contact-email.ts` - Server action for contact form (uses Resend)
-- `src/components/seo/json-ld.tsx` - MedicalClinic, FAQPage, BreadcrumbList schemas
+- `src/components/seo/json-ld.tsx` - MedicalClinic, FAQPage, BreadcrumbList, MedicalProcedure schemas
 - `src/app/globals.css` - CSS variables for colors (red primary palette)
+- `src/types/index.ts` - TypeScript interfaces for all data structures
 
 ### Component Organization
 
@@ -38,12 +40,33 @@ Bilingual medical clinic website (Spanish/English) for Houston, TX using Next.js
 - `components/layout/` - Header, Footer, FloatingButtons, LanguageSwitcher
 - `components/forms/` - ContactForm with react-hook-form + Zod
 
+### Icons
+
+Use `@phosphor-icons/react/dist/ssr` for Server Components (SSR-safe imports):
+```tsx
+import { Phone, MapPin } from "@phosphor-icons/react/dist/ssr";
+<Phone className="size-5" weight="fill" />
+```
+Icon weight variants: `regular`, `fill`, `duotone`, `bold`
+
 ### Blog System
 
 - Blog posts defined in `BLOG_POSTS[]` in constants.ts (not markdown files)
 - Posts have inline markdown content, parsed by `parseMarkdown()` in blog page
 - Routes: `/blog` (list), `/blog/[slug]` (post detail)
 - SEO: `JsonLdBlogPosting` component for structured data
+
+### Static Generation
+
+Service pages use `generateStaticParams` to pre-render all locale/slug combinations:
+```tsx
+export async function generateStaticParams() {
+  const locales = ["es", "en"];
+  return locales.flatMap((locale) =>
+    SERVICES.map((service) => ({ locale, slug: service.slug }))
+  );
+}
+```
 
 ### Data Flow
 
@@ -88,5 +111,13 @@ Required in `.env.local`:
 - `NEXT_PUBLIC_SITE_URL` - Production URL
 
 Optional:
+- `NEXT_PUBLIC_GOOGLE_MAPS_EMBED_KEY` - For embedded Google Maps
 - `GOOGLE_PLACES_API_KEY`, `GOOGLE_PLACE_ID` - For Google reviews
 - `NEXT_PUBLIC_GA_ID`, `NEXT_PUBLIC_GTM_ID` - Analytics
+
+## Performance Notes
+
+- Security headers configured in `next.config.ts` (HSTS, CSP, X-Frame-Options)
+- `optimizePackageImports` enabled for `@phosphor-icons/react`, `lucide-react`, Radix UI
+- Carousels use `embla-carousel-react` with autoplay plugin
+- Images optimized with quality 60-75 and 1-year cache TTL
