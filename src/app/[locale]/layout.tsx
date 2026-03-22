@@ -119,6 +119,11 @@ export default async function LocaleLayout({ children, params }: Props) {
       <head>
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#DC2626" />
+        {/* Preconnect to external domains for faster loading */}
+        <link rel="preconnect" href="https://cdn.callrail.com" />
+        <link rel="preconnect" href="https://maps.googleapis.com" />
+        <link rel="preconnect" href="https://lh3.googleusercontent.com" />
+        <link rel="dns-prefetch" href="https://cdn.callrail.com" />
         {/* CallRail - Call Tracking */}
         <script
           type="text/javascript"

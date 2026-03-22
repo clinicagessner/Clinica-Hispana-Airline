@@ -9,15 +9,16 @@ export async function Hero() {
 
   return (
     <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
-      {/* Background Image */}
+      {/* Background Image - Explicit dimensions for faster LCP */}
       <Image
         src="/images/hero-bg.webp"
         alt="Clínica médica hispana en Houston TX - Doctor atendiendo paciente con atención profesional 100% en español"
-        fill
+        width={1920}
+        height={1080}
         priority
         fetchPriority="high"
-        quality={60}
-        className="object-cover"
+        quality={50}
+        className="absolute inset-0 w-full h-full object-cover"
         sizes="100vw"
       />
 
