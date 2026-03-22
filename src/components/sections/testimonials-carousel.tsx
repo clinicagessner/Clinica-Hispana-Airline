@@ -131,19 +131,22 @@ export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
           <CaretLeft className="size-5" weight="bold" />
         </Button>
 
-        <div className="flex gap-2">
+        <div className="flex gap-1">
           {reviews.map((_, index) => (
             <button
               key={index}
               onClick={() => scrollTo(index)}
-              className={`size-3 rounded-full transition-colors duration-300 ${
-                index === selectedIndex
-                  ? "bg-red-primary scale-110"
-                  : "bg-slate-300 hover:bg-red-primary/50"
-              }`}
-              style={{ transform: index === selectedIndex ? 'scale(1.1)' : 'scale(1)' }}
+              className="size-8 flex items-center justify-center"
               aria-label={`Ir a review ${index + 1}`}
-            />
+            >
+              <span
+                className={`block rounded-full transition-colors duration-300 ${
+                  index === selectedIndex
+                    ? "size-3 bg-red-primary"
+                    : "size-2.5 bg-slate-300 hover:bg-red-primary/50"
+                }`}
+              />
+            </button>
           ))}
         </div>
 
