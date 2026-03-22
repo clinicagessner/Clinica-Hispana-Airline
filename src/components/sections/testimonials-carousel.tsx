@@ -108,7 +108,7 @@ export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
                     <p className="font-medium text-slate-dark text-sm">
                       {review.author_name}
                     </p>
-                    <p className="text-xs text-slate-400">
+                    <p className="text-xs text-slate-500">
                       {review.relative_time_description}
                     </p>
                   </div>
@@ -131,15 +131,15 @@ export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
           <CaretLeft className="size-5" weight="bold" />
         </Button>
 
-        <div className="flex gap-1.5">
+        <div className="flex gap-2">
           {reviews.map((_, index) => (
             <button
               key={index}
               onClick={() => scrollTo(index)}
-              className={`rounded-full transition-all duration-300 ${
+              className={`rounded-full transition-all duration-300 min-w-[24px] min-h-[24px] flex items-center justify-center ${
                 index === selectedIndex
-                  ? "w-6 h-2 bg-red-primary"
-                  : "w-2 h-2 bg-slate-300 hover:bg-red-primary/50"
+                  ? "w-8 h-6 bg-red-primary"
+                  : "w-6 h-6 bg-slate-300 hover:bg-red-primary/50"
               }`}
               aria-label={`Ir a review ${index + 1}`}
             />

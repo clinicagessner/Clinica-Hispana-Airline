@@ -5,7 +5,7 @@ export const SITE_CONFIG: SiteConfig = {
   shortName: "Clínica Hispana",
   tagline: "Atención médica profesional 100% en español",
   description: "Clínica médica hispana en Houston, TX. Atención profesional en español, sin cita previa, aceptamos pacientes sin seguro. Medicina familiar, urgencias menores, laboratorio y más.",
-  baseUrl: "https://clinicahispanaairline.com",
+  baseUrl: "https://www.clinicahispanaairline.com",
   locale: "es-MX",
   logoUrl: "/images/logo.webp",
 };

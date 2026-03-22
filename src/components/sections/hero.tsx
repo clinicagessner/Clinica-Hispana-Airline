@@ -15,7 +15,8 @@ export async function Hero() {
         alt="Clínica médica hispana en Houston TX - Doctor atendiendo paciente con atención profesional 100% en español"
         fill
         priority
-        quality={85}
+        fetchPriority="high"
+        quality={75}
         className="object-cover"
         sizes="100vw"
       />
