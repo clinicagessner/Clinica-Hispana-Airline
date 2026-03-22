@@ -1,11 +1,9 @@
 "use client";
 
-import { useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useLocale } from "next-intl";
 import { useTranslations } from "next-intl";
-import { motion, useInView } from "framer-motion";
 import {
   Phone,
   CalendarCheck,
@@ -35,28 +33,9 @@ const steps = [
   { number: 5, icon: FileText, title: "Formulario I-693" },
 ];
 
-const containerVariants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: { staggerChildren: 0.1 },
-  },
-} as const;
-
-const itemVariants = {
-  hidden: { opacity: 0, y: 20 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.5, ease: "easeOut" as const },
-  },
-};
-
 export function GreenCard() {
   const t = useTranslations("greenCard");
   const locale = useLocale();
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const getLocalizedHref = (href: string) => {
     if (locale === "es") return href;
@@ -80,42 +59,28 @@ export function GreenCard() {
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
-        <motion.div
-          ref={ref}
-          variants={containerVariants}
-          initial="hidden"
-          animate={isInView ? "visible" : "hidden"}
-        >
+        <div className="animate-on-scroll fade-up">
           {/* Badge */}
-          <motion.div variants={itemVariants} className="flex justify-center mb-6">
+          <div className="flex justify-center mb-6">
             <Badge className="bg-red-primary hover:bg-red-dark text-white text-sm px-5 py-2 shadow-lg">
               <ShieldCheck className="size-4 mr-2" weight="fill" />
               {t("badge")}
             </Badge>
-          </motion.div>
+          </div>
 
           {/* Title */}
-          <motion.h2
-            variants={itemVariants}
-            className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-heading font-bold text-white text-center mb-6"
-          >
+          <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-heading font-bold text-white text-center mb-6">
             Exámenes Médicos de Inmigración{" "}
             <span className="whitespace-nowrap">I-693</span>
-          </motion.h2>
+          </h2>
 
           {/* Subtitle */}
-          <motion.p
-            variants={itemVariants}
-            className="text-base md:text-lg lg:text-xl text-white/90 text-center max-w-3xl mx-auto mb-8 md:mb-12 px-2"
-          >
+          <p className="text-base md:text-lg lg:text-xl text-white/90 text-center max-w-3xl mx-auto mb-8 md:mb-12 px-2">
             {t("subtitle")}
-          </motion.p>
+          </p>
 
           {/* Steps Timeline */}
-          <motion.div
-            variants={itemVariants}
-            className="relative max-w-5xl mx-auto mb-12"
-          >
+          <div className="relative max-w-5xl mx-auto mb-12 animate-on-scroll fade-up stagger-1">
             {/* Desktop Timeline */}
             <div className="hidden md:block">
               {/* Connecting Line */}
@@ -173,13 +138,10 @@ export function GreenCard() {
                 ))}
               </div>
             </div>
-          </motion.div>
+          </div>
 
           {/* Features grid */}
-          <motion.div
-            variants={itemVariants}
-            className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4 max-w-5xl mx-auto mb-12"
-          >
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4 max-w-5xl mx-auto mb-12 animate-on-scroll fade-up stagger-2">
             {features.map((feature, idx) => (
               <div
                 key={idx}
@@ -191,13 +153,10 @@ export function GreenCard() {
                 <span className="text-xs md:text-sm text-white/90">{feature.text}</span>
               </div>
             ))}
-          </motion.div>
+          </div>
 
           {/* CTA Buttons */}
-          <motion.div
-            variants={itemVariants}
-            className="flex flex-col sm:flex-row justify-center gap-3 md:gap-4 px-4 sm:px-0"
-          >
+          <div className="flex flex-col sm:flex-row justify-center gap-3 md:gap-4 px-4 sm:px-0 animate-on-scroll fade-up stagger-3">
             <Button
               size="lg"
               className="bg-red-primary hover:bg-red-dark text-white gap-2 shadow-lg shadow-red-primary/30 text-sm md:text-base px-6 md:px-8 w-full sm:w-auto"
@@ -215,8 +174,8 @@ export function GreenCard() {
               <Phone className="size-5" weight="bold" />
               {t("ctaCall")}
             </a>
-          </motion.div>
-        </motion.div>
+          </div>
+        </div>
       </div>
     </section>
   );

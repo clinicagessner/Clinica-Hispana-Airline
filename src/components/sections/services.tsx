@@ -1,42 +1,16 @@
 "use client";
 
-import { useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useLocale } from "next-intl";
 import { useTranslations } from "next-intl";
-import { motion, useInView } from "framer-motion";
 import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { SERVICES } from "@/lib/constants";
 
-const containerVariants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.1,
-    },
-  },
-} as const;
-
-const itemVariants = {
-  hidden: { opacity: 0, y: 20 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.5,
-      ease: "easeOut" as const,
-    },
-  },
-};
-
 export function Services() {
   const t = useTranslations("services");
   const locale = useLocale();
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const getLocalizedHref = (href: string) => {
     if (locale === "es") return href;
@@ -59,19 +33,10 @@ export function Services() {
         </div>
 
         {/* Bento Grid */}
-        <motion.div
-          ref={ref}
-          variants={containerVariants}
-          initial="hidden"
-          animate={isInView ? "visible" : "hidden"}
-          className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 max-w-4xl mx-auto"
-        >
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 max-w-4xl mx-auto">
           {/* Card 1 - Large (spans 2 rows on md+) */}
           {highlightedServices[0] && (
-            <motion.div
-              variants={itemVariants}
-              className="md:row-span-2 group"
-            >
+            <div className="md:row-span-2 group animate-on-scroll fade-up">
               <Link
                 href={getLocalizedHref(`/services/${highlightedServices[0].slug}`)}
                 className="block relative h-72 md:h-full min-h-[280px] md:min-h-[360px] rounded-2xl overflow-hidden"
@@ -101,12 +66,12 @@ export function Services() {
                   </span>
                 </div>
               </Link>
-            </motion.div>
+            </div>
           )}
 
           {/* Card 2 - Top right */}
           {highlightedServices[1] && (
-            <motion.div variants={itemVariants} className="group">
+            <div className="group animate-on-scroll fade-up stagger-1">
               <Link
                 href={getLocalizedHref(`/services/${highlightedServices[1].slug}`)}
                 className="block relative h-72 md:h-[calc(50%-10px)] min-h-[170px] rounded-2xl overflow-hidden"
@@ -130,12 +95,12 @@ export function Services() {
                   </span>
                 </div>
               </Link>
-            </motion.div>
+            </div>
           )}
 
           {/* Card 3 - Bottom right */}
           {highlightedServices[2] && (
-            <motion.div variants={itemVariants} className="group">
+            <div className="group animate-on-scroll fade-up stagger-2">
               <Link
                 href={getLocalizedHref(`/services/${highlightedServices[2].slug}`)}
                 className="block relative h-72 md:h-[calc(50%-10px)] min-h-[170px] rounded-2xl overflow-hidden"
@@ -159,15 +124,12 @@ export function Services() {
                   </span>
                 </div>
               </Link>
-            </motion.div>
+            </div>
           )}
 
           {/* Card 4 - Bottom wide */}
           {highlightedServices[3] && (
-            <motion.div
-              variants={itemVariants}
-              className="md:col-span-2 group"
-            >
+            <div className="md:col-span-2 group animate-on-scroll fade-up stagger-3">
               <Link
                 href={getLocalizedHref(`/services/${highlightedServices[3].slug}`)}
                 className="block relative h-72 md:h-52 rounded-2xl overflow-hidden"
@@ -194,9 +156,9 @@ export function Services() {
                   </span>
                 </div>
               </Link>
-            </motion.div>
+            </div>
           )}
-        </motion.div>
+        </div>
 
         {/* View All Button */}
         <div className="text-center mt-12">
