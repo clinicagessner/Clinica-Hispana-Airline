@@ -5,22 +5,16 @@ import { useEffect } from "react";
 /**
  * Lightweight scroll animation hook using Intersection Observer
  * Adds 'is-visible' class to elements with 'animate-on-scroll' class
- *
- * Usage: Call this hook once in a layout or page component
+ * Uses MutationObserver to handle elements added after client-side navigation
  */
 export function useAnimateOnScroll() {
   useEffect(() => {
-    const elements = document.querySelectorAll(".animate-on-scroll");
-
-    if (elements.length === 0) return;
-
-    const observer = new IntersectionObserver(
+    const intersectionObserver = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add("is-visible");
-            // Once animated, stop observing for better performance
-            observer.unobserve(entry.target);
+            intersectionObserver.unobserve(entry.target);
           }
         });
       },
@@ -30,8 +24,28 @@ export function useAnimateOnScroll() {
       }
     );
 
-    elements.forEach((el) => observer.observe(el));
+    // Track observed elements to avoid duplicates
+    const observed = new WeakSet<Element>();
 
-    return () => observer.disconnect();
+    function observeNew() {
+      document.querySelectorAll(".animate-on-scroll:not(.is-visible)").forEach((el) => {
+        if (!observed.has(el)) {
+          observed.add(el);
+          intersectionObserver.observe(el);
+        }
+      });
+    }
+
+    // Observe existing elements
+    observeNew();
+
+    // Watch for new elements added to the DOM (RSC streaming, client-side nav)
+    const mutationObserver = new MutationObserver(observeNew);
+    mutationObserver.observe(document.body, { childList: true, subtree: true });
+
+    return () => {
+      intersectionObserver.disconnect();
+      mutationObserver.disconnect();
+    };
   }, []);
 }
