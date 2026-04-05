@@ -184,7 +184,7 @@ export default async function ServicePage({ params }: Props) {
               </h1>
 
               <p className="text-base sm:text-lg text-white/90 mb-6">
-                {service.longDescription}
+                {service.description}
               </p>
 
               {/* CTAs */}
@@ -215,8 +215,20 @@ export default async function ServicePage({ params }: Props) {
           </div>
         </section>
 
-        {/* Features Section */}
+        {/* Detailed Content Section */}
         <section className="py-12 md:py-16">
+          <div className="container mx-auto px-4">
+            <div className="max-w-3xl mx-auto">
+              <div
+                className="prose prose-slate max-w-none prose-headings:font-heading prose-headings:text-slate-dark prose-a:text-red-primary prose-strong:text-slate-dark prose-li:text-slate-600"
+                dangerouslySetInnerHTML={{ __html: parseServiceContent(service.longDescription) }}
+              />
+            </div>
+          </div>
+        </section>
+
+        {/* Features Section */}
+        <section className="py-12 md:py-16 bg-slate-50">
           <div className="container mx-auto px-4">
             <h2 className="text-2xl md:text-3xl font-heading font-bold text-slate-dark mb-8 text-center">
               {t("included")}
@@ -324,10 +336,30 @@ export default async function ServicePage({ params }: Props) {
       <JsonLdBreadcrumb items={breadcrumbs} />
       <JsonLdMedicalProcedure
         name={service.title}
-        description={service.longDescription}
+        description={service.description}
         image={service.image}
         url={`${SITE_CONFIG.baseUrl}${localePath}/services/${service.slug}`}
       />
     </>
   );
+}
+
+function parseServiceContent(content: string): string {
+  let html = content
+    .replace(/\*\*(.*?)\*\*/gim, '<strong>$1</strong>')
+    .replace(/^- (.*$)/gim, '<li>$1</li>')
+    .replace(/\n\n/gim, '</p><p>')
+    .replace(/\n/gim, '<br>');
+
+  html = `<p>${html}</p>`;
+
+  html = html
+    .replace(/<p><li>/g, '<ul><li>')
+    .replace(/<\/li><\/p>/g, '</li></ul>')
+    .replace(/<\/li><br><li>/g, '</li><li>')
+    .replace(/<br><ul>/g, '</p><ul>')
+    .replace(/<\/ul><br>/g, '</ul><p>')
+    .replace(/<p><\/p>/g, '');
+
+  return html;
 }
