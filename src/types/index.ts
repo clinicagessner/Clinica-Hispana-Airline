@@ -2,14 +2,19 @@ export interface Service {
   id: string;
   slug: string;
   title: string;
+  titleEn?: string;
   shortTitle: string;
   description: string;
+  descriptionEn?: string;
   longDescription: string;
+  longDescriptionEn?: string;
   icon: string;
   image: string;
   category: 'especial' | 'diagnostico' | 'mujer' | 'especialidad' | 'otro';
   keywords: string[];
+  keywordsEn?: string[];
   features: string[];
+  featuresEn?: string[];
   highlighted?: boolean;
   order: number;
 }

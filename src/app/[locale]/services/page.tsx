@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { getTranslations, getLocale } from "next-intl/server";
 import { ServicesFilter } from "@/components/services/services-filter";
 import { SERVICES, SITE_CONFIG } from "@/lib/constants";
+import { getLocalizedService } from "@/lib/utils";
 import { JsonLdCollectionPage } from "@/components/seo/json-ld";
 
 const categoryInfo: Record<string, { label: string; labelEn: string; iconName: string }> = {
@@ -61,7 +62,7 @@ export default async function ServicesPage() {
     iconName: categoryInfo[id].iconName,
   }));
 
-  const sortedServices = [...SERVICES].sort((a, b) => a.order - b.order);
+  const sortedServices = [...SERVICES].sort((a, b) => a.order - b.order).map((s) => getLocalizedService(s, locale));
 
   const localePath = locale === "en" ? "/en" : "";
 

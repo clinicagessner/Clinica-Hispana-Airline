@@ -34,6 +34,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { SERVICES, SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
+import { getLocalizedService } from "@/lib/utils";
 import { JsonLdBreadcrumb, JsonLdMedicalProcedure } from "@/components/seo/json-ld";
 
 const iconMap: Record<string, React.ElementType> = {
@@ -77,14 +78,15 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug, locale } = await params;
-  const service = SERVICES.find((s) => s.slug === slug);
+  const rawService = SERVICES.find((s) => s.slug === slug);
 
-  if (!service) {
+  if (!rawService) {
     return {
       title: "Servicio no encontrado",
     };
   }
 
+  const service = getLocalizedService(rawService, locale);
   const localePath = locale === "en" ? "/en" : "";
 
   return {
@@ -121,18 +123,19 @@ export default async function ServicePage({ params }: Props) {
   setRequestLocale(locale);
 
   const t = await getTranslations("services");
-  const service = SERVICES.find((s) => s.slug === slug);
+  const rawService = SERVICES.find((s) => s.slug === slug);
 
-  if (!service) {
+  if (!rawService) {
     notFound();
   }
 
+  const service = getLocalizedService(rawService, locale);
   const IconComponent = iconMap[service.icon] || Stethoscope;
 
   // Get related services (same category, excluding current)
   const relatedServices = SERVICES.filter(
-    (s) => s.category === service.category && s.id !== service.id
-  ).slice(0, 3);
+    (s) => s.category === rawService.category && s.id !== rawService.id
+  ).slice(0, 3).map((s) => getLocalizedService(s, locale));
 
   const localePath = locale === "en" ? "/en" : "";
   const breadcrumbs = [
