@@ -35,7 +35,8 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { SERVICES, SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
 import { getLocalizedService } from "@/lib/utils";
-import { JsonLdBreadcrumb, JsonLdMedicalProcedure } from "@/components/seo/json-ld";
+import { getServiceFAQs } from "@/lib/service-faqs";
+import { JsonLdBreadcrumb, JsonLdMedicalProcedure, JsonLdFAQ } from "@/components/seo/json-ld";
 
 const iconMap: Record<string, React.ElementType> = {
   Stethoscope,
@@ -281,6 +282,37 @@ export default async function ServicePage({ params }: Props) {
           </div>
         </section>
 
+        {/* FAQ Section */}
+        {getServiceFAQs(rawService.slug, locale).length > 0 && (
+          <section className="py-12 md:py-16">
+            <div className="container mx-auto px-4">
+              <div className="max-w-3xl mx-auto">
+                <h2 className="text-2xl md:text-3xl font-heading font-bold text-slate-dark mb-8 text-center">
+                  {locale === "en" ? "Frequently Asked Questions" : "Preguntas Frecuentes"}
+                </h2>
+                <div className="space-y-4">
+                  {getServiceFAQs(rawService.slug, locale).map((faq, index) => (
+                    <details
+                      key={index}
+                      className="group bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-all"
+                    >
+                      <summary className="flex items-center justify-between gap-4 p-5 cursor-pointer list-none font-medium text-slate-dark group-open:text-red-primary transition-colors">
+                        <span>{faq.question}</span>
+                        <span className="shrink-0 text-slate-400 group-open:rotate-180 transition-transform">
+                          ▾
+                        </span>
+                      </summary>
+                      <div className="px-5 pb-5 text-slate-600 leading-relaxed">
+                        {faq.answer}
+                      </div>
+                    </details>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </section>
+        )}
+
         {/* Related Services */}
         {relatedServices.length > 0 && (
           <section className="py-12 md:py-16 bg-slate-50">
@@ -343,6 +375,9 @@ export default async function ServicePage({ params }: Props) {
         image={service.image}
         url={`${SITE_CONFIG.baseUrl}${localePath}/services/${service.slug}`}
       />
+      {getServiceFAQs(rawService.slug, locale).length > 0 && (
+        <JsonLdFAQ questions={getServiceFAQs(rawService.slug, locale)} />
+      )}
     </>
   );
 }
