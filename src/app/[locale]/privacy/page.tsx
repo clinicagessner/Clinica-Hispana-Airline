@@ -3,12 +3,19 @@ import Link from "next/link";
 import { Phone, MapPin, Envelope, ArrowLeft } from "@phosphor-icons/react/dist/ssr";
 import { SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
 
-export async function generateMetadata(): Promise<Metadata> {
+type MetadataProps = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata({ params }: MetadataProps): Promise<Metadata> {
+  const { locale } = await params;
+  const localePath = locale === "en" ? "/en" : "";
+
   return {
     title: "Política de Privacidad HIPAA",
     description: `Política de privacidad y aviso de prácticas de privacidad HIPAA de ${SITE_CONFIG.name}. Conozca cómo protegemos su información de salud.`,
     alternates: {
-      canonical: `${SITE_CONFIG.baseUrl}/privacy`,
+      canonical: `${SITE_CONFIG.baseUrl}${localePath}/privacy`,
       languages: {
         es: "/privacy",
         en: "/en/privacy",
@@ -17,7 +24,7 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       title: `Política de Privacidad HIPAA | ${SITE_CONFIG.name}`,
       description: `Política de privacidad y aviso de prácticas de privacidad HIPAA. Conozca cómo protegemos su información de salud en ${SITE_CONFIG.name}.`,
-      url: `${SITE_CONFIG.baseUrl}/privacy`,
+      url: `${SITE_CONFIG.baseUrl}${localePath}/privacy`,
       type: "website",
     },
     robots: {

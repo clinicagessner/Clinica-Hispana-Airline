@@ -33,11 +33,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
+  const localePath = locale === "en" ? "/en" : "";
+
   return {
     title: post.title,
     description: post.description,
     alternates: {
-      canonical: `${SITE_CONFIG.baseUrl}/blog/${slug}`,
+      canonical: `${SITE_CONFIG.baseUrl}${localePath}/blog/${slug}`,
       languages: {
         es: `/blog/${slug}`,
         en: `/en/blog/${slug}`,

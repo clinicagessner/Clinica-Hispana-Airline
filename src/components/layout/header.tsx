@@ -80,9 +80,9 @@ export function Header() {
 
   const isActiveLink = (href: string) => {
     if (href.includes("#")) {
-      return activeSection === href.split("#")[1];
+      return isHomepage && activeSection === href.split("#")[1];
     }
-    return false;
+    return pathname.startsWith(href) && href !== "/";
   };
 
   return (

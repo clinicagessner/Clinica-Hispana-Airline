@@ -16,11 +16,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "blog" });
 
+  const localePath = locale === "en" ? "/en" : "";
+
   return {
     title: t("metaTitle"),
     description: t("metaDescription"),
     alternates: {
-      canonical: `${SITE_CONFIG.baseUrl}/blog`,
+      canonical: `${SITE_CONFIG.baseUrl}${localePath}/blog`,
       languages: {
         es: "/blog",
         en: "/en/blog",
@@ -30,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: t("metaTitle"),
       description: t("metaDescription"),
       type: "website",
-      url: `${SITE_CONFIG.baseUrl}/blog`,
+      url: `${SITE_CONFIG.baseUrl}${localePath}/blog`,
     },
   };
 }

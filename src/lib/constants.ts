@@ -18,7 +18,7 @@ export const CONTACT_INFO: ContactInfo = {
   phone: "+13466264110",
   phoneFormatted: "+1 (346) 626-4110",
   email: "clinicahispanaairline@gmail.com",
-  hours: "Lunes a Domingo: 9:00 AM - 9:00 PM",
+  hours: "Lun-Vie: 9AM-9PM · Sáb-Dom: 10AM-6PM",
   hoursWeekday: "Lunes a Viernes: 9:00 AM - 9:00 PM",
   hoursWeekend: "Sábado y Domingo: 10:00 AM - 6:00 PM",
   googleMapsUrl: "https://www.google.com/maps/search/Clinica+Hispana+Airline+934+E+Tidwell+Rd+Houston+TX+77022",
@@ -537,9 +537,9 @@ export const FAQ_ITEMS: FAQItem[] = [
 ];
 
 export const NAV_ITEMS = [
-  { label: "nav.services", href: "/#services" },
+  { label: "nav.services", href: "/services" },
   { label: "nav.greenCard", href: "/#green-card" },
-  { label: "nav.blog", href: "/#blog" },
+  { label: "nav.blog", href: "/blog" },
   { label: "nav.contact", href: "/#contact" },
 ];
 

@@ -64,7 +64,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     metadataBase: new URL(SITE_CONFIG.baseUrl),
     alternates: {
-      canonical: "/",
+      canonical: locale === "en" ? "/en" : "/",
       languages: {
         es: "/",
         en: "/en",

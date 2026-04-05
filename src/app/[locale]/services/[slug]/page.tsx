@@ -85,12 +85,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
+  const localePath = locale === "en" ? "/en" : "";
+
   return {
     title: service.title,
     description: service.description,
     keywords: service.keywords,
     alternates: {
-      canonical: `${SITE_CONFIG.baseUrl}/services/${slug}`,
+      canonical: `${SITE_CONFIG.baseUrl}${localePath}/services/${slug}`,
       languages: {
         es: `/services/${slug}`,
         en: `/en/services/${slug}`,
@@ -99,7 +101,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: `${service.title} | ${SITE_CONFIG.name}`,
       description: service.description,
-      url: `${SITE_CONFIG.baseUrl}/${locale === "en" ? "en/" : ""}services/${slug}`,
+      url: `${SITE_CONFIG.baseUrl}${localePath}/services/${slug}`,
       images: [
         {
           url: `${SITE_CONFIG.baseUrl}${service.image}`,

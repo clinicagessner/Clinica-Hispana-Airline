@@ -13,14 +13,20 @@ const categoryInfo: Record<string, { label: string; labelEn: string; iconName: s
 
 const categoryOrder = ["especial", "diagnostico", "mujer", "especialidad"];
 
-export async function generateMetadata(): Promise<Metadata> {
-  const t = await getTranslations("services");
+type MetadataProps = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata({ params }: MetadataProps): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "services" });
+  const localePath = locale === "en" ? "/en" : "";
 
   return {
     title: t("title"),
     description: `${t("subtitle")} - ${SITE_CONFIG.name}`,
     alternates: {
-      canonical: `${SITE_CONFIG.baseUrl}/services`,
+      canonical: `${SITE_CONFIG.baseUrl}${localePath}/services`,
       languages: {
         es: "/services",
         en: "/en/services",
@@ -29,7 +35,7 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       title: t("title"),
       description: t("subtitle"),
-      url: `${SITE_CONFIG.baseUrl}/services`,
+      url: `${SITE_CONFIG.baseUrl}${localePath}/services`,
       images: [
         {
           url: `${SITE_CONFIG.baseUrl}/images/clinic-interior.webp`,
