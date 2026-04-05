@@ -18,7 +18,7 @@ export async function Location() {
     { icon: Car, label: t("features.parking") },
     { icon: Wheelchair, label: t("features.wheelchair") },
     { icon: Bus, label: t("features.bus") },
-    { icon: Clock, label: CONTACT_INFO.hours },
+    { icon: Clock, label: t("hours") },
   ];
 
   return (

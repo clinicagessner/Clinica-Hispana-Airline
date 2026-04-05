@@ -93,7 +93,7 @@ export async function Hero() {
             {/* Hours */}
             <div className="flex items-center gap-2">
               <Clock className="size-5" weight="fill" />
-              <span className="text-sm font-medium">{CONTACT_INFO.hours}</span>
+              <span className="text-sm font-medium">{t("hours")}</span>
             </div>
 
             <div className="hidden md:block w-px h-5 bg-white/30" />

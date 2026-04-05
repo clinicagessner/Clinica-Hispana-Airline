@@ -94,9 +94,9 @@ export async function Contact() {
                   <div>
                     <p className="font-medium mb-1">{t("info.hours")}</p>
                     <p className="text-white/80">
-                      {CONTACT_INFO.hoursWeekday}
+                      {t("info.hoursWeekday")}
                       <br />
-                      {CONTACT_INFO.hoursWeekend}
+                      {t("info.hoursWeekend")}
                     </p>
                   </div>
                 </div>
@@ -105,7 +105,7 @@ export async function Contact() {
               {/* Footer note */}
               <div className="relative mt-8 pt-8 border-t border-white/20">
                 <p className="text-white/70 text-sm">
-                  Estamos ubicados en el corazón de Houston, con fácil acceso y estacionamiento gratuito.
+                  {t("info.footerNote")}
                 </p>
               </div>
             </div>

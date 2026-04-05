@@ -45,13 +45,13 @@ export async function Footer() {
               <Button asChild size="sm" className="gap-2 bg-red-primary hover:bg-red-dark">
                 <a href={`tel:${CONTACT_INFO.phone}`}>
                   <Phone className="size-4" weight="fill" />
-                  Llamar
+                  {t("cta.callNow")}
                 </a>
               </Button>
               <Button asChild size="sm" variant="outline" className="gap-2 bg-white/10 border-white/50 text-white hover:bg-white hover:text-slate-dark hover:border-white">
                 <a href={CONTACT_INFO.googleMapsUrl} target="_blank" rel="noopener noreferrer">
                   <MapPin className="size-4" weight="fill" />
-                  Ubicación
+                  {t("cta.getDirections")}
                 </a>
               </Button>
             </div>
@@ -89,8 +89,8 @@ export async function Footer() {
               <li className="flex items-start gap-3 text-white/70 text-sm">
                 <Clock className="size-5 shrink-0 mt-0.5 text-red-primary" weight="fill" />
                 <div>
-                  <p>{CONTACT_INFO.hoursWeekday}</p>
-                  <p>{CONTACT_INFO.hoursWeekend}</p>
+                  <p>{t("footer.hoursWeekday")}</p>
+                  <p>{t("footer.hoursWeekend")}</p>
                 </div>
               </li>
             </ul>
@@ -123,7 +123,7 @@ export async function Footer() {
           {/* Social Links */}
           <div>
             <h3 className="font-heading font-bold text-lg mb-5">
-              Síguenos
+              {t("footer.followUs")}
             </h3>
             <div className="flex flex-wrap gap-3 mb-6">
               {SOCIAL_LINKS.facebook && (
@@ -196,7 +196,7 @@ export async function Footer() {
                   </svg>
                 ))}
               </div>
-              <p className="text-xs text-white/60 mt-1">5.0 estrellas</p>
+              <p className="text-xs text-white/60 mt-1">{locale === "en" ? "5.0 stars" : "5.0 estrellas"}</p>
             </div>
           </div>
         </div>
@@ -206,9 +206,9 @@ export async function Footer() {
       <div className="border-t border-white/10">
         <div className="container mx-auto px-4 py-5">
           <div className="flex flex-col md:flex-row justify-between items-center gap-3 text-sm text-white/60">
-            <p>© {currentYear} {SITE_CONFIG.name}. Todos los derechos reservados.</p>
+            <p>{t("footer.copyright", { year: currentYear })}</p>
             <p>
-              Creado por{" "}
+              {t("footer.madeBy")}{" "}
               <a
                 href="https://rcweb.dev"
                 target="_blank"
