@@ -9,6 +9,7 @@ import { FloatingButtons } from "@/components/layout/floating-buttons";
 import { ScrollToTop } from "@/components/layout/scroll-to-top";
 import { JsonLdMedicalClinic } from "@/components/seo/json-ld";
 import { ScrollAnimations } from "@/components/animations/scroll-animations";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { SITE_CONFIG } from "@/lib/constants";
 import "../globals.css";
 
@@ -149,6 +150,7 @@ export default async function LocaleLayout({ children, params }: Props) {
             <ScrollToTop />
             <JsonLdMedicalClinic />
             <ScrollAnimations />
+            <SpeedInsights />
           </TooltipProvider>
         </NextIntlClientProvider>
       </body>
