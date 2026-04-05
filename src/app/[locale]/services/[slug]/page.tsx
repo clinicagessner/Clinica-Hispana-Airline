@@ -33,6 +33,7 @@ import {
 } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { SERVICES, SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
 import { getLocalizedService } from "@/lib/utils";
 import { getServiceFAQs } from "@/lib/service-faqs";
@@ -222,11 +223,8 @@ export default async function ServicePage({ params }: Props) {
         {/* Detailed Content Section */}
         <section className="py-12 md:py-16">
           <div className="container mx-auto px-4">
-            <div className="max-w-3xl mx-auto">
-              <div
-                className="prose prose-slate max-w-none prose-headings:font-heading prose-headings:text-slate-dark prose-a:text-red-primary prose-strong:text-slate-dark prose-li:text-slate-600"
-                dangerouslySetInnerHTML={{ __html: parseServiceContent(service.longDescription) }}
-              />
+            <div className="max-w-4xl mx-auto">
+              <ServiceContent content={service.longDescription} />
             </div>
           </div>
         </section>
@@ -284,30 +282,33 @@ export default async function ServicePage({ params }: Props) {
 
         {/* FAQ Section */}
         {getServiceFAQs(rawService.slug, locale).length > 0 && (
-          <section className="py-12 md:py-16">
+          <section className="py-12 md:py-16 bg-red-bg">
             <div className="container mx-auto px-4">
               <div className="max-w-3xl mx-auto">
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-slate-dark mb-8 text-center">
                   {locale === "en" ? "Frequently Asked Questions" : "Preguntas Frecuentes"}
                 </h2>
-                <div className="space-y-4">
+                <Accordion type="single" collapsible className="space-y-3">
                   {getServiceFAQs(rawService.slug, locale).map((faq, index) => (
-                    <details
+                    <AccordionItem
                       key={index}
-                      className="group bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-all"
+                      value={`faq-${index}`}
+                      className="group bg-white border border-slate-100 rounded-2xl px-6 shadow-sm hover:shadow-md hover:border-red-primary/20 transition-all duration-300 data-[state=open]:border-red-primary/30 data-[state=open]:shadow-md"
                     >
-                      <summary className="flex items-center justify-between gap-4 p-5 cursor-pointer list-none font-medium text-slate-dark group-open:text-red-primary transition-colors">
-                        <span>{faq.question}</span>
-                        <span className="shrink-0 text-slate-400 group-open:rotate-180 transition-transform">
-                          ▾
+                      <AccordionTrigger className="text-left font-semibold text-slate-dark hover:text-red-primary hover:no-underline py-5 data-[state=open]:text-red-primary">
+                        <span className="flex items-center gap-4">
+                          <span className="flex items-center justify-center size-8 rounded-lg bg-red-bg text-red-primary text-sm font-bold group-data-[state=open]:bg-red-primary group-data-[state=open]:text-white transition-colors">
+                            {String(index + 1).padStart(2, "0")}
+                          </span>
+                          <span className="flex-1">{faq.question}</span>
                         </span>
-                      </summary>
-                      <div className="px-5 pb-5 text-slate-600 leading-relaxed">
+                      </AccordionTrigger>
+                      <AccordionContent className="text-muted-foreground pb-5 pl-12 leading-relaxed">
                         {faq.answer}
-                      </div>
-                    </details>
+                      </AccordionContent>
+                    </AccordionItem>
                   ))}
-                </div>
+                </Accordion>
               </div>
             </div>
           </section>
@@ -382,22 +383,56 @@ export default async function ServicePage({ params }: Props) {
   );
 }
 
-function parseServiceContent(content: string): string {
-  let html = content
-    .replace(/\*\*(.*?)\*\*/gim, '<strong>$1</strong>')
-    .replace(/^- (.*$)/gim, '<li>$1</li>')
-    .replace(/\n\n/gim, '</p><p>')
-    .replace(/\n/gim, '<br>');
+function ServiceContent({ content }: { content: string }) {
+  const sections = content.split("\n\n");
 
-  html = `<p>${html}</p>`;
+  return (
+    <div className="space-y-6">
+      {sections.map((section, i) => {
+        const trimmed = section.trim();
 
-  html = html
-    .replace(/<p><li>/g, '<ul><li>')
-    .replace(/<\/li><\/p>/g, '</li></ul>')
-    .replace(/<\/li><br><li>/g, '</li><li>')
-    .replace(/<br><ul>/g, '</p><ul>')
-    .replace(/<\/ul><br>/g, '</ul><p>')
-    .replace(/<p><\/p>/g, '');
+        // Section with heading: **Title**\n content
+        if (trimmed.startsWith("**")) {
+          const lines = trimmed.split("\n");
+          const headingMatch = lines[0].match(/^\*\*(.*?)\*\*$/);
+          const heading = headingMatch ? headingMatch[1] : lines[0].replace(/\*\*/g, "");
+          const listItems = lines.slice(1).filter((l) => l.startsWith("- ")).map((l) => l.replace(/^- /, ""));
+          const paragraphs = lines.slice(1).filter((l) => !l.startsWith("- ") && l.trim());
 
-  return html;
+          return (
+            <div key={i}>
+              <h3 className="text-lg md:text-xl font-heading font-bold text-slate-dark mb-3 flex items-center gap-2">
+                <span className="size-1.5 rounded-full bg-red-primary shrink-0" />
+                {heading}
+              </h3>
+              {listItems.length > 0 && (
+                <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-2 ml-4">
+                  {listItems.map((item, j) => (
+                    <li key={j} className="flex items-start gap-2.5 text-slate-600">
+                      <CheckCircle className="size-4 text-red-primary shrink-0 mt-1" weight="fill" />
+                      <span className="text-sm md:text-base">{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+              {paragraphs.map((p, j) => (
+                <p key={j} className="text-slate-600 leading-relaxed mt-2 ml-4 text-sm md:text-base">{p}</p>
+              ))}
+            </div>
+          );
+        }
+
+        // Regular paragraph
+        if (trimmed) {
+          return (
+            <p key={i} className="text-slate-600 leading-relaxed text-sm md:text-base">
+              {trimmed}
+            </p>
+          );
+        }
+
+        return null;
+      })}
+    </div>
+  );
 }
