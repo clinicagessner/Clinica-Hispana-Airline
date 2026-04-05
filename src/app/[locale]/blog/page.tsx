@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import { BLOG_POSTS, SITE_CONFIG } from "@/lib/constants";
+import { getBlogTranslation } from "@/lib/blog-translations";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { CalendarDots, Clock, ArrowRight } from "@phosphor-icons/react/dist/ssr";
@@ -46,8 +47,16 @@ export default async function BlogPage({ params }: Props) {
     return href.startsWith("/") ? `/${locale}${href}` : `/${locale}/${href}`;
   };
 
+  const localizePost = (post: typeof BLOG_POSTS[0]) => {
+    if (locale !== "en") return post;
+    const t = getBlogTranslation(post.slug);
+    if (!t) return post;
+    return { ...post, title: t.titleEn, description: t.descriptionEn, category: t.categoryEn };
+  };
+
   const featuredPost = BLOG_POSTS.find((post) => post.featured);
-  const regularPosts = BLOG_POSTS.filter((post) => !post.featured);
+  const localizedFeatured = featuredPost ? localizePost(featuredPost) : null;
+  const regularPosts = BLOG_POSTS.filter((post) => !post.featured).map(localizePost);
 
   const localePath = locale === "en" ? "/en" : "";
 
@@ -71,15 +80,15 @@ export default async function BlogPage({ params }: Props) {
         </div>
 
         {/* Featured Post */}
-        {featuredPost && (
+        {localizedFeatured && (
           <div className="mb-16">
-            <Link href={getLocalizedHref(`/blog/${featuredPost.slug}`)} className="block group">
+            <Link href={getLocalizedHref(`/blog/${localizedFeatured.slug}`)} className="block group">
               <Card className="overflow-hidden border-0 shadow-lg hover:shadow-xl transition-shadow">
                 <div className="grid md:grid-cols-2 gap-0">
                   <div className="relative aspect-video md:aspect-auto md:min-h-[400px]">
                     <Image
-                      src={featuredPost.image || "/images/blog/default.webp"}
-                      alt={`${featuredPost.title} - Blog de salud Clínica Hispana Airline Houston`}
+                      src={localizedFeatured.image || "/images/blog/default.webp"}
+                      alt={`${localizedFeatured.title} - Blog de salud Clínica Hispana Airline Houston`}
                       fill
                       className="object-cover"
                       priority
@@ -89,30 +98,30 @@ export default async function BlogPage({ params }: Props) {
                     </Badge>
                   </div>
                   <CardContent className="flex flex-col justify-center p-6 md:p-10">
-                    {featuredPost.category && (
+                    {localizedFeatured.category && (
                       <Badge variant="outline" className="w-fit mb-4">
-                        {featuredPost.category}
+                        {localizedFeatured.category}
                       </Badge>
                     )}
                     <h2 className="text-2xl md:text-3xl font-bold text-primary mb-4 group-hover:text-red-primary transition-colors">
-                      {featuredPost.title}
+                      {localizedFeatured.title}
                     </h2>
                     <p className="text-muted-foreground mb-6">
-                      {featuredPost.description}
+                      {localizedFeatured.description}
                     </p>
                     <div className="flex items-center gap-4 text-sm text-muted-foreground mb-6">
                       <span className="flex items-center gap-1">
                         <CalendarDots className="w-4 h-4" />
-                        {new Date(featuredPost.date).toLocaleDateString(locale, {
+                        {new Date(localizedFeatured.date).toLocaleDateString(locale, {
                           year: "numeric",
                           month: "long",
                           day: "numeric",
                         })}
                       </span>
-                      {featuredPost.readTime && (
+                      {localizedFeatured.readTime && (
                         <span className="flex items-center gap-1">
                           <Clock className="w-4 h-4" />
-                          {featuredPost.readTime} {t("minRead")}
+                          {localizedFeatured.readTime} {t("minRead")}
                         </span>
                       )}
                     </div>

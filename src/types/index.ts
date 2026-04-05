@@ -15,6 +15,8 @@ export interface Service {
   keywordsEn?: string[];
   features: string[];
   featuresEn?: string[];
+  faqs?: { question: string; answer: string }[];
+  faqsEn?: { question: string; answer: string }[];
   highlighted?: boolean;
   order: number;
 }
@@ -60,16 +62,21 @@ export interface GoogleReview {
 export interface BlogPost {
   slug: string;
   title: string;
+  titleEn?: string;
   description: string;
+  descriptionEn?: string;
   date: string;
   dateModified?: string;
   author: string;
   image?: string;
   featured?: boolean;
   content: string;
+  contentEn?: string;
   category?: string;
+  categoryEn?: string;
   readTime?: number;
   keywords?: string[];
+  keywordsEn?: string[];
 }
 
 export interface FAQItem {

@@ -4,6 +4,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { BLOG_POSTS, SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
+import { getBlogTranslation } from "@/lib/blog-translations";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { CalendarDots, Clock, ArrowLeft, Phone } from "@phosphor-icons/react/dist/ssr";
@@ -25,19 +26,22 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug, locale } = await params;
-  const post = BLOG_POSTS.find((p) => p.slug === slug);
+  const rawPost = BLOG_POSTS.find((p) => p.slug === slug);
 
-  if (!post) {
+  if (!rawPost) {
     return {
       title: "Post not found",
     };
   }
 
+  const translation = locale === "en" ? getBlogTranslation(rawPost.slug) : null;
+  const title = translation?.titleEn || rawPost.title;
+  const description = translation?.descriptionEn || rawPost.description;
   const localePath = locale === "en" ? "/en" : "";
 
   return {
-    title: post.title,
-    description: post.description,
+    title,
+    description,
     alternates: {
       canonical: `${SITE_CONFIG.baseUrl}${localePath}/blog/${slug}`,
       languages: {
@@ -46,28 +50,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       },
     },
     openGraph: {
-      title: post.title,
-      description: post.description,
+      title,
+      description,
       type: "article",
-      publishedTime: post.date,
-      authors: [post.author],
-      url: `${SITE_CONFIG.baseUrl}/${locale}/blog/${slug}`,
-      images: post.image
+      publishedTime: rawPost.date,
+      authors: [rawPost.author],
+      url: `${SITE_CONFIG.baseUrl}${localePath}/blog/${slug}`,
+      images: rawPost.image
         ? [
             {
-              url: post.image,
+              url: rawPost.image,
               width: 1200,
               height: 630,
-              alt: post.title,
+              alt: title,
             },
           ]
         : undefined,
     },
     twitter: {
       card: "summary_large_image",
-      title: post.title,
-      description: post.description,
-      images: post.image ? [post.image] : undefined,
+      title,
+      description,
+      images: rawPost.image ? [rawPost.image] : undefined,
     },
   };
 }
@@ -85,11 +89,20 @@ export default async function BlogPostPage({ params }: Props) {
     return href.startsWith("/") ? `/${locale}${href}` : `/${locale}/${href}`;
   };
 
-  const post = BLOG_POSTS.find((p) => p.slug === slug);
+  const rawPost = BLOG_POSTS.find((p) => p.slug === slug);
 
-  if (!post) {
+  if (!rawPost) {
     notFound();
   }
+
+  const translation = locale === "en" ? getBlogTranslation(rawPost.slug) : null;
+  const post = {
+    ...rawPost,
+    title: translation?.titleEn || rawPost.title,
+    description: translation?.descriptionEn || rawPost.description,
+    content: translation?.contentEn || rawPost.content,
+    category: translation?.categoryEn || rawPost.category,
+  };
 
   return (
     <>
