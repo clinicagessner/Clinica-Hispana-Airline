@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { setRequestLocale } from "next-intl/server";
 import { Phone, MapPin, Envelope, ArrowLeft } from "@phosphor-icons/react/dist/ssr";
 import { SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
 
@@ -34,7 +35,14 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
   };
 }
 
-export default async function PrivacyPage() {
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export default async function PrivacyPage({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
   return (
     <div className="pt-28 pb-16 md:pt-32 md:pb-24 bg-red-warm min-h-screen">
       <div className="container mx-auto px-4">

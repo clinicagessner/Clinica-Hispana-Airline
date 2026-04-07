@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { getTranslations, getLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ServicesFilter } from "@/components/services/services-filter";
 import { SERVICES, SITE_CONFIG } from "@/lib/constants";
 import { getLocalizedService } from "@/lib/utils";
@@ -51,12 +51,15 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
   };
 }
 
-export default async function ServicesPage() {
-  // Parallel fetching - eliminates waterfall
-  const [t, locale] = await Promise.all([
-    getTranslations("services"),
-    getLocale()
-  ]);
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export default async function ServicesPage({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
+  const t = await getTranslations("services");
 
   const categories = categoryOrder.map((id) => ({
     id,

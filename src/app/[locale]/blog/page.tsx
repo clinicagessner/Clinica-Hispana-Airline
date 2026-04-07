@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { BLOG_POSTS, SITE_CONFIG } from "@/lib/constants";
 import { getBlogTranslation } from "@/lib/blog-translations";
 import { Badge } from "@/components/ui/badge";
@@ -40,6 +40,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function BlogPage({ params }: Props) {
   const { locale } = await params;
+  setRequestLocale(locale);
+
   const t = await getTranslations({ locale, namespace: "blog" });
 
   const getLocalizedHref = (href: string) => {
