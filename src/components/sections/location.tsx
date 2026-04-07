@@ -92,7 +92,7 @@ export async function Location() {
                 >
                   <a href={`tel:${CONTACT_INFO.phone}`}>
                     <Phone className="size-4" weight="fill" />
-                    Llamar
+                    {t("call")}
                   </a>
                 </Button>
               </div>

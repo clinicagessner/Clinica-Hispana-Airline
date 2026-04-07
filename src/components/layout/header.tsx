@@ -164,7 +164,7 @@ export function Header() {
               <SheetContent side="right" className="w-[300px] sm:w-[350px]">
                 <SheetTitle className="sr-only">{t("nav.menu")}</SheetTitle>
                 <SheetDescription className="sr-only">
-                  Menú de navegación principal
+                  {t("accessibility.menuDescription")}
                 </SheetDescription>
                 <div className="flex flex-col h-full">
                   <div className="flex items-center justify-between mb-8">

@@ -196,7 +196,7 @@ export async function Footer() {
                   </svg>
                 ))}
               </div>
-              <p className="text-xs text-white/60 mt-1">{locale === "en" ? "5.0 stars" : "5.0 estrellas"}</p>
+              <p className="text-xs text-white/60 mt-1">{t("footer.stars")}</p>
             </div>
           </div>
         </div>

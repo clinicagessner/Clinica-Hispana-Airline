@@ -177,11 +177,11 @@ export default async function ServicePage({ params }: Props) {
               {/* Category Badge */}
               <Badge className="mb-4 bg-red-primary/90 hover:bg-red-primary text-white border-0">
                 <IconComponent className="size-3.5 mr-1.5" weight="fill" />
-                {service.category === "especial" ? "Servicio Principal" :
-                 service.category === "diagnostico" ? "Diagnóstico" :
-                 service.category === "especialidad" ? "Especialidad" :
-                 service.category === "mujer" ? "Salud de la Mujer" :
-                 "Servicio Médico"}
+                {service.category === "especial" ? t("categoryEspecial") :
+                 service.category === "diagnostico" ? t("categoryDiagnostico") :
+                 service.category === "especialidad" ? t("categoryEspecialidad") :
+                 service.category === "mujer" ? t("categoryMujer") :
+                 t("categoryDefault")}
               </Badge>
 
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-white mb-4 drop-shadow-lg">
@@ -258,10 +258,10 @@ export default async function ServicePage({ params }: Props) {
             <div className="flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
               <div>
                 <h3 className="text-xl md:text-2xl font-heading font-bold text-white mb-1">
-                  ¿Listo para agendar su cita?
+                  {t("readyToSchedule")}
                 </h3>
                 <p className="text-white/90">
-                  Llámenos ahora o visítenos sin cita previa
+                  {t("callOrVisit")}
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-3">
@@ -286,7 +286,7 @@ export default async function ServicePage({ params }: Props) {
             <div className="container mx-auto px-4">
               <div className="max-w-3xl mx-auto">
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-slate-dark mb-8 text-center">
-                  {locale === "en" ? "Frequently Asked Questions" : "Preguntas Frecuentes"}
+                  {t("faqTitle")}
                 </h2>
                 <Accordion type="single" collapsible className="space-y-3">
                   {getServiceFAQs(rawService.slug, locale).map((faq, index) => (
@@ -319,7 +319,7 @@ export default async function ServicePage({ params }: Props) {
           <section className="py-12 md:py-16 bg-slate-50">
             <div className="container mx-auto px-4">
               <h2 className="text-2xl md:text-3xl font-heading font-bold text-slate-dark mb-8 text-center">
-                Servicios Relacionados
+                {t("relatedServices")}
               </h2>
 
               <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">

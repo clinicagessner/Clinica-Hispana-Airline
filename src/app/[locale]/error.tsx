@@ -12,6 +12,7 @@ interface ErrorProps {
 
 export default function Error({ error, reset }: ErrorProps) {
   const t = useTranslations("common");
+  const tError = useTranslations("errorPage");
 
   useEffect(() => {
     console.error("Error:", error);
@@ -32,7 +33,7 @@ export default function Error({ error, reset }: ErrorProps) {
         </h1>
 
         <p className="text-muted-foreground mb-8">
-          Ha ocurrido un error inesperado. Por favor, intente de nuevo.
+          {tError("description")}
         </p>
 
         <Button onClick={reset} size="lg" className="gap-2">

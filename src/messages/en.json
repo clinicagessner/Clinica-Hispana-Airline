@@ -25,6 +25,7 @@
     "ctaCall": "Call Now",
     "ctaLocation": "Get Directions",
     "hours": "Mon-Fri: 9AM-9PM · Sat-Sun: 10AM-6PM",
+    "googleReviews": "+ reviews on Google",
     "cardTitle": "Why choose us?",
     "cardSubtitle": "The best care for you and your family",
     "features": {
@@ -46,7 +47,16 @@
     "learnMore": "Learn More",
     "bookNow": "Book Now",
     "included": "Included in this service",
-    "backToServices": "Back to Services"
+    "backToServices": "Back to Services",
+    "readyToSchedule": "Ready to schedule your appointment?",
+    "callOrVisit": "Call us now or visit us — no appointment needed",
+    "relatedServices": "Related Services",
+    "faqTitle": "Frequently Asked Questions",
+    "categoryEspecial": "Primary Service",
+    "categoryDiagnostico": "Diagnostics",
+    "categoryEspecialidad": "Specialty",
+    "categoryMujer": "Women's Health",
+    "categoryDefault": "Medical Service"
   },
   "testimonials": {
     "title": "What Our Patients Say",
@@ -121,7 +131,8 @@
       "bus": "Bus Access",
       "security": "Safe Area"
     },
-    "hours": "Mon-Fri: 9AM-9PM · Sat-Sun: 10AM-6PM"
+    "hours": "Mon-Fri: 9AM-9PM · Sat-Sun: 10AM-6PM",
+    "call": "Call"
   },
   "footer": {
     "tagline": "Your health is our priority",
@@ -133,6 +144,7 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "hipaa": "HIPAA Notice",
+    "stars": "5.0 stars",
     "hoursWeekday": "Monday - Friday: 9:00 AM - 9:00 PM",
     "hoursWeekend": "Saturday & Sunday: 10:00 AM - 6:00 PM"
   },
@@ -164,7 +176,16 @@
     "closeMenu": "Close menu",
     "scrollToTop": "Back to top",
     "previousSlide": "Previous slide",
-    "nextSlide": "Next slide"
+    "nextSlide": "Next slide",
+    "menuDescription": "Main navigation menu"
+  },
+  "notFound": {
+    "description": "Sorry, the page you are looking for does not exist or has been moved.",
+    "backHome": "Go to Home",
+    "contact": "Contact Us"
+  },
+  "errorPage": {
+    "description": "An unexpected error occurred. Please try again."
   },
   "greenCard": {
     "badge": "USCIS Authorized",

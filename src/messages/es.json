@@ -25,6 +25,7 @@
     "ctaCall": "Llamar Ahora",
     "ctaLocation": "Cómo Llegar",
     "hours": "Lun-Vie: 9AM-9PM · Sáb-Dom: 10AM-6PM",
+    "googleReviews": "+ reseñas en Google",
     "cardTitle": "¿Por qué elegirnos?",
     "cardSubtitle": "La mejor atención para usted y su familia",
     "features": {
@@ -46,7 +47,16 @@
     "learnMore": "Más Información",
     "bookNow": "Agendar Cita",
     "included": "Incluido en este servicio",
-    "backToServices": "Volver a Servicios"
+    "backToServices": "Volver a Servicios",
+    "readyToSchedule": "¿Listo para agendar su cita?",
+    "callOrVisit": "Llámenos ahora o visítenos sin cita previa",
+    "relatedServices": "Servicios Relacionados",
+    "faqTitle": "Preguntas Frecuentes",
+    "categoryEspecial": "Servicio Principal",
+    "categoryDiagnostico": "Diagnóstico",
+    "categoryEspecialidad": "Especialidad",
+    "categoryMujer": "Salud de la Mujer",
+    "categoryDefault": "Servicio Médico"
   },
   "testimonials": {
     "title": "Lo Que Dicen Nuestros Pacientes",
@@ -121,7 +131,8 @@
       "bus": "Acceso en Autobús",
       "security": "Área Segura"
     },
-    "hours": "Lun-Vie: 9AM-9PM · Sáb-Dom: 10AM-6PM"
+    "hours": "Lun-Vie: 9AM-9PM · Sáb-Dom: 10AM-6PM",
+    "call": "Llamar"
   },
   "footer": {
     "tagline": "Su salud es nuestra prioridad",
@@ -134,7 +145,8 @@
     "terms": "Términos de Servicio",
     "hipaa": "Aviso HIPAA",
     "hoursWeekday": "Lunes a Viernes: 9:00 AM - 9:00 PM",
-    "hoursWeekend": "Sábado y Domingo: 10:00 AM - 6:00 PM"
+    "hoursWeekend": "Sábado y Domingo: 10:00 AM - 6:00 PM",
+    "stars": "5.0 estrellas"
   },
   "common": {
     "loading": "Cargando...",
@@ -164,7 +176,16 @@
     "closeMenu": "Cerrar menú",
     "scrollToTop": "Volver arriba",
     "previousSlide": "Diapositiva anterior",
-    "nextSlide": "Siguiente diapositiva"
+    "nextSlide": "Siguiente diapositiva",
+    "menuDescription": "Menú de navegación principal"
+  },
+  "notFound": {
+    "description": "Lo sentimos, la página que busca no existe o ha sido movida.",
+    "backHome": "Ir al Inicio",
+    "contact": "Contactar"
+  },
+  "errorPage": {
+    "description": "Ha ocurrido un error inesperado. Por favor, intente de nuevo."
   },
   "greenCard": {
     "badge": "Autorizado por USCIS",

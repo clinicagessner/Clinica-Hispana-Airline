@@ -1,12 +1,14 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useTranslations } from "next-intl";
 import { Phone, MapPin } from "@phosphor-icons/react/dist/ssr";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { CONTACT_INFO } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 
 export function FloatingButtons() {
+  const t = useTranslations("cta");
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -39,7 +41,7 @@ export function FloatingButtons() {
           </a>
         </TooltipTrigger>
         <TooltipContent side="left">
-          <p>Cómo Llegar</p>
+          <p>{t("getDirections")}</p>
         </TooltipContent>
       </Tooltip>
 
@@ -55,7 +57,7 @@ export function FloatingButtons() {
           </a>
         </TooltipTrigger>
         <TooltipContent side="left">
-          <p>Llamar Ahora</p>
+          <p>{t("callNow")}</p>
         </TooltipContent>
       </Tooltip>
     </div>

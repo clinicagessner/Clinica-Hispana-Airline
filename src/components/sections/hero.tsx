@@ -36,7 +36,7 @@ export async function Hero() {
                 <Star key={i} className="size-5 text-yellow-400" weight="fill" />
               ))}
             </div>
-            <span className="text-white font-medium text-sm">{GOOGLE_REVIEWS_DATA.totalReviews}+ reseñas en Google</span>
+            <span className="text-white font-medium text-sm">{GOOGLE_REVIEWS_DATA.totalReviews}{t("googleReviews")}</span>
           </div>
 
           {/* Title */}

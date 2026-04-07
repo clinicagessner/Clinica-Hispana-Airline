@@ -114,7 +114,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function LocaleLayout({ children, params }: Props) {
   const { locale } = await params;
-  const messages = await getMessages();
+  const [messages, t] = await Promise.all([
+    getMessages(),
+    getTranslations({ locale, namespace: "accessibility" }),
+  ]);
 
   return (
     <html lang={locale} data-scroll-behavior="smooth" className={`${montserrat.variable} ${sourceSans.variable}`} suppressHydrationWarning>
@@ -140,7 +143,7 @@ export default async function LocaleLayout({ children, params }: Props) {
               href="#main-content"
               className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-primary focus:text-primary-foreground focus:rounded-md"
             >
-              Saltar al contenido
+              {t("skipToContent")}
             </a>
             <Header />
             <main id="main-content" className="flex-1">

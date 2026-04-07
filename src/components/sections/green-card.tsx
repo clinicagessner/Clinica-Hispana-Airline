@@ -70,8 +70,7 @@ export function GreenCard() {
 
           {/* Title */}
           <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-heading font-bold text-white text-center mb-6">
-            Exámenes Médicos de Inmigración{" "}
-            <span className="whitespace-nowrap">I-693</span>
+            {t("title")}
           </h2>
 
           {/* Subtitle */}
