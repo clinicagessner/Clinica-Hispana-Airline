@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { BLOG_POSTS } from "@/lib/constants";
+import { getBlogTranslation } from "@/lib/blog-translations";
 
 export async function BlogPreview() {
   // Parallel fetching - eliminates waterfall
@@ -20,9 +21,17 @@ export async function BlogPreview() {
   };
 
   // Get the featured post or the most recent one
-  const featuredPost = BLOG_POSTS.find((post) => post.featured) || BLOG_POSTS[0];
+  const rawPost = BLOG_POSTS.find((post) => post.featured) || BLOG_POSTS[0];
 
-  if (!featuredPost) return null;
+  if (!rawPost) return null;
+
+  const translation = locale === "en" ? getBlogTranslation(rawPost.slug) : null;
+  const featuredPost = {
+    ...rawPost,
+    title: translation?.titleEn || rawPost.title,
+    description: translation?.descriptionEn || rawPost.description,
+    category: translation?.categoryEn || rawPost.category,
+  };
 
   return (
     <section id="blog" className="py-16 md:py-24 bg-white">
@@ -62,7 +71,7 @@ export async function BlogPreview() {
                 <div className="flex items-center gap-4 text-sm text-muted-foreground mb-4">
                   <div className="flex items-center gap-1.5">
                     <Calendar className="size-4" weight="fill" />
-                    <span>{new Date(featuredPost.date).toLocaleDateString("es-MX", {
+                    <span>{new Date(featuredPost.date).toLocaleDateString(locale === "en" ? "en-US" : "es-MX", {
                       year: "numeric",
                       month: "long",
                       day: "numeric"
