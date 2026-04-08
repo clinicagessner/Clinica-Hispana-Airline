@@ -24,7 +24,7 @@
     "subtitle": "Professional medical care 100% in Spanish. Walk-ins welcome, affordable prices.",
     "ctaCall": "Call Now",
     "ctaLocation": "Get Directions",
-    "hours": "Mon-Fri: 9AM-9PM · Sat-Sun: 10AM-6PM",
+    "hours": "Monday to Sunday: 9:00 AM - 9:00 PM",
     "googleReviews": "+ reviews on Google",
     "cardTitle": "Why choose us?",
     "cardSubtitle": "The best care for you and your family",
@@ -90,7 +90,7 @@
       "phone": "Phone",
       "hours": "Hours",
       "hoursWeekday": "Monday - Friday: 9:00 AM - 9:00 PM",
-      "hoursWeekend": "Saturday & Sunday: 10:00 AM - 6:00 PM",
+      "hoursWeekend": "Saturday & Sunday: 9:00 AM - 9:00 PM",
       "email": "Email",
       "footerNote": "We are located in the heart of Houston, with easy access and free parking."
     }
@@ -105,7 +105,7 @@
     "q3": "Do you speak Spanish at the clinic?",
     "a3": "Yes, all our staff speaks Spanish. Our clinic was specifically created to serve Houston's Hispanic community, and we make sure you can communicate comfortably in your language.",
     "q4": "What are your business hours?",
-    "a4": "We're open Monday through Sunday. Our regular hours are 9:00 AM to 9:00 PM Monday through Friday, and 10:00 AM to 6:00 PM on weekends. Please call us to confirm hours on holidays.",
+    "a4": "We're open Monday through Sunday. Our regular hours are 9:00 AM to 9:00 PM every day. Please call us to confirm hours on holidays.",
     "q5": "What payment methods do you accept?",
     "a5": "We accept cash, all major credit and debit cards (Visa, MasterCard, American Express, Discover), and most medical insurance plans. We also work with various state and federal insurance programs.",
     "q6": "Do you offer payment plans?",
@@ -131,7 +131,7 @@
       "bus": "Bus Access",
       "security": "Safe Area"
     },
-    "hours": "Mon-Fri: 9AM-9PM · Sat-Sun: 10AM-6PM",
+    "hours": "Monday to Sunday: 9:00 AM - 9:00 PM",
     "call": "Call"
   },
   "footer": {
@@ -146,7 +146,7 @@
     "hipaa": "HIPAA Notice",
     "stars": "5.0 stars",
     "hoursWeekday": "Monday - Friday: 9:00 AM - 9:00 PM",
-    "hoursWeekend": "Saturday & Sunday: 10:00 AM - 6:00 PM"
+    "hoursWeekend": "Saturday & Sunday: 9:00 AM - 9:00 PM"
   },
   "common": {
     "loading": "Loading...",

@@ -9,8 +9,7 @@ Clínica Hispana Airline is a Hispanic medical clinic located in Houston, Texas.
 - Email: clinicahispanaairline@gmail.com
 
 ## Hours
-- Monday - Friday: 9:00 AM - 9:00 PM
-- Saturday - Sunday: 10:00 AM - 6:00 PM
+- Monday - Sunday: 9:00 AM - 9:00 PM
 
 ## Services
 We offer comprehensive medical services including:

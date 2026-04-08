@@ -88,8 +88,7 @@ Every day, we strive to:
 We invite you to come see our facility and meet our team of health care professionals. We are here to serve you and your family.
 
 **Office Hours:**
-- Monday through Friday: 9:00 AM - 9:00 PM
-- Saturday and Sunday: 10:00 AM - 6:00 PM
+- Monday through Sunday: 9:00 AM - 9:00 PM
 
 **Contact Us:**
 - Phone: (346) 626-4110
@@ -244,7 +243,7 @@ Don't let the medical exam delay your immigration process. Contact us today to s
 **Clínica Hispana Airline**
 - Phone: (346) 626-4110
 - Address: 934 E Tidwell Rd, Houston, TX 77022
-- Hours: Monday-Friday 9AM-9PM, Saturday-Sunday 10AM-6PM
+- Hours: Monday-Sunday 9AM-9PM
 
 *This article is for informational purposes only and does not constitute legal advice. Consult a licensed immigration attorney for questions about your specific case.*
     `,

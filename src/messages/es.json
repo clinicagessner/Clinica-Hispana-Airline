@@ -24,7 +24,7 @@
     "subtitle": "Atención médica profesional 100% en español. Sin cita previa, precios accesibles.",
     "ctaCall": "Llamar Ahora",
     "ctaLocation": "Cómo Llegar",
-    "hours": "Lun-Vie: 9AM-9PM · Sáb-Dom: 10AM-6PM",
+    "hours": "Lunes a Domingo: 9:00 AM - 9:00 PM",
     "googleReviews": "+ reseñas en Google",
     "cardTitle": "¿Por qué elegirnos?",
     "cardSubtitle": "La mejor atención para usted y su familia",
@@ -90,7 +90,7 @@
       "phone": "Teléfono",
       "hours": "Horario",
       "hoursWeekday": "Lunes a Viernes: 9:00 AM - 9:00 PM",
-      "hoursWeekend": "Sábado y Domingo: 10:00 AM - 6:00 PM",
+      "hoursWeekend": "Sábado y Domingo: 9:00 AM - 9:00 PM",
       "email": "Correo",
       "footerNote": "Estamos ubicados en el corazón de Houston, con fácil acceso y estacionamiento gratuito."
     }
@@ -105,7 +105,7 @@
     "q3": "¿Hablan español en la clínica?",
     "a3": "Sí, todo nuestro personal habla español. Nuestra clínica fue creada específicamente para servir a la comunidad hispana de Houston, y nos aseguramos de que pueda comunicarse cómodamente en su idioma.",
     "q4": "¿Cuáles son sus horarios de atención?",
-    "a4": "Atendemos de lunes a domingo. Nuestro horario regular es de 9:00 AM a 9:00 PM de lunes a viernes, y de 10:00 AM a 6:00 PM los fines de semana. Por favor llámenos para confirmar horarios en días festivos.",
+    "a4": "Atendemos de lunes a domingo. Nuestro horario regular es de 9:00 AM a 9:00 PM todos los días. Por favor llámenos para confirmar horarios en días festivos.",
     "q5": "¿Qué formas de pago aceptan?",
     "a5": "Aceptamos efectivo, todas las tarjetas de crédito y débito principales (Visa, MasterCard, American Express, Discover), y la mayoría de los seguros médicos. También trabajamos con varios planes de seguro estatales y federales.",
     "q6": "¿Ofrecen planes de pago?",
@@ -131,7 +131,7 @@
       "bus": "Acceso en Autobús",
       "security": "Área Segura"
     },
-    "hours": "Lun-Vie: 9AM-9PM · Sáb-Dom: 10AM-6PM",
+    "hours": "Lunes a Domingo: 9:00 AM - 9:00 PM",
     "call": "Llamar"
   },
   "footer": {
@@ -145,7 +145,7 @@
     "terms": "Términos de Servicio",
     "hipaa": "Aviso HIPAA",
     "hoursWeekday": "Lunes a Viernes: 9:00 AM - 9:00 PM",
-    "hoursWeekend": "Sábado y Domingo: 10:00 AM - 6:00 PM",
+    "hoursWeekend": "Sábado y Domingo: 9:00 AM - 9:00 PM",
     "stars": "5.0 estrellas"
   },
   "common": {

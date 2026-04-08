@@ -18,9 +18,9 @@ export const CONTACT_INFO: ContactInfo = {
   phone: "+13466264110",
   phoneFormatted: "+1 (346) 626-4110",
   email: "clinicahispanaairline@gmail.com",
-  hours: "Lun-Vie: 9AM-9PM · Sáb-Dom: 10AM-6PM",
+  hours: "Lunes a Domingo: 9:00 AM - 9:00 PM",
   hoursWeekday: "Lunes a Viernes: 9:00 AM - 9:00 PM",
-  hoursWeekend: "Sábado y Domingo: 10:00 AM - 6:00 PM",
+  hoursWeekend: "Sábado y Domingo: 9:00 AM - 9:00 PM",
   googleMapsUrl: "https://www.google.com/maps/search/Clinica+Hispana+Airline+934+E+Tidwell+Rd+Houston+TX+77022",
   googleMapsEmbed: `https://www.google.com/maps/embed/v1/place?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_EMBED_KEY}&q=place_id:ChIJsxclc5m5QIYRyAurHml5cWA&zoom=17`,
   googleReviewUrl: "https://search.google.com/local/writereview?placeid=ChIJsxclc5m5QIYRyAurHml5cWA",
@@ -723,7 +723,7 @@ Los invitamos a conocer nuestras instalaciones y a nuestro equipo de profesional
 
 **Horario de Atención:**
 - Lunes a Viernes: 9:00 AM - 9:00 PM
-- Sábado y Domingo: 10:00 AM - 6:00 PM
+- Sábado y Domingo: 9:00 AM - 9:00 PM
 
 **Contáctenos:**
 - Teléfono: (346) 626-4110
@@ -885,7 +885,7 @@ No deje que el examen médico retrase su proceso migratorio. Contáctenos hoy pa
 **Clínica Hispana Airline**
 - Teléfono: (346) 626-4110
 - Dirección: 934 E Tidwell Rd, Houston, TX 77022
-- Horario: Lunes a Viernes 9AM-9PM, Fines de semana 10AM-6PM
+- Horario: Lunes a Domingo 9AM-9PM
 
 *Este artículo es solo informativo y no constituye asesoría legal. Consulte con un abogado de inmigración para preguntas sobre su caso específico.*
     `,
