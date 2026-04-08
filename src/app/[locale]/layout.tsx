@@ -109,7 +109,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       },
     },
     verification: {
-      google: "DCDMoTBSEG-vc4DG4vI-mcHVC_b5UJCfrbAlyMHJx8U",
+      google: [
+        "DCDMoTBSEG-vc4DG4vI-mcHVC_b5UJCfrbAlyMHJx8U",
+        "RmUdLh6Q3sdftfM2Zg9CvbwpnZh7cgOjf5yweef0TzY",
+      ],
     },
   };
 }
