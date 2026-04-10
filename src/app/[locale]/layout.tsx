@@ -12,7 +12,7 @@ import { JsonLdMedicalClinic } from "@/components/seo/json-ld";
 import { ScrollAnimations } from "@/components/animations/scroll-animations";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
-import { GoogleAnalytics } from "@next/third-parties/google";
+import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 import { SITE_CONFIG } from "@/lib/constants";
 import "../globals.css";
 
@@ -173,6 +173,7 @@ export default async function LocaleLayout({ children, params }: Props) {
         </NextIntlClientProvider>
       </body>
       <GoogleAnalytics gaId="G-YVEMRNF7VP" />
+      <GoogleTagManager gtmId="AW-718776156" />
     </html>
   );
 }
