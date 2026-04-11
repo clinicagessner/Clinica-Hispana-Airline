@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
-import { SERVICES, SITE_CONFIG, BLOG_POSTS } from "@/lib/constants";
+import { SERVICES, SITE_CONFIG } from "@/lib/constants";
+import { getBlogPosts } from "@/lib/blog";
 import { locales } from "@/i18n/config";
 
 type SitemapEntry = {
@@ -55,7 +56,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   );
 
   // Blog posts
-  const blogRoutes: SitemapEntry[] = BLOG_POSTS.flatMap((post) =>
+  const blogPosts = getBlogPosts("es");
+  const blogRoutes: SitemapEntry[] = blogPosts.flatMap((post) =>
     locales.map((locale) => ({
       url: `${baseUrl}${locale === "es" ? "" : `/${locale}`}/blog/${post.slug}`,
       lastModified: new Date(post.date),

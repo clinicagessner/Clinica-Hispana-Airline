@@ -5,8 +5,7 @@ import { ArrowRight, Calendar, Clock } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { BLOG_POSTS } from "@/lib/constants";
-import { getBlogTranslation } from "@/lib/blog-translations";
+import { getFeaturedPost } from "@/lib/blog";
 
 export async function BlogPreview() {
   // Parallel fetching - eliminates waterfall
@@ -21,17 +20,9 @@ export async function BlogPreview() {
   };
 
   // Get the featured post or the most recent one
-  const rawPost = BLOG_POSTS.find((post) => post.featured) || BLOG_POSTS[0];
+  const featuredPost = getFeaturedPost(locale);
 
-  if (!rawPost) return null;
-
-  const translation = locale === "en" ? getBlogTranslation(rawPost.slug) : null;
-  const featuredPost = {
-    ...rawPost,
-    title: translation?.titleEn || rawPost.title,
-    description: translation?.descriptionEn || rawPost.description,
-    category: translation?.categoryEn || rawPost.category,
-  };
+  if (!featuredPost) return null;
 
   return (
     <section id="blog" className="py-16 md:py-24 bg-white">
