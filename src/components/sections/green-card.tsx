@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useLocale } from "next-intl";
 import { useTranslations } from "next-intl";
@@ -45,18 +44,14 @@ export function GreenCard() {
   return (
     <section id="green-card" className="relative py-20 md:py-32 overflow-hidden">
       {/* Background Image */}
-      <div className="absolute inset-0">
-        <Image
-          src="/images/green-card-bg.webp"
-          alt="Examen médico de inmigración I-693 en Houston TX - Civil Surgeon certificado USCIS completando formulario para Green Card"
-          fill
-          className="object-cover"
-          quality={60}
-          sizes="100vw"
-        />
-        {/* Overlay with red tint */}
-        <div className="absolute inset-0 bg-linear-to-r from-slate-900/95 via-slate-900/80 to-red-primary/60" />
-      </div>
+      <div
+        className="absolute inset-0 bg-cover bg-center"
+        style={{ backgroundImage: "url('/images/green-card-bg.webp')" }}
+        role="img"
+        aria-label="Examen médico de inmigración I-693 en Houston TX - Civil Surgeon certificado USCIS completando formulario para Green Card"
+      />
+      {/* Overlay with red tint */}
+      <div className="absolute inset-0 bg-linear-to-r from-slate-900/90 via-slate-900/75 to-red-primary/50" />
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="animate-on-scroll fade-up">
