@@ -135,9 +135,9 @@ export function Header() {
           <div className="hidden lg:flex items-center gap-3">
             <LanguageSwitcher isScrolled={!useTransparentStyle} />
             <Button asChild size="sm" className="gap-2">
-              <a href={`tel:${CONTACT_INFO.phone}`}>
+              <a href={`tel:${CONTACT_INFO.phone}`} suppressHydrationWarning>
                 <Phone className="size-4" weight="bold" />
-                <span className="hidden xl:inline">{CONTACT_INFO.phoneFormatted}</span>
+                <span className="hidden xl:inline" suppressHydrationWarning>{CONTACT_INFO.phoneFormatted}</span>
                 <span className="xl:hidden">{t("cta.callNow")}</span>
               </a>
             </Button>
@@ -201,7 +201,7 @@ export function Header() {
 
                   <div className="pt-6 border-t space-y-3">
                     <Button asChild className="w-full gap-2" size="lg">
-                      <a href={`tel:${CONTACT_INFO.phone}`} onClick={handleLinkClick}>
+                      <a href={`tel:${CONTACT_INFO.phone}`} onClick={handleLinkClick} suppressHydrationWarning>
                         <Phone className="size-5" weight="bold" />
                         {t("cta.callNow")}
                       </a>
@@ -217,7 +217,7 @@ export function Header() {
                         {t("cta.getDirections")}
                       </a>
                     </Button>
-                    <p className="text-center text-sm text-muted-foreground">
+                    <p className="text-center text-sm text-muted-foreground" suppressHydrationWarning>
                       {CONTACT_INFO.phoneFormatted}
                     </p>
                   </div>

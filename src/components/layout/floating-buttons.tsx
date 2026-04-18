@@ -52,6 +52,7 @@ export function FloatingButtons() {
             href={`tel:${CONTACT_INFO.phone}`}
             className="size-14 rounded-full bg-red-primary text-white shadow-md shadow-red-primary/30 flex items-center justify-center hover:bg-red-dark hover:shadow-lg transition-all animate-pulse-float"
             aria-label="Llamar ahora"
+            suppressHydrationWarning
           >
             <Phone className="size-6" weight="fill" />
           </a>

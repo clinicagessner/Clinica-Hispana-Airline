@@ -150,6 +150,16 @@ export default async function LocaleLayout({ children, params }: Props) {
           src="//cdn.callrail.com/companies/257588879/cc932502d2a770c60e21/12/swap.js"
           async
         />
+        {/* Meta Pixel noscript fallback */}
+        <noscript>
+          <img
+            height="1"
+            width="1"
+            style={{ display: "none" }}
+            src="https://www.facebook.com/tr?id=1443226816174810&ev=PageView&noscript=1"
+            alt=""
+          />
+        </noscript>
       </head>
       <body className="antialiased min-h-screen flex flex-col" suppressHydrationWarning>
         <NextIntlClientProvider messages={messages}>
@@ -189,15 +199,6 @@ export default async function LocaleLayout({ children, params }: Props) {
           fbq('track', 'PageView');
         `}
       </Script>
-      <noscript>
-        <img
-          height="1"
-          width="1"
-          style={{ display: "none" }}
-          src="https://www.facebook.com/tr?id=1443226816174810&ev=PageView&noscript=1"
-          alt=""
-        />
-      </noscript>
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=AW-718776156"
         strategy="afterInteractive"
