@@ -90,7 +90,7 @@ export async function Location() {
                   size="default"
                   className="flex-1 gap-2 bg-red-primary text-white hover:bg-red-dark border-0"
                 >
-                  <a href={`tel:${CONTACT_INFO.phone}`}>
+                  <a href={`tel:${CONTACT_INFO.phone}`} suppressHydrationWarning>
                     <Phone className="size-4" weight="fill" />
                     {t("call")}
                   </a>

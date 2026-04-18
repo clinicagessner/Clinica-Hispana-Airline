@@ -116,6 +116,7 @@ export function ChronicCare() {
             <a
               href={`tel:${CONTACT_INFO.phone}`}
               className="inline-flex items-center justify-center h-11 px-6 md:px-8 rounded-lg border-2 border-white text-white font-medium bg-transparent hover:bg-white hover:text-slate-dark transition-colors gap-2 text-sm md:text-base w-full sm:w-auto"
+              suppressHydrationWarning
             >
               <Phone className="size-5" weight="bold" />
               {t("ctaCall")}

@@ -40,13 +40,14 @@ export async function Contact() {
                 <a
                   href={`tel:${CONTACT_INFO.phone}`}
                   className="flex items-start gap-4 group"
+                  suppressHydrationWarning
                 >
                   <div className="size-12 rounded-xl bg-white/10 flex items-center justify-center shrink-0 group-hover:bg-white/20 transition-colors">
                     <Phone className="size-6" weight="fill" />
                   </div>
                   <div>
                     <p className="font-medium mb-1">{t("info.phone")}</p>
-                    <p className="text-white/80 text-lg">
+                    <p className="text-white/80 text-lg" suppressHydrationWarning>
                       {CONTACT_INFO.phoneFormatted}
                     </p>
                   </div>

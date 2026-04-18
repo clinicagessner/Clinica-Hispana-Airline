@@ -195,7 +195,7 @@ export default async function ServicePage({ params }: Props) {
               {/* CTAs */}
               <div className="flex flex-col sm:flex-row gap-3">
                 <Button asChild size="lg" className="gap-2 bg-red-primary hover:bg-red-dark shadow-lg">
-                  <a href={`tel:${CONTACT_INFO.phone}`}>
+                  <a href={`tel:${CONTACT_INFO.phone}`} suppressHydrationWarning>
                     <Phone className="size-5" weight="fill" />
                     {t("callNow")}
                   </a>
@@ -270,7 +270,7 @@ export default async function ServicePage({ params }: Props) {
                   size="lg"
                   className="gap-2 bg-white text-red-primary hover:bg-white/90"
                 >
-                  <a href={`tel:${CONTACT_INFO.phone}`}>
+                  <a href={`tel:${CONTACT_INFO.phone}`} suppressHydrationWarning>
                     <Phone className="size-5" weight="fill" />
                     {CONTACT_INFO.phoneFormatted}
                   </a>

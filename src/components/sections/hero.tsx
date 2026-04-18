@@ -52,7 +52,7 @@ export async function Hero() {
           {/* CTA Buttons */}
           <div className="animate-hero-cta flex flex-col sm:flex-row gap-3 justify-center mb-8">
             <Button asChild size="lg" className="text-base md:text-lg px-8 py-6 gap-2 shadow-lg shadow-red-primary/30">
-              <a href={`tel:${CONTACT_INFO.phone}`}>
+              <a href={`tel:${CONTACT_INFO.phone}`} suppressHydrationWarning>
                 <Phone className="size-5" weight="fill" />
                 {t("ctaCall")}
               </a>
@@ -115,9 +115,10 @@ export async function Hero() {
             <a
               href={`tel:${CONTACT_INFO.phone}`}
               className="flex items-center gap-2 hover:text-white/80 transition-colors font-semibold"
+              suppressHydrationWarning
             >
               <Phone className="size-5" weight="fill" />
-              <span>{CONTACT_INFO.phoneFormatted}</span>
+              <span suppressHydrationWarning>{CONTACT_INFO.phoneFormatted}</span>
             </a>
           </div>
         </div>

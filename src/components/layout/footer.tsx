@@ -43,7 +43,7 @@ export async function Footer() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-3">
               <Button asChild size="sm" className="gap-2 bg-red-primary hover:bg-red-dark">
-                <a href={`tel:${CONTACT_INFO.phone}`}>
+                <a href={`tel:${CONTACT_INFO.phone}`} suppressHydrationWarning>
                   <Phone className="size-4" weight="fill" />
                   {t("cta.callNow")}
                 </a>
@@ -67,6 +67,7 @@ export async function Footer() {
                 <a
                   href={`tel:${CONTACT_INFO.phone}`}
                   className="flex items-start gap-3 text-white/70 hover:text-white transition-colors text-sm group"
+                  suppressHydrationWarning
                 >
                   <Phone className="size-5 shrink-0 mt-0.5 text-red-primary group-hover:text-white transition-colors" weight="fill" />
                   <span>{CONTACT_INFO.phoneFormatted}</span>

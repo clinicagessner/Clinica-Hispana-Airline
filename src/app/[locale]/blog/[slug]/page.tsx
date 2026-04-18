@@ -179,6 +179,7 @@ export default async function BlogPostPage({ params }: Props) {
               <a
                 href={`tel:${CONTACT_INFO.phone}`}
                 className="inline-flex items-center gap-2 bg-white text-red-primary font-bold px-8 py-4 rounded-full hover:bg-red-light hover:scale-105 transition-all shadow-lg"
+                suppressHydrationWarning
               >
                 <Phone className="w-5 h-5" weight="fill" />
                 {t("callNow")} {CONTACT_INFO.phoneFormatted}

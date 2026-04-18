@@ -180,6 +180,7 @@ export default async function PrivacyPage({ params }: Props) {
               <a
                 href={`tel:${CONTACT_INFO.phone}`}
                 className="flex items-center gap-3 p-4 bg-slate-50 rounded-xl hover:bg-red-50 transition-colors group"
+                suppressHydrationWarning
               >
                 <div className="size-10 rounded-full bg-red-primary/10 flex items-center justify-center group-hover:bg-red-primary/20 transition-colors">
                   <Phone className="size-5 text-red-primary" weight="fill" />
