@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "title": "Clínica Hispana Airline Houston | Médicos en Español Houston TX",
-    "titleTemplate": "%s | Clínica Hispana Airline",
-    "description": "Clínica médica hispana en Houston, TX. Atención profesional 100% en español, sin cita previa, aceptamos pacientes con o sin seguro. Medicina familiar, exámenes de inmigración, laboratorio y más.",
-    "ogDescription": "Su clínica de confianza en Houston. Atención médica profesional en español para toda la familia. Sin cita previa, precios accesibles. 491 reseñas 5 estrellas en Google."
+    "title": "Clínicas Hispanas Houston | Clínica Hispana Airline | Médicos en Español",
+    "titleTemplate": "%s | Clínica Hispana Airline Houston",
+    "description": "Una de las mejores clínicas hispanas en Houston TX. Atención médica 100% en español, sin cita previa. Medicina familiar, ginecología, control de diabetes, laboratorio. Aceptamos pacientes con o sin seguro. Llame: (346) 626-4110",
+    "ogDescription": "Clínica hispana de confianza en Houston. Atención médica profesional en español para toda la familia. Medicina familiar, ginecología, diabetes, laboratorio. Sin cita previa. 491+ reseñas 5★ en Google."
   },
   "nav": {
     "home": "Inicio",
@@ -22,7 +22,7 @@
   "hero": {
     "badge": "Atención médica de calidad",
     "title": "Su Clínica Hispana de Confianza en Houston",
-    "subtitle": "Atención médica profesional 100% en español. Sin cita previa, precios accesibles.",
+    "subtitle": "Una de las clínicas hispanas líderes en Houston TX. Medicina familiar, ginecología, diabetes y laboratorio. Sin cita previa, precios accesibles.",
     "ctaCall": "Llamar Ahora",
     "ctaLocation": "Cómo Llegar",
     "hours": "Lunes a Domingo: 9:00 AM - 9:00 PM",
@@ -37,8 +37,8 @@
     }
   },
   "services": {
-    "title": "Nuestros Servicios",
-    "subtitle": "Atención médica integral para toda la familia",
+    "title": "Servicios de Nuestra Clínica Hispana en Houston",
+    "subtitle": "Atención médica integral para toda la familia hispana de Houston",
     "servicesAvailable": "servicios disponibles",
     "filterAll": "Todos",
     "noServices": "No se encontraron servicios",
@@ -60,8 +60,8 @@
     "categoryDefault": "Servicio Médico"
   },
   "testimonials": {
-    "title": "Lo Que Dicen Nuestros Pacientes",
-    "subtitle": "Testimonios reales de Google Reviews",
+    "title": "Reseñas de Pacientes en Houston",
+    "subtitle": "Testimonios reales de Google Reviews de nuestra clínica hispana",
     "leaveReview": "Dejar una Reseña",
     "verifiedReview": "Reseña verificada de Google",
     "rating": "calificación",
@@ -97,8 +97,8 @@
     }
   },
   "faq": {
-    "title": "Preguntas Frecuentes",
-    "subtitle": "Respuestas a las preguntas más comunes",
+    "title": "Preguntas Frecuentes sobre Nuestra Clínica Hispana",
+    "subtitle": "Respuestas a las preguntas más comunes sobre servicios médicos en Houston",
     "q1": "¿Necesito cita previa?",
     "a1": "No, atendemos pacientes sin cita previa. Simplemente venga a nuestra clínica durante nuestro horario de atención y lo atenderemos lo más pronto posible. Sin embargo, si prefiere asegurar un horario específico, puede llamarnos para hacer una cita.",
     "q2": "¿Aceptan pacientes sin seguro médico?",
@@ -121,8 +121,8 @@
     "a10": "Sí, contamos con amplio estacionamiento gratuito frente a la clínica. Nuestras instalaciones también son accesibles para personas con discapacidad, incluyendo rampas y baños adaptados."
   },
   "location": {
-    "title": "Nuestra Ubicación",
-    "subtitle": "Visítenos en Houston, TX",
+    "title": "Ubicación de Nuestra Clínica en Houston",
+    "subtitle": "Visítenos en 934 E Tidwell Rd, Houston TX 77022",
     "howToGetHere": "Cómo Llegar",
     "getDirections": "Obtener Direcciones",
     "openInMaps": "Abrir en Google Maps",
@@ -198,7 +198,7 @@
   },
   "chronicCare": {
     "badge": "Cuidado Continuo",
-    "title": "Control de Enfermedades Crónicas",
+    "title": "Control de Diabetes e Hipertensión en Houston",
     "subtitle": "Programa integral de monitoreo y tratamiento para diabetes, hipertensión, colesterol alto y tiroides. Laboratorio con resultados el mismo día, ajuste de medicamentos y educación en español.",
     "conditionsTitle": "Condiciones que tratamos",
     "conditions": {
