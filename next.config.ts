@@ -212,6 +212,22 @@ const nextConfig: NextConfig = {
       { source: "/parpados", destination: "/services", permanent: true },
       { source: "/epidermis", destination: "/services", permanent: true },
       { source: "/invierno", destination: "/services", permanent: true },
+
+      // ============================================
+      // LEGACY 404 RECOVERY (audit 2026-05)
+      // ============================================
+      { source: "/examen-medico-migratorio", destination: "/services/examenes-inmigracion", permanent: true },
+      { source: "/que-es-el-examen-de-papanicolaou", destination: "/services/ginecologia", permanent: true },
+      { source: "/que-es-la-taquicardia", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/que-es-un-accidente-cerebrovascular", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/que-es-una-biopsia", destination: "/services/laboratorio", permanent: true },
+      { source: "/que-es-la-sinusitis", destination: "/services/enfermedades-respiratorias", permanent: true },
+      { source: "/que-son-las-hemorroides", destination: "/services/medicina-familiar", permanent: true },
+      { source: "/vih-sida", destination: "/services/enfermedades-transmision-sexual", permanent: true },
+      { source: "/gangrena", destination: "/services/medicina-familiar", permanent: true },
+      { source: "/diarrea-sintomas", destination: "/services/medicina-familiar", permanent: true },
+      { source: "/extraccion-de-implante-hormonal", destination: "/services/ginecologia", permanent: true },
+      { source: "/extraccion-de-unas", destination: "/services/medicina-familiar", permanent: true },
     ];
   },
   async headers() {
