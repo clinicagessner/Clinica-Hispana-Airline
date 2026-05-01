@@ -3,7 +3,7 @@
     "title": "Clínicas Hispanas Houston | Clínica Hispana Airline | Médicos en Español",
     "titleTemplate": "%s | Clínica Hispana Airline Houston",
     "description": "Una de las mejores clínicas hispanas en Houston TX. Atención médica 100% en español, sin cita previa. Medicina familiar, ginecología, control de diabetes, laboratorio. Aceptamos pacientes con o sin seguro. Llame: (346) 626-4110",
-    "ogDescription": "Clínica hispana de confianza en Houston. Atención médica profesional en español para toda la familia. Medicina familiar, ginecología, diabetes, laboratorio. Sin cita previa. 491+ reseñas 5★ en Google."
+    "ogDescription": "Clínica hispana de confianza en Houston. Atención médica profesional en español para toda la familia. Medicina familiar, ginecología, diabetes, laboratorio. Sin cita previa. {reviews}+ reseñas con {rating}★ en Google."
   },
   "nav": {
     "home": "Inicio",

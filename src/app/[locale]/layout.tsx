@@ -14,7 +14,8 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import Script from "next/script";
-import { SITE_CONFIG } from "@/lib/constants";
+import { SITE_CONFIG, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
+import { getGooglePlaceData } from "@/lib/google-places";
 import "../globals.css";
 
 const montserrat = Montserrat({
@@ -38,7 +39,13 @@ type Props = {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "metadata" });
+  const [t, googleData] = await Promise.all([
+    getTranslations({ locale, namespace: "metadata" }),
+    getGooglePlaceData(),
+  ]);
+  const reviews = googleData?.totalReviews ?? GOOGLE_REVIEWS_DATA.totalReviews;
+  const rating = googleData?.rating ?? GOOGLE_REVIEWS_DATA.averageRating;
+  const ogDescription = t("ogDescription", { reviews, rating });
 
   return {
     title: {
@@ -82,7 +89,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url: SITE_CONFIG.baseUrl,
       siteName: SITE_CONFIG.name,
       title: t("title"),
-      description: t("ogDescription"),
+      description: ogDescription,
       images: [
         {
           url: `${SITE_CONFIG.baseUrl}/images/og-image.jpg`,
@@ -95,7 +102,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     twitter: {
       card: "summary_large_image",
       title: t("title"),
-      description: t("ogDescription"),
+      description: ogDescription,
       images: [`${SITE_CONFIG.baseUrl}/images/og-image.jpg`],
     },
     robots: {

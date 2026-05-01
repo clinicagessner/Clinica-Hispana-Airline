@@ -3,7 +3,7 @@
     "title": "Hispanic Clinics Houston | Clinica Hispana Airline | Spanish Speaking Doctors",
     "titleTemplate": "%s | Clinica Hispana Airline Houston",
     "description": "One of the top hispanic clinics in Houston TX. 100% Spanish medical care, walk-ins welcome. Family medicine, gynecology, diabetes care, laboratory. We accept patients with or without insurance. Call: (346) 626-4110",
-    "ogDescription": "Trusted hispanic clinic in Houston. Professional Spanish-speaking medical care for the whole family. Family medicine, gynecology, diabetes, lab. Walk-ins welcome. 491+ 5-star Google reviews."
+    "ogDescription": "Trusted hispanic clinic in Houston. Professional Spanish-speaking medical care for the whole family. Family medicine, gynecology, diabetes, lab. Walk-ins welcome. {reviews}+ {rating}-star Google reviews."
   },
   "nav": {
     "home": "Home",

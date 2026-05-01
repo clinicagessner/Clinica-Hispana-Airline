@@ -1,6 +1,11 @@
 import { SITE_CONFIG, CONTACT_INFO, SERVICES, SOCIAL_LINKS, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
+import { getGooglePlaceData } from "@/lib/google-places";
 
-export function JsonLdMedicalClinic() {
+export async function JsonLdMedicalClinic() {
+  const googleData = await getGooglePlaceData();
+  const ratingValue = googleData?.rating ?? GOOGLE_REVIEWS_DATA.averageRating;
+  const reviewCount = googleData?.totalReviews ?? GOOGLE_REVIEWS_DATA.totalReviews;
+
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -32,8 +37,8 @@ export function JsonLdMedicalClinic() {
         },
         aggregateRating: {
           "@type": "AggregateRating",
-          ratingValue: GOOGLE_REVIEWS_DATA.averageRating,
-          reviewCount: GOOGLE_REVIEWS_DATA.totalReviews,
+          ratingValue,
+          reviewCount,
           bestRating: 5,
           worstRating: 1,
         },

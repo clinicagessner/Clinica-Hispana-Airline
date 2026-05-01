@@ -40,8 +40,8 @@ export const SOCIAL_LINKS: SocialLinks = {
 
 // Google Reviews data - Hardcoded for now, will be replaced with API
 export const GOOGLE_REVIEWS_DATA = {
-  totalReviews: 491,
-  averageRating: 5.0,
+  totalReviews: 534,
+  averageRating: 4.9,
   placeId: "ChIJsxclc5m5QIYRyAurHml5cWA",
 };
 

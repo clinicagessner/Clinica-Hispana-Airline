@@ -3,9 +3,12 @@ import { getTranslations } from "next-intl/server";
 import { Phone, MapPin, Clock, Star, CheckCircle } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { CONTACT_INFO, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
+import { getGooglePlaceData } from "@/lib/google-places";
 
 export async function Hero() {
   const t = await getTranslations("hero");
+  const googleData = await getGooglePlaceData();
+  const totalReviews = googleData?.totalReviews ?? GOOGLE_REVIEWS_DATA.totalReviews;
 
   return (
     <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
@@ -36,7 +39,7 @@ export async function Hero() {
                 <Star key={i} className="size-5 text-yellow-400" weight="fill" />
               ))}
             </div>
-            <span className="text-white font-medium text-sm">{GOOGLE_REVIEWS_DATA.totalReviews}{t("googleReviews")}</span>
+            <span className="text-white font-medium text-sm">{totalReviews}{t("googleReviews")}</span>
           </div>
 
           {/* Title */}
