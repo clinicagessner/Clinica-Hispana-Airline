@@ -4,9 +4,6 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { Header } from "@/components/layout/header";
-import { Footer } from "@/components/layout/footer";
-import { FloatingButtons } from "@/components/layout/floating-buttons";
 import { ScrollToTop } from "@/components/layout/scroll-to-top";
 import { JsonLdMedicalClinic } from "@/components/seo/json-ld";
 import { ScrollAnimations } from "@/components/animations/scroll-animations";
@@ -135,10 +132,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   // Enable static rendering
   setRequestLocale(locale);
 
-  const [messages, t] = await Promise.all([
-    getMessages(),
-    getTranslations({ locale, namespace: "accessibility" }),
-  ]);
+  const messages = await getMessages();
 
   return (
     <html lang={locale} data-scroll-behavior="smooth" className={`${montserrat.variable} ${sourceSans.variable}`} suppressHydrationWarning>
@@ -171,18 +165,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       <body className="antialiased min-h-screen flex flex-col" suppressHydrationWarning>
         <NextIntlClientProvider messages={messages}>
           <TooltipProvider>
-            <a
-              href="#main-content"
-              className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-primary focus:text-primary-foreground focus:rounded-md"
-            >
-              {t("skipToContent")}
-            </a>
-            <Header />
-            <main id="main-content" className="flex-1">
-              {children}
-            </main>
-            <Footer />
-            <FloatingButtons />
+            {children}
             <ScrollToTop />
             <JsonLdMedicalClinic />
             <ScrollAnimations />

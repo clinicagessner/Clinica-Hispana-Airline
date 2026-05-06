@@ -24,6 +24,7 @@ import {
 } from "@/components/ui/accordion";
 import {
   CONTACT_INFO,
+  CONQUESTING_PHONE,
   SITE_CONFIG,
   GOOGLE_REVIEWS_DATA,
   SERVICES,
@@ -281,10 +282,10 @@ export default async function LandingComparacionClinicasHouston({ params }: Prop
 
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Button asChild size="lg" className="text-base md:text-lg px-8 py-6 gap-2 shadow-lg shadow-red-primary/30">
-                <a href={`tel:${CONTACT_INFO.phone}`} suppressHydrationWarning>
+                <a href={`tel:${CONQUESTING_PHONE.phone}`} suppressHydrationWarning>
                   <Phone className="size-5" weight="fill" />
                   <span suppressHydrationWarning>
-                    {t.ctaCallPrefix} {CONTACT_INFO.phoneFormatted}
+                    {t.ctaCallPrefix} {CONQUESTING_PHONE.phoneFormatted}
                   </span>
                 </a>
               </Button>
@@ -484,11 +485,11 @@ export default async function LandingComparacionClinicasHouston({ params }: Prop
                 <div>
                   <p className="font-semibold text-slate-dark">{t.phoneLabel}</p>
                   <a
-                    href={`tel:${CONTACT_INFO.phone}`}
+                    href={`tel:${CONQUESTING_PHONE.phone}`}
                     className="text-red-primary hover:text-red-dark text-sm font-semibold"
                     suppressHydrationWarning
                   >
-                    <span suppressHydrationWarning>{CONTACT_INFO.phoneFormatted}</span>
+                    <span suppressHydrationWarning>{CONQUESTING_PHONE.phoneFormatted}</span>
                   </a>
                 </div>
               </div>
@@ -562,10 +563,10 @@ export default async function LandingComparacionClinicasHouston({ params }: Prop
                 size="lg"
                 className="text-base md:text-lg px-8 py-6 gap-2 bg-white text-red-primary hover:bg-white/90"
               >
-                <a href={`tel:${CONTACT_INFO.phone}`} suppressHydrationWarning>
+                <a href={`tel:${CONQUESTING_PHONE.phone}`} suppressHydrationWarning>
                   <Phone className="size-5" weight="fill" />
                   <span suppressHydrationWarning>
-                    {t.ctaCallPrefix} {CONTACT_INFO.phoneFormatted}
+                    {t.ctaCallPrefix} {CONQUESTING_PHONE.phoneFormatted}
                   </span>
                 </a>
               </Button>

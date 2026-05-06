@@ -7,9 +7,14 @@ import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip
 import { CONTACT_INFO } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 
-export function FloatingButtons() {
+type FloatingButtonsProps = {
+  phoneOverride?: { phone: string; phoneFormatted: string };
+};
+
+export function FloatingButtons({ phoneOverride }: FloatingButtonsProps = {}) {
   const t = useTranslations("cta");
   const [isVisible, setIsVisible] = useState(false);
+  const phone = phoneOverride?.phone ?? CONTACT_INFO.phone;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -49,7 +54,7 @@ export function FloatingButtons() {
       <Tooltip>
         <TooltipTrigger asChild>
           <a
-            href={`tel:${CONTACT_INFO.phone}`}
+            href={`tel:${phone}`}
             className="size-14 rounded-full bg-red-primary text-white shadow-md shadow-red-primary/30 flex items-center justify-center hover:bg-red-dark hover:shadow-lg transition-all animate-pulse-float"
             aria-label="Llamar ahora"
             suppressHydrationWarning

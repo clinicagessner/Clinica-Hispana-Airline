@@ -13,7 +13,11 @@ import { LanguageSwitcher } from "@/components/layout/language-switcher";
 import { NAV_ITEMS, CONTACT_INFO, SITE_CONFIG } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 
-export function Header() {
+type HeaderProps = {
+  phoneOverride?: { phone: string; phoneFormatted: string };
+};
+
+export function Header({ phoneOverride }: HeaderProps = {}) {
   const t = useTranslations();
   const locale = useLocale();
   const pathname = usePathname();
@@ -21,6 +25,8 @@ export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
+  const phone = phoneOverride?.phone ?? CONTACT_INFO.phone;
+  const phoneFormatted = phoneOverride?.phoneFormatted ?? CONTACT_INFO.phoneFormatted;
 
   // Build locale-aware href
   const getLocalizedHref = (href: string) => {
@@ -135,9 +141,9 @@ export function Header() {
           <div className="hidden lg:flex items-center gap-3">
             <LanguageSwitcher isScrolled={!useTransparentStyle} />
             <Button asChild size="sm" className="gap-2">
-              <a href={`tel:${CONTACT_INFO.phone}`} suppressHydrationWarning>
+              <a href={`tel:${phone}`} suppressHydrationWarning>
                 <Phone className="size-4" weight="bold" />
-                <span className="hidden xl:inline" suppressHydrationWarning>{CONTACT_INFO.phoneFormatted}</span>
+                <span className="hidden xl:inline" suppressHydrationWarning>{phoneFormatted}</span>
                 <span className="xl:hidden">{t("cta.callNow")}</span>
               </a>
             </Button>
@@ -201,7 +207,7 @@ export function Header() {
 
                   <div className="pt-6 border-t space-y-3">
                     <Button asChild className="w-full gap-2" size="lg">
-                      <a href={`tel:${CONTACT_INFO.phone}`} onClick={handleLinkClick} suppressHydrationWarning>
+                      <a href={`tel:${phone}`} onClick={handleLinkClick} suppressHydrationWarning>
                         <Phone className="size-5" weight="bold" />
                         {t("cta.callNow")}
                       </a>
@@ -218,7 +224,7 @@ export function Header() {
                       </a>
                     </Button>
                     <p className="text-center text-sm text-muted-foreground" suppressHydrationWarning>
-                      {CONTACT_INFO.phoneFormatted}
+                      {phoneFormatted}
                     </p>
                   </div>
                 </div>

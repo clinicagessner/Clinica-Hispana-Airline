@@ -6,7 +6,11 @@ import { Button } from "@/components/ui/button";
 import { SITE_CONFIG, CONTACT_INFO, SOCIAL_LINKS, NAV_ITEMS, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
 import { getGooglePlaceData } from "@/lib/google-places";
 
-export async function Footer() {
+type FooterProps = {
+  phoneOverride?: { phone: string; phoneFormatted: string };
+};
+
+export async function Footer({ phoneOverride }: FooterProps = {}) {
   const [t, locale, googleData] = await Promise.all([
     getTranslations(),
     getLocale(),
@@ -15,6 +19,8 @@ export async function Footer() {
   const currentYear = new Date().getFullYear();
   const rating = googleData?.rating ?? GOOGLE_REVIEWS_DATA.averageRating;
   const reviews = googleData?.totalReviews ?? GOOGLE_REVIEWS_DATA.totalReviews;
+  const phone = phoneOverride?.phone ?? CONTACT_INFO.phone;
+  const phoneFormatted = phoneOverride?.phoneFormatted ?? CONTACT_INFO.phoneFormatted;
 
   const getLocalizedHref = (href: string) => {
     if (locale === "es") return href;
@@ -49,7 +55,7 @@ export async function Footer() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-3">
               <Button asChild size="sm" className="gap-2 bg-red-primary hover:bg-red-dark">
-                <a href={`tel:${CONTACT_INFO.phone}`} suppressHydrationWarning>
+                <a href={`tel:${phone}`} suppressHydrationWarning>
                   <Phone className="size-4" weight="fill" />
                   {t("cta.callNow")}
                 </a>
@@ -71,12 +77,12 @@ export async function Footer() {
             <ul className="space-y-4">
               <li>
                 <a
-                  href={`tel:${CONTACT_INFO.phone}`}
+                  href={`tel:${phone}`}
                   className="flex items-start gap-3 text-white/70 hover:text-white transition-colors text-sm group"
                   suppressHydrationWarning
                 >
                   <Phone className="size-5 shrink-0 mt-0.5 text-red-primary group-hover:text-white transition-colors" weight="fill" />
-                  <span>{CONTACT_INFO.phoneFormatted}</span>
+                  <span>{phoneFormatted}</span>
                 </a>
               </li>
               <li>

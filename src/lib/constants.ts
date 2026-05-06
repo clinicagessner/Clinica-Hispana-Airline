@@ -45,6 +45,13 @@ export const GOOGLE_REVIEWS_DATA = {
   placeId: "ChIJsxclc5m5QIYRyAurHml5cWA",
 };
 
+// Dedicated CallRail tracking number for the Conquesting San Rafael landing only.
+// Used in /landing/comparacion-clinicas-houston via a route-specific layout.
+export const CONQUESTING_PHONE = {
+  phone: "+13462482313",
+  phoneFormatted: "+1 (346) 248-2313",
+} as const;
+
 export const SERVICES: Service[] = [
   {
     id: "medicina-familiar",
