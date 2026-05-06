@@ -3,12 +3,18 @@ import Image from "next/image";
 import { getTranslations, getLocale } from "next-intl/server";
 import { Phone, MapPin, Clock, InstagramLogo, FacebookLogo, XLogo, LinkedinLogo, GoogleLogo } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
-import { SITE_CONFIG, CONTACT_INFO, SOCIAL_LINKS, NAV_ITEMS } from "@/lib/constants";
+import { SITE_CONFIG, CONTACT_INFO, SOCIAL_LINKS, NAV_ITEMS, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
+import { getGooglePlaceData } from "@/lib/google-places";
 
 export async function Footer() {
-  const t = await getTranslations();
-  const locale = await getLocale();
+  const [t, locale, googleData] = await Promise.all([
+    getTranslations(),
+    getLocale(),
+    getGooglePlaceData(),
+  ]);
   const currentYear = new Date().getFullYear();
+  const rating = googleData?.rating ?? GOOGLE_REVIEWS_DATA.averageRating;
+  const reviews = googleData?.totalReviews ?? GOOGLE_REVIEWS_DATA.totalReviews;
 
   const getLocalizedHref = (href: string) => {
     if (locale === "es") return href;
@@ -197,7 +203,7 @@ export async function Footer() {
                   </svg>
                 ))}
               </div>
-              <p className="text-xs text-white/60 mt-1">{t("footer.stars")}</p>
+              <p className="text-xs text-white/60 mt-1">{t("footer.stars", { rating, reviews })}</p>
             </div>
           </div>
         </div>

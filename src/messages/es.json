@@ -147,7 +147,7 @@
     "hipaa": "Aviso HIPAA",
     "hoursWeekday": "Lunes a Viernes: 9:00 AM - 9:00 PM",
     "hoursWeekend": "Sábado y Domingo: 9:00 AM - 9:00 PM",
-    "stars": "5.0 estrellas"
+    "stars": "{rating} con {reviews}+ reseñas"
   },
   "common": {
     "loading": "Cargando...",
