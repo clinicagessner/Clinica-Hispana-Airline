@@ -157,7 +157,7 @@ export default async function LocaleLayout({ children, params }: Props) {
             height="1"
             width="1"
             style={{ display: "none" }}
-            src="https://www.facebook.com/tr?id=1443226816174810&ev=PageView&noscript=1"
+            src="https://www.facebook.com/tr?id=1993259561579416&ev=PageView&noscript=1"
             alt=""
           />
         </noscript>
@@ -185,7 +185,7 @@ export default async function LocaleLayout({ children, params }: Props) {
           t.src=v;s=b.getElementsByTagName(e)[0];
           s.parentNode.insertBefore(t,s)}(window, document,'script',
           'https://connect.facebook.net/en_US/fbevents.js');
-          fbq('init', '1443226816174810');
+          fbq('init', '1993259561579416');
           fbq('track', 'PageView');
         `}
       </Script>
