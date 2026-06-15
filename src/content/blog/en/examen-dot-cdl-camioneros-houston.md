@@ -5,7 +5,7 @@ description: "Complete guide to DOT physical exams for CDL license in Houston TX
 date: "2026-04-11"
 dateModified: "2026-04-11"
 author: "Clínica Hispana Airline"
-image: "/images/services/dot-exam.webp"
+image: "/images/services/examen-dot.webp"
 featured: true
 category: "Occupational Health"
 readTime: 7

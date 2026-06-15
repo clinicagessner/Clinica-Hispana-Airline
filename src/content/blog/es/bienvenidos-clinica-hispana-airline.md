@@ -34,7 +34,7 @@ Todo nuestro personal habla español fluido. Desde el momento en que entra por n
 Sabemos que las emergencias de salud no esperan. Por eso ofrecemos atención sin cita previa para que pueda recibir el cuidado que necesita cuando lo necesita.
 
 ### Precios Accesibles
-Creemos que la salud no debe ser un lujo. Ofrecemos precios justos y transparentes, y aceptamos pacientes con o sin seguro médico.
+Creemos que la salud no debe ser un lujo. Ofrecemos precios justos y transparentes, y atendemos a pacientes sin necesidad de seguro médico.
 
 ### Ubicación Conveniente
 Estamos ubicados en **934 E Tidwell Rd, Houston, TX 77022**, con fácil acceso y amplio estacionamiento.
@@ -43,15 +43,15 @@ Estamos ubicados en **934 E Tidwell Rd, Houston, TX 77022**, con fácil acceso y
 
 Ofrecemos una amplia gama de servicios médicos para toda la familia:
 
-- [**Medicina Familiar**](/services/medicina-familiar) - Atención integral para todas las edades, desde niños hasta adultos mayores. Chequeos preventivos, manejo de enfermedades agudas y seguimiento de salud general.
+- [**Medicina Familiar**](/services/condiciones-cronicas) - Atención integral para todas las edades, desde niños hasta adultos mayores. Chequeos preventivos, manejo de enfermedades agudas y seguimiento de salud general.
 - [**Exámenes de Inmigración**](/services/examenes-inmigracion) - Formulario I-693 realizado por Civil Surgeons certificados por USCIS. Proceso completo en español.
-- [**Laboratorio Clínico**](/services/laboratorio) - Análisis de sangre, orina y más con resultados rápidos y precisos. Sin necesidad de ir a otro lugar.
+- [**Laboratorio Clínico**](/services/examenes-sangre) - Análisis de sangre, orina y más con resultados rápidos y precisos. Sin necesidad de ir a otro lugar.
 - [**Ginecología**](/services/ginecologia) - Salud integral de la mujer: Papanicolaou, examen pélvico, planificación familiar y más.
 - [**Condiciones Crónicas**](/services/condiciones-cronicas) - Manejo especializado de diabetes, hipertensión, colesterol alto y otras condiciones de largo plazo.
 - [**Ultrasonido y EKG**](/services/ultrasonido) - Diagnóstico por imagen disponible en nuestra clínica, sin referencias externas.
 - [**Enfermedades Respiratorias**](/services/enfermedades-respiratorias) - Tratamiento de asma, bronquitis, neumonía y otras condiciones pulmonares.
-- [**Urología**](/services/urologia) - Atención de problemas urinarios y del sistema reproductor masculino.
-- [**Vacunas y Anticonceptivos**](/services/vacunas-anticonceptivas) - Esquemas de vacunación completos para todas las edades y métodos anticonceptivos.
+- [**Urología**](/services/salud-hombre) - Atención de problemas urinarios y del sistema reproductor masculino.
+- [**Vacunas y Anticonceptivos**](/services/vacunas) - Esquemas de vacunación completos para todas las edades y métodos anticonceptivos.
 
 ## La Comunidad Hispana de Houston y sus Necesidades de Salud
 
@@ -62,7 +62,7 @@ Houston es una de las ciudades con mayor población hispana en todo Estados Unid
 - **Desconfianza del sistema de salud**: Experiencias negativas previas o desconocimiento de los servicios disponibles generan miedo o rechazo a buscar atención.
 - **Horarios incompatibles**: Muchos trabajadores hispanos tienen horarios que no encajan con los horarios típicos de clínicas y consultorios.
 
-En Clínica Hispana Airline entendemos estas realidades de primera mano. Por eso diseñamos nuestros servicios para eliminar estas barreras: personal completamente bilingüe, horarios extendidos de lunes a viernes hasta las 9 PM y fines de semana, precios transparentes y atención con o sin seguro médico.
+En Clínica Hispana Airline entendemos estas realidades de primera mano. Por eso diseñamos nuestros servicios para eliminar estas barreras: personal completamente bilingüe, horarios extendidos de lunes a viernes hasta las 9 PM y fines de semana, precios transparentes y atención sin necesidad de seguro médico.
 
 ## Clínica Hispana Airline vs. la Sala de Emergencias
 

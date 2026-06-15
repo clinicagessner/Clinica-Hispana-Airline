@@ -5,7 +5,7 @@ description: "Laboratorio clínico en Houston TX con resultados el mismo día. A
 date: "2026-03-21"
 dateModified: "2026-03-21"
 author: "Clínica Hispana Airline"
-image: "/images/services/laboratory.webp"
+image: "/images/services/examenes-sangre.webp"
 featured: false
 category: "Diagnóstico"
 readTime: 5
@@ -224,7 +224,7 @@ Las enfermedades del corazón son la principal causa de muerte en Houston y en t
 - Proteína C reactiva de alta sensibilidad (marcador de inflamación)
 - Electrocardiograma si su médico lo indica — disponible también en nuestra clínica
 
-Visite nuestra página de [laboratorio clínico](/services/laboratorio) para conocer todos los análisis disponibles sin cita previa en Houston TX.
+Visite nuestra página de [laboratorio clínico](/services/examenes-sangre) para conocer todos los análisis disponibles sin cita previa en Houston TX.
 
 ## Programe sus Análisis
 

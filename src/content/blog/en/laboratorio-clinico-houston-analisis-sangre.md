@@ -5,7 +5,7 @@ description: "Clinical laboratory in Houston TX with same-day results. Blood tes
 date: "2026-03-21"
 dateModified: "2026-03-21"
 author: "Clínica Hispana Airline"
-image: "/images/services/laboratory.webp"
+image: "/images/services/examenes-sangre.webp"
 featured: false
 category: "Diagnostics"
 readTime: 5
@@ -224,7 +224,7 @@ Heart disease is the leading cause of death in Houston and across the United Sta
 - High-sensitivity C-reactive protein (inflammation marker)
 - Electrocardiogram if your doctor recommends it — also available at our clinic
 
-Visit our [clinical laboratory](/services/laboratorio) page to see all available tests with no appointment needed in Houston TX.
+Visit our [clinical laboratory](/services/examenes-sangre) page to see all available tests with no appointment needed in Houston TX.
 
 ## Schedule Your Lab Work
 

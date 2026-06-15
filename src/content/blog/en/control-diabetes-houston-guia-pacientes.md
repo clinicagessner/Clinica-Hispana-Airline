@@ -5,7 +5,7 @@ description: "Learn how to manage your diabetes with our comprehensive guide. Gl
 date: "2026-03-19"
 dateModified: "2026-03-21"
 author: "Clínica Hispana Airline"
-image: "/images/services/chronic-conditions.jpg"
+image: "/images/services/condiciones-cronicas.jpg"
 featured: false
 category: "Health"
 readTime: 7
@@ -55,7 +55,7 @@ In Houston's Hispanic community, the risk of prediabetes is especially high due 
 - People with high blood pressure or elevated cholesterol
 - People with little or no physical activity
 
-If you have any of these risk factors, request a glucose test at our [clinical laboratory](/services/laboratorio). Early detection can change the course of your health.
+If you have any of these risk factors, request a glucose test at our [clinical laboratory](/services/examenes-sangre). Early detection can change the course of your health.
 
 ## Symptoms of Diabetes
 
@@ -79,7 +79,7 @@ Monitoring your glucose levels regularly is essential:
 - **Hemoglobin A1C:** less than 7%
 
 ### Regular Tests
-At Clínica Hispana Airline we perform all the tests needed to manage diabetes. See our [chronic conditions](/services/condiciones-cronicas) and [laboratory](/services/laboratorio) services:
+At Clínica Hispana Airline we perform all the tests needed to manage diabetes. See our [chronic conditions](/services/condiciones-cronicas) and [laboratory](/services/examenes-sangre) services:
 - Fasting glucose tests
 - Hemoglobin A1C (every 3 months)
 - Complete metabolic panel
@@ -203,7 +203,7 @@ At **Clínica Hispana Airline** we offer comprehensive care for the [management 
 
 ### Diabetes Services
 - Medical consultations in Spanish
-- Glucose and A1C tests at our [laboratory](/services/laboratorio)
+- Glucose and A1C tests at our [laboratory](/services/examenes-sangre)
 - Medication adjustments
 - Nutrition education
 - Continuous monitoring

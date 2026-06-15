@@ -28,6 +28,7 @@ import {
   Users,
   Bone,
   Monitor,
+  Pill,
   FunnelSimple,
 } from "@phosphor-icons/react/dist/ssr";
 import { Badge } from "@/components/ui/badge";
@@ -57,6 +58,7 @@ const iconMap: Record<string, React.ElementType> = {
   Users,
   Bone,
   Monitor,
+  Pill,
   Shield: ShieldCheck,
 };
 
@@ -76,6 +78,8 @@ const categoryIconMap: Record<string, React.ElementType> = {
   Stethoscope,
   TestTube,
   GenderFemale,
+  Clipboard,
+  Syringe,
 };
 
 export function ServicesFilter({ services, categories }: ServicesFilterProps) {

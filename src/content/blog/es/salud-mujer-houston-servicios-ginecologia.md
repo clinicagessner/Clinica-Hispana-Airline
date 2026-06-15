@@ -5,7 +5,7 @@ description: "Servicios de ginecología en Houston TX con atención en español.
 date: "2026-03-20"
 dateModified: "2026-03-21"
 author: "Clínica Hispana Airline"
-image: "/images/services/gynecology.webp"
+image: "/images/services/ginecologia.webp"
 featured: false
 category: "Salud de la Mujer"
 readTime: 6
@@ -202,7 +202,7 @@ La salud sexual es una parte integral del bienestar general de la mujer. Las inf
 - Comunicación abierta con su pareja sobre pruebas recientes
 - Chequeos ginecológicos anuales como parte de su rutina de salud
 
-Nuestros servicios de [enfermedades de transmisión sexual](/services/enfermedades-transmision-sexual) son completamente confidenciales y se realizan en un ambiente de respeto y confianza. También ofrecemos [planificación familiar](/services/planificacion-familiar) integral que incluye orientación sobre salud sexual y anticoncepción. Si ha tenido síntomas como flujo inusual o irritación, consulte nuestra página sobre [infecciones vaginales](/services/infecciones-vaginales) para más información.
+Nuestros servicios de [enfermedades de transmisión sexual](/services/enfermedades-transmision-sexual) son completamente confidenciales y se realizan en un ambiente de respeto y confianza. También ofrecemos [planificación familiar](/services/anticonceptivos) integral que incluye orientación sobre salud sexual y anticoncepción. Si ha tenido síntomas como flujo inusual o irritación, consulte nuestra página sobre [infecciones vaginales](/services/ginecologia) para más información.
 
 ## Por Qué Elegir Clínica Hispana Airline
 

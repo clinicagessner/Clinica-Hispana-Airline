@@ -29,6 +29,7 @@ import {
   Users,
   Bone,
   Monitor,
+  Pill,
   Pulse,
 } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
@@ -62,6 +63,7 @@ const iconMap: Record<string, React.ElementType> = {
   Users,
   Bone,
   Monitor,
+  Pill,
 };
 
 interface Props {
@@ -177,10 +179,11 @@ export default async function ServicePage({ params }: Props) {
               {/* Category Badge */}
               <Badge className="mb-4 bg-red-primary/90 hover:bg-red-primary text-white border-0">
                 <IconComponent className="size-3.5 mr-1.5" weight="fill" />
-                {service.category === "especial" ? t("categoryEspecial") :
-                 service.category === "diagnostico" ? t("categoryDiagnostico") :
-                 service.category === "especialidad" ? t("categoryEspecialidad") :
-                 service.category === "mujer" ? t("categoryMujer") :
+                {service.category === "medicina-general" ? t("categoryMedicinaGeneral") :
+                 service.category === "salud-mujer" ? t("categorySaludMujer") :
+                 service.category === "examenes" ? t("categoryExamenes") :
+                 service.category === "laboratorio" ? t("categoryLaboratorio") :
+                 service.category === "tratamientos" ? t("categoryTratamientos") :
                  t("categoryDefault")}
               </Badge>
 

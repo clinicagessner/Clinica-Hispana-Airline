@@ -5,7 +5,7 @@ description: "Gynecology services in Houston TX with Spanish-speaking staff. Pap
 date: "2026-03-20"
 dateModified: "2026-03-21"
 author: "Clínica Hispana Airline"
-image: "/images/services/gynecology.webp"
+image: "/images/services/ginecologia.webp"
 featured: false
 category: "Women's Health"
 readTime: 6
@@ -202,7 +202,7 @@ Sexual health is an integral part of a woman's overall well-being. Sexually tran
 - Open communication with your partner about recent testing
 - Annual gynecological checkups as part of your health routine
 
-Our [sexually transmitted disease services](/services/enfermedades-transmision-sexual) are completely confidential and conducted in an environment of respect and trust. We also offer comprehensive [family planning](/services/planificacion-familiar) that includes sexual health counseling and contraception. If you have experienced symptoms like unusual discharge or irritation, visit our page on [vaginal infections](/services/infecciones-vaginales) for more information.
+Our [sexually transmitted disease services](/services/enfermedades-transmision-sexual) are completely confidential and conducted in an environment of respect and trust. We also offer comprehensive [family planning](/services/anticonceptivos) that includes sexual health counseling and contraception. If you have experienced symptoms like unusual discharge or irritation, visit our page on [vaginal infections](/services/ginecologia) for more information.
 
 ## Why Choose Clínica Hispana Airline
 

@@ -34,7 +34,7 @@ Every member of our staff speaks fluent Spanish. From the moment you walk in to 
 We know health emergencies don't wait. That's why we offer walk-in care so you can get the attention you need, when you need it.
 
 ### Affordable Prices
-We believe health care should not be a luxury. We offer fair, transparent pricing and accept patients with or without health insurance.
+We believe health care should not be a luxury. We offer fair, transparent pricing and see patients without insurance.
 
 ### Convenient Location
 We are located at **934 E Tidwell Rd, Houston, TX 77022**, with easy access and ample parking.
@@ -43,15 +43,15 @@ We are located at **934 E Tidwell Rd, Houston, TX 77022**, with easy access and 
 
 We offer a wide range of medical services for the whole family:
 
-- [**Family Medicine**](/services/medicina-familiar) — Comprehensive care for all ages, from children to seniors. Preventive checkups, treatment of acute illnesses, and general health follow-up.
+- [**Family Medicine**](/services/condiciones-cronicas) — Comprehensive care for all ages, from children to seniors. Preventive checkups, treatment of acute illnesses, and general health follow-up.
 - [**Immigration Medical Exams**](/services/examenes-inmigracion) — I-693 form completed by USCIS-certified Civil Surgeons. The entire process conducted in Spanish.
-- [**Clinical Laboratory**](/services/laboratorio) — Blood tests, urinalysis, and more with fast, accurate results — all in one place.
+- [**Clinical Laboratory**](/services/examenes-sangre) — Blood tests, urinalysis, and more with fast, accurate results — all in one place.
 - [**Gynecology**](/services/ginecologia) — Complete women's health care: Pap smears, pelvic exams, family planning, and more.
 - [**Chronic Conditions**](/services/condiciones-cronicas) — Specialized management of diabetes, hypertension, high cholesterol, and other long-term conditions.
 - [**Ultrasound & EKG**](/services/ultrasonido) — Diagnostic imaging available at our clinic, no outside referrals needed.
 - [**Respiratory Illnesses**](/services/enfermedades-respiratorias) — Treatment of asthma, bronchitis, pneumonia, and other lung conditions.
-- [**Urology**](/services/urologia) — Care for urinary and male reproductive health concerns.
-- [**Vaccines & Contraceptives**](/services/vacunas-anticonceptivas) — Complete vaccination schedules for all ages and contraceptive methods.
+- [**Urology**](/services/salud-hombre) — Care for urinary and male reproductive health concerns.
+- [**Vaccines & Contraceptives**](/services/vacunas) — Complete vaccination schedules for all ages and contraceptive methods.
 
 ## Houston's Hispanic Community and Their Health Needs
 
@@ -62,7 +62,7 @@ Houston is one of the cities with the largest Hispanic population in the entire 
 - **Distrust of the healthcare system:** Negative past experiences or lack of awareness about available services can create fear or reluctance to seek care.
 - **Incompatible schedules:** Many Hispanic workers have jobs that don't align with typical clinic and office hours.
 
-At Clínica Hispana Airline, we understand these realities firsthand. That is why we designed our services to break down these barriers: fully bilingual staff, extended hours Monday through Friday until 9 PM and weekends, transparent pricing, and care for patients with or without insurance.
+At Clínica Hispana Airline, we understand these realities firsthand. That is why we designed our services to break down these barriers: fully bilingual staff, extended hours Monday through Friday until 9 PM and weekends, transparent pricing, and care for patients without insurance.
 
 ## Clínica Hispana Airline vs. the Emergency Room
 

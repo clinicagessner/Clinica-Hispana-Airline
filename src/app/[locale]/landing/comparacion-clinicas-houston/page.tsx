@@ -67,7 +67,7 @@ const copy = {
       { label: "Reseñas en Google" },
       { label: "Horario", value: "7 días, hasta 9:00 PM" },
       { label: "Cita previa", value: "No se requiere" },
-      { label: "Pago", value: "Con o sin seguro" },
+      { label: "Pago", value: "Sin necesidad de seguro" },
       { label: "Idioma", value: "100% Español" },
       { label: "Examen I-693", value: "Civil Surgeon USCIS" },
       { label: "Estacionamiento", value: "Gratis y amplio" },
@@ -96,7 +96,7 @@ const copy = {
       },
       {
         q: "¿Atienden a pacientes sin seguro médico?",
-        a: "Sí. Aceptamos pacientes con o sin seguro. Ofrecemos precios accesibles y le informamos el costo antes de cualquier servicio.",
+        a: "Sí. No necesitas seguro para atenderte. Ofrecemos precios accesibles de pago directo y le informamos el costo antes de cualquier servicio.",
       },
       {
         q: "¿Todo el personal habla español?",
@@ -118,7 +118,7 @@ const copy = {
     finalCtaTitle: "Reciba atención médica hoy mismo",
     finalCtaDesc:
       "Llame ahora o llegue directo a la clínica. Sin cita previa, atención el mismo día.",
-    finalCtaBullets: ["Sin cita previa", "Con o sin seguro", "100% en español"],
+    finalCtaBullets: ["Sin cita previa", "Sin necesidad de seguro", "100% en español"],
   },
   en: {
     metaTitle: "Hispanic Clinic in Houston | Same-Day Care",
@@ -139,7 +139,7 @@ const copy = {
       { title: "No appointment needed", desc: "Walk in and receive same-day care." },
       { title: "Open 7 days a week", desc: "Extended hours from 9:00 AM to 9:00 PM." },
       { title: "100% Spanish-speaking", desc: "Our entire team speaks your language." },
-      { title: "No insurance required", desc: "We accept patients with or without coverage." },
+      { title: "No insurance required", desc: "We see patients without insurance, with affordable self-pay pricing." },
       { title: "Affordable pricing", desc: "Transparent rates shared before any service." },
       { title: "Free parking", desc: "Ample parking right in front of the clinic." },
       { title: "On-site laboratory", desc: "Same-day results without sending you elsewhere." },
@@ -150,7 +150,7 @@ const copy = {
       { label: "Google reviews" },
       { label: "Hours", value: "7 days, until 9:00 PM" },
       { label: "Appointment", value: "Not required" },
-      { label: "Payment", value: "With or without insurance" },
+      { label: "Payment", value: "Self-pay, no insurance needed" },
       { label: "Language", value: "100% Spanish" },
       { label: "I-693 Exam", value: "USCIS Civil Surgeon" },
       { label: "Parking", value: "Free and ample" },
@@ -179,7 +179,7 @@ const copy = {
       },
       {
         q: "Do you accept patients without health insurance?",
-        a: "Yes. We accept patients with or without insurance. We offer affordable pricing and share the cost with you before any service.",
+        a: "Yes. You don't need insurance to be seen. We offer affordable self-pay pricing and share the cost with you before any service.",
       },
       {
         q: "Does the entire staff speak Spanish?",
@@ -201,7 +201,7 @@ const copy = {
     finalCtaTitle: "Get medical care today",
     finalCtaDesc:
       "Call now or walk into the clinic. No appointment needed, same-day care.",
-    finalCtaBullets: ["No appointment", "With or without insurance", "100% Spanish-speaking"],
+    finalCtaBullets: ["No appointment", "No insurance needed", "100% Spanish-speaking"],
   },
 } as const;
 
