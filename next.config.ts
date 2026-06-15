@@ -86,8 +86,8 @@ const nextConfig: NextConfig = {
       { source: "/menopausia", destination: "/services/ginecologia", permanent: true },
       { source: "/cervicitis", destination: "/services/ginecologia", permanent: true },
       { source: "/ginecologo", destination: "/services/ginecologia", permanent: true },
-      { source: "/vaginitis", destination: "/services/infecciones-vaginales", permanent: true },
-      { source: "/vulvovaginitis", destination: "/services/infecciones-vaginales", permanent: true },
+      { source: "/vaginitis", destination: "/services/ginecologia", permanent: true },
+      { source: "/vulvovaginitis", destination: "/services/ginecologia", permanent: true },
 
       // ============================================
       // URINARY TRACT / KIDNEY
@@ -96,26 +96,26 @@ const nextConfig: NextConfig = {
       { source: "/calculos-renales", destination: "/services/infecciones-urinarias", permanent: true },
       { source: "/uretritis", destination: "/services/infecciones-urinarias", permanent: true },
       { source: "/incontinencia-urinaria", destination: "/services/infecciones-urinarias", permanent: true },
-      { source: "/insuficiencia-renal", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/hemodialisis", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/prostatitis", destination: "/services/urologia", permanent: true },
-      { source: "/vejiga", destination: "/services/urologia", permanent: true },
+      { source: "/insuficiencia-renal", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/hemodialisis", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/prostatitis", destination: "/services/salud-hombre", permanent: true },
+      { source: "/vejiga", destination: "/services/salud-hombre", permanent: true },
 
       // ============================================
       // PAIN / MUSCULOSKELETAL
       // ============================================
-      { source: "/artritis", destination: "/services/dolores-musculares", permanent: true },
-      { source: "/fibromialgia", destination: "/services/dolores-musculares", permanent: true },
-      { source: "/bursitis", destination: "/services/dolores-musculares", permanent: true },
-      { source: "/esguinces", destination: "/services/dolores-musculares", permanent: true },
-      { source: "/desgarros", destination: "/services/dolores-musculares", permanent: true },
-      { source: "/fracturas", destination: "/services/dolores-musculares", permanent: true },
-      { source: "/escoliosis", destination: "/services/dolores-musculares", permanent: true },
-      { source: "/torticolis", destination: "/services/dolores-musculares", permanent: true },
-      { source: "/dedo-resorte", destination: "/services/dolores-musculares", permanent: true },
-      { source: "/ganglion", destination: "/services/dolores-musculares", permanent: true },
-      { source: "/osteoporosis", destination: "/services/dolores-musculares", permanent: true },
-      { source: "/huesos", destination: "/services/dolores-musculares", permanent: true },
+      { source: "/artritis", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/fibromialgia", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/bursitis", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/esguinces", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/desgarros", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/fracturas", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/escoliosis", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/torticolis", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/dedo-resorte", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/ganglion", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/osteoporosis", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/huesos", destination: "/services/condiciones-cronicas", permanent: true },
 
       // ============================================
       // CARDIOVASCULAR / EKG
@@ -129,10 +129,10 @@ const nextConfig: NextConfig = {
       // ============================================
       // LABORATORY / DIAGNOSTICS
       // ============================================
-      { source: "/hemograma", destination: "/services/laboratorio", permanent: true },
-      { source: "/cultivos", destination: "/services/laboratorio", permanent: true },
-      { source: "/biopsia", destination: "/services/laboratorio", permanent: true },
-      { source: "/pruebas", destination: "/services/laboratorio", permanent: true },
+      { source: "/hemograma", destination: "/services/examenes-sangre", permanent: true },
+      { source: "/cultivos", destination: "/services/examenes-sangre", permanent: true },
+      { source: "/biopsia", destination: "/services/examenes-sangre", permanent: true },
+      { source: "/pruebas", destination: "/services/examenes-sangre", permanent: true },
 
       // ============================================
       // ULTRASOUND / IMAGING
@@ -144,48 +144,48 @@ const nextConfig: NextConfig = {
       // ============================================
       // FAMILY PLANNING / CONTRACEPTION
       // ============================================
-      { source: "/anticonceptivos", destination: "/services/planificacion-familiar", permanent: true },
-      { source: "/planificacion", destination: "/services/planificacion-familiar", permanent: true },
+      { source: "/anticonceptivos", destination: "/services/anticonceptivos", permanent: true },
+      { source: "/planificacion", destination: "/services/anticonceptivos", permanent: true },
 
       // ============================================
       // GENERAL MEDICINE / OTHER CONDITIONS
       // → All map to family medicine as the catch-all
       // ============================================
-      { source: "/impetigo", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/cancer-de-garganta", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/encefalitis", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/sarcoma", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/alopecia", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/hiperhidrosis", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/neurofibroma", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/gastritis", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/epilepsia", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/escarlatina", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/demencia", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/estres", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/ansiedad", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/depresion", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/anorexia", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/celulitis", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/adenoides", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/conjuntivitis", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/orzuelo", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/paperas", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/varicela", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/culebrillas", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/herpes-zoster", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/apendicitis", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/accidente-cerebrovascular", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/derrame-cerebral", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/hemorragia-nasal", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/epistaxis", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/alergia", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/alergias", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/fiebre", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/vacunas", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/hemorroides", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/hongos", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/heridas", destination: "/services/medicina-familiar", permanent: true },
+      { source: "/impetigo", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/cancer-de-garganta", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/encefalitis", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/sarcoma", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/alopecia", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/hiperhidrosis", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/neurofibroma", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/gastritis", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/epilepsia", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/escarlatina", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/demencia", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/estres", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/ansiedad", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/depresion", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/anorexia", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/celulitis", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/adenoides", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/conjuntivitis", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/orzuelo", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/paperas", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/varicela", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/culebrillas", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/herpes-zoster", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/apendicitis", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/accidente-cerebrovascular", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/derrame-cerebral", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/hemorragia-nasal", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/epistaxis", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/alergia", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/alergias", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/fiebre", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/vacunas", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/hemorroides", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/hongos", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/heridas", destination: "/services/condiciones-cronicas", permanent: true },
 
       // ============================================
       // GENERIC TOPIC PAGES (taxonomy/keyword pages)
@@ -220,14 +220,26 @@ const nextConfig: NextConfig = {
       { source: "/que-es-el-examen-de-papanicolaou", destination: "/services/ginecologia", permanent: true },
       { source: "/que-es-la-taquicardia", destination: "/services/condiciones-cronicas", permanent: true },
       { source: "/que-es-un-accidente-cerebrovascular", destination: "/services/condiciones-cronicas", permanent: true },
-      { source: "/que-es-una-biopsia", destination: "/services/laboratorio", permanent: true },
+      { source: "/que-es-una-biopsia", destination: "/services/examenes-sangre", permanent: true },
       { source: "/que-es-la-sinusitis", destination: "/services/enfermedades-respiratorias", permanent: true },
-      { source: "/que-son-las-hemorroides", destination: "/services/medicina-familiar", permanent: true },
+      { source: "/que-son-las-hemorroides", destination: "/services/condiciones-cronicas", permanent: true },
       { source: "/vih-sida", destination: "/services/enfermedades-transmision-sexual", permanent: true },
-      { source: "/gangrena", destination: "/services/medicina-familiar", permanent: true },
-      { source: "/diarrea-sintomas", destination: "/services/medicina-familiar", permanent: true },
+      { source: "/gangrena", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/diarrea-sintomas", destination: "/services/condiciones-cronicas", permanent: true },
       { source: "/extraccion-de-implante-hormonal", destination: "/services/ginecologia", permanent: true },
-      { source: "/extraccion-de-unas", destination: "/services/medicina-familiar", permanent: true },
+      { source: "/extraccion-de-unas", destination: "/services/condiciones-cronicas", permanent: true },
+      // ============================================
+      // OLD SERVICE SLUGS (29-service catalog migration)
+      // ============================================
+      { source: "/services/medicina-familiar", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/services/dolores-musculares", destination: "/services/condiciones-cronicas", permanent: true },
+      { source: "/services/laboratorio", destination: "/services/examenes-sangre", permanent: true },
+      { source: "/services/examenes-generales", destination: "/services/examen-fisico-escolar", permanent: true },
+      { source: "/services/urologia", destination: "/services/salud-hombre", permanent: true },
+      { source: "/services/planificacion-familiar", destination: "/services/anticonceptivos", permanent: true },
+      { source: "/services/vacunas-anticonceptivas", destination: "/services/vacunas", permanent: true },
+      { source: "/services/infecciones-vaginales", destination: "/services/ginecologia", permanent: true },
+
     ];
   },
   async headers() {
