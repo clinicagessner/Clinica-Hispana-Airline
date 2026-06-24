@@ -3,7 +3,7 @@ import createNextIntlPlugin from "next-intl/plugin";
 
 const nextConfig: NextConfig = {
   images: {
-    qualities: [60, 75],
+    qualities: [50, 60, 75],
     minimumCacheTTL: 31536000,
     remotePatterns: [
       {

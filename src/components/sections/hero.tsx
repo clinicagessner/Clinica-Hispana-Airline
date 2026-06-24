@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { getTranslations } from "next-intl/server";
-import { Phone, MapPin, Clock, Star, CheckCircle } from "@phosphor-icons/react/dist/ssr";
+import { Phone, MapPin, Clock, Star, CheckCircle, ArrowRight } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { CONTACT_INFO, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
 import { getGooglePlaceData } from "@/lib/google-places";
@@ -53,7 +53,7 @@ export async function Hero() {
           </p>
 
           {/* CTA Buttons */}
-          <div className="animate-hero-cta flex flex-col sm:flex-row gap-3 justify-center mb-8">
+          <div className="animate-hero-cta flex flex-col sm:flex-row gap-3 justify-center mb-4">
             <Button asChild size="lg" className="text-base md:text-lg px-8 py-6 gap-2 shadow-lg shadow-red-primary/30">
               <a href={`tel:${CONTACT_INFO.phone}`} suppressHydrationWarning>
                 <Phone className="size-5" weight="fill" />
@@ -75,6 +75,20 @@ export async function Hero() {
                 {t("ctaLocation")}
               </a>
             </Button>
+          </div>
+
+          {/* Secondary contact link */}
+          <div className="animate-hero-cta mb-8">
+            <a
+              href="#contact"
+              className="group inline-flex items-center gap-1.5 text-base text-white/90 underline decoration-white/40 underline-offset-4 transition-colors duration-200 hover:text-white hover:decoration-white"
+            >
+              {t("ctaContact")}
+              <ArrowRight
+                className="size-4 transition-transform duration-200 group-hover:translate-x-1"
+                weight="bold"
+              />
+            </a>
           </div>
 
           {/* Features - Hidden on mobile, visible on tablet+ */}

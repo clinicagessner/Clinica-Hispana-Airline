@@ -1217,40 +1217,178 @@ export const SERVICES: Service[] = [
 
 export const PROMOTIONS: Promotion[] = [
   {
-    id: "consulta-general",
-    title: "Consulta Médica General",
-    badge: "Más Popular",
-    description: "Evaluación médica completa con nuestros especialistas.",
+    slug: "examen-completo-hombres",
+    title: "Examen Completo para Hombres",
+    titleEn: "Complete Checkup for Men",
+    price: "$89",
+    blurb:
+      "Examen completo para hombres que evalúa la salud urinaria, de próstata y los niveles de testosterona, con consulta médica incluida sin costo.",
+    blurbEn:
+      "A complete checkup for men that evaluates urinary health, prostate health, and testosterone levels, with a medical consultation included at no cost.",
     includes: [
-      "Examen físico completo",
-      "Revisión de signos vitales",
-      "Diagnóstico profesional",
-      "Receta médica si es necesario",
+      "Examen de orina",
+      "Examen de próstata",
+      "Examen de testosterona",
+      "Consulta médica gratis",
     ],
+    includesEn: [
+      "Urine test",
+      "Prostate test",
+      "Testosterone test",
+      "Free medical consultation",
+    ],
+    image: "/images/promotions/examen-completo-hombres.webp",
+    alt: "Promoción de examen completo para hombres por $89 con orina, próstata y testosterona en Clínica Hispana Airline Houston",
+    altEn: "Complete checkup for men promotion for $89 with urine, prostate and testosterone tests at Clínica Hispana Airline Houston",
+    highlighted: true,
+    order: 1,
   },
   {
-    id: "paquete-diabetes",
-    title: "Paquete Control Diabetes",
-    badge: "Ahorre $50",
-    description: "Todo lo necesario para mantener su diabetes bajo control.",
+    slug: "chequeo-completo-mujer",
+    title: "Chequeo Completo de Mujer",
+    titleEn: "Complete Women's Checkup",
+    price: "$79",
+    blurb:
+      "Chequeo integral para la mujer que incluye examen de Papanicolaou, consulta ginecológica y orden de mamografía.",
+    blurbEn:
+      "A comprehensive women's checkup that includes a Pap smear, a gynecological consultation, and a mammogram order.",
     includes: [
+      "Examen de Papanicolaou",
+      "Consulta ginecológica",
+      "Orden de mamografía",
+    ],
+    includesEn: [
+      "Pap smear",
+      "Gynecological consultation",
+      "Mammogram order",
+    ],
+    image: "/images/promotions/chequeo-completo-mujer.webp",
+    alt: "Promoción de chequeo completo de mujer por $79 con Papanicolaou, consulta ginecológica y orden de mamografía en Clínica Hispana Airline Houston",
+    altEn: "Complete women's checkup promotion for $79 with Pap smear, gynecological consultation and mammogram order at Clínica Hispana Airline Houston",
+    highlighted: true,
+    order: 2,
+  },
+  {
+    slug: "general-sangre-b12",
+    title: "Examen General de Sangre + Vitamina B12",
+    titleEn: "General Blood Test + Vitamin B12",
+    price: "$99",
+    blurb:
+      "Examen general de sangre junto con una inyección de Vitamina B12 para apoyar tu energía y bienestar.",
+    blurbEn:
+      "A general blood test together with a Vitamin B12 injection to support your energy and well-being.",
+    includes: [
+      "Examen general de sangre",
+      "Inyección de Vitamina B12",
+      "Orientación sobre tus resultados",
+    ],
+    includesEn: [
+      "General blood test",
+      "Vitamin B12 injection",
+      "Guidance on your results",
+    ],
+    image: "/images/promotions/general-sangre-b12.webp",
+    alt: "Promoción de examen general de sangre más inyección de Vitamina B12 por $99 en Clínica Hispana Airline Houston",
+    altEn: "General blood test plus Vitamin B12 injection promotion for $99 at Clínica Hispana Airline Houston",
+    order: 3,
+  },
+  {
+    slug: "salud-intima-femenina",
+    title: "Salud Íntima Femenina",
+    titleEn: "Women's Intimate Health",
+    price: "$69",
+    blurb:
+      "Evaluación para molestias íntimas como picazón, flujo o mal olor, con atención confidencial y personal femenino.",
+    blurbEn:
+      "An evaluation for intimate discomfort such as itching, discharge, or odor, with confidential care and female staff.",
+    includes: [
+      "Cultivo íntimo",
       "Consulta médica",
-      "Examen de glucosa en ayunas",
-      "Hemoglobina A1C",
-      "Plan de alimentación",
+      "Examen de orina gratis",
     ],
+    includesEn: [
+      "Intimate culture test",
+      "Medical consultation",
+      "Free urine test",
+    ],
+    image: "/images/promotions/salud-intima-femenina.webp",
+    alt: "Promoción de salud íntima femenina por $69 con cultivo íntimo, consulta médica y examen de orina en Clínica Hispana Airline Houston",
+    altEn: "Women's intimate health promotion for $69 with intimate culture test, medical consultation and urine test at Clínica Hispana Airline Houston",
+    order: 4,
   },
   {
-    id: "chequeo-completo",
-    title: "Chequeo Completo",
-    badge: "Recomendado",
-    description: "Evaluación integral de su estado de salud.",
+    slug: "perfil-hormonal-masculino",
+    title: "Perfil Hormonal Masculino",
+    titleEn: "Male Hormone Profile",
+    price: "$200",
+    blurb:
+      "Perfil hormonal para hombres que ayuda a evaluar señales como fatiga, cambios de ánimo, calidad del sueño, libido y composición corporal.",
+    blurbEn:
+      "A hormone profile for men that helps evaluate signs such as fatigue, mood changes, sleep quality, libido, and body composition.",
     includes: [
-      "Examen físico completo",
-      "Panel de laboratorio básico",
-      "Revisión de presión y glucosa",
-      "Recomendaciones personalizadas",
+      "Evaluación de desequilibrios hormonales",
+      "Revisión de fatiga y cansancio",
+      "Evaluación de masa muscular y libido",
+      "Resultados precisos con atención profesional",
     ],
+    includesEn: [
+      "Hormonal imbalance evaluation",
+      "Fatigue and tiredness review",
+      "Muscle mass and libido assessment",
+      "Precise results with professional care",
+    ],
+    image: "/images/promotions/perfil-hormonal-masculino.webp",
+    alt: "Promoción de perfil hormonal masculino por $200 en Clínica Hispana Airline Houston",
+    altEn: "Male hormone profile promotion for $200 at Clínica Hispana Airline Houston",
+    order: 5,
+  },
+  {
+    slug: "diagnostico-ets",
+    title: "Diagnóstico de Enfermedades de Transmisión Sexual",
+    titleEn: "Sexually Transmitted Disease Diagnosis",
+    price: "$249",
+    blurb:
+      "Diagnóstico completo para enfermedades de transmisión sexual, con evaluación médica y atención confidencial y profesional.",
+    blurbEn:
+      "A complete diagnosis for sexually transmitted diseases, with a medical evaluation and confidential, professional care.",
+    includes: [
+      "Evaluación médica",
+      "Pruebas de laboratorio",
+      "Atención confidencial",
+    ],
+    includesEn: [
+      "Medical evaluation",
+      "Laboratory testing",
+      "Confidential care",
+    ],
+    image: "/images/promotions/diagnostico-ets.webp",
+    alt: "Promoción de diagnóstico completo de enfermedades de transmisión sexual por $249 en Clínica Hispana Airline Houston",
+    altEn: "Complete sexually transmitted disease diagnosis promotion for $249 at Clínica Hispana Airline Houston",
+    order: 6,
+  },
+  {
+    slug: "examen-dot",
+    title: "Examen DOT",
+    titleEn: "DOT Exam",
+    price: null,
+    blurb:
+      "Examen médico DOT para conductores comerciales: rápido, con certificación oficial y atención en español.",
+    blurbEn:
+      "DOT medical exam for commercial drivers: fast, with official certification and service in Spanish.",
+    includes: [
+      "Examen rápido",
+      "Certificación oficial",
+      "Atención en español",
+    ],
+    includesEn: [
+      "Fast exam",
+      "Official certification",
+      "Service in Spanish",
+    ],
+    image: "/images/promotions/examen-dot.webp",
+    alt: "Promoción de examen médico DOT para conductores comerciales con certificación oficial en Clínica Hispana Airline Houston",
+    altEn: "DOT medical exam promotion for commercial drivers with official certification at Clínica Hispana Airline Houston",
+    order: 7,
   },
 ];
 
@@ -1309,6 +1447,7 @@ export const FAQ_ITEMS: FAQItem[] = [
 
 export const NAV_ITEMS = [
   { label: "nav.services", href: "/services" },
+  { label: "nav.promotions", href: "/promociones" },
   { label: "nav.chronicCare", href: "/#chronic-care" },
   { label: "nav.blog", href: "/blog" },
   { label: "nav.contact", href: "/#contact" },

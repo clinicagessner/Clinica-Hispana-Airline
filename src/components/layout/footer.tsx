@@ -82,7 +82,7 @@ export async function Footer({ phoneOverride }: FooterProps = {}) {
                   suppressHydrationWarning
                 >
                   <Phone className="size-5 shrink-0 mt-0.5 text-red-primary group-hover:text-white transition-colors" weight="fill" />
-                  <span>{phoneFormatted}</span>
+                  <span suppressHydrationWarning>{phoneFormatted}</span>
                 </a>
               </li>
               <li>

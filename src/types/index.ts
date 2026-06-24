@@ -22,11 +22,19 @@ export interface Service {
 }
 
 export interface Promotion {
-  id: string;
+  slug: string;
   title: string;
-  badge: string;
-  description: string;
+  titleEn: string;
+  price: string | null;
+  blurb: string;
+  blurbEn: string;
   includes: string[];
+  includesEn: string[];
+  image: string;
+  alt: string;
+  altEn: string;
+  highlighted?: boolean;
+  order: number;
 }
 
 export interface ContactInfo {

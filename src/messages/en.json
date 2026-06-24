@@ -8,6 +8,7 @@
   "nav": {
     "home": "Home",
     "services": "Services",
+    "promotions": "Promotions",
     "greenCard": "Green Card",
     "chronicCare": "Chronic Care",
     "testimonials": "Testimonials",
@@ -25,6 +26,7 @@
     "subtitle": "One of the leading hispanic clinics in Houston TX. Family medicine, gynecology, diabetes care, and laboratory. Walk-ins welcome, affordable prices.",
     "ctaCall": "Call Now",
     "ctaLocation": "Get Directions",
+    "ctaContact": "Prefer that we contact you? Write to us",
     "hours": "Monday to Sunday: 9:00 AM - 9:00 PM",
     "googleReviews": "+ reviews on Google",
     "cardTitle": "Why choose us?",
@@ -228,5 +230,42 @@
     "ctaTitle": "Need medical attention?",
     "ctaDescription": "We're here to help. Call now to schedule your appointment or visit our clinic without an appointment.",
     "callNow": "Call now:"
+  },
+  "promotions": {
+    "eyebrow": "Promotions",
+    "title": "Health Promotions & Packages",
+    "subtitle": "Take advantage of our affordable medical packages in Houston, TX. 100% Spanish-speaking care, walk-ins welcome, and no insurance required.",
+    "viewAll": "View all promotions",
+    "viewPromotion": "View promotion",
+    "viewDetail": "View details",
+    "swipeHint": "Swipe to see more",
+    "prev": "Previous",
+    "next": "Next",
+    "limitedTime": "Limited time",
+    "priceLabel": "Special price",
+    "includesLabel": "Includes",
+    "ctaCall": "Call the clinic",
+    "ctaDirections": "Get directions",
+    "ctaForm": "Fill out the form",
+    "close": "Close",
+    "openAria": "View promotion details",
+    "backToHome": "Back to home",
+    "reviewsSuffix": "+ reviews on Google",
+    "pageEyebrow": "Promotions",
+    "pageTitle": "Promotions at Our Hispanic Clinic in Houston",
+    "pageSubtitle": "Affordable medical packages. 100% Spanish-speaking care, walk-ins welcome, and no insurance required.",
+    "faqTitle": "Frequently asked questions about promotions",
+    "faq": {
+      "q1": "How long are the promotions available?",
+      "a1": "Our promotions are for a limited time and prices may change. We recommend calling or writing to us to confirm availability and schedule your appointment.",
+      "q2": "Do I need an appointment or medical insurance?",
+      "a2": "You do not need medical insurance. We welcome walk-ins and you can also schedule in advance. We offer affordable self-pay prices.",
+      "q3": "How do I book a promotion?",
+      "a3": "You can call us, use the Get directions button to visit us, or fill out the contact form and our team will reach out to coordinate your appointment."
+    },
+    "formTitle": "Interested in a promotion? Write to us",
+    "formSubtitle": "Leave us your details and we'll contact you to schedule your appointment.",
+    "metaTitle": "Medical Promotions & Packages in Houston TX",
+    "metaDescription": "Affordable medical promotions and packages at Clínica Hispana Airline, Houston TX. Checkups for men and women, hormone profile, intimate health, DOT exam, and more. 100% Spanish-speaking care, walk-ins welcome."
   }
 }

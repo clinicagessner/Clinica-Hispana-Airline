@@ -8,6 +8,7 @@
   "nav": {
     "home": "Inicio",
     "services": "Servicios",
+    "promotions": "Promociones",
     "greenCard": "Green Card",
     "chronicCare": "Enfermedades Crónicas",
     "testimonials": "Testimonios",
@@ -25,6 +26,7 @@
     "subtitle": "Una de las clínicas hispanas líderes en Houston TX. Medicina familiar, ginecología, diabetes y laboratorio. Sin cita previa, precios accesibles.",
     "ctaCall": "Llamar Ahora",
     "ctaLocation": "Cómo Llegar",
+    "ctaContact": "¿Prefieres que te contactemos? Escríbenos",
     "hours": "Lunes a Domingo: 9:00 AM - 9:00 PM",
     "googleReviews": "+ reseñas en Google",
     "cardTitle": "¿Por qué elegirnos?",
@@ -228,5 +230,42 @@
     "ctaTitle": "¿Necesita atención médica?",
     "ctaDescription": "Estamos aquí para ayudarle. Llame ahora para agendar su cita o visite nuestra clínica sin cita previa.",
     "callNow": "Llamar ahora:"
+  },
+  "promotions": {
+    "eyebrow": "Promociones",
+    "title": "Promociones y Paquetes de Salud",
+    "subtitle": "Aproveche nuestros paquetes médicos a precios accesibles en Houston, TX. Atención 100% en español, sin cita previa y sin necesidad de seguro.",
+    "viewAll": "Ver todas las promociones",
+    "viewPromotion": "Ver promoción",
+    "viewDetail": "Ver detalles",
+    "swipeHint": "Desliza para ver más",
+    "prev": "Anterior",
+    "next": "Siguiente",
+    "limitedTime": "Tiempo limitado",
+    "priceLabel": "Precio especial",
+    "includesLabel": "Incluye",
+    "ctaCall": "Llamar a la clínica",
+    "ctaDirections": "Cómo llegar",
+    "ctaForm": "Llenar formulario",
+    "close": "Cerrar",
+    "openAria": "Ver detalles de la promoción",
+    "backToHome": "Volver al inicio",
+    "reviewsSuffix": "+ reseñas en Google",
+    "pageEyebrow": "Promociones",
+    "pageTitle": "Promociones de Nuestra Clínica Hispana en Houston",
+    "pageSubtitle": "Paquetes médicos a precios accesibles. Atención 100% en español, sin cita previa y sin necesidad de seguro.",
+    "faqTitle": "Preguntas frecuentes sobre las promociones",
+    "faq": {
+      "q1": "¿Hasta cuándo están disponibles las promociones?",
+      "a1": "Nuestras promociones son por tiempo limitado y los precios pueden cambiar. Le recomendamos llamarnos o escribirnos para confirmar la disponibilidad y agendar su cita.",
+      "q2": "¿Necesito cita o seguro médico?",
+      "a2": "No necesita seguro médico. Atendemos sin cita previa y también puede agendar con anticipación. Manejamos precios accesibles de pago directo.",
+      "q3": "¿Cómo reservo una promoción?",
+      "a3": "Puede llamarnos, usar el botón Cómo llegar para visitarnos, o llenar el formulario de contacto y nuestro equipo se comunicará con usted para coordinar su cita."
+    },
+    "formTitle": "¿Le interesa una promoción? Escríbanos",
+    "formSubtitle": "Déjenos sus datos y le contactamos para agendar su cita.",
+    "metaTitle": "Promociones y Paquetes Médicos en Houston TX",
+    "metaDescription": "Promociones y paquetes médicos a precios accesibles en Clínica Hispana Airline, Houston TX. Exámenes para hombres y mujeres, perfil hormonal, salud íntima, examen DOT y más. Atención 100% en español, sin cita previa."
   }
 }
