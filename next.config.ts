@@ -3,6 +3,10 @@ import createNextIntlPlugin from "next-intl/plugin";
 
 const nextConfig: NextConfig = {
   images: {
+    // Optimizador de Vercel desactivado: la cuenta tiene topada la cuota de Image
+    // Optimization (/_next/image devuelve HTTP 402). Servimos los originales,
+    // ya comprimidos a mano (WebP q80 + PNG pngquant/oxipng).
+    unoptimized: true,
     qualities: [50, 60, 75],
     minimumCacheTTL: 31536000,
     remotePatterns: [
