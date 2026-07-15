@@ -1,14 +1,22 @@
 import Image from "next/image";
 import { getTranslations } from "next-intl/server";
-import { Phone, MapPin, Clock, Star, CheckCircle, ArrowRight } from "@phosphor-icons/react/dist/ssr";
+import { Phone, MapPin, Clock, Star, CheckCircle, ArrowRight, WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { CONTACT_INFO, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
 import { getGooglePlaceData } from "@/lib/google-places";
 
 export async function Hero() {
-  const t = await getTranslations("hero");
-  const googleData = await getGooglePlaceData();
+  const [t, tCta, googleData] = await Promise.all([
+    getTranslations("hero"),
+    getTranslations("cta"),
+    getGooglePlaceData(),
+  ]);
   const totalReviews = googleData?.totalReviews ?? GOOGLE_REVIEWS_DATA.totalReviews;
+
+  // WhatsApp usa el número principal de la clínica en formato wa.me. No se muestra
+  // el número como texto visible: CallRail swap.js reescribe el número principal
+  // en el DOM y lo cambiaría por el de tracking, que no recibe WhatsApp.
+  const whatsappHref = `https://wa.me/${CONTACT_INFO.whatsapp}?text=${encodeURIComponent(tCta("whatsappMessage"))}`;
 
   return (
     <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
@@ -58,6 +66,21 @@ export async function Hero() {
               <a href={`tel:${CONTACT_INFO.phone}`} suppressHydrationWarning>
                 <Phone className="size-5" weight="fill" />
                 {t("ctaCall")}
+              </a>
+            </Button>
+            <Button
+              asChild
+              size="lg"
+              className="text-base md:text-lg px-8 py-6 gap-2 bg-whatsapp hover:bg-whatsapp-dark text-white shadow-lg shadow-whatsapp/30"
+            >
+              <a
+                href={whatsappHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={tCta("whatsapp")}
+              >
+                <WhatsappLogo className="size-5" weight="fill" />
+                {t("ctaWhatsapp")}
               </a>
             </Button>
             <Button

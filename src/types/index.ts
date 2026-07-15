@@ -44,6 +44,7 @@ export interface ContactInfo {
   zip: string;
   phone: string;
   phoneFormatted: string;
+  whatsapp: string;
   email: string;
   hours: string;
   hoursWeekday: string;

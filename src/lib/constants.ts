@@ -17,6 +17,10 @@ export const CONTACT_INFO: ContactInfo = {
   zip: "77022",
   phone: "+13466264110",
   phoneFormatted: "+1 (346) 626-4110",
+  // WhatsApp usa el mismo número principal de la clínica, en E.164 sin "+" (formato wa.me).
+  // No mostrarlo como texto visible en los botones de WhatsApp: CallRail swap.js
+  // reescribe el número principal en el DOM y lo reemplazaría por el de tracking.
+  whatsapp: "13466264110",
   email: "clinicahispanaairline@gmail.com",
   hours: "Lunes a Domingo: 9:00 AM - 9:00 PM",
   hoursWeekday: "Lunes a Viernes: 9:00 AM - 9:00 PM",
