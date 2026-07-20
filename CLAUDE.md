@@ -51,10 +51,12 @@ Icon weight variants: `regular`, `fill`, `duotone`, `bold`
 
 ### Blog System
 
-- Blog posts defined in `BLOG_POSTS[]` in constants.ts (not markdown files)
-- Posts have inline markdown content, parsed by `parseMarkdown()` in blog page
+- Blog posts are markdown files in `src/content/blog/{es,en}/<slug>.md` with gray-matter frontmatter (slug, title, description, date, author, image, category, readTime, keywords)
+- Both locales must have the same filename/slug; the slug list is read from the `es` directory (`src/lib/blog.ts`)
+- Content is parsed by `parseMarkdown()` in `blog/[slug]/page.tsx` (supports headers, bold, links, lists, tables)
+- The featured post is always the most recent by date (`getFeaturedPost` returns `posts[0]`)
 - Routes: `/blog` (list), `/blog/[slug]` (post detail)
-- SEO: `JsonLdBlogPosting` component for structured data
+- SEO: `JsonLdBlogPosting` component for structured data; sitemap includes posts automatically
 
 ### Static Generation
 

@@ -236,6 +236,19 @@ export default async function BlogPostPage({ params }: Props) {
 // Simple markdown parser (for basic formatting)
 function parseMarkdown(markdown: string): string {
   let html = markdown
+    // Tables (before line-break handling so rows stay grouped)
+    .replace(/(?:^\|.*\|[ \t]*$\n?)+/gim, (block) => {
+      const rows = block
+        .trim()
+        .split("\n")
+        .map((row) => row.trim().replace(/^\||\|$/g, "").split("|").map((cell) => cell.trim()))
+        .filter((cells) => !cells.every((cell) => /^:?-{3,}:?$/.test(cell)));
+      if (rows.length < 2) return block;
+      const [header, ...body] = rows;
+      const thead = `<thead><tr>${header.map((cell) => `<th>${cell}</th>`).join("")}</tr></thead>`;
+      const tbody = `<tbody>${body.map((cells) => `<tr>${cells.map((cell) => `<td>${cell}</td>`).join("")}</tr>`).join("")}</tbody>`;
+      return `<table>${thead}${tbody}</table>\n`;
+    })
     // Headers
     .replace(/^### (.*$)/gim, '<h3>$1</h3>')
     .replace(/^## (.*$)/gim, '<h2>$1</h2>')
@@ -264,7 +277,11 @@ function parseMarkdown(markdown: string): string {
     .replace(/<\/li><\/p>/g, '</li></ul>')
     .replace(/<\/li><br><li>/g, '</li><li>')
     .replace(/<br><ul>/g, '</p><ul>')
-    .replace(/<\/ul><br>/g, '</ul><p>');
+    .replace(/<\/ul><br>/g, '</ul><p>')
+    .replace(/<p><table>/g, '<table>')
+    .replace(/<\/table><\/p>/g, '</table>')
+    .replace(/<br><table>/g, '</p><table>')
+    .replace(/<\/table><br>/g, '</table><p>');
 
   return html;
 }
