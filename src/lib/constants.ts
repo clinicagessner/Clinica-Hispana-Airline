@@ -1223,6 +1223,33 @@ export const SERVICES: Service[] = [
 
 export const PROMOTIONS: Promotion[] = [
   {
+    slug: "chequeo-general-completo",
+    title: "Chequeo General Completo",
+    titleEn: "Complete General Checkup",
+    price: "$99",
+    blurb:
+      "Chequeo general completo con valor regular de $250, que incluye examen general de sangre, A1C, examen general de orina y consulta médica gratis.",
+    blurbEn:
+      "A complete general checkup with a regular value of $250, including a general blood test, A1C, a general urine test, and a free medical consultation.",
+    includes: [
+      "Examen general de sangre",
+      "A1C (hemoglobina glicosilada)",
+      "Examen general de orina",
+      "Consulta médica gratis",
+    ],
+    includesEn: [
+      "General blood test",
+      "A1C (glycated hemoglobin)",
+      "General urine test",
+      "Free medical consultation",
+    ],
+    image: "/images/promotions/chequeo-general-completo.webp",
+    alt: "Promoción de chequeo general completo por $99 con examen de sangre, A1C, examen de orina y consulta médica gratis en Clínica Hispana Airline Houston",
+    altEn: "Complete general checkup promotion for $99 with blood test, A1C, urine test and free medical consultation at Clínica Hispana Airline Houston",
+    highlighted: true,
+    order: 0,
+  },
+  {
     slug: "examen-completo-hombres",
     title: "Examen Completo para Hombres",
     titleEn: "Complete Checkup for Men",
