@@ -13,9 +13,9 @@ export async function Hero() {
   ]);
   const totalReviews = googleData?.totalReviews ?? GOOGLE_REVIEWS_DATA.totalReviews;
 
-  // WhatsApp usa el número principal de la clínica en formato wa.me. No se muestra
-  // el número como texto visible: CallRail swap.js reescribe el número principal
-  // en el DOM y lo cambiaría por el de tracking, que no recibe WhatsApp.
+  // WhatsApp usa un número exclusivo (CONTACT_INFO.whatsapp) en formato wa.me. No se
+  // muestra el número como texto visible: CallRail swap.js reescribe números en el
+  // DOM y lo cambiaría por el de tracking, que no recibe WhatsApp.
   const whatsappHref = `https://wa.me/${CONTACT_INFO.whatsapp}?text=${encodeURIComponent(tCta("whatsappMessage"))}`;
 
   return (
