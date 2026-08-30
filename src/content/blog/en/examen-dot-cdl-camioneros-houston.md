@@ -179,7 +179,7 @@ Approximately **30-45 minutes**. You leave with your certificate the same day.
 
 ## Contact Us
 
-Ready for your DOT physical? Visit Clínica Hispana Airline today:
+Ready for your DOT physical? See full details on our [DOT physical exam in Houston](/en/services/examen-dot) page or visit Clínica Hispana Airline today:
 
 - **Phone:** (346) 626-4110
 - **Address:** 934 E Tidwell Rd, Houston, TX 77022

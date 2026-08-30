@@ -179,7 +179,7 @@ Aproximadamente **30-45 minutos**. Sale con su certificado el mismo día.
 
 ## Contacto
 
-¿Listo para su examen DOT? Visite Clínica Hispana Airline hoy:
+¿Listo para su examen DOT? Conozca todos los detalles en nuestra página de [examen físico DOT en Houston](/services/examen-dot) o visite Clínica Hispana Airline hoy:
 
 - **Teléfono:** (346) 626-4110
 - **Dirección:** 934 E Tidwell Rd, Houston, TX 77022

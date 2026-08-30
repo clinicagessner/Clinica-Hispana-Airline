@@ -462,11 +462,11 @@ export const SERVICES: Service[] = [
   {
     "id": "examenes-sangre",
     "slug": "examenes-sangre",
-    "title": "Análisis y Exámenes de Sangre | Laboratorio",
-    "titleEn": "Blood Tests | Lab",
+    "title": "Exámenes y Análisis de Sangre en Houston: Laboratorio Clínico",
+    "titleEn": "Blood Tests & Blood Work in Houston: Clinical Lab",
     "shortTitle": "Análisis de Sangre",
-    "description": "Análisis de sangre en Houston, TX: biometría, química, glucosa, colesterol y más. Resultados en español, con precios accesibles.",
-    "descriptionEn": "Blood tests in Houston, TX: CBC, chemistry, glucose, cholesterol and more. Results in Spanish, with affordable pricing.",
+    "description": "Análisis de sangre en Houston, TX sin cita previa: biometría, química, glucosa, colesterol y más. Laboratorio clínico en español, con precios accesibles.",
+    "descriptionEn": "Blood tests in Houston, TX, walk-ins welcome: CBC, chemistry, glucose, cholesterol and more. Clinical lab with results in Spanish, at affordable prices.",
     "longDescription": "Un buen diagnóstico empieza con un buen laboratorio. En Clínica Hispana Airline tomamos tus muestras en el momento y te explicamos los resultados en español, sin tecnicismos.\n\n**¿Qué incluye?**\n- Biometría hemática completa (conteo de células)\n- Química sanguínea (glucosa, colesterol, triglicéridos)\n- Pruebas de tiroides, hígado y riñón\n- Paneles para chequeo general o seguimiento\n- Resultados rápidos en la mayoría de los casos\n\n**Para qué sirven**\nLos análisis ayudan a detectar problemas antes de que den síntomas, dar seguimiento a una condición crónica o completar un examen de trabajo o escuela.\n\n**Análisis de sangre en una clínica hispana cerca de ti**\n¿Necesitas un análisis de sangre en Houston? En nuestra clínica hispana te tomamos la muestra sin cita previa, con precios accesibles y resultados explicados en español.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
     "longDescriptionEn": "A good diagnosis starts with a good lab. At Clínica Hispana Airline we draw your samples on the spot and explain your results in Spanish, without the jargon.\n\n**What's included?**\n- Complete blood count (CBC)\n- Blood chemistry (glucose, cholesterol, triglycerides)\n- Thyroid, liver and kidney tests\n- Panels for general checkups or follow-up\n- Fast results in most cases\n\n**Why they matter**\nBlood tests help detect problems before symptoms appear, follow up on a chronic condition or complete a work or school exam.\n\n**Blood work at a Hispanic clinic near you**\nNeed blood work in Houston? At our Hispanic clinic we draw your sample with no appointment needed, at affordable prices, with results explained in Spanish.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
     "icon": "Flask",
@@ -475,7 +475,8 @@ export const SERVICES: Service[] = [
     "keywords": [
       "examenes de sangre houston",
       "analisis de sangre houston",
-      "laboratorio houston",
+      "examenes de sangre cerca de mi houston",
+      "laboratorio clinico houston",
       "laboratorio cerca de mi houston"
     ],
     "keywordsEn": [
@@ -662,11 +663,11 @@ export const SERVICES: Service[] = [
   {
     "id": "enfermedades-transmision-sexual",
     "slug": "enfermedades-transmision-sexual",
-    "title": "Pruebas de Enfermedades de Transmisión Sexual (STD)",
-    "titleEn": "Sexually Transmitted Disease (STD) Testing",
+    "title": "Pruebas de ETS (STD) en Houston: Confidenciales y Sin Cita",
+    "titleEn": "STD Testing in Houston: Walk-In, Confidential & Affordable",
     "shortTitle": "STD",
-    "description": "Pruebas de ETS/STD confidenciales en Houston, TX. Resultados y tratamiento en español, con precios accesibles.",
-    "descriptionEn": "Confidential STD testing in Houston, TX. Results and treatment in Spanish, with affordable pricing.",
+    "description": "Pruebas de ETS/STD confidenciales en Houston, TX, sin cita previa. Resultados y tratamiento en español, con precios accesibles.",
+    "descriptionEn": "Confidential walk-in STD testing in Houston, TX. Private results and treatment in Spanish, with affordable pricing.",
     "longDescription": "Cuidar tu salud sexual es un acto de responsabilidad. En Clínica Hispana Airline ofrecemos pruebas de enfermedades de transmisión sexual de forma confidencial y respetuosa, con tratamiento cuando es necesario.\n\n**¿Qué incluye?**\n- Evaluación de síntomas y factores de riesgo\n- Pruebas de las infecciones más comunes\n- Análisis de laboratorio\n- Tratamiento y orientación si el resultado es positivo\n- Total confidencialidad\n\n**Cuándo hacerte la prueba**\nSi tuviste contacto de riesgo, tienes síntomas o simplemente quieres estar tranquilo, hacerte la prueba es la mejor decisión. La detección temprana facilita el tratamiento.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
     "longDescriptionEn": "Taking care of your sexual health is an act of responsibility. At Clínica Hispana Airline we offer confidential, respectful testing for sexually transmitted diseases, with treatment when needed.\n\n**What's included?**\n- Symptom and risk-factor assessment\n- Testing for the most common infections\n- Laboratory analysis\n- Treatment and guidance if the result is positive\n- Complete confidentiality\n\n**When to get tested**\nIf you had a risky encounter, have symptoms or simply want peace of mind, getting tested is the best decision. Early detection makes treatment easier.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
     "icon": "ShieldCheck",
@@ -742,11 +743,11 @@ export const SERVICES: Service[] = [
   {
     "id": "electrocardiograma",
     "slug": "electrocardiograma",
-    "title": "Electrocardiograma (EKG)",
-    "titleEn": "Electrocardiogram (EKG)",
+    "title": "Electrocardiograma (EKG) en Houston: Rápido y a Precio Accesible",
+    "titleEn": "Electrocardiogram (EKG) in Houston: Fast & Affordable",
     "shortTitle": "Electrocardiograma",
-    "description": "Electrocardiograma EKG en Houston, TX, rápido y sin dolor. Resultados y atención en español, con precios accesibles.",
-    "descriptionEn": "Electrocardiogram EKG in Houston, TX, fast and painless. Results and care in Spanish, with affordable pricing.",
+    "description": "Electrocardiograma EKG en Houston, TX sin cita previa, rápido y sin dolor. Resultados y atención en español, con precio accesible.",
+    "descriptionEn": "Electrocardiogram EKG in Houston, TX, walk-ins welcome, fast and painless. Results and care in Spanish, at an affordable price.",
     "longDescription": "El electrocardiograma (EKG) registra la actividad eléctrica de tu corazón en pocos minutos y sin ninguna molestia. En Clínica Hispana Airline lo realizamos como parte de chequeos y exámenes médicos.\n\n**¿Qué incluye?**\n- Estudio del ritmo y la actividad del corazón\n- Interpretación por personal médico\n- Útil para exámenes de trabajo, deporte o cirugía\n- Resultados explicados en español\n\n**Cuándo se recomienda**\nSi tienes palpitaciones, presión alta, dolor en el pecho o necesitas un examen médico completo, el EKG aporta información valiosa sobre tu corazón.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
     "longDescriptionEn": "The electrocardiogram (EKG) records your heart's electrical activity in just a few minutes with no discomfort. At Clínica Hispana Airline we perform it as part of checkups and medical exams.\n\n**What's included?**\n- Study of your heart's rhythm and activity\n- Interpretation by medical staff\n- Useful for work, sports or surgery exams\n- Results explained in Spanish\n\n**When it's recommended**\nIf you have palpitations, high blood pressure, chest discomfort or need a complete medical exam, the EKG provides valuable information about your heart.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
     "icon": "Heartbeat",
@@ -754,6 +755,7 @@ export const SERVICES: Service[] = [
     "category": "laboratorio",
     "keywords": [
       "electrocardiograma houston",
+      "electrocardiograma precio houston",
       "ekg houston español",
       "examen del corazon houston",
       "ecg houston"
@@ -782,20 +784,22 @@ export const SERVICES: Service[] = [
   {
     "id": "ultrasonido",
     "slug": "ultrasonido",
-    "title": "Ultrasonido y Ecografía",
-    "titleEn": "Ultrasound & Sonography",
+    "title": "Ultrasonido y Ecosonograma en Houston: Embarazo, Abdominal y Pélvico",
+    "titleEn": "Ultrasound & Sonogram in Houston: Pregnancy, Abdominal & Pelvic",
     "shortTitle": "Ultrasonido",
-    "description": "Ultrasonido y ecografía en Houston, TX: abdominal, pélvico y de embarazo. En español, con precios accesibles.",
-    "descriptionEn": "Ultrasound and sonography in Houston, TX: abdominal, pelvic and pregnancy. In Spanish, with affordable pricing.",
-    "longDescription": "El ultrasonido es una herramienta segura y sin dolor que nos permite ver el interior de tu cuerpo para diagnosticar con precisión. En Clínica Hispana Airline contamos con equipo moderno y personal que te explica todo en español.\n\n**¿Qué incluye?**\n- Ultrasonido abdominal (hígado, vesícula, riñones)\n- Ultrasonido pélvico\n- Ultrasonido de embarazo (control y seguimiento)\n- Evaluación de tiroides y tejidos blandos\n\n**Sin radiación y sin dolor**\nA diferencia de los rayos X, el ultrasonido no usa radiación, por lo que es seguro incluso durante el embarazo. El estudio es rápido y no requiere preparación complicada.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
+    "description": "Ultrasonido y ecosonograma en Houston, TX sin cita previa: de embarazo, abdominal y pélvico. Atención en español, con precios accesibles.",
+    "descriptionEn": "Ultrasound and sonogram in Houston, TX, walk-ins welcome: pregnancy, abdominal and pelvic. Care in Spanish, with affordable pricing.",
+    "longDescription": "El ultrasonido es una herramienta segura y sin dolor que nos permite ver el interior de tu cuerpo para diagnosticar con precisión. En Clínica Hispana Airline contamos con equipo moderno y personal que te explica todo en español.\n\n**¿Qué incluye?**\n- Ultrasonido abdominal (hígado, vesícula, riñones)\n- Ultrasonido pélvico\n- Ultrasonido de embarazo o ecosonograma (control y seguimiento)\n- Evaluación de tiroides y tejidos blandos\n\n**Sin radiación y sin dolor**\nA diferencia de los rayos X, el ultrasonido no usa radiación, por lo que es seguro incluso durante el embarazo. El estudio es rápido y no requiere preparación complicada.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
     "longDescriptionEn": "Ultrasound is a safe, painless tool that lets us see inside your body for an accurate diagnosis. At Clínica Hispana Airline we have modern equipment and staff who explain everything in Spanish.\n\n**What's included?**\n- Abdominal ultrasound (liver, gallbladder, kidneys)\n- Pelvic ultrasound\n- Pregnancy ultrasound (monitoring and follow-up)\n- Thyroid and soft-tissue evaluation\n\n**No radiation, no pain**\nUnlike X-rays, ultrasound uses no radiation, so it's safe even during pregnancy. The study is quick and requires little preparation.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
     "icon": "Monitor",
     "image": "/images/services/ultrasonido.webp",
     "category": "laboratorio",
     "keywords": [
       "ultrasonido houston",
-      "ecografia houston español",
+      "ecosonograma houston",
+      "ultrasonidos cerca de mi houston",
       "ultrasonido de embarazo houston",
+      "ultrasonido sin cita houston",
       "sonograma houston"
     ],
     "keywordsEn": [
@@ -822,8 +826,8 @@ export const SERVICES: Service[] = [
   {
     "id": "examen-dot",
     "slug": "examen-dot",
-    "title": "Examen Físico DOT - Licencia CDL",
-    "titleEn": "DOT Physical Exam - CDL License",
+    "title": "Examen Físico DOT en Houston para Licencia CDL",
+    "titleEn": "DOT Physical Exam in Houston for CDL License",
     "shortTitle": "Examen DOT",
     "description": "Examen físico DOT en Houston, TX para licencia CDL, certificado el mismo día y en español. Con precios accesibles.",
     "descriptionEn": "DOT physical exam in Houston, TX for CDL license, same-day certificate, in Spanish. With affordable pricing.",
@@ -834,6 +838,7 @@ export const SERVICES: Service[] = [
     "category": "examenes",
     "keywords": [
       "examen dot houston",
+      "examen medico dot cerca de mi houston",
       "examen fisico dot houston español",
       "examen cdl houston",
       "dot physical houston español"
@@ -862,11 +867,11 @@ export const SERVICES: Service[] = [
   {
     "id": "examenes-inmigracion",
     "slug": "examenes-inmigracion",
-    "title": "Examen Médico de Inmigración I-693",
-    "titleEn": "Immigration Medical Exam I-693",
+    "title": "Examen Médico de Inmigración I-693 en Houston (Green Card)",
+    "titleEn": "Immigration Medical Exam I-693 in Houston (Green Card)",
     "shortTitle": "Inmigración",
-    "description": "Examen médico de inmigración I-693 en Houston, TX con médico autorizado por USCIS. Vacunas y formulario sellado.",
-    "descriptionEn": "I-693 immigration medical exam in Houston, TX with a USCIS-authorized physician. Vaccines and sealed form.",
+    "description": "Examen médico de inmigración I-693 en Houston, TX con médico autorizado por USCIS (civil surgeon). Proceso rápido y en español, vacunas en sitio y formulario sellado. Precios accesibles.",
+    "descriptionEn": "I-693 immigration medical exam in Houston, TX with a USCIS-authorized civil surgeon. Fast, affordable, vaccines on site and sealed form for your green card.",
     "longDescription": "El examen médico de inmigración (Formulario I-693) es un requisito para el ajuste de estatus. En Clínica Hispana Airline lo realizamos con un médico autorizado por USCIS (civil surgeon) y te entregamos el formulario sellado listo para enviar.\n\n**¿Qué incluye?**\n- Revisión de historial médico y de vacunas\n- Examen físico completo\n- Pruebas requeridas por USCIS (incluida la de tuberculosis)\n- Aplicación de las vacunas que te falten\n- Formulario I-693 completado y sellado en sobre oficial\n\n**Qué traer a tu cita**\nIdentificación con foto, registro de vacunas si lo tienes y cualquier documento médico relevante. Te explicamos todo el proceso en español para que llegues tranquilo.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
     "longDescriptionEn": "The immigration medical exam (Form I-693) is required for adjustment of status. At Clínica Hispana Airline we perform it with a USCIS-authorized physician (civil surgeon) and give you the sealed form ready to submit.\n\n**What's included?**\n- Review of medical and vaccination history\n- Complete physical exam\n- USCIS-required tests (including tuberculosis)\n- Administration of any missing vaccines\n- Form I-693 completed and sealed in the official envelope\n\n**What to bring**\nPhoto ID, your vaccination record if you have it and any relevant medical documents. We explain the entire process in Spanish so you arrive with peace of mind.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
     "icon": "Clipboard",
@@ -874,12 +879,14 @@ export const SERVICES: Service[] = [
     "category": "examenes",
     "keywords": [
       "examen de inmigracion houston",
+      "examen medico para inmigracion cerca de mi houston",
       "examen medico i-693 houston",
       "civil surgeon houston español",
       "medico autorizado uscis houston"
     ],
     "keywordsEn": [
       "immigration medical exam houston",
+      "green card medical exam houston",
       "i-693 exam houston",
       "civil surgeon houston",
       "uscis authorized doctor houston"
