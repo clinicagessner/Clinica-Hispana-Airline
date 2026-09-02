@@ -1257,6 +1257,32 @@ export const PROMOTIONS: Promotion[] = [
     order: 0,
   },
   {
+    slug: "chequeo-mujer-ultrasonido",
+    title: "Chequeo Completo de la Mujer",
+    titleEn: "Complete Women's Checkup",
+    price: "$179",
+    blurb:
+      "¿Hace cuánto no revisas tu salud femenina? Chequeo completo de la mujer con ultrasonido pélvico, Papanicolaou, examen de orina y consulta médica gratis. Precio regular $300, ahora por solo $179.",
+    blurbEn:
+      "How long since your last women's health check? Complete women's checkup with pelvic ultrasound, Pap smear, urine test and a free medical consultation. Regular price $300, now only $179.",
+    includes: [
+      "Ultrasonido pélvico",
+      "Papanicolaou",
+      "Examen de orina",
+      "Consulta médica gratis",
+    ],
+    includesEn: [
+      "Pelvic ultrasound",
+      "Pap smear",
+      "Urine test",
+      "Free medical consultation",
+    ],
+    image: "/images/promotions/chequeo-mujer-ultrasonido.webp",
+    alt: "Promoción de chequeo completo de la mujer por $179 con ultrasonido pélvico, Papanicolaou, examen de orina y consulta médica gratis en Clínica Hispana Airline Houston",
+    altEn: "Complete women's checkup promotion for $179 with pelvic ultrasound, Pap smear, urine test and free medical consultation at Clínica Hispana Airline Houston",
+    order: 1,
+  },
+  {
     slug: "examen-completo-hombres",
     title: "Examen Completo para Hombres",
     titleEn: "Complete Checkup for Men",
@@ -1281,7 +1307,7 @@ export const PROMOTIONS: Promotion[] = [
     alt: "Promoción de examen completo para hombres por $89 con orina, próstata y testosterona en Clínica Hispana Airline Houston",
     altEn: "Complete checkup for men promotion for $89 with urine, prostate and testosterone tests at Clínica Hispana Airline Houston",
     highlighted: true,
-    order: 1,
+    order: 2,
   },
   {
     slug: "chequeo-completo-mujer",
@@ -1306,7 +1332,7 @@ export const PROMOTIONS: Promotion[] = [
     alt: "Promoción de chequeo completo de mujer por $79 con Papanicolaou, consulta ginecológica y orden de mamografía en Clínica Hispana Airline Houston",
     altEn: "Complete women's checkup promotion for $79 with Pap smear, gynecological consultation and mammogram order at Clínica Hispana Airline Houston",
     highlighted: true,
-    order: 2,
+    order: 3,
   },
   {
     slug: "general-sangre-b12",
@@ -1330,7 +1356,7 @@ export const PROMOTIONS: Promotion[] = [
     image: "/images/promotions/general-sangre-b12.webp",
     alt: "Promoción de examen general de sangre más inyección de Vitamina B12 por $99 en Clínica Hispana Airline Houston",
     altEn: "General blood test plus Vitamin B12 injection promotion for $99 at Clínica Hispana Airline Houston",
-    order: 3,
+    order: 4,
   },
   {
     slug: "salud-intima-femenina",
@@ -1354,7 +1380,7 @@ export const PROMOTIONS: Promotion[] = [
     image: "/images/promotions/salud-intima-femenina.webp",
     alt: "Promoción de salud íntima femenina por $69 con cultivo íntimo, consulta médica y examen de orina en Clínica Hispana Airline Houston",
     altEn: "Women's intimate health promotion for $69 with intimate culture test, medical consultation and urine test at Clínica Hispana Airline Houston",
-    order: 4,
+    order: 5,
   },
   {
     slug: "perfil-hormonal-masculino",
@@ -1380,7 +1406,7 @@ export const PROMOTIONS: Promotion[] = [
     image: "/images/promotions/perfil-hormonal-masculino.webp",
     alt: "Promoción de perfil hormonal masculino por $200 en Clínica Hispana Airline Houston",
     altEn: "Male hormone profile promotion for $200 at Clínica Hispana Airline Houston",
-    order: 5,
+    order: 6,
   },
   {
     slug: "diagnostico-ets",
@@ -1404,7 +1430,7 @@ export const PROMOTIONS: Promotion[] = [
     image: "/images/promotions/diagnostico-ets.webp",
     alt: "Promoción de diagnóstico completo de enfermedades de transmisión sexual por $249 en Clínica Hispana Airline Houston",
     altEn: "Complete sexually transmitted disease diagnosis promotion for $249 at Clínica Hispana Airline Houston",
-    order: 6,
+    order: 7,
   },
   {
     slug: "examen-dot",
@@ -1428,7 +1454,7 @@ export const PROMOTIONS: Promotion[] = [
     image: "/images/promotions/examen-dot.webp",
     alt: "Promoción de examen médico DOT para conductores comerciales con certificación oficial en Clínica Hispana Airline Houston",
     altEn: "DOT medical exam promotion for commercial drivers with official certification at Clínica Hispana Airline Houston",
-    order: 7,
+    order: 8,
   },
 ];
 
