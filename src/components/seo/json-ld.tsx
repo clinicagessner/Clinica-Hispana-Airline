@@ -81,11 +81,27 @@ export async function JsonLdMedicalClinic() {
           SOCIAL_LINKS.linkedin,
           SOCIAL_LINKS.google,
         ].filter(Boolean),
-        areaServed: {
-          "@type": "City",
-          name: "Houston",
-          "@id": "https://www.wikidata.org/wiki/Q16555",
-        },
+        // Los barrios son los que el propio sitio ya publica en cada servicio
+        // ("Áreas que servimos"). Pendiente de completar con las zonas de
+        // servicio de la ficha de Google cuando llegue el volcado del cliente.
+        areaServed: [
+          {
+            "@type": "City",
+            name: "Houston",
+            "@id": "https://www.wikidata.org/wiki/Q16555",
+          },
+          ...[
+            "Northside",
+            "Independence Heights",
+            "Lindale Park",
+            "Near Northside",
+            "Acres Homes",
+            "Northline",
+          ].map((name) => ({
+            "@type": "Place",
+            name: `${name}, Houston, TX`,
+          })),
+        ],
         medicalSpecialty: [
           "Family Medicine",
           "Urgent Care",
