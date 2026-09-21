@@ -15,11 +15,13 @@ export const CONTACT_INFO: ContactInfo = {
   city: "Houston",
   state: "TX",
   zip: "77022",
-  phone: "+13466264110",
-  phoneFormatted: "+1 (346) 626-4110",
-  // Número exclusivo para WhatsApp, en E.164 sin "+" (formato wa.me).
-  // No mostrarlo como texto visible en los botones de WhatsApp: CallRail swap.js
-  // reescribe números en el DOM y lo reemplazaría por el de tracking.
+  // El número REAL de la clínica. El (346) 626-4110 es de CallRail: es el que
+  // va en la ficha de Google y el que swap.js pinta encima de este cuando la
+  // visita viene del GBP. Si el sitio imprime el de tracking, el swap no tiene
+  // nada que sustituir y todas las llamadas se atribuyen al GBP.
+  phone: "+13462044668",
+  phoneFormatted: "+1 (346) 204-4668",
+  // Mismo número, en E.164 sin "+" para wa.me.
   whatsapp: "13462044668",
   email: "clinicahispanaairline@gmail.com",
   hours: "Lunes a Domingo: 9:00 AM - 9:00 PM",
@@ -63,7 +65,7 @@ export const SERVICES: Service[] = [
   {
     "id": "condiciones-cronicas",
     "slug": "condiciones-cronicas",
-    "title": "Control de Diabetes, Hipertensión y Colesterol",
+    "title": "Control de Diabetes, Presión y Colesterol en Houston",
     "titleEn": "Diabetes, Hypertension & Cholesterol Care",
     "shortTitle": "Crónicas",
     "description": "Control de diabetes, hipertensión y dislipidemias en Houston, TX. Laboratorio y seguimiento en español, con precios accesibles.",
@@ -263,7 +265,7 @@ export const SERVICES: Service[] = [
   {
     "id": "ginecologia",
     "slug": "ginecologia",
-    "title": "Atención Ginecológica: Papanicolaou y Cultivos",
+    "title": "Ginecología en Houston: Papanicolaou y Cultivos",
     "titleEn": "Gynecology Care: Pap Smear & Cultures",
     "shortTitle": "Ginecología",
     "description": "Atención ginecológica en Houston, TX: papanicolaou, cultivos vaginales y tratamiento de infecciones. En español, con precios accesibles.",
@@ -425,11 +427,11 @@ export const SERVICES: Service[] = [
   {
     "id": "salud-hombre",
     "slug": "salud-hombre",
-    "title": "Exámenes del Hombre: PSA y Testosterona",
-    "titleEn": "Men's Health Exams: PSA & Testosterone",
+    "title": "Examen de Próstata en Houston: PSA y Salud del Hombre",
+    "titleEn": "Prostate Exam in Houston: PSA and Men's Health",
     "shortTitle": "Salud del Hombre",
-    "description": "Exámenes del hombre en Houston, TX: PSA y testosterona. Laboratorio y atención en español, con precios accesibles.",
-    "descriptionEn": "Men's health exams in Houston, TX: PSA and testosterone. Lab work and care in Spanish, with affordable pricing.",
+    "description": "Examen de próstata en Houston, TX: antígeno prostático (PSA), laboratorio y chequeo general del hombre. En español, con precios accesibles.",
+    "descriptionEn": "Men's health exams in Houston, TX: prostate-specific antigen (PSA), lab work and a general checkup. Care in Spanish, with affordable pricing.",
     "longDescription": "La salud del hombre muchas veces se posterga. En Clínica Hispana Airline facilitamos los exámenes que ayudan a detectar a tiempo cambios importantes, con resultados explicados en español.\n\n**¿Qué incluye?**\n- Examen de antígeno prostático (PSA)\n- Medición del nivel de testosterona\n- Chequeo general y de signos vitales\n- Evaluación de síntomas urinarios o de energía\n- Referencia a especialista si se requiere\n\n**Por qué es importante**\nEl PSA ayuda a vigilar la salud de la próstata y la testosterona influye en la energía, el ánimo y la salud general. Un control sencillo te da tranquilidad.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
     "longDescriptionEn": "Men's health is often postponed. At Clínica Hispana Airline we make it easy to get the exams that help catch important changes early, with results explained in Spanish.\n\n**What's included?**\n- Prostate antigen (PSA) test\n- Testosterone level measurement\n- General checkup and vital signs\n- Evaluation of urinary or energy symptoms\n- Referral to a specialist if needed\n\n**Why it matters**\nPSA helps monitor prostate health, and testosterone influences energy, mood and overall health. A simple check gives you peace of mind.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
     "icon": "Activity",
@@ -439,13 +441,13 @@ export const SERVICES: Service[] = [
       "examen del hombre houston",
       "prueba psa houston",
       "examen de prostata houston",
-      "examen de testosterona houston"
+      "examenes de prostata houston"
     ],
     "keywordsEn": [
       "mens health houston",
       "psa test houston",
       "prostate exam houston",
-      "testosterone test houston"
+      "prostate exam houston"
     ],
     "features": [
       "Antígeno prostático (PSA)",
@@ -509,10 +511,10 @@ export const SERVICES: Service[] = [
     "title": "Examen de Orina y Tratamiento de Infecciones Urinarias",
     "titleEn": "Urinalysis & Urinary Infection Treatment",
     "shortTitle": "Infecciones Urinarias",
-    "description": "Examen de orina y tratamiento de infecciones urinarias en Houston, TX, el mismo día. En español, con precios accesibles.",
-    "descriptionEn": "Urinalysis and urinary infection treatment in Houston, TX, same day. In Spanish, with affordable pricing.",
-    "longDescription": "El examen de orina ayuda a detectar infecciones urinarias y otras condiciones. En Clínica Hispana Airline te hacemos la prueba y, si hay infección, empezamos el tratamiento el mismo día.\n\n**¿Qué incluye?**\n- Examen general de orina (urianálisis)\n- Evaluación de síntomas\n- Diagnóstico de infección urinaria\n- Tratamiento adecuado el mismo día\n- Indicaciones para evitar que regrese\n\n**Síntomas frecuentes**\nArdor al orinar, ganas constantes de ir al baño, orina turbia o con mal olor y dolor en la parte baja del abdomen. No esperes: una infección sin tratar puede llegar a los riñones.\n\n**Tratamiento de infecciones urinarias en una clínica hispana cerca de ti**\nSomos una clínica hispana cerca de ti en Houston: te hacemos el examen de orina y, si hay infección, sales con tu tratamiento el mismo día, sin cita previa y en español.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
-    "longDescriptionEn": "A urine test helps detect urinary infections and other conditions. At Clínica Hispana Airline we run the test and, if there's an infection, we start treatment the same day.\n\n**What's included?**\n- General urinalysis\n- Symptom evaluation\n- Diagnosis of urinary infection\n- Appropriate same-day treatment\n- Tips to prevent it from coming back\n\n**Common symptoms**\nBurning when urinating, a constant urge to go, cloudy or foul-smelling urine and lower-abdomen pain. Don't wait: an untreated infection can reach the kidneys.\n\n**UTI treatment at a Hispanic clinic near you**\nWe are a Hispanic clinic near you in Houston: we run your urine test and, if there is an infection, you leave with treatment the same day, no appointment needed and in Spanish.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
+    "description": "Examen de orina y tratamiento de infecciones urinarias en Houston, TX, sin cita previa. Atención rápida en español, con precios accesibles.",
+    "descriptionEn": "Urinalysis and urinary infection treatment in Houston, TX, walk-in. Prompt care in Spanish, with affordable pricing.",
+    "longDescription": "El examen de orina ayuda a detectar infecciones urinarias y otras condiciones. En Clínica Hispana Airline te hacemos la prueba y, si hay infección, iniciamos el tratamiento sin demora.\n\n**¿Qué incluye?**\n- Examen general de orina (urianálisis)\n- Evaluación de síntomas\n- Diagnóstico de infección urinaria\n- Tratamiento adecuado sin demora\n- Indicaciones para evitar que regrese\n\n**Síntomas frecuentes**\nArdor al orinar, ganas constantes de ir al baño, orina turbia o con mal olor y dolor en la parte baja del abdomen. No esperes: una infección sin tratar puede llegar a los riñones.\n\n**Tratamiento de infecciones urinarias en una clínica hispana cerca de ti**\nSomos una clínica hispana cerca de ti en Houston: te hacemos el examen de orina y, si hay infección, sales con tu tratamiento indicado, sin esperas, sin cita previa y en español.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
+    "longDescriptionEn": "A urine test helps detect urinary infections and other conditions. At Clínica Hispana Airline we run the test and, if there's an infection, we start treatment without delay.\n\n**What's included?**\n- General urinalysis\n- Symptom evaluation\n- Diagnosis of urinary infection\n- Prompt, appropriate treatment\n- Tips to prevent it from coming back\n\n**Common symptoms**\nBurning when urinating, a constant urge to go, cloudy or foul-smelling urine and lower-abdomen pain. Don't wait: an untreated infection can reach the kidneys.\n\n**UTI treatment at a Hispanic clinic near you**\nWe are a Hispanic clinic near you in Houston: we run your urine test and, if there is an infection, you leave with treatment, no waiting, no appointment needed and in Spanish.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
     "icon": "Drop",
     "image": "/images/services/infecciones-urinarias.webp",
     "category": "tratamientos",
@@ -531,7 +533,7 @@ export const SERVICES: Service[] = [
     "features": [
       "Examen de orina en la clínica",
       "Diagnóstico de infección urinaria",
-      "Tratamiento el mismo día",
+      "Tratamiento sin demora",
       "Atención sin cita en español"
     ],
     "featuresEn": [
@@ -787,8 +789,8 @@ export const SERVICES: Service[] = [
   {
     "id": "ultrasonido",
     "slug": "ultrasonido",
-    "title": "Ultrasonido y Ecosonograma en Houston: Embarazo, Abdominal y Pélvico",
-    "titleEn": "Ultrasound & Sonogram in Houston: Pregnancy, Abdominal & Pelvic",
+    "title": "Ultrasonido y Ecosonograma en Houston: Embarazo y Abdominal",
+    "titleEn": "Ultrasound & Sonogram in Houston: Pregnancy & Abdominal",
     "shortTitle": "Ultrasonido",
     "description": "Ultrasonido y ecosonograma en Houston, TX sin cita previa: de embarazo, abdominal y pélvico. Atención en español, con precios accesibles.",
     "descriptionEn": "Ultrasound and sonogram in Houston, TX, walk-ins welcome: pregnancy, abdominal and pelvic. Care in Spanish, with affordable pricing.",

@@ -132,7 +132,7 @@ Sabemos que muchos hombres posponen el médico por el idioma, el costo o la falt
 No espere a sentirse mal para revisarse. Atendemos a hombres de todo el norte de Houston: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.
 
 **Clínica Hispana Airline**
-- Teléfono: (346) 626-4110
+- Teléfono: (346) 204-4668
 - Dirección: 934 E Tidwell Rd, Houston, TX 77022
 - Horario: Lunes a Domingo, 9:00 AM - 9:00 PM
 

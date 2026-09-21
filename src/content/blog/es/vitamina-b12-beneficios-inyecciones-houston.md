@@ -132,7 +132,7 @@ En su consulta definimos el esquema adecuado para usted con base en sus análisi
 
 No se acostumbre al cansancio. Una prueba de vitamina B12 toma minutos, y la solución puede ser tan simple como una inyección mensual. Y antes de venir, revise nuestras [promociones vigentes](/promociones) — actualmente incluyen un paquete de **examen general de sangre + inyección de vitamina B12** a precio especial.
 
-- **Teléfono:** [(346) 626-4110](tel:+13466264110)
+- **Teléfono:** [(346) 204-4668](tel:+1 (346) 204-4668)
 - **Dirección:** 934 E Tidwell Rd, Houston, TX 77022
 - **Horario:** Lunes a Domingo, 9:00 AM – 9:00 PM
 - **Sin cita previa** — venga directamente cuando le quede mejor

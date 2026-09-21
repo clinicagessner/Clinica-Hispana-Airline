@@ -153,7 +153,7 @@ Si su formulario fue rechazado, contáctenos. Podemos ayudarle a entender el mot
 No deje que el examen médico retrase su proceso migratorio. Contáctenos hoy para programar su [examen de inmigración I-693](/services/examenes-inmigracion).
 
 **Clínica Hispana Airline**
-- Teléfono: (346) 626-4110
+- Teléfono: (346) 204-4668
 - Dirección: 934 E Tidwell Rd, Houston, TX 77022
 - Horario: Lunes a Domingo 9AM-9PM
 

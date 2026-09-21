@@ -221,7 +221,7 @@ At **Clínica Hispana Airline** we offer comprehensive care for the [management 
 Don't wait until diabetes affects your quality of life. Visit Clínica Hispana Airline for a complete checkup and personalized management plan.
 
 **Contact:**
-- Phone: (346) 626-4110
+- Phone: (346) 204-4668
 - Address: 934 E Tidwell Rd, Houston, TX 77022
 
 *Remember: managing diabetes is a team effort between you and your doctor.*

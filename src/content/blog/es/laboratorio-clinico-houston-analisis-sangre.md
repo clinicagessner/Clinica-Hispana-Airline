@@ -231,7 +231,7 @@ Visite nuestra página de [laboratorio clínico](/services/examenes-sangre) para
 Mantenga su salud bajo control con análisis regulares. Servimos a la comunidad hispana en Houston, incluyendo los vecindarios de Northside, Eastwood, Magnolia Park y Greater Greenspoint.
 
 **Clínica Hispana Airline**
-- Teléfono: (346) 626-4110
+- Teléfono: (346) 204-4668
 - Dirección: 934 E Tidwell Rd, Houston, TX 77022
 - Horario: Lunes a Viernes 9AM-9PM
 

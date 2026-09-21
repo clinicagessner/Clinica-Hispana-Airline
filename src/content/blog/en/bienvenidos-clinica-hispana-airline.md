@@ -95,7 +95,7 @@ We invite you to come see our facility and meet our team of health care professi
 - Monday through Sunday: 9:00 AM - 9:00 PM
 
 **Contact Us:**
-- Phone: (346) 626-4110
+- Phone: (346) 204-4668
 - Address: 934 E Tidwell Rd, Houston, TX 77022
 
 We look forward to seeing you soon!

@@ -218,7 +218,7 @@ Nuestros servicios de [enfermedades de transmisión sexual](/services/enfermedad
 Su salud es importante. No posponga sus exámenes ginecológicos. Somos la clínica de referencia para miles de mujeres hispanas en Houston TX, incluyendo las áreas de Greenspoint, Northline, Aldine y el norte de la ciudad.
 
 **Clínica Hispana Airline**
-- Teléfono: (346) 626-4110
+- Teléfono: (346) 204-4668
 - Dirección: 934 E Tidwell Rd, Houston, TX 77022
 - Horario: Lunes a Viernes 9AM-9PM
 

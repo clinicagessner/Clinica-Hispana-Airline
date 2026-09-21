@@ -153,7 +153,7 @@ If your form was rejected, contact us. We can help you understand why and schedu
 Don't let the medical exam delay your immigration process. Contact us today to schedule your [I-693 immigration exam](/services/examenes-inmigracion).
 
 **Clínica Hispana Airline**
-- Phone: (346) 626-4110
+- Phone: (346) 204-4668
 - Address: 934 E Tidwell Rd, Houston, TX 77022
 - Hours: Monday-Sunday 9AM-9PM
 

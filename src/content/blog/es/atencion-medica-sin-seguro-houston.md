@@ -194,7 +194,7 @@ En **Clínica Hispana Airline** nos comprometemos a:
 No permita que la falta de seguro le impida cuidar su salud. Atendemos a familias hispanas en Houston TX, incluyendo las comunidades de Northside Village, Denver Harbor, Lindale Park y toda el área norte de la ciudad.
 
 **Contacto:**
-- Teléfono: (346) 626-4110
+- Teléfono: (346) 204-4668
 - Dirección: 934 E Tidwell Rd, Houston, TX 77022
 - Sin cita previa
 

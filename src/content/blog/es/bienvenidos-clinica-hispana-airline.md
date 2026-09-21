@@ -96,7 +96,7 @@ Los invitamos a conocer nuestras instalaciones y a nuestro equipo de profesional
 - Sábado y Domingo: 9:00 AM - 9:00 PM
 
 **Contáctenos:**
-- Teléfono: (346) 626-4110
+- Teléfono: (346) 204-4668
 - Dirección: 934 E Tidwell Rd, Houston, TX 77022
 
 ¡Esperamos verle pronto!

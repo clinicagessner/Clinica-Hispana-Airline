@@ -194,7 +194,7 @@ At **Clínica Hispana Airline** we are committed to:
 Don't let lack of insurance prevent you from caring for your health. We serve Hispanic families in Houston TX, including the Northside Village, Denver Harbor, Lindale Park, and all of north Houston communities.
 
 **Contact:**
-- Phone: (346) 626-4110
+- Phone: (346) 204-4668
 - Address: 934 E Tidwell Rd, Houston, TX 77022
 - Walk-ins welcome
 

@@ -221,7 +221,7 @@ En **Clínica Hispana Airline** ofrecemos atención integral para el [manejo de 
 No espere hasta que la diabetes afecte su calidad de vida. Visite Clínica Hispana Airline en Houston para un chequeo completo y un plan de manejo personalizado.
 
 **Contacto:**
-- Teléfono: (346) 626-4110
+- Teléfono: (346) 204-4668
 - Dirección: 934 E Tidwell Rd, Houston, TX 77022
 
 *Recuerde: el control de la diabetes es un trabajo de equipo entre usted y su médico.*

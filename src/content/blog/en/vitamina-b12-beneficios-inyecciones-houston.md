@@ -131,7 +131,7 @@ At your visit we define the right schedule for you based on your lab work — we
 
 Don't get used to being tired. A vitamin B12 test takes minutes, and the fix can be as simple as one monthly shot. And before you come in, check our [current promotions](/promociones) — they currently include a **general blood test + vitamin B12 injection** package at a special price.
 
-- **Phone:** [(346) 626-4110](tel:+13466264110)
+- **Phone:** [(346) 204-4668](tel:+1 (346) 204-4668)
 - **Address:** 934 E Tidwell Rd, Houston, TX 77022
 - **Hours:** Monday to Sunday, 9:00 AM – 9:00 PM
 - **No appointment needed** — walk in whenever works for you

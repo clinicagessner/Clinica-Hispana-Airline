@@ -41,7 +41,7 @@ const copy = {
   es: {
     metaTitle: "Clínica Hispana en Houston | Atención el Mismo Día",
     metaDescription:
-      "Atención médica profesional 100% en español. Sin cita previa, walk-ins. Más de 500 reseñas 5★ en Google. Llame: (346) 626-4110",
+      "Atención médica profesional 100% en español. Sin cita previa, walk-ins. Más de 500 reseñas 5★ en Google. Llame: (346) 248-2313",
     badgeReviews: (avg: number, total: number) => `${avg} con ${total}+ reseñas en Google`,
     heroTitle: "¿Busca una mejor opción de clínica hispana en Houston?",
     heroSubtitle:
@@ -124,7 +124,7 @@ const copy = {
   en: {
     metaTitle: "Hispanic Clinic in Houston | Same-Day Care",
     metaDescription:
-      "Professional medical care 100% in Spanish. Walk-ins welcome, no appointment needed. 500+ 5-star Google reviews. Call: (346) 626-4110",
+      "Professional medical care 100% in Spanish. Walk-ins welcome, no appointment needed. 500+ 5-star Google reviews. Call: (346) 248-2313",
     badgeReviews: (avg: number, total: number) => `${avg} with ${total}+ Google reviews`,
     heroTitle: "Looking for a better hispanic clinic option in Houston?",
     heroSubtitle:

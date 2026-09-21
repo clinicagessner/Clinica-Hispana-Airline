@@ -132,7 +132,7 @@ We know many men put off the doctor because of language, cost or lack of time. A
 Don't wait until you feel sick to get checked. We serve men across north Houston: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.
 
 **Clínica Hispana Airline**
-- Phone: (346) 626-4110
+- Phone: (346) 204-4668
 - Address: 934 E Tidwell Rd, Houston, TX 77022
 - Hours: Monday to Sunday, 9:00 AM - 9:00 PM
 
