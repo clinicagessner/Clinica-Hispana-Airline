@@ -86,6 +86,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       languages: {
         es: "/",
         en: "/en",
+        // Sin x-default Google no tiene señal de qué versión servir cuando la
+        // consulta no determina idioma, y venía enseñando /en para búsquedas
+        // en español. El sitemap ya lo declaraba; el HTML no.
+        "x-default": "/",
       },
     },
     ...buildSocial({

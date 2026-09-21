@@ -33,6 +33,7 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
       languages: {
         es: "/privacy",
         en: "/en/privacy",
+        "x-default": "/privacy",
       },
     },
     ...buildSocial({ title, description, url, locale }),
