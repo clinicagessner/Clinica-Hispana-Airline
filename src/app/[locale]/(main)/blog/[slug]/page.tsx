@@ -167,7 +167,7 @@ export default async function BlogPostPage({ params }: Props) {
         <div className="container mx-auto px-4 py-12 md:py-16">
           <div className="max-w-3xl mx-auto">
             <div className="blog-content">
-              <div dangerouslySetInnerHTML={{ __html: parseMarkdown(post.content) }} />
+              <div dangerouslySetInnerHTML={{ __html: parseMarkdown(post.content, locale) }} />
             </div>
 
             {/* CTA Section */}
@@ -236,7 +236,17 @@ export default async function BlogPostPage({ params }: Props) {
 }
 
 // Simple markdown parser (for basic formatting)
-function parseMarkdown(markdown: string): string {
+/**
+ * `locale` no es opcional a propósito: los enlaces internos del markdown se
+ * escriben sin prefijo y en inglés tienen que salir con `/en`, o cada post en
+ * inglés manda al lector y al rastreador a la versión en español.
+ */
+function parseMarkdown(markdown: string, locale: string): string {
+  const localizeHref = (href: string) => {
+    if (locale === "es" || !href.startsWith("/") || href.startsWith("/en")) return href;
+    return `/${locale}${href}`;
+  };
+
   let html = markdown
     // Tables (before line-break handling so rows stay grouped)
     .replace(/(?:^\|.*\|[ \t]*$\n?)+/gim, (block) => {
@@ -260,7 +270,7 @@ function parseMarkdown(markdown: string): string {
     // Italic
     .replace(/\*(.*?)\*/gim, '<em>$1</em>')
     // Links
-    .replace(/\[(.*?)\]\((.*?)\)/gim, '<a href="$2">$1</a>')
+    .replace(/\[(.*?)\]\((.*?)\)/gim, (_m, text, href) => `<a href="${localizeHref(href)}">${text}</a>`)
     // Unordered lists
     .replace(/^- (.*$)/gim, '<li>$1</li>')
     // Ordered lists
