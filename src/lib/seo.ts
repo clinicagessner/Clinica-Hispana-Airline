@@ -23,6 +23,10 @@ export function seoTitle(pageTitle: string, brand: string = BRAND): string {
   const title = pageTitle.trim();
   // Marca vacía = el título ya la lleva dentro (la home).
   if (!brand) return trimToWord(title, TITLE_MAX);
+  // Ni repetirla: "Qué Es Clínica Hispana Airline | Clínica Hispana Airline".
+  if (title.toLowerCase().includes(brand.toLowerCase())) {
+    return trimToWord(title, TITLE_MAX);
+  }
   const withBrand = `${title} | ${brand}`;
   if (withBrand.length <= TITLE_MAX) return withBrand;
   if (title.length <= TITLE_MAX) return title;
