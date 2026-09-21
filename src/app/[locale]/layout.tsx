@@ -8,8 +8,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { ScrollToTop } from "@/components/layout/scroll-to-top";
 import { ScrollAnimations } from "@/components/animations/scroll-animations";
 import { Analytics } from "@vercel/analytics/next";
-import { GoogleAnalytics } from "@next/third-parties/google";
-import Script from "next/script";
+import { GoogleTags } from "@/components/analytics/google-tags";
 import { SITE_CONFIG, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
 import { seoTitle, seoDescription, buildSocial } from "@/lib/seo";
 import { getGooglePlaceData } from "@/lib/google-places";
@@ -139,18 +138,9 @@ export default async function LocaleLayout({ children, params }: Props) {
       <head>
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#DC2626" />
-        {/* Preconnect to external domains for faster loading */}
-        <link rel="preconnect" href="https://connect.facebook.net" />
-        <link rel="preconnect" href="https://cdn.callrail.com" />
-        <link rel="preconnect" href="https://maps.googleapis.com" />
-        <link rel="preconnect" href="https://lh3.googleusercontent.com" />
-        <link rel="dns-prefetch" href="https://cdn.callrail.com" />
-        {/* CallRail - Call Tracking */}
-        <script
-          type="text/javascript"
-          src="//cdn.callrail.com/companies/257588879/cc932502d2a770c60e21/12/swap.js"
-          async
-        />
+        {/* Los preconnect a terceros se quitaron: abrían conexiones antes del
+            LCP para scripts que ahora cargan con lazyOnload. El swap de
+            CallRail vive en <GoogleTags />, no aquí en <head>. */}
         {/* Meta Pixel noscript fallback */}
         <noscript>
           <img
@@ -172,32 +162,7 @@ export default async function LocaleLayout({ children, params }: Props) {
           </TooltipProvider>
         </NextIntlClientProvider>
       </body>
-      <GoogleAnalytics gaId="G-YVEMRNF7VP" />
-      <Script id="meta-pixel" strategy="afterInteractive">
-        {`
-          !function(f,b,e,v,n,t,s)
-          {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-          n.queue=[];t=b.createElement(e);t.async=!0;
-          t.src=v;s=b.getElementsByTagName(e)[0];
-          s.parentNode.insertBefore(t,s)}(window, document,'script',
-          'https://connect.facebook.net/en_US/fbevents.js');
-          fbq('init', '1993259561579416');
-          fbq('track', 'PageView');
-        `}
-      </Script>
-      <Script
-        src="https://www.googletagmanager.com/gtag/js?id=AW-718776156"
-        strategy="afterInteractive"
-      />
-      <Script id="google-ads-tag" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('config', 'AW-718776156');
-        `}
-      </Script>
+      <GoogleTags />
     </html>
   );
 }

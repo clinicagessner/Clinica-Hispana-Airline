@@ -20,8 +20,11 @@
   --slate-light: #F1F5F9;
 
   /* WhatsApp (color oficial de la marca) */
-  --whatsapp: #25D366;
-  --whatsapp-dark: #1DA851;
+  /* Verde oficial de WhatsApp (#25D366) sobre icono blanco da 1,98 de
+     contraste. Se usa el teal oscuro de la propia marca, que sube a 4,14 y
+     cumple el 3:1 que WCAG pide para elementos gráficos. */
+  --whatsapp: #128C7E;
+  --whatsapp-dark: #075E54;
 
   /* Estados */
   --error: #DC2626;
