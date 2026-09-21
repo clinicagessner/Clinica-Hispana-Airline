@@ -35,6 +35,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import type { Service } from "@/types";
+import { thumb } from "@/lib/image-thumb";
 
 const iconMap: Record<string, React.ElementType> = {
   Stethoscope,
@@ -149,7 +150,7 @@ export function ServicesFilter({ services, categories }: ServicesFilterProps) {
                   {/* Image */}
                   <div className="relative h-44 overflow-hidden">
                     <Image
-                      src={service.image}
+                      src={thumb(service.image)}
                       alt={service.title}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-500"

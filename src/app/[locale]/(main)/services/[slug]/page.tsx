@@ -47,6 +47,7 @@ import {
   JsonLdMedicalWebPage,
 } from "@/components/seo/json-ld";
 import { MedicalReview } from "@/components/seo/medical-review";
+import { thumb } from "@/lib/image-thumb";
 
 const iconMap: Record<string, React.ElementType> = {
   Stethoscope,
@@ -353,7 +354,7 @@ export default async function ServicePage({ params }: Props) {
                       <article className="relative h-full bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 hover:border-red-200">
                         <div className="relative h-32 overflow-hidden">
                           <Image
-                            src={related.image}
+                            src={thumb(related.image)}
                             alt={`${related.title} - Clínica Hispana Airline Houston`}
                             fill
                             className="object-cover group-hover:scale-105 transition-transform duration-500"

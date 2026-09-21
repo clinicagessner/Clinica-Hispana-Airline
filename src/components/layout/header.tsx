@@ -106,7 +106,7 @@ export function Header({ phoneOverride }: HeaderProps = {}) {
           <Link href={getLocalizedHref("/")} className="block">
             <div className="relative w-32 h-14 md:w-40 md:h-16 lg:w-48 lg:h-[72px]">
               <Image
-                src="/images/logo.webp"
+                src="/images/sm/logo.webp"
                 alt={SITE_CONFIG.name}
                 fill
                 sizes="(max-width: 768px) 128px, (max-width: 1024px) 160px, 192px"
@@ -177,7 +177,7 @@ export function Header({ phoneOverride }: HeaderProps = {}) {
                     <Link href={getLocalizedHref("/")} onClick={handleLinkClick} className="block">
                       <div className="relative w-36 h-14">
                         <Image
-                          src="/images/logo.webp"
+                          src="/images/sm/logo.webp"
                           alt={SITE_CONFIG.name}
                           fill
                           sizes="144px"

@@ -7,6 +7,7 @@ import { useTranslations } from "next-intl";
 import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { SERVICES } from "@/lib/constants";
+import { thumb } from "@/lib/image-thumb";
 
 export function Services() {
   const t = useTranslations("services");
@@ -42,7 +43,7 @@ export function Services() {
                 className="block relative h-72 md:h-full min-h-[280px] md:min-h-[360px] rounded-2xl overflow-hidden"
               >
                 <Image
-                  src={highlightedServices[0].image}
+                  src={thumb(highlightedServices[0].image)}
                   alt={`${highlightedServices[0].title} - Clínica Hispana Airline Houston TX`}
                   fill
                   priority
@@ -77,7 +78,7 @@ export function Services() {
                 className="block relative h-72 md:h-[calc(50%-10px)] min-h-[170px] rounded-2xl overflow-hidden"
               >
                 <Image
-                  src={highlightedServices[1].image}
+                  src={thumb(highlightedServices[1].image)}
                   alt={`${highlightedServices[1].title} - Clínica Hispana Airline Houston TX`}
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -106,7 +107,7 @@ export function Services() {
                 className="block relative h-72 md:h-[calc(50%-10px)] min-h-[170px] rounded-2xl overflow-hidden"
               >
                 <Image
-                  src={highlightedServices[2].image}
+                  src={thumb(highlightedServices[2].image)}
                   alt={`${highlightedServices[2].title} - Clínica Hispana Airline Houston TX`}
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -135,7 +136,7 @@ export function Services() {
                 className="block relative h-72 md:h-52 rounded-2xl overflow-hidden"
               >
                 <Image
-                  src={highlightedServices[3].image}
+                  src={thumb(highlightedServices[3].image)}
                   alt={`${highlightedServices[3].title} - Clínica Hispana Airline Houston TX`}
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"

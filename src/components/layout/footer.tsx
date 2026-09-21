@@ -37,7 +37,7 @@ export async function Footer({ phoneOverride }: FooterProps = {}) {
             <Link href={getLocalizedHref("/")} className="flex items-center gap-3 mb-4">
               <div className="relative w-20 h-20">
                 <Image
-                  src="/images/logo.webp"
+                  src="/images/sm/logo.webp"
                   alt={SITE_CONFIG.name}
                   fill
                   sizes="80px"
