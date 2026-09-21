@@ -21,6 +21,7 @@ function readBlogFile(slug: string, locale: string): BlogPost | null {
     // entradilla pasa de 155, el frontmatter manda sobre el título visible.
     metaTitle: data.metaTitle,
     metaDescription: data.metaDescription,
+    relatedServices: data.relatedServices ?? [],
     date: data.date || "",
     dateModified: data.dateModified,
     author: data.author || "Clínica Hispana Airline",
@@ -64,5 +65,14 @@ export function getFeaturedPost(locale: string = "es"): BlogPost | null {
 
 export function getRelatedPosts(slug: string, locale: string = "es", limit: number = 3): BlogPost[] {
   const posts = getBlogPosts(locale);
-  return posts.filter((p) => p.slug !== slug).slice(0, limit);
+  const at = posts.findIndex((p) => p.slug === slug);
+  if (at === -1) return posts.slice(0, limit);
+
+  // Circular, no `.slice(0, limit)`: los posts vienen ordenados por fecha, así
+  // que enlazaba siempre a los más recientes y el resto se quedaba con un
+  // único enlace entrante, el del índice del blog.
+  return Array.from(
+    { length: Math.min(limit, posts.length - 1) },
+    (_, k) => posts[(at + k + 1) % posts.length]
+  );
 }

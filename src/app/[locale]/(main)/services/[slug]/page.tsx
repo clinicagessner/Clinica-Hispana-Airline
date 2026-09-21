@@ -112,6 +112,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       languages: {
         es: `/services/${slug}`,
         en: `/en/services/${slug}`,
+        "x-default": `/services/${slug}`,
       },
     },
     ...buildSocial({
@@ -141,10 +142,16 @@ export default async function ServicePage({ params }: Props) {
   const service = getLocalizedService(rawService, locale);
   const IconComponent = iconMap[service.icon] || Stethoscope;
 
-  // Get related services (same category, excluding current)
-  const relatedServices = SERVICES.filter(
-    (s) => s.category === rawService.category && s.id !== rawService.id
-  ).slice(0, 3).map((s) => getLocalizedService(s, locale));
+  // Rotación circular dentro de la categoría: el servicio en la posición i
+  // enlaza a i+1, i+2 e i+3. Con `.slice(0, 3)` los 9 servicios de
+  // "tratamientos" enlazaban a los tres primeros y los seis de la cola se
+  // quedaban sin un solo enlace entrante. Así cada servicio recibe tres.
+  const siblings = SERVICES.filter((s) => s.category === rawService.category);
+  const at = siblings.findIndex((s) => s.id === rawService.id);
+  const relatedServices = Array.from(
+    { length: Math.min(3, siblings.length - 1) },
+    (_, k) => siblings[(at + k + 1) % siblings.length]
+  ).map((s) => getLocalizedService(s, locale));
 
   const localePath = locale === "en" ? "/en" : "";
   const breadcrumbs = [
