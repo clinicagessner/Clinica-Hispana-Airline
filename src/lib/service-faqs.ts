@@ -12,30 +12,30 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "condiciones-cronicas": {
     "faqs": [
       {
-        "question": "¿Cada cuánto debo hacerme exámenes de control?",
-        "answer": "Depende de tu condición; por lo general cada 3 a 6 meses para diabetes, presión o colesterol. Te damos un plan de seguimiento personalizado."
+        "question": "¿Cada cuánto debo medirme la A1C?",
+        "answer": "Cada 3 meses mientras no esté en meta y cada 6 cuando lo esté. Si hace más de un año que no se la mide, ese es el punto de partida."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
+        "question": "Me dijeron que tengo prediabetes, ¿eso se quita?",
+        "answer": "Sí, todavía. Entre 5,7 % y 6,4 % de A1C hay margen para volver al rango normal bajando peso, moviéndose más y ajustando la alimentación. Por eso conviene detectarla pronto."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Qué revisiones anuales necesito además de los análisis?",
+        "answer": "Pies, riñón, ojos y, según su caso, corazón. Las de pies y riñón se las hacemos aquí; la de retina es con oftalmólogo y le decimos cuándo toca."
       }
     ],
     "faqsEn": [
       {
-        "question": "How often should I get control labs?",
-        "answer": "It depends on your condition; usually every 3 to 6 months for diabetes, blood pressure or cholesterol. We give you a personalized follow-up plan."
+        "question": "How often should I check my A1C?",
+        "answer": "Every 3 months while you are off target, every 6 once you are on it. If it has been more than a year since your last one, that is where to start."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
+        "question": "I was told I have prediabetes — can it go away?",
+        "answer": "Yes, still. Between 5.7% and 6.4% A1C there is room to get back to the normal range by losing weight, moving more and adjusting your diet. That is why catching it early matters."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "What yearly screening do I need besides lab work?",
+        "answer": "Feet, kidneys, eyes and, depending on your case, heart. We do the foot and kidney checks here; the retinal exam is with an ophthalmologist and we tell you when it is due."
       }
     ]
   },
@@ -162,30 +162,30 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "ginecologia": {
     "faqs": [
       {
-        "question": "¿Necesito cita para el papanicolaou?",
-        "answer": "No es obligatorio, atendemos sin cita; pero puedes llamarnos para reservar un horario cómodo."
+        "question": "¿Cada cuánto debo hacerme el papanicolaou?",
+        "answer": "Como pauta general, cada 3 años entre los 21 y los 29, y entre los 30 y los 65 cada 3 años con citología o cada 5 con prueba de VPH. Si tuvo un resultado anormal antes, la frecuencia es otra y se la indicamos."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Tienen ginecólogo titulado?",
+        "answer": "No. La atención la da nuestro equipo médico general, que hace los exámenes y tratamientos básicos. Cuando un resultado requiere especialista, se lo decimos y orientamos la referencia."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Por qué hacer un cultivo si ya sé que es infección?",
+        "answer": "Porque no todas se tratan igual. Una infección por hongos y una vaginosis bacteriana se sienten parecido y necesitan tratamientos distintos; el cultivo evita adivinar y que el tratamiento equivocado empeore la molestia."
       }
     ],
     "faqsEn": [
       {
-        "question": "Do I need an appointment for a Pap smear?",
-        "answer": "It's not required, we welcome walk-ins; but you can call us to reserve a convenient time."
+        "question": "How often should I have a Pap smear?",
+        "answer": "As a general guideline, every 3 years between ages 21 and 29, and between 30 and 65 every 3 years with cytology or every 5 with HPV testing. If you have had an abnormal result, the schedule differs and we will tell you."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
+        "question": "Do you have a board-certified gynecologist?",
+        "answer": "No. Care is provided by our general medical team, which performs the basic exams and treatments. When a result calls for a specialist, we tell you and help direct the referral."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Why run a culture if I already know it is an infection?",
+        "answer": "Because they are not all treated the same way. A yeast infection and bacterial vaginosis feel similar and need different treatments; the culture keeps us from guessing and from making things worse with the wrong one."
       }
     ]
   },
@@ -312,30 +312,30 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "examenes-sangre": {
     "faqs": [
       {
-        "question": "¿En cuánto tiempo entregan los resultados?",
-        "answer": "En la mayoría de los casos los resultados están listos el mismo día o muy pronto, y te los explicamos en español."
+        "question": "¿Necesito que un médico me mande los análisis?",
+        "answer": "No. Puede pedirlos usted directamente. Si no sabe cuáles le convienen, se lo orientamos según su edad, sus síntomas y sus antecedentes."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Para qué análisis tengo que estar en ayunas?",
+        "answer": "Para el perfil de lípidos y la glucosa en ayunas, de 8 a 12 horas. Para A1C, tiroides y hemograma no hace falta. Agua sí puede tomar en todos los casos."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Puedo dejar de tomar mi medicina antes del análisis?",
+        "answer": "No por su cuenta. Algunos medicamentos alteran resultados y otros no se deben suspender nunca. Pregúntenos antes y le decimos qué hacer en su caso."
       }
     ],
     "faqsEn": [
       {
-        "question": "How soon are results ready?",
-        "answer": "In most cases results are ready the same day or very soon, and we explain them to you in Spanish."
+        "question": "Do I need a doctor's order for lab work?",
+        "answer": "No. You can request it directly. If you are not sure which tests you need, we will guide you based on your age, symptoms and history."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
+        "question": "Which tests require fasting?",
+        "answer": "The lipid panel and fasting glucose, 8 to 12 hours. A1C, thyroid and complete blood count do not. Water is fine in every case."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Can I stop my medication before the test?",
+        "answer": "Not on your own. Some medications change results and others should never be stopped. Ask us first and we will tell you what applies to you."
       }
     ]
   },
@@ -522,60 +522,60 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "electrocardiograma": {
     "faqs": [
       {
-        "question": "¿El electrocardiograma duele?",
-        "answer": "No, es un estudio rápido y sin dolor; solo se colocan electrodos en la piel por unos minutos."
+        "question": "¿El electrocardiograma da corriente?",
+        "answer": "No. El aparato solo registra la actividad eléctrica que su propio corazón produce; no envía nada al cuerpo. No se siente absolutamente nada."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Un EKG normal descarta problemas del corazón?",
+        "answer": "No del todo. Un EKG en reposo es el primer paso y detecta bastante, pero hay problemas que solo se ven con esfuerzo o con otros estudios. Por eso se interpreta junto con sus síntomas y su historial."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Cómo debo venir para que salga bien el trazo?",
+        "answer": "Sin crema ni aceite en el pecho y habiendo descansado unos minutos. Si llega agitado o con la piel grasa, el trazo sale con interferencia y hay que repetirlo."
       }
     ],
     "faqsEn": [
       {
-        "question": "Does the EKG hurt?",
-        "answer": "No, it's a fast, painless test; electrodes are simply placed on the skin for a few minutes."
+        "question": "Does an EKG send current through me?",
+        "answer": "No. The machine only records the electrical activity your own heart produces; it sends nothing into your body. You feel absolutely nothing."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
+        "question": "Does a normal EKG rule out heart problems?",
+        "answer": "Not entirely. A resting EKG is the first step and catches a good deal, but some problems only show under exertion or on other studies. That is why it is read alongside your symptoms and history."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "How should I come in for a clean tracing?",
+        "answer": "With no cream or oil on your chest, and after resting a few minutes. If you arrive out of breath or with oily skin, the tracing picks up interference and has to be repeated."
       }
     ]
   },
   "ultrasonido": {
     "faqs": [
       {
+        "question": "¿Tengo que venir en ayunas?",
+        "answer": "Para el ultrasonido abdominal sí, de 6 a 8 horas sin comer, porque la comida y el gas tapan la imagen. Para el pélvico y el de embarazo temprano no hace falta ayuno, pero conviene llegar con la vejiga llena."
+      },
+      {
+        "question": "¿Cuántas semanas de embarazo se necesitan para ver el latido?",
+        "answer": "Depende de cada embarazo y del tipo de estudio. Si viene muy al principio y todavía no se ve, se repite más adelante; es algo normal y no significa que haya un problema."
+      },
+      {
         "question": "¿El ultrasonido tiene radiación?",
-        "answer": "No, el ultrasonido no usa radiación, por lo que es seguro incluso durante el embarazo."
-      },
-      {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
-      },
-      {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "answer": "No. Usa ondas de sonido, no rayos X, por eso se puede hacer durante el embarazo sin riesgo para el bebé."
       }
     ],
     "faqsEn": [
       {
+        "question": "Do I need to fast?",
+        "answer": "For an abdominal ultrasound, yes — 6 to 8 hours without food, because food and gas block the image. For pelvic and early pregnancy studies no fasting is needed, but come with a full bladder."
+      },
+      {
+        "question": "How many weeks of pregnancy before the heartbeat is visible?",
+        "answer": "It depends on the pregnancy and the type of study. If you come very early and it is not visible yet, we repeat it later; that is normal and does not mean something is wrong."
+      },
+      {
         "question": "Does ultrasound use radiation?",
-        "answer": "No, ultrasound uses no radiation, so it's safe even during pregnancy."
-      },
-      {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
-      },
-      {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "answer": "No. It uses sound waves, not X-rays, which is why it can be performed during pregnancy with no risk to the baby."
       }
     ]
   },
@@ -612,30 +612,30 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "examenes-inmigracion": {
     "faqs": [
       {
-        "question": "¿El médico está autorizado por USCIS?",
-        "answer": "Sí, el examen lo realiza un médico autorizado (civil surgeon) y te entregamos el Formulario I-693 sellado."
+        "question": "¿Qué pasa si no tengo mi cartilla de vacunas?",
+        "answer": "Las vacunas que no pueda comprobar con un documento hay que repetirlas. Traiga la cartilla de su país aunque esté en otro idioma o muy vieja: sirve, y le puede ahorrar varias dosis."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Puedo abrir el sobre para revisarlo?",
+        "answer": "No. El sobre va sellado y firmado; si se abre, el formulario pierde validez y hay que repetir el examen completo. Le entregamos aparte una copia suya que sí puede consultar."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Ustedes me asesoran con mi caso de inmigración?",
+        "answer": "No. Hacemos el examen médico I-693 y le entregamos el formulario. Las preguntas sobre su caso, plazos y trámites son para su abogado."
       }
     ],
     "faqsEn": [
       {
-        "question": "Is the doctor authorized by USCIS?",
-        "answer": "Yes, the exam is performed by an authorized civil surgeon and we give you the sealed Form I-693."
+        "question": "What if I do not have my vaccination card?",
+        "answer": "Any vaccine you cannot document has to be repeated. Bring the card from your home country even if it is in another language or very old — it counts, and it can save you several doses."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
+        "question": "Can I open the envelope to check it?",
+        "answer": "No. The envelope is sealed and signed; if it is opened, the form loses its validity and the entire exam has to be repeated. We give you a separate copy that you can read."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Do you advise on my immigration case?",
+        "answer": "No. We perform the I-693 medical exam and hand you the form. Questions about your case, timing and filings are for your attorney."
       }
     ]
   },
