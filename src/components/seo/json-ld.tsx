@@ -35,6 +35,21 @@ export async function JsonLdMedicalClinic({
         logo: `${SITE_CONFIG.baseUrl}/images/logo.webp`,
         priceRange: "$$",
         currenciesAccepted: "USD",
+        // Atributos confirmados por el cliente desde la ficha de Google
+        // (2026-09-21). El garaje gratuito está marcado como NO disponible y
+        // por eso no aparece aquí.
+        amenityFeature: [
+          { "@type": "LocationFeatureSpecification", name: "Estacionamiento en el lugar", value: true },
+          { "@type": "LocationFeatureSpecification", name: "Estacionamiento gratuito", value: true },
+          { "@type": "LocationFeatureSpecification", name: "Estacionamiento gratuito en la calle", value: true },
+          { "@type": "LocationFeatureSpecification", name: "Entrada accesible para silla de ruedas", value: true },
+          { "@type": "LocationFeatureSpecification", name: "Estacionamiento accesible para silla de ruedas", value: true },
+          { "@type": "LocationFeatureSpecification", name: "Sanitarios accesibles para silla de ruedas", value: true },
+          { "@type": "LocationFeatureSpecification", name: "Sanitarios", value: true },
+          { "@type": "LocationFeatureSpecification", name: "No se requiere cita", value: true },
+        ],
+        // El nombre tal cual figura en la ficha de Google, sin tildes.
+        alternateName: "Clinica Hispana Airline",
         paymentAccepted: "Cash, Credit Card, Debit Card",
         address: {
           "@type": "PostalAddress",
@@ -97,6 +112,7 @@ export async function JsonLdMedicalClinic({
         },
         sameAs: [
           SOCIAL_LINKS.facebook,
+          SOCIAL_LINKS.instagram,
           SOCIAL_LINKS.x,
           SOCIAL_LINKS.linkedin,
           SOCIAL_LINKS.google,
