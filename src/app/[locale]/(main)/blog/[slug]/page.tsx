@@ -9,6 +9,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { CalendarDots, Clock, ArrowLeft, Phone } from "@phosphor-icons/react/dist/ssr";
 import { JsonLdBlogPosting } from "@/components/seo/json-ld-blog";
+import { MedicalReview } from "@/components/seo/medical-review";
 import { JsonLdMedicalClinic } from "@/components/seo/json-ld";
 import { seoTitle, seoDescription, buildSocial } from "@/lib/seo";
 
@@ -74,6 +75,7 @@ export default async function BlogPostPage({ params }: Props) {
   setRequestLocale(locale);
 
   const t = await getTranslations("blog");
+  const tReview = await getTranslations("medicalReview");
 
   const getLocalizedHref = (href: string) => {
     if (locale === "es") return href;
@@ -186,6 +188,20 @@ export default async function BlogPostPage({ params }: Props) {
                 {t("callNow")} {CONTACT_INFO.phoneFormatted}
               </a>
             </div>
+          </div>
+
+          <div className="max-w-4xl mx-auto">
+            <MedicalReview
+              published={post.date}
+              reviewed={post.dateModified || post.date}
+              locale={locale}
+              labels={{
+                heading: tReview("heading"),
+                reviewedBy: tReview("reviewedBy"),
+                published: tReview("published"),
+                lastReviewed: tReview("lastReviewed"),
+              }}
+            />
           </div>
 
           {/* Related Services */}

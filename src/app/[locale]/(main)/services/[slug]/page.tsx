@@ -35,7 +35,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import { SERVICES, SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
+import { SERVICES, SITE_CONFIG, CONTACT_INFO, SERVICES_LAST_REVIEWED } from "@/lib/constants";
 import { getLocalizedService } from "@/lib/utils";
 import { getServiceFAQs } from "@/lib/service-faqs";
 import { seoTitle, seoDescription, buildSocial } from "@/lib/seo";
@@ -44,7 +44,9 @@ import {
   JsonLdBreadcrumb,
   JsonLdMedicalProcedure,
   JsonLdFAQ,
+  JsonLdMedicalWebPage,
 } from "@/components/seo/json-ld";
+import { MedicalReview } from "@/components/seo/medical-review";
 
 const iconMap: Record<string, React.ElementType> = {
   Stethoscope,
@@ -133,6 +135,7 @@ export default async function ServicePage({ params }: Props) {
   setRequestLocale(locale);
 
   const t = await getTranslations("services");
+  const tReview = await getTranslations("medicalReview");
   const rawService = SERVICES.find((s) => s.slug === slug);
 
   if (!rawService) {
@@ -154,6 +157,7 @@ export default async function ServicePage({ params }: Props) {
   ).map((s) => getLocalizedService(s, locale));
 
   const localePath = locale === "en" ? "/en" : "";
+  const lastReviewed = rawService.dateModified ?? SERVICES_LAST_REVIEWED;
   const breadcrumbs = [
     { name: locale === "en" ? "Home" : "Inicio", url: `${SITE_CONFIG.baseUrl}${localePath}` },
     { name: locale === "en" ? "Services" : "Servicios", url: `${SITE_CONFIG.baseUrl}${localePath}/services` },
@@ -382,10 +386,32 @@ export default async function ServicePage({ params }: Props) {
             </div>
           </section>
         )}
+
+        <div className="container mx-auto px-4 pb-12">
+          <div className="max-w-4xl mx-auto">
+            <MedicalReview
+              reviewed={lastReviewed}
+              locale={locale}
+              labels={{
+                heading: tReview("heading"),
+                reviewedBy: tReview("reviewedBy"),
+                published: tReview("published"),
+                lastReviewed: tReview("lastReviewed"),
+              }}
+            />
+          </div>
+        </div>
       </main>
 
       <JsonLdMedicalClinic />
       <JsonLdBreadcrumb items={breadcrumbs} />
+      <JsonLdMedicalWebPage
+        url={`${SITE_CONFIG.baseUrl}${localePath}/services/${service.slug}`}
+        name={service.title}
+        description={service.description}
+        lastReviewed={lastReviewed}
+        locale={locale}
+      />
       <JsonLdMedicalProcedure
         name={service.title}
         description={service.description}

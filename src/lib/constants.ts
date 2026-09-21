@@ -63,6 +63,13 @@ export const CONQUESTING_PHONE = {
   phoneFormatted: "+1 (346) 248-2313",
 } as const;
 
+/**
+ * Última revisión del catálogo de servicios. Un servicio con `dateModified`
+ * propio gana a este valor. Alimenta el `lastmod` del sitemap, el
+ * `lastReviewed` del schema y la caja de revisión visible.
+ */
+export const SERVICES_LAST_REVIEWED = "2026-09-21";
+
 export const SERVICES: Service[] = [
   {
     "id": "condiciones-cronicas",

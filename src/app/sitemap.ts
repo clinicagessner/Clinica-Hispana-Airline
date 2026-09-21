@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { SERVICES, SITE_CONFIG } from "@/lib/constants";
+import { SERVICES, SITE_CONFIG, SERVICES_LAST_REVIEWED } from "@/lib/constants";
 import { getBlogPosts } from "@/lib/blog";
 import { locales } from "@/i18n/config";
 
@@ -21,10 +21,6 @@ const PAGE_DATES: Record<string, string> = {
   "/privacy": "2026-05-05",
 };
 
-// Última revisión del catálogo de servicios. Un servicio con `dateModified`
-// propio en constants.ts gana a este valor: así B3 puede ir marcando los que
-// se reescriben sin mover la fecha de los demás.
-const SERVICES_LAST_MODIFIED = "2026-09-21"; // B3: los 29 reescritos
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = SITE_CONFIG.baseUrl;
@@ -51,7 +47,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const serviceRoutes = SERVICES.flatMap((service) =>
     entry(
       `/services/${service.slug}`,
-      new Date(service.dateModified ?? SERVICES_LAST_MODIFIED)
+      new Date(service.dateModified ?? SERVICES_LAST_REVIEWED)
     )
   );
 

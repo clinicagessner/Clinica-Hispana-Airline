@@ -336,3 +336,44 @@ function JsonLdClinicLight() {
     />
   );
 }
+
+/**
+ * `MedicalWebPage` de una página de servicio, con la fecha de última revisión
+ * y quién la revisó. `reviewedBy` apunta por `@id` al nodo de la clínica: sin
+ * médico nombrado, el revisor es la organización (§9).
+ */
+export function JsonLdMedicalWebPage({
+  url,
+  name,
+  description,
+  lastReviewed,
+  locale,
+}: {
+  url: string;
+  name: string;
+  description: string;
+  lastReviewed: string;
+  locale: string;
+}) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "@id": `${url}#webpage`,
+    url,
+    name,
+    description,
+    inLanguage: locale === "es" ? "es-MX" : "en-US",
+    lastReviewed,
+    reviewedBy: { "@id": `${SITE_CONFIG.baseUrl}/#clinic` },
+    about: { "@id": `${SITE_CONFIG.baseUrl}/#clinic` },
+    isPartOf: { "@id": `${SITE_CONFIG.baseUrl}/#website` },
+    mainEntity: { "@id": `${url}#procedure` },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
