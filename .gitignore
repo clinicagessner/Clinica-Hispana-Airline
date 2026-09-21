@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Datos crudos de Search Console (se regeneran con toolkit/gsc-fetch.mjs)
+seo-data/
