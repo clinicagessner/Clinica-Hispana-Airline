@@ -6,7 +6,7 @@ description: "A1C, presión y colesterol: qué cifras persigue el control de la 
 date: "2026-03-19"
 dateModified: "2026-09-21"
 author: "Clínica Hispana Airline"
-image: "/images/services/condiciones-cronicas.jpg"
+image: "/images/services/condiciones-cronicas.webp"
 featured: false
 category: "Salud"
 readTime: 6
