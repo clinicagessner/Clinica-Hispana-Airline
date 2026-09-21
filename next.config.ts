@@ -464,7 +464,11 @@ const nextConfig: NextConfig = {
                 "https://*.google-analytics.com https://www.googletagmanager.com",
                 "https://maps.googleapis.com https://connect.facebook.net",
                 "https://*.callrail.com https://*.vercel-insights.com",
-                "https://googleads.g.doubleclick.net",
+                // Conversiones de Google Ads: sin estos tres la CSP bloquea
+                // /ccm/collect y /rmkt/collect y las conversiones dejan de
+                // registrarse en silencio, con las campañas corriendo igual.
+                "https://googleads.g.doubleclick.net https://ad.doubleclick.net",
+                "https://www.google.com https://www.googleadservices.com",
               ].join(" "),
               "frame-src 'self' https://www.google.com https://www.facebook.com https://td.doubleclick.net",
               "media-src 'self'",
