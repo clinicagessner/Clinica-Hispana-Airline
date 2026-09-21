@@ -1,6 +1,7 @@
 ---
 slug: "salud-hombre-houston-chequeos-preventivos"
 title: "Salud del Hombre en Houston: Chequeos Preventivos que Pueden Salvarle la Vida"
+metaTitle: "Salud del Hombre en Houston: Chequeos Preventivos"
 description: "Chequeos preventivos para hombres en Houston TX: PSA, testosterona, presión arterial y más. Atención en español, sin cita previa, en Clínica Hispana Airline."
 date: "2026-07-20"
 author: "Clínica Hispana Airline"

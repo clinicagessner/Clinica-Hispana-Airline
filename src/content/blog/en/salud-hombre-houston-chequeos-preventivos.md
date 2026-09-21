@@ -1,6 +1,7 @@
 ---
 slug: "salud-hombre-houston-chequeos-preventivos"
 title: "Men's Health in Houston: Preventive Checkups That Can Save Your Life"
+metaTitle: "Men's Health in Houston: Preventive Checkups"
 description: "Preventive health checkups for men in Houston TX: PSA, testosterone, blood pressure and more. Care in Spanish, walk-ins welcome, at Clínica Hispana Airline."
 date: "2026-07-20"
 author: "Clínica Hispana Airline"
