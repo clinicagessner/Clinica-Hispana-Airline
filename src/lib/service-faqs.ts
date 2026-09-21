@@ -222,90 +222,90 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "anticonceptivos": {
     "faqs": [
       {
-        "question": "¿Qué métodos anticonceptivos ofrecen?",
-        "answer": "Ofrecemos orientación, pastillas anticonceptivas e inyección, y te ayudamos a elegir el método adecuado para ti."
+        "question": "¿Cuál es el mejor método?",
+        "answer": "El que usted vaya a usar bien. Una pastilla que se olvida varias veces al mes protege menos que una inyección puesta a tiempo. Por eso hablamos de su rutina real antes de recomendar."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Cualquier mujer puede tomar pastillas?",
+        "answer": "No. Fumar a partir de cierta edad, las migrañas con aura, la presión alta o antecedentes de coágulos pueden descartar los métodos con estrógeno. Por eso se valora antes de recetar."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Los anticonceptivos me protegen de infecciones?",
+        "answer": "No. Ningún método hormonal protege contra infecciones de transmisión sexual. Para eso hace falta preservativo y hacerse pruebas."
       }
     ],
     "faqsEn": [
       {
-        "question": "What contraceptive methods do you offer?",
-        "answer": "We offer guidance, birth control pills and the injection, and help you choose the right method for you."
+        "question": "Which method is best?",
+        "answer": "The one you will actually use properly. A pill forgotten several times a month protects less than an injection given on schedule. That is why we talk about your real routine before recommending."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
+        "question": "Can any woman take the pill?",
+        "answer": "No. Smoking past a certain age, migraines with aura, high blood pressure or a history of clots can rule out estrogen-containing methods. That is why we assess before prescribing."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Does birth control protect me from infections?",
+        "answer": "No. No hormonal method protects against sexually transmitted infections. That takes condoms and getting tested."
       }
     ]
   },
   "extraccion-implantes": {
     "faqs": [
       {
-        "question": "¿Duele la extracción del implante?",
-        "answer": "Se realiza con anestesia local, por lo que las molestias son mínimas. El procedimiento toma pocos minutos."
+        "question": "¿Tengo que esperar a que caduque para quitármelo?",
+        "answer": "No. Si el método no le está funcionando o desea embarazarse, se retira cuando usted decida, sin esperar a que se cumpla su periodo."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Cuándo vuelve mi fertilidad?",
+        "answer": "El efecto anticonceptivo termina al retirar el implante. Por eso, si no desea embarazo, conviene tener listo el siguiente método desde ese mismo día."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Y si no me lo encuentran en el brazo?",
+        "answer": "No se insiste. Si el implante no se localiza con facilidad, se lo decimos y orientamos la referencia para que lo localicen con imagen antes de retirarlo."
       }
     ],
     "faqsEn": [
       {
-        "question": "Does implant removal hurt?",
-        "answer": "It's done with local anesthesia, so discomfort is minimal. The procedure takes just a few minutes."
+        "question": "Do I have to wait until it expires to remove it?",
+        "answer": "No. If the method is not working for you or you want to become pregnant, it comes out when you decide, without waiting for its period to end."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
+        "question": "When does my fertility return?",
+        "answer": "The contraceptive effect ends when the implant is removed. So if you do not want to become pregnant, have the next method ready from that same day."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "What if you cannot find it in my arm?",
+        "answer": "We do not press on. If the implant is not easily located, we tell you and help direct the referral so it can be located with imaging before removal."
       }
     ]
   },
   "salud-hombre": {
     "faqs": [
       {
-        "question": "¿Qué incluye el examen del hombre?",
-        "answer": "Incluye antígeno prostático (PSA), nivel de testosterona y un chequeo general, con resultados explicados en español."
+        "question": "Tengo el PSA alto, ¿significa cáncer?",
+        "answer": "No necesariamente. El PSA también sube con la inflamación, una infección reciente o el crecimiento benigno de la próstata que viene con la edad. Un valor aislado dice poco; importa cómo evoluciona."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
+        "question": "Me levanto varias veces por la noche a orinar, ¿es normal a mi edad?",
+        "answer": "Es frecuente, que no es lo mismo que normal. Suele tener causa y tratamiento, así que conviene revisarlo en vez de asumir que es la edad."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Desde qué edad debo hacerme el PSA?",
+        "answer": "Conviene hablarlo a partir de los 50, y antes si hay antecedentes familiares de problemas de próstata."
       }
     ],
     "faqsEn": [
       {
-        "question": "What does the men's exam include?",
-        "answer": "It includes prostate antigen (PSA), testosterone level and a general checkup, with results explained in Spanish."
+        "question": "My PSA is high — does that mean cancer?",
+        "answer": "Not necessarily. PSA also rises with inflammation, a recent infection, or the benign prostate enlargement that comes with age. A single value says little; what matters is how it evolves."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
+        "question": "I get up several times a night to urinate — is that normal at my age?",
+        "answer": "It is common, which is not the same as normal. It usually has a cause and a treatment, so it is worth checking instead of assuming it is just age."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "At what age should I start PSA testing?",
+        "answer": "It is worth discussing from age 50, and earlier if there is a family history of prostate problems."
       }
     ]
   },
@@ -582,30 +582,30 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "examen-dot": {
     "faqs": [
       {
-        "question": "¿Me entregan el certificado DOT el mismo día?",
-        "answer": "Sí, al terminar el examen físico DOT te entregamos tu certificado el mismo día."
+        "question": "¿El análisis de orina del DOT es una prueba de drogas?",
+        "answer": "No. Busca proteína, azúcar y sangre, que indican problemas de riñón o diabetes sin diagnosticar. La prueba de drogas la pide su empleador y se hace por separado."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Por qué a unos les dan dos años de certificado y a otros tres meses?",
+        "answer": "Lo decide sobre todo la presión arterial. Cuanto más alta, más corto el certificado, hasta el punto de no poder certificar si está muy elevada. Controlarla sale mucho más barato que repetir el examen."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Qué debo traer si tengo apnea del sueño o diabetes?",
+        "answer": "El reporte de cumplimiento del CPAP en el primer caso y sus análisis recientes, sobre todo la A1C, en el segundo. Traer los papeles de una condición controlada es lo que evita tener que volver."
       }
     ],
     "faqsEn": [
       {
-        "question": "Do I get the DOT certificate the same day?",
-        "answer": "Yes, after the DOT physical we give you your certificate the same day."
+        "question": "Is the DOT urinalysis a drug test?",
+        "answer": "No. It looks for protein, sugar and blood, which indicate kidney problems or undiagnosed diabetes. Drug testing is requested by your employer and done separately."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
+        "question": "Why do some drivers get two years and others three months?",
+        "answer": "Blood pressure decides it more than anything. The higher it is, the shorter the certificate, to the point of not certifying at all if it is very high. Controlling it is far cheaper than repeating the exam."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "What should I bring if I have sleep apnea or diabetes?",
+        "answer": "Your CPAP compliance report for the first, and recent lab work, especially your A1C, for the second. Bringing documentation for a controlled condition is what keeps you from coming back."
       }
     ]
   },
@@ -672,120 +672,120 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "sueros-vitaminados": {
     "faqs": [
       {
-        "question": "¿Quién aplica el suero vitaminado?",
-        "answer": "Lo aplica y supervisa personal médico, tras una breve evaluación para elegir el suero adecuado para ti."
+        "question": "Llevo meses cansado, ¿me pongo un suero?",
+        "answer": "Lo razonable es medir primero. La anemia, la B12 baja, la tiroides y el azúcar descontrolado dan exactamente ese cansancio y se ven con un análisis de sangre. Con el resultado delante se decide qué tiene sentido."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Cuánto dura la sesión?",
+        "answer": "Entre treinta y sesenta minutos, sentado y con la vía en el brazo. Al terminar se retira la vía y puede irse sin acompañante."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Puede ponérselo cualquiera?",
+        "answer": "No. Se valora su historial, sus medicamentos y si hay condiciones que lo desaconsejen, como problemas de riñón o de corazón. Si no es adecuado en su caso, se lo decimos."
       }
     ],
     "faqsEn": [
       {
-        "question": "Who administers the vitamin IV?",
-        "answer": "It's administered and monitored by medical staff, after a brief evaluation to choose the right drip for you."
+        "question": "I have been tired for months — should I get an infusion?",
+        "answer": "The sensible thing is to measure first. Anemia, low B12, thyroid problems and uncontrolled blood sugar cause exactly that fatigue and show up on a blood test. With results in hand you can decide what makes sense."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
+        "question": "How long does the session take?",
+        "answer": "Thirty to sixty minutes, seated with a line in your arm. When it ends the line comes out and you can leave without anyone driving you."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Can anyone have one?",
+        "answer": "No. We assess your history, your medications and whether any condition makes it inadvisable, such as kidney or heart problems. If it is not appropriate in your case, we tell you."
       }
     ]
   },
   "suturas-heridas": {
     "faqs": [
       {
-        "question": "¿Atienden heridas sin cita?",
-        "answer": "Sí, atendemos cortes y heridas sin cita previa; entre más pronto, menor el riesgo de infección."
+        "question": "¿Cuánto tiempo tengo para que me cosan la herida?",
+        "answer": "Cuanto antes, mejor: se sutura mejor dentro de las primeras horas. Pasado ese margen sube el riesgo de infección al cerrarla y a veces ya no conviene suturar."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Cómo sé si necesita puntos o no?",
+        "answer": "Si al acercar los bordes no se quedan juntos, si es profunda, si mide más de dos centímetros, si está en una articulación o si sangra de forma persistente."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Ustedes me quitan los puntos?",
+        "answer": "Sí, la retirada se hace aquí. Le decimos al terminar en cuántos días toca, que varía según la zona."
       }
     ],
     "faqsEn": [
       {
-        "question": "Do you treat wounds without an appointment?",
-        "answer": "Yes, we treat cuts and wounds on a walk-in basis; the sooner, the lower the risk of infection."
+        "question": "How long do I have to get a wound stitched?",
+        "answer": "The sooner the better: it sutures best within the first few hours. Past that, the risk of infection from closing it rises and sometimes suturing is no longer advisable."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
+        "question": "How do I know if it needs stitches?",
+        "answer": "If the edges do not stay together when brought close, if it is deep, if it is over an inch long, if it is on a joint, or if it bleeds persistently."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Do you remove the stitches?",
+        "answer": "Yes, removal is done here. We tell you when we finish how many days it will be, which varies by area."
       }
     ]
   },
   "curacion-heridas": {
     "faqs": [
       {
-        "question": "¿Hacen cambios de vendaje y seguimiento?",
-        "answer": "Sí, limpiamos, curamos y cambiamos los vendajes, y damos seguimiento hasta que la herida cicatrice."
+        "question": "¿No basta con lavarla en casa?",
+        "answer": "Muchas veces no. Lo que causa problemas es lo que queda dentro: tierra o restos que no se ven y que hacen que la herida se infecte o forme un absceso una semana después."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Cómo sé si se está infectando?",
+        "answer": "Si el dolor aumenta a partir del segundo día, si el enrojecimiento se extiende, si hay pus, mal olor o fiebre. Si aparecen líneas rojas saliendo de la herida, venga el mismo día."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "Tengo diabetes y me salió una herida en el pie que no duele.",
+        "answer": "Precisamente por eso conviene revisarla pronto. Que no duela puede significar que el nervio ya no avisa, y las heridas del pie en diabéticos se complican con facilidad."
       }
     ],
     "faqsEn": [
       {
-        "question": "Do you do dressing changes and follow-up?",
-        "answer": "Yes, we clean, treat and change the dressings, and follow up until the wound heals."
+        "question": "Is washing it at home not enough?",
+        "answer": "Often it is not. What causes trouble is what stays inside: dirt or debris you cannot see, which makes the wound get infected or form an abscess a week later."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
+        "question": "How do I know it is getting infected?",
+        "answer": "If pain increases from the second day on, if redness spreads, if there is pus, bad smell or fever. If red streaks appear running from the wound, come in the same day."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "I have diabetes and got a painless wound on my foot.",
+        "answer": "That is exactly why it should be looked at soon. Painless can mean the nerve no longer warns you, and foot wounds in diabetics get complicated easily."
       }
     ]
   },
   "cirugias-menores": {
     "faqs": [
       {
-        "question": "¿Qué cirugías menores realizan?",
-        "answer": "Realizamos extracción de lunares, quistes y lipomas, entre otros procedimientos ambulatorios con anestesia local."
+        "question": "¿Me van a dormir?",
+        "answer": "No. Se usa anestesia local: solo se adormece la zona. Está despierto todo el tiempo, no siente dolor y puede irse caminando sin acompañante."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
+        "question": "Tomo aspirina a diario, ¿puedo hacerme el procedimiento?",
+        "answer": "Avísenos antes. Los anticoagulantes, incluida la aspirina diaria, cambian la preparación y los cuidados posteriores, y a veces conviene ajustar algo antes del procedimiento."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Me quitan cualquier lunar o verruga?",
+        "answer": "Si el aspecto es el habitual, sí. Si la lesión tiene características que conviene estudiar, se lo decimos y orientamos la referencia en vez de quitarla sin más."
       }
     ],
     "faqsEn": [
       {
-        "question": "What minor surgeries do you perform?",
-        "answer": "We perform removal of moles, cysts and lipomas, among other outpatient procedures with local anesthesia."
+        "question": "Will I be put to sleep?",
+        "answer": "No. Local anesthesia is used: only the area is numbed. You stay awake the whole time, feel no pain, and can walk out without anyone driving you."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
+        "question": "I take daily aspirin — can I have the procedure?",
+        "answer": "Tell us beforehand. Blood thinners, including daily aspirin, change the preparation and the aftercare, and sometimes something needs adjusting before the procedure."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Will you remove any mole or wart?",
+        "answer": "If it looks typical, yes. If a lesion has features that should be studied, we tell you and help direct the referral instead of simply removing it."
       }
     ]
   },
@@ -822,64 +822,63 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "unas-encarnadas": {
     "faqs": [
       {
-        "question": "¿Cómo tratan la uña encarnada?",
-        "answer": "Con un procedimiento sencillo y anestesia local retiramos la porción encarnada para aliviar el dolor el mismo día."
+        "question": "¿Me van a quitar toda la uña?",
+        "answer": "No. Se retira solo la porción que se está clavando. Si el problema se repite, se puede tratar además esa parte de la matriz para que no vuelva a crecer hacia dentro."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Duele mucho?",
+        "answer": "El pinchazo de la anestesia y poco más. El alivio es inmediato porque la mayor parte del dolor viene de la presión de la uña sobre la piel inflamada."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Cómo evito que vuelva?",
+        "answer": "Cortando la uña recta, sin redondear las esquinas, y usando calzado que no apriete de lado. Ese par de cambios evita la mayoría de las recaídas."
       }
     ],
     "faqsEn": [
       {
-        "question": "How do you treat an ingrown toenail?",
-        "answer": "With a simple procedure and local anesthesia we remove the ingrown portion to relieve pain the same day."
+        "question": "Will you remove the whole nail?",
+        "answer": "No. Only the portion digging in is removed. If the problem keeps returning, that part of the matrix can also be treated so it stops growing inward."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
+        "question": "Does it hurt a lot?",
+        "answer": "The anesthetic injection and little else. Relief is immediate because most of the pain comes from the nail pressing on inflamed skin."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "How do I keep it from coming back?",
+        "answer": "Cut the nail straight across without rounding the corners, and wear shoes that do not squeeze the sides. Those two changes prevent most relapses."
       }
     ]
   },
   "farmacia": {
     "faqs": [
       {
-        "question": "¿Puedo surtir mi receta en la clínica?",
-        "answer": "Sí, al terminar tu consulta surtimos tu receta en nuestra farmacia, sin tener que ir a otro lugar."
+        "question": "¿Puedo llevar la receta de otro médico para que me la surtan?",
+        "answer": "No. Entregamos los medicamentos indicados en su consulta con nosotros y productos de venta libre. Surtir recetas de otros médicos requiere una farmacia con licencia del Texas State Board of Pharmacy."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Me explican cómo tomar el medicamento?",
+        "answer": "Sí, y es la parte que más importa. Le decimos cuánto, cada cuánto y hasta cuándo, y qué hacer si olvida una toma. La mayoría de los tratamientos que fallan es por cómo se toman, no por el medicamento."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Debo decirles lo que ya estoy tomando?",
+        "answer": "Sí, incluidos los de venta libre y los suplementos. Hay combinaciones frecuentes que conviene revisar antes de añadir cualquier cosa nueva."
       }
     ],
     "faqsEn": [
       {
-        "question": "Can I fill my prescription at the clinic?",
-        "answer": "Yes, after your visit we fill your prescription at our pharmacy, with no need to go elsewhere."
+        "question": "Can I bring a prescription from another doctor to be filled?",
+        "answer": "No. We provide the medications indicated during your visit with us, plus over-the-counter products. Filling other physicians' prescriptions requires a pharmacy licensed by the Texas State Board of Pharmacy."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
+        "question": "Will you explain how to take the medication?",
+        "answer": "Yes, and it is the part that matters most. We tell you how much, how often and for how long, and what to do if you miss a dose. Most treatments that fail do so because of how they are taken, not because of the drug."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Should I tell you what I am already taking?",
+        "answer": "Yes, including over-the-counter products and supplements. There are common combinations worth reviewing before adding anything new."
       }
     ]
-  }
-};
+  },};
 
 export function getServiceFAQs(slug: string, locale: string) {
   const data = SERVICE_FAQS[slug];

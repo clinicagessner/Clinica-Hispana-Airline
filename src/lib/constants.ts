@@ -352,8 +352,8 @@ export const SERVICES: Service[] = [
     "shortTitle": "Anticonceptivos",
     "description": "Tratamientos anticonceptivos en Houston, TX: orientación, pastillas e inyección. En español, con precios accesibles.",
     "descriptionEn": "Contraceptive methods in Houston, TX: guidance, pills and injection. In Spanish, with affordable pricing.",
-    "longDescription": "Decidir cuándo y cómo formar tu familia es tu derecho. En Clínica Hispana Airline te damos información clara y sin juicios para que elijas el método anticonceptivo que mejor se adapta a ti.\n\n**¿Qué incluye?**\n- Consulta de orientación personalizada\n- Información sobre los distintos métodos\n- Pastillas anticonceptivas e inyección\n- Inicio y seguimiento del método elegido\n- Resolución de dudas y efectos secundarios\n\n**Una decisión informada**\nCada cuerpo y cada vida es distinta. Te ayudamos a comparar opciones según tu salud, tus planes y tu comodidad para que tomes la mejor decisión.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
-    "longDescriptionEn": "Deciding when and how to build your family is your right. At Clínica Hispana Airline we give you clear, judgment-free information so you can choose the contraceptive method that best fits you.\n\n**What's included?**\n- Personalized guidance visit\n- Information about the different methods\n- Birth control pills and injection\n- Starting and following up on the chosen method\n- Answers to questions and side effects\n\n**An informed decision**\nEvery body and every life is different. We help you compare options based on your health, your plans and your comfort so you make the best decision.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
+    "longDescription": "Orientación y tratamientos anticonceptivos en Clínica Hispana Airline, sin cita y en español. El objetivo de la consulta es que salga con el método que encaja **con su vida**, no con el que más se receta.\n\n**Qué manejamos**\n- **Pastillas anticonceptivas**, con valoración previa de si son adecuadas para usted\n- **Inyección anticonceptiva**\n- Orientación sobre otros métodos y sobre cuál conviene según su caso\n- [Extracción de implantes subdérmicos](/services/extraccion-implantes)\n\n**Lo que se valora antes de recetar**\nNo todos los métodos sirven para todas. Antes de recomendar se revisan su presión arterial, si fuma y su edad, si tiene migrañas con aura, antecedentes de coágulos y si está amamantando. Algunos de esos factores descartan los métodos con estrógeno, y es mejor saberlo antes que después.\n\n**La pregunta que más se repite**\n\"¿Cuál es el mejor?\" La respuesta honesta es que el mejor es **el que usted va a usar bien**. Una pastilla que se olvida tres veces al mes protege menos que una inyección puesta a tiempo. En la consulta hablamos de su rutina real, no de la ideal.\n\n**Efectos y ajustes**\nLos primeros meses puede haber sangrados irregulares o cambios leves; suele estabilizarse. Si no se estabiliza o le sienta mal, **se cambia**: no hay que aguantarse un método que no le funciona.\n\n**Lo que conviene decir claro**\nNingún anticonceptivo hormonal protege contra infecciones de transmisión sexual. Para eso, el preservativo y las [pruebas de ETS](/services/enfermedades-transmision-sexual).",
+    "longDescriptionEn": "Contraceptive guidance and treatment at Clínica Hispana Airline, walk-in and in your language. The point of the visit is for you to leave with the method that fits **your life**, not the one most often prescribed.\n\n**What we handle**\n- **Birth control pills**, with prior assessment of whether they suit you\n- **Contraceptive injection**\n- Guidance on other methods and which one fits your case\n- [Subdermal implant removal](/services/extraccion-implantes)\n\n**What gets assessed before prescribing**\nNot every method suits everyone. Before recommending, we review your blood pressure, whether you smoke and your age, migraines with aura, a history of clots, and whether you are breastfeeding. Some of those rule out estrogen-containing methods, and it is better to know beforehand.\n\n**The most common question**\n\"Which one is best?\" The honest answer is that the best one is **the one you will actually use properly**. A pill forgotten three times a month protects less than an injection given on schedule. In the visit we talk about your real routine, not the ideal one.\n\n**Effects and adjustments**\nThe first few months can bring irregular bleeding or mild changes; it usually settles. If it does not settle or it does not agree with you, **it gets changed**: nobody should put up with a method that is not working.\n\n**Worth stating plainly**\nNo hormonal contraceptive protects against sexually transmitted infections. For that, condoms and [STD testing](/services/enfermedades-transmision-sexual).",
     "icon": "Syringe",
     "image": "/images/services/anticonceptivos.webp",
     "category": "salud-mujer",
@@ -370,16 +370,16 @@ export const SERVICES: Service[] = [
       "birth control pills houston"
     ],
     "features": [
-      "Orientación personalizada",
-      "Pastillas e inyección anticonceptiva",
-      "Inicio y seguimiento del método",
-      "Atención en español"
+      "Pastillas e inyección",
+      "Valoración previa de riesgos",
+      "Cambio de método si no le funciona",
+      "Extracción de implantes"
     ],
     "featuresEn": [
-      "Personalized guidance",
-      "Birth control pills and injection",
-      "Method start and follow-up",
-      "Care in Spanish"
+      "Pills and injection",
+      "Prior risk assessment",
+      "Method changed if it is not working",
+      "Implant removal"
     ],
     "highlighted": false,
     "order": 8
@@ -392,8 +392,8 @@ export const SERVICES: Service[] = [
     "shortTitle": "Implantes",
     "description": "Extracción de implantes subdérmicos en Houston, TX, procedimiento seguro y en español. Con precios accesibles.",
     "descriptionEn": "Subdermal implant removal in Houston, TX, a safe procedure in Spanish. With affordable pricing.",
-    "longDescription": "Si llegó el momento de retirar tu implante subdérmico —porque caducó o porque deseas cambiar de método— en Clínica Hispana Airline lo hacemos de forma segura, rápida y con cuidado.\n\n**¿Qué incluye?**\n- Evaluación y localización del implante\n- Extracción ambulatoria con anestesia local\n- Indicaciones claras de cuidado posterior\n- Orientación sobre tus próximos pasos de planificación\n\n**Un procedimiento sencillo**\nEl retiro suele tomar pocos minutos y se realiza con una pequeña incisión. Te explicamos cada paso en español para que estés tranquila.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
-    "longDescriptionEn": "If it's time to remove your subdermal implant —because it expired or you want to switch methods— at Clínica Hispana Airline we do it safely, quickly and with care.\n\n**What's included?**\n- Evaluation and location of the implant\n- Outpatient removal with local anesthesia\n- Clear after-care instructions\n- Guidance on your next family-planning steps\n\n**A simple procedure**\nRemoval usually takes only a few minutes through a small incision. We explain every step in Spanish so you feel at ease.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
+    "longDescription": "Extracción de implantes anticonceptivos subdérmicos en Clínica Hispana Airline, con **anestesia local** y resuelta en una sola visita. Es un servicio que muchas clínicas colocan y pocas retiran.\n\n**Cuándo toca retirarlo**\n- Cuando se cumple su periodo de duración\n- Si desea quedar embarazada\n- Si los efectos secundarios no le compensan\n- Si quiere cambiar de método\n\nNo hay que esperar a que caduque para quitarlo. Si el método no le está funcionando, se retira cuando usted decida.\n\n**Cómo es el procedimiento**\nSe localiza el implante bajo la piel del brazo, se adormece la zona con anestesia local, se hace una incisión pequeña y se retira. Se cierra y se cubre. **El procedimiento suele durar pocos minutos** y sale caminando.\n\nLo único que se siente es el pinchazo de la anestesia. Después, presión, no dolor.\n\n**Si quiere continuar con anticoncepción**\nSe puede hablar del siguiente método en la misma consulta, para que no quede un periodo sin cobertura. Ver [tratamientos anticonceptivos](/services/anticonceptivos).\n\n**Después de la extracción**\nMantener la zona limpia y seca, evitar esfuerzos con ese brazo unos días y vigilar signos de infección. Es normal que quede un moretón.\n\n**Sobre la fertilidad**\nEl efecto anticonceptivo del implante **termina al retirarlo**. Si no desea embarazo, conviene tener listo el siguiente método desde ese mismo día.\n\n**Si no se palpa bien**\nCuando el implante no se localiza con facilidad, no se insiste: se lo decimos y orientamos la referencia para que se localice con imagen antes de retirarlo.",
+    "longDescriptionEn": "Removal of subdermal contraceptive implants at Clínica Hispana Airline, with **local anesthesia**, resolved in a single visit. Many clinics place them and few will take them out.\n\n**When it is time to remove it**\n- When its effective period is up\n- If you want to become pregnant\n- If the side effects are not worth it to you\n- If you want to switch methods\n\nYou do not have to wait for it to expire. If the method is not working for you, it comes out when you decide.\n\n**What the procedure is like**\nThe implant is located under the skin of the arm, the area is numbed with local anesthesia, a small incision is made and it is removed. The site is closed and covered. **The procedure usually takes a few minutes** and you walk out.\n\nThe only thing you feel is the anesthetic injection. After that, pressure, not pain.\n\n**If you want to continue with contraception**\nThe next method can be discussed in the same visit, so you are not left with a gap in coverage. See [contraceptive methods](/services/anticonceptivos).\n\n**After removal**\nKeep the area clean and dry, avoid straining that arm for a few days, and watch for signs of infection. Some bruising is normal.\n\n**About fertility**\nThe implant's contraceptive effect **ends when it is removed**. If you do not want to become pregnant, have the next method ready from that same day.\n\n**If it cannot be felt clearly**\nWhen an implant is not easily located, we do not press on: we tell you and help direct the referral so it can be located with imaging before removal.",
     "icon": "FirstAid",
     "image": "/images/services/extraccion-implantes.webp",
     "category": "salud-mujer",
@@ -410,16 +410,16 @@ export const SERVICES: Service[] = [
       "birth control implant removal houston"
     ],
     "features": [
-      "Procedimiento ambulatorio",
-      "Anestesia local",
-      "Personal capacitado",
-      "Cuidado posterior explicado"
+      "Anestesia local, pocos minutos",
+      "En una sola visita",
+      "Se puede iniciar otro método el mismo día",
+      "Referencia si el implante no se localiza"
     ],
     "featuresEn": [
-      "Outpatient procedure",
-      "Local anesthesia",
-      "Trained staff",
-      "After-care explained"
+      "Local anesthesia, a few minutes",
+      "Single visit",
+      "Another method can start the same day",
+      "Referral if the implant cannot be located"
     ],
     "highlighted": false,
     "order": 9
@@ -432,8 +432,8 @@ export const SERVICES: Service[] = [
     "shortTitle": "Salud del Hombre",
     "description": "Examen de próstata en Houston, TX: antígeno prostático (PSA), laboratorio y chequeo general del hombre. En español, con precios accesibles.",
     "descriptionEn": "Men's health exams in Houston, TX: prostate-specific antigen (PSA), lab work and a general checkup. Care in Spanish, with affordable pricing.",
-    "longDescription": "La salud del hombre muchas veces se posterga. En Clínica Hispana Airline facilitamos los exámenes que ayudan a detectar a tiempo cambios importantes, con resultados explicados en español.\n\n**¿Qué incluye?**\n- Examen de antígeno prostático (PSA)\n- Medición del nivel de testosterona\n- Chequeo general y de signos vitales\n- Evaluación de síntomas urinarios o de energía\n- Referencia a especialista si se requiere\n\n**Por qué es importante**\nEl PSA ayuda a vigilar la salud de la próstata y la testosterona influye en la energía, el ánimo y la salud general. Un control sencillo te da tranquilidad.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
-    "longDescriptionEn": "Men's health is often postponed. At Clínica Hispana Airline we make it easy to get the exams that help catch important changes early, with results explained in Spanish.\n\n**What's included?**\n- Prostate antigen (PSA) test\n- Testosterone level measurement\n- General checkup and vital signs\n- Evaluation of urinary or energy symptoms\n- Referral to a specialist if needed\n\n**Why it matters**\nPSA helps monitor prostate health, and testosterone influences energy, mood and overall health. A simple check gives you peace of mind.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
+    "longDescription": "Los hombres van al médico más tarde y por cosas más grandes. Los exámenes de esta página existen para romper eso: son rápidos, se hacen sin cita y detectan a tiempo lo que en unos años ya no tiene marcha atrás.\n\n**Antígeno prostático (PSA)**\nUn análisis de sangre que ayuda a vigilar la salud de la próstata. Un PSA alto **no significa cáncer**: también sube con la inflamación, con una infección reciente o con el crecimiento benigno que viene con la edad. Lo que dice un valor aislado es poco; lo que importa es cómo evoluciona.\n\nConviene hablarlo a partir de los 50, y antes si hay antecedentes familiares.\n\n**Síntomas urinarios que no son \"normales de la edad\"**\n- Levantarse varias veces por la noche a orinar\n- Chorro débil o que se corta\n- Sensación de no vaciar del todo\n- Urgencia repentina\n\nSe atribuyen a la edad y muchas veces tienen tratamiento. Ver también [infecciones urinarias](/services/infecciones-urinarias).\n\n**Chequeo general del hombre**\nPresión arterial, glucosa, colesterol, peso y valoración de síntomas. Es donde aparecen la diabetes y la hipertensión silenciosas, que son lo que de verdad acorta la vida de la mayoría.\n\n**Niveles hormonales**\nCuando el cuadro lo justifica, se valoran los niveles de testosterona junto con el resto del perfil. Se interpreta con sus síntomas y su analítica completa, no de forma aislada.\n\n**Referencia**\nSi un resultado requiere urólogo, se lo decimos y orientamos la referencia. La atención aquí la da nuestro equipo médico general.",
+    "longDescriptionEn": "Men go to the doctor later and for bigger things. The exams on this page exist to break that pattern: they are quick, walk-in, and they catch in time what in a few years no longer reverses.\n\n**Prostate-specific antigen (PSA)**\nA blood test that helps monitor prostate health. An elevated PSA **does not mean cancer**: it also rises with inflammation, a recent infection, or the benign enlargement that comes with age. A single value says little; what matters is how it evolves.\n\nIt is worth discussing from age 50, and earlier if there is family history.\n\n**Urinary symptoms that are not \"just age\"**\n- Getting up several times a night to urinate\n- A weak stream, or one that stops and starts\n- The feeling of not emptying completely\n- Sudden urgency\n\nThey get blamed on age and often have treatment. See also [urinary infections](/services/infecciones-urinarias).\n\n**General men's checkup**\nBlood pressure, glucose, cholesterol, weight and symptom assessment. This is where silent diabetes and hypertension show up, and those are what actually shorten most men's lives.\n\n**Hormone levels**\nWhen the clinical picture justifies it, testosterone levels are assessed alongside the rest of the profile. It is interpreted with your symptoms and your full lab work, not in isolation.\n\n**Referral**\nIf a result calls for a urologist, we tell you and help direct the referral. Care here is provided by our general medical team.",
     "icon": "Activity",
     "image": "/images/services/salud-hombre.webp",
     "category": "medicina-general",
@@ -451,15 +451,15 @@ export const SERVICES: Service[] = [
     ],
     "features": [
       "Antígeno prostático (PSA)",
-      "Nivel de testosterona",
-      "Chequeo general del hombre",
-      "Resultados explicados en español"
+      "Valoración de síntomas urinarios",
+      "Chequeo general con laboratorio",
+      "Referencia al especialista si se requiere"
     ],
     "featuresEn": [
-      "Prostate antigen (PSA)",
-      "Testosterone level",
-      "General men's checkup",
-      "Results explained in Spanish"
+      "Prostate-specific antigen (PSA)",
+      "Urinary symptom assessment",
+      "General checkup with lab work",
+      "Specialist referral when required"
     ],
     "highlighted": true,
     "order": 10
@@ -836,8 +836,8 @@ export const SERVICES: Service[] = [
     "shortTitle": "Examen DOT",
     "description": "Examen físico DOT en Houston, TX para licencia CDL, certificado el mismo día y en español. Con precios accesibles.",
     "descriptionEn": "DOT physical exam in Houston, TX for CDL license, same-day certificate, in Spanish. With affordable pricing.",
-    "longDescription": "Si manejas vehículos comerciales necesitas tu examen físico DOT vigente. En Clínica Hispana Airline lo realizamos de forma rápida y te entregamos tu certificado el mismo día.\n\n**¿Qué incluye?**\n- Revisión de visión y audición\n- Toma de presión arterial\n- Examen físico requerido por el DOT\n- Revisión de historial médico\n- Certificado médico DOT el mismo día\n\n**Para conductores comerciales**\nEl examen es obligatorio para obtener o renovar tu licencia CDL. Te explicamos cada paso en español y agilizamos el proceso para que vuelvas pronto a la carretera.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
-    "longDescriptionEn": "If you drive commercial vehicles you need a current DOT physical exam. At Clínica Hispana Airline we perform it quickly and give you your certificate the same day.\n\n**What's included?**\n- Vision and hearing screening\n- Blood-pressure check\n- DOT-required physical exam\n- Medical-history review\n- Same-day DOT medical certificate\n\n**For commercial drivers**\nThe exam is required to obtain or renew your CDL license. We explain every step in Spanish and speed up the process so you get back on the road soon.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
+    "longDescription": "Examen físico DOT para licencia CDL en Clínica Hispana Airline, **sin cita** y con el **certificado el mismo día**.\n\n**Un DOT no se aprueba o se reprueba: se certifica por un plazo**, y ese plazo lo decide sobre todo su presión arterial. Por eso un conductor con la presión sin controlar acaba pagando el examen tres veces al año en lugar de una vez cada dos.\n\n**Qué se revisa**\nHistorial médico, visión, audición, presión arterial, examen físico y análisis de orina. Ese análisis **no es una prueba antidrogas**: busca proteína, azúcar y sangre, señales de problemas de riñón o de una diabetes sin diagnosticar. La prueba de drogas la pide su empleador y se hace aparte, en [exámenes de alcohol y drogas](/services/examen-alcohol-drogas).\n\n**Visión y audición**\nSe pide al menos 20/40 en cada ojo y en ambos juntos, con lentes si los usa, y un campo visual amplio. En audición, percibir un susurro forzado a corta distancia en al menos un oído o cumplir el umbral en audiometría. **Traiga sus lentes y su audífono puestos.**\n\n**Qué traer**\n- Licencia y su tarjeta médica anterior\n- Lentes o lentes de contacto, y audífono si usa\n- Lista completa de sus medicamentos, con dosis\n- Con apnea del sueño: el reporte de cumplimiento del CPAP\n- Con diabetes: sus últimos análisis, sobre todo la A1C\n- Tras un evento cardiaco o cirugía: el alta de su especialista\n\nTraer los papeles de una condición ya controlada es lo que marca la diferencia entre certificarse ese día y tener que volver.\n\n**Cómo llegar en mejores condiciones**\nSin café ni bebidas energéticas antes, habiendo dormido, y tomando su medicación como siempre. Dos cafés de camino pueden dejarle en un tramo de presión peor del que le corresponde.",
+    "longDescriptionEn": "DOT physical exam for your CDL at Clínica Hispana Airline, **walk-in**, with the **certificate issued the same day**.\n\n**A DOT physical is not pass or fail — it is certified for a length of time**, and that length is decided mostly by your blood pressure. Which is why a driver with uncontrolled hypertension ends up paying for the exam three times a year instead of once every two.\n\n**What gets checked**\nMedical history, vision, hearing, blood pressure, physical exam and a urinalysis. That urinalysis **is not a drug test**: it looks for protein, sugar and blood, signs of kidney problems or undiagnosed diabetes. Drug testing is requested by your employer and done separately, under [alcohol and drug testing](/services/examen-alcohol-drogas).\n\n**Vision and hearing**\nAt least 20/40 in each eye and both together, with corrective lenses if you use them, plus a wide field of vision. For hearing, perceiving a forced whisper at close range in at least one ear, or meeting the audiometry threshold. **Wear your glasses and hearing aid in.**\n\n**What to bring**\n- Your license and previous medical card\n- Glasses or contacts, and hearing aid if you use one\n- A complete list of your medications, with doses\n- With sleep apnea: your CPAP compliance report\n- With diabetes: your recent lab work, especially your A1C\n- After a cardiac event or surgery: clearance from your specialist\n\nBringing documentation for a condition already under control is what separates getting certified that day from having to come back.\n\n**How to show up in better shape**\nNo coffee or energy drinks beforehand, having slept, and taking your medication as usual. Two coffees on the way can put you in a worse blood pressure tier than you actually belong in.",
     "icon": "Truck",
     "image": "/images/services/examen-dot.webp",
     "category": "examenes",
@@ -855,16 +855,16 @@ export const SERVICES: Service[] = [
       "dot medical exam houston"
     ],
     "features": [
-      "Certificado DOT el mismo día",
-      "Para licencia CDL",
-      "Proceso rápido",
-      "Atención en español"
+      "Certificado el mismo día",
+      "Sin cita previa",
+      "Visión, audición y presión arterial",
+      "Orientación si una condición requiere papeles"
     ],
     "featuresEn": [
-      "Same-day DOT certificate",
-      "For CDL license",
-      "Fast process",
-      "Care in Spanish"
+      "Certificate issued the same day",
+      "Walk-in",
+      "Vision, hearing and blood pressure",
+      "Guidance when a condition needs paperwork"
     ],
     "highlighted": true,
     "order": 20
@@ -959,8 +959,8 @@ export const SERVICES: Service[] = [
     "shortTitle": "Sueros Vitaminados",
     "description": "Sueros vitaminados (terapia IV) en Houston, TX. Hidratación y vitaminas en español, con precios accesibles.",
     "descriptionEn": "Vitamin IV therapy in Houston, TX. Hydration and vitamins in Spanish, with affordable pricing.",
-    "longDescription": "Los sueros vitaminados aportan hidratación, vitaminas y minerales directamente a tu organismo. En Clínica Hispana Airline los aplicamos con personal médico y en un ambiente cómodo y seguro.\n\n**¿Qué incluye?**\n- Evaluación breve para elegir el suero adecuado\n- Hidratación intravenosa\n- Vitaminas y minerales\n- Aplicación y monitoreo por personal médico\n- Atención en español\n\n**Cuándo pueden ayudar**\nDespués de un periodo de cansancio, deshidratación o malestar, un suero vitaminado puede ayudarte a recuperar energía. Te orientamos sobre si es adecuado para ti.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
-    "longDescriptionEn": "Vitamin IV drips deliver hydration, vitamins and minerals directly into your body. At Clínica Hispana Airline we administer them with medical staff in a comfortable, safe setting.\n\n**What's included?**\n- A brief evaluation to choose the right drip\n- Intravenous hydration\n- Vitamins and minerals\n- Administration and monitoring by medical staff\n- Care in Spanish\n\n**When they can help**\nAfter a period of fatigue, dehydration or feeling unwell, a vitamin drip can help you recover energy. We advise you on whether it's right for you.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
+    "longDescription": "Aplicación de sueros vitaminados por vía intravenosa en Clínica Hispana Airline, con la aplicación a cargo de personal médico y en un entorno clínico.\n\n**Cómo es la sesión**\nSe coloca una vía en el brazo y el suero pasa lentamente mientras usted está sentado. Dura entre treinta y sesenta minutos. Puede leer, mirar el teléfono o simplemente esperar. Al terminar se retira la vía y se va.\n\n**Antes de aplicarlo revisamos si es adecuado para usted**\nNo es un servicio que se dé sin más. Se valoran su historial, sus medicamentos actuales y si hay condiciones que lo desaconsejen —problemas de riñón o de corazón, por ejemplo—. Si no es adecuado en su caso, se lo decimos.\n\n**Lo que conviene saber**\nSi lo que busca es resolver un cansancio que lleva meses, **el orden razonable es al revés**: primero medir. La anemia, la vitamina B12 baja, la tiroides y el azúcar descontrolado producen exactamente ese cansancio y se detectan con una extracción de sangre. Tratar sin medir deja la causa real sin atender.\n\nPor eso lo habitual aquí es empezar por [análisis de sangre y laboratorio](/services/examenes-sangre), y con el resultado delante decidir qué tiene sentido.\n\n**Seguridad**\nLa aplicación la hace personal médico, en clínica, y se vigila durante la sesión. Avise si ha tenido reacciones a algún medicamento intravenoso o si está embarazada.",
+    "longDescriptionEn": "Intravenous vitamin infusions at Clínica Hispana Airline, administered by medical staff in a clinical setting.\n\n**What the session is like**\nA line is placed in your arm and the infusion runs slowly while you sit. It takes thirty to sixty minutes. You can read, use your phone or simply wait. When it finishes the line comes out and you leave.\n\n**Before administering it we check whether it suits you**\nThis is not a service given on request without review. We assess your history, your current medications and whether any condition makes it inadvisable — kidney or heart problems, for instance. If it is not appropriate in your case, we tell you.\n\n**Worth knowing**\nIf what you are after is resolving months of fatigue, **the sensible order is the other way around**: measure first. Anemia, low vitamin B12, thyroid problems and uncontrolled blood sugar produce exactly that fatigue, and a blood draw detects them. Treating without measuring leaves the real cause unattended.\n\nThat is why the usual path here is to start with [blood tests and lab work](/services/examenes-sangre), and decide what makes sense with the results in hand.\n\n**Safety**\nAdministration is by medical staff, in a clinic, with monitoring during the session. Tell us if you have reacted to any intravenous medication before or if you are pregnant.",
     "icon": "Drop",
     "image": "/images/services/sueros-vitaminados.webp",
     "category": "tratamientos",
@@ -977,16 +977,16 @@ export const SERVICES: Service[] = [
       "vitamin drip houston"
     ],
     "features": [
-      "Hidratación intravenosa",
-      "Vitaminas y minerales",
       "Aplicación por personal médico",
-      "Atención en español"
+      "Valoración previa de si es adecuado",
+      "Sesión de 30 a 60 minutos",
+      "Recomendamos medir antes con análisis"
     ],
     "featuresEn": [
-      "Intravenous hydration",
-      "Vitamins and minerals",
       "Administered by medical staff",
-      "Care in Spanish"
+      "Prior assessment of suitability",
+      "30 to 60 minute session",
+      "We recommend testing first"
     ],
     "highlighted": false,
     "order": 23
@@ -999,8 +999,8 @@ export const SERVICES: Service[] = [
     "shortTitle": "Suturas",
     "description": "Suturas de heridas en Houston, TX. Cierre de cortes y heridas en español, con precios accesibles.",
     "descriptionEn": "Wound suturing in Houston, TX. Closing cuts and wounds in Spanish, with affordable pricing.",
-    "longDescription": "Una herida que no cierra bien puede infectarse o dejar cicatriz. En Clínica Hispana Airline cerramos cortes y heridas con suturas de forma segura, sin cita y con atención en español.\n\n**¿Qué incluye?**\n- Evaluación y limpieza de la herida\n- Cierre con suturas (puntos)\n- Aplicación de anestesia local\n- Indicaciones de cuidado y signos de alarma\n- Retiro de puntos cuando corresponde\n\n**Cuándo acudir**\nCortes profundos, heridas que sangran o no cierran solas, o que tienen bordes abiertos. Atender pronto reduce el riesgo de infección y mejora la cicatrización.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
-    "longDescriptionEn": "A wound that doesn't close well can get infected or leave a scar. At Clínica Hispana Airline we close cuts and wounds with sutures safely, no appointment needed and with care in Spanish.\n\n**What's included?**\n- Wound evaluation and cleaning\n- Closure with sutures (stitches)\n- Local anesthesia\n- Care instructions and warning signs\n- Suture removal when appropriate\n\n**When to come in**\nDeep cuts, wounds that bleed or won't close on their own, or that have open edges. Treating them promptly reduces the risk of infection and improves healing.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
+    "longDescription": "Suturas en Clínica Hispana Airline, sin cita y con anestesia local. Si la herida necesita puntos, conviene no dejar pasar el tiempo.\n\n**Cuándo una herida necesita puntos**\n- Los bordes **no se juntan solos** al acercarlos\n- Mide más de dos centímetros o es profunda\n- Está en una zona que se mueve mucho: una articulación, una mano\n- Sangra de forma persistente\n- Está en la cara y el resultado estético importa\n\n**La ventana de tiempo importa**\nUna herida se sutura mejor **dentro de las primeras horas**. Pasado ese margen sube el riesgo de infección al cerrarla y a veces ya no conviene suturar, sino dejarla cerrar sola con curaciones. Por eso, si duda, venga pronto: se decide mejor con la herida reciente.\n\n**Cómo es el procedimiento**\nSe limpia a fondo, se aplica **anestesia local** y se cierra con el material adecuado a la zona. En la cara se usa hilo más fino y se retira antes, para que la marca sea menor.\n\n**Cuándo se quitan los puntos**\nDepende de dónde estén: en la cara a los pocos días, en zonas de más tensión bastante más tarde. Se lo decimos al terminar y la retirada la hacemos aquí.\n\n**Cuidados**\nMantener seco las primeras horas, cambiar el apósito como se le indique y no forzar la zona. Si aparece dolor creciente, enrojecimiento que se extiende, pus o fiebre, vuelva antes de la fecha prevista.\n\n**Tétanos**\nSi la herida es profunda o sucia y hace más de cinco años de su última dosis, se pone el refuerzo en la misma visita.",
+    "longDescriptionEn": "Sutures at Clínica Hispana Airline, walk-in, with local anesthesia. If a wound needs stitches, it is best not to let time pass.\n\n**When a wound needs stitches**\n- The edges **do not stay together** when you bring them close\n- It is more than about an inch long, or deep\n- It is in an area that moves a lot: a joint, a hand\n- It bleeds persistently\n- It is on the face and the cosmetic result matters\n\n**The time window matters**\nA wound is best sutured **within the first few hours**. Past that margin the risk of infection from closing it rises, and sometimes it is better not to suture at all but to let it close with dressings. So if in doubt, come early: the decision is better made with a fresh wound.\n\n**What the procedure is like**\nIt is thoroughly cleaned, **local anesthesia** is applied, and it is closed with material suited to the area. On the face a finer suture is used and removed sooner, so the mark is smaller.\n\n**When stitches come out**\nIt depends where they are: on the face after a few days, in higher-tension areas considerably later. We tell you when we finish, and removal is done here.\n\n**Aftercare**\nKeep it dry for the first hours, change the dressing as instructed, and do not strain the area. If increasing pain, spreading redness, pus or fever appear, come back before your scheduled date.\n\n**Tetanus**\nIf the wound is deep or dirty and it has been more than five years since your last dose, the booster is given in the same visit.",
     "icon": "Scissors",
     "image": "/images/services/suturas-heridas.webp",
     "category": "tratamientos",
@@ -1017,16 +1017,16 @@ export const SERVICES: Service[] = [
       "cut treatment houston"
     ],
     "features": [
-      "Cierre de heridas con suturas",
-      "Limpieza y desinfección",
-      "Atención sin cita previa",
-      "Indicaciones de cuidado posterior"
+      "Anestesia local",
+      "Material adecuado a cada zona",
+      "Retirada de puntos en la clínica",
+      "Refuerzo de tétanos si corresponde"
     ],
     "featuresEn": [
-      "Wound closure with sutures",
-      "Cleaning and disinfection",
-      "Walk-ins welcome",
-      "After-care instructions"
+      "Local anesthesia",
+      "Suture material suited to each area",
+      "Stitch removal at the clinic",
+      "Tetanus booster when applicable"
     ],
     "highlighted": false,
     "order": 24
@@ -1039,8 +1039,8 @@ export const SERVICES: Service[] = [
     "shortTitle": "Curación de Heridas",
     "description": "Cura y curación de heridas en Houston, TX. Limpieza y vendajes en español, con precios accesibles.",
     "descriptionEn": "Wound care in Houston, TX. Cleaning and dressings in Spanish, with affordable pricing.",
-    "longDescription": "Una buena curación evita infecciones y ayuda a que la herida sane más rápido. En Clínica Hispana Airline limpiamos, curamos y vendamos tus heridas, y te seguimos hasta que cicatricen.\n\n**¿Qué incluye?**\n- Limpieza y desinfección de la herida\n- Aplicación de apósitos y vendajes\n- Cambio periódico de vendajes\n- Vigilancia de signos de infección\n- Indicaciones de cuidado en casa\n\n**Para todo tipo de heridas**\nHeridas postoperatorias, úlceras, quemaduras leves o heridas que tardan en sanar. Te ayudamos con curaciones regulares para una mejor recuperación.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
-    "longDescriptionEn": "Good wound care prevents infections and helps the wound heal faster. At Clínica Hispana Airline we clean, treat and dress your wounds, and follow you until they heal.\n\n**What's included?**\n- Wound cleaning and disinfection\n- Application of dressings and bandages\n- Periodic dressing changes\n- Monitoring for signs of infection\n- Home-care instructions\n\n**For all kinds of wounds**\nPost-surgical wounds, ulcers, minor burns or wounds that are slow to heal. We help with regular dressing changes for a better recovery.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
+    "longDescription": "Curación de heridas en Clínica Hispana Airline, sin cita. Una herida bien limpiada y bien cubierta cicatriza mejor, más rápido y deja menos marca.\n\n**Qué hacemos**\n- Limpieza y desinfección a fondo, que es el paso que más se descuida en casa\n- Retirada de tierra, grava o restos que quedan dentro sin que se vean\n- Valoración de si necesita [suturas](/services/suturas-heridas)\n- Apósito adecuado al tipo de herida\n- Refuerzo de **tétanos** si hace más de cinco años de la última dosis y la herida es profunda o sucia\n- Revisión de la evolución cuando hace falta\n\n**Por qué no basta con agua y una curita**\nEl problema no suele ser la herida en sí, sino lo que queda dentro. Una herida que se cierra por encima con suciedad atrapada acaba en infección o en absceso una semana después. Limpiar bien al principio es lo que evita volver.\n\n**Señales de que se está infectando**\n- Dolor que aumenta en vez de disminuir a partir del segundo día\n- Enrojecimiento que se extiende\n- Calor y endurecimiento alrededor\n- Pus o mal olor\n- Fiebre\n- **Líneas rojas** que salen de la herida: eso se ve el mismo día\n\n**Heridas que necesitan más atención**\nLas de personas con **diabetes** cicatrizan peor y se complican con más facilidad, sobre todo en los pies. Si tiene diabetes y le sale una herida en el pie, aunque sea pequeña y no duela, revísela pronto: que no duela puede significar que el nervio ya no avisa.",
+    "longDescriptionEn": "Wound care at Clínica Hispana Airline, walk-in. A wound that is properly cleaned and properly covered heals better, faster and leaves less of a mark.\n\n**What we do**\n- Thorough cleaning and disinfection, the step most often skipped at home\n- Removal of dirt, gravel or debris left inside where you cannot see it\n- Assessment of whether [sutures](/services/suturas-heridas) are needed\n- A dressing suited to the type of wound\n- A **tetanus** booster if it has been more than five years since your last dose and the wound is deep or dirty\n- Follow-up review when needed\n\n**Why water and a bandage are not enough**\nThe problem is usually not the wound itself but what stays inside it. A wound that closes over trapped dirt ends in infection or an abscess a week later. Cleaning it properly at the start is what keeps you from coming back.\n\n**Signs it is getting infected**\n- Pain that increases instead of easing from the second day on\n- Spreading redness\n- Heat and firmness around it\n- Pus or bad smell\n- Fever\n- **Red streaks** running from the wound: that gets seen the same day\n\n**Wounds that need closer attention**\nWounds in people with **diabetes** heal worse and get complicated more easily, especially on the feet. If you have diabetes and get a wound on your foot, even a small painless one, have it looked at soon: painless can mean the nerve no longer warns you.",
     "icon": "FirstAid",
     "image": "/images/services/curacion-heridas.webp",
     "category": "tratamientos",
@@ -1057,16 +1057,16 @@ export const SERVICES: Service[] = [
       "wound cleaning houston"
     ],
     "features": [
-      "Limpieza y desinfección",
-      "Cambio de vendajes",
-      "Seguimiento de la cicatrización",
-      "Atención en español"
+      "Limpieza y desinfección a fondo",
+      "Valoración de suturas",
+      "Refuerzo de tétanos si corresponde",
+      "Atención especial en pacientes diabéticos"
     ],
     "featuresEn": [
-      "Cleaning and disinfection",
-      "Dressing changes",
-      "Healing follow-up",
-      "Care in Spanish"
+      "Thorough cleaning and disinfection",
+      "Assessment for sutures",
+      "Tetanus booster when applicable",
+      "Extra attention for diabetic patients"
     ],
     "highlighted": false,
     "order": 25
@@ -1079,8 +1079,8 @@ export const SERVICES: Service[] = [
     "shortTitle": "Cirugías Menores",
     "description": "Cirugías menores en Houston, TX: lunares, quistes y lipomas. Procedimiento ambulatorio en español, con precios accesibles.",
     "descriptionEn": "Minor surgery in Houston, TX: moles, cysts and lipomas. Outpatient procedure in Spanish, with affordable pricing.",
-    "longDescription": "Muchos problemas de piel y tejidos blandos se resuelven con un procedimiento sencillo. En Clínica Hispana Airline realizamos cirugías menores ambulatorias con anestesia local, en un mismo día.\n\n**¿Qué incluye?**\n- Evaluación del lunar, quiste o lesión\n- Procedimiento ambulatorio con anestesia local\n- Extracción de lunares, quistes y lipomas\n- Indicaciones claras de cuidado posterior\n- Retiro de puntos cuando corresponde\n\n**Rápido y seguro**\nLa mayoría de estos procedimientos toman poco tiempo y no requieren hospitalización. Te explicamos cada paso en español para que estés tranquilo.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
-    "longDescriptionEn": "Many skin and soft-tissue problems are solved with a simple procedure. At Clínica Hispana Airline we perform minor outpatient surgery with local anesthesia, in a single day.\n\n**What's included?**\n- Evaluation of the mole, cyst or lesion\n- Outpatient procedure with local anesthesia\n- Removal of moles, cysts and lipomas\n- Clear after-care instructions\n- Suture removal when appropriate\n\n**Fast and safe**\nMost of these procedures take little time and don't require hospitalization. We explain every step in Spanish so you feel at ease.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
+    "longDescription": "Procedimientos menores ambulatorios en Clínica Hispana Airline, con **anestesia local** y resueltos en una sola visita. No hace falta hospital ni quirófano para lo que se puede hacer bien en consulta.\n\n**Qué hacemos**\n- Extirpación de **lipomas** y quistes sebáceos\n- Retirada de **verrugas**, lunares y lesiones pequeñas de piel\n- **Drenaje de abscesos** y forúnculos\n- Extracción de cuerpos extraños: astillas, vidrio, anzuelos\n- [Uñas encarnadas](/services/unas-encarnadas)\n- [Suturas](/services/suturas-heridas) de heridas\n\n**Cómo es una visita**\nSe valora la lesión, se le explica qué se va a hacer y cuánto cuesta **antes** de empezar, se aplica anestesia local y se realiza el procedimiento. Sale caminando y con las indicaciones por escrito.\n\n**Anestesia local: lo que se siente**\nEl único momento molesto es el pinchazo de la anestesia, unos segundos. Después no se siente dolor, solo presión o movimiento. No se duerme ni necesita acompañante para volver a casa.\n\n**Antes de venir**\nAvísenos si toma **anticoagulantes** —incluida la aspirina diaria—, si es alérgico a algún anestésico o si tiene diabetes, porque cambia la preparación y los cuidados posteriores.\n\n**Una cosa que conviene decir**\nSi la lesión tiene un aspecto que no encaja con lo habitual, no la quitamos sin más: se lo decimos y orientamos la referencia al especialista. Quitar algo que debía estudiarse es peor que no quitarlo.",
+    "longDescriptionEn": "Minor outpatient procedures at Clínica Hispana Airline, with **local anesthesia**, resolved in a single visit. You do not need a hospital or an operating room for what can be done properly in a clinic.\n\n**What we do**\n- Removal of **lipomas** and sebaceous cysts\n- Removal of **warts**, moles and small skin lesions\n- **Abscess** and boil drainage\n- Foreign body extraction: splinters, glass, fish hooks\n- [Ingrown toenails](/services/unas-encarnadas)\n- Wound [sutures](/services/suturas-heridas)\n\n**What a visit is like**\nThe lesion is assessed, we explain what will be done and what it costs **before** starting, local anesthesia is applied, and the procedure is performed. You walk out with written instructions.\n\n**Local anesthesia: what you feel**\nThe only uncomfortable moment is the anesthetic injection, a few seconds. After that there is no pain, only pressure or movement. You are not put to sleep and you do not need someone to drive you home.\n\n**Before you come**\nTell us if you take **blood thinners** — including daily aspirin — if you are allergic to any anesthetic, or if you have diabetes, because it changes both the preparation and the aftercare.\n\n**One thing worth saying**\nIf a lesion looks unusual, we do not simply remove it: we tell you and help direct the referral to a specialist. Removing something that should have been studied is worse than not removing it.",
     "icon": "Scissors",
     "image": "/images/services/cirugias-menores.webp",
     "category": "tratamientos",
@@ -1097,16 +1097,16 @@ export const SERVICES: Service[] = [
       "lipoma removal houston"
     ],
     "features": [
-      "Procedimientos ambulatorios",
-      "Anestesia local",
-      "Extracción de lunares, quistes y lipomas",
-      "Cuidado posterior explicado"
+      "Anestesia local, en una visita",
+      "Lipomas, quistes y verrugas",
+      "Precio explicado antes de empezar",
+      "Referencia si la lesión debe estudiarse"
     ],
     "featuresEn": [
-      "Outpatient procedures",
-      "Local anesthesia",
-      "Removal of moles, cysts and lipomas",
-      "After-care explained"
+      "Local anesthesia, single visit",
+      "Lipomas, cysts and warts",
+      "Price explained before starting",
+      "Referral if a lesion should be studied"
     ],
     "highlighted": false,
     "order": 26
@@ -1159,8 +1159,8 @@ export const SERVICES: Service[] = [
     "shortTitle": "Uñas Encarnadas",
     "description": "Extracción de uñas encarnadas en Houston, TX. Procedimiento con anestesia local en español, con precios accesibles.",
     "descriptionEn": "Ingrown toenail removal in Houston, TX. Procedure with local anesthesia in Spanish, with affordable pricing.",
-    "longDescription": "Una uña encarnada puede doler mucho e infectarse si no se trata. En Clínica Hispana Airline la atendemos con un procedimiento sencillo y anestesia local para aliviarte el mismo día.\n\n**¿Qué incluye?**\n- Evaluación de la uña y el dedo\n- Procedimiento con anestesia local\n- Extracción de la porción encarnada de la uña\n- Tratamiento de la infección si la hay\n- Indicaciones de cuidado para evitar que regrese\n\n**Cuándo acudir**\nDolor, enrojecimiento, hinchazón o pus alrededor de la uña, sobre todo del dedo gordo del pie. Atenderla pronto evita una infección mayor.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
-    "longDescriptionEn": "An ingrown toenail can hurt a lot and get infected if untreated. At Clínica Hispana Airline we treat it with a simple procedure and local anesthesia to relieve you the same day.\n\n**What's included?**\n- Evaluation of the nail and toe\n- Procedure with local anesthesia\n- Removal of the ingrown portion of the nail\n- Treatment of the infection if present\n- Care instructions to prevent recurrence\n\n**When to come in**\nPain, redness, swelling or pus around the nail, especially the big toe. Treating it promptly prevents a larger infection.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
+    "longDescription": "La uña encarnada duele mucho para lo pequeña que es. En Clínica Hispana Airline se resuelve en una visita, con **anestesia local**, y el alivio es inmediato.\n\n**Qué la provoca**\n- Cortar la uña **redondeada en las esquinas** en lugar de recta. Es la causa más frecuente y la más fácil de corregir.\n- Zapatos estrechos o puntiagudos\n- Golpes o uñas gruesas\n- Cortar demasiado corto\n\n**Por qué empeora si se espera**\nEl borde de la uña se clava en la piel, la piel se inflama, y al inflamarse aprieta más contra la uña. Es un círculo que no se rompe solo: por eso una uña encarnada que lleva semanas suele acabar con pus y tejido de más alrededor.\n\n**Cómo se resuelve**\nSe adormece el dedo con anestesia local y se retira la porción de uña que se está clavando, no la uña entera. Si el problema se repite, se puede tratar además la matriz de esa porción para que no vuelva a crecer hacia dentro.\n\nDuele el pinchazo de la anestesia y poco más. **El alivio es inmediato**, porque la mayor parte del dolor viene de la presión.\n\n**Después**\nLe explicamos cómo mantener el dedo limpio y seco, cuándo cambiar el apósito y cómo cortar la uña de ahora en adelante: **recta, sin redondear las esquinas**. Ese consejo es el que evita la recaída.\n\n**Si tiene diabetes**\nNo se la trate en casa ni la deje pasar. Cualquier lesión en el pie de una persona diabética merece revisión, aunque parezca pequeña.",
+    "longDescriptionEn": "An ingrown toenail hurts a great deal for something so small. At Clínica Hispana Airline it is resolved in one visit, with **local anesthesia**, and the relief is immediate.\n\n**What causes it**\n- Cutting the nail **rounded at the corners** instead of straight across. It is the most common cause and the easiest to correct.\n- Narrow or pointed shoes\n- Trauma or thick nails\n- Cutting too short\n\n**Why waiting makes it worse**\nThe edge of the nail digs into the skin, the skin swells, and swelling presses it harder against the nail. It is a loop that does not break on its own: that is why an ingrown nail left for weeks usually ends with pus and overgrown tissue around it.\n\n**How it is resolved**\nThe toe is numbed with local anesthesia and the portion of nail that is digging in is removed — not the whole nail. If the problem keeps returning, the matrix of that portion can also be treated so it stops growing inward.\n\nThe anesthetic injection stings and little else. **Relief is immediate**, because most of the pain comes from pressure.\n\n**Afterward**\nWe explain how to keep the toe clean and dry, when to change the dressing, and how to cut the nail from now on: **straight across, without rounding the corners**. That advice is what prevents a relapse.\n\n**If you have diabetes**\nDo not treat it at home and do not let it go. Any foot lesion in a person with diabetes deserves review, however small it looks.",
     "icon": "Bone",
     "image": "/images/services/unas-encarnadas.webp",
     "category": "tratamientos",
@@ -1177,16 +1177,16 @@ export const SERVICES: Service[] = [
       "toenail doctor houston"
     ],
     "features": [
-      "Tratamiento de la uña encarnada",
-      "Anestesia local",
-      "Alivio del dolor",
-      "Indicaciones de cuidado posterior"
+      "Resuelto en una visita",
+      "Anestesia local, alivio inmediato",
+      "Tratamiento de la matriz si se repite",
+      "Indicaciones para evitar recaídas"
     ],
     "featuresEn": [
-      "Ingrown toenail treatment",
-      "Local anesthesia",
-      "Pain relief",
-      "After-care instructions"
+      "Resolved in a single visit",
+      "Local anesthesia, immediate relief",
+      "Matrix treatment if it recurs",
+      "Instructions to prevent relapse"
     ],
     "highlighted": false,
     "order": 28
@@ -1197,36 +1197,36 @@ export const SERVICES: Service[] = [
     "title": "Farmacia",
     "titleEn": "Pharmacy",
     "shortTitle": "Farmacia",
-    "description": "Farmacia en Houston, TX dentro de la clínica. Surtimos tu receta al terminar la consulta, atención en español.",
-    "descriptionEn": "Pharmacy in Houston, TX inside the clinic. We fill your prescription right after your visit, service in Spanish.",
-    "longDescription": "Al terminar tu consulta en Clínica Hispana Airline puedes recoger tus medicamentos en nuestra propia farmacia, sin tener que ir a otro lugar. Es la comodidad de resolver todo en una sola visita, con atención en español.\n\n**¿Qué incluye?**\n- Surtido de tu receta justo al terminar la consulta\n- Medicamentos de marca y genéricos\n- Medicamentos de venta libre (OTC) para gripe, dolor, alergias y más\n- Asesoría del personal sobre cómo tomar tus medicamentos\n- Resurtido de recetas\n\n**¿Por qué usar nuestra farmacia?**\nTe ahorras una segunda parada: el médico te atiende, te receta y recoges tu medicamento en el mismo lugar. Te explicamos en español la dosis, los horarios y los cuidados.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
-    "longDescriptionEn": "After your visit at Clínica Hispana Airline you can pick up your medications at our own pharmacy, without going anywhere else. It's the convenience of getting everything done in a single visit, with service in Spanish.\n\n**What's included?**\n- Your prescription filled right after your visit\n- Brand-name and generic medications\n- Over-the-counter (OTC) medications for colds, pain, allergies and more\n- Staff guidance on how to take your medications\n- Prescription refills\n\n**Why use our pharmacy?**\nYou skip the second stop: the doctor sees you, writes your prescription, and you pick up your medication in the same place. We explain the dosage, schedule and precautions in Spanish.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
+    "description": "Entrega de medicamentos en la consulta y productos de venta libre en Houston, TX. Sin segunda parada y con las indicaciones explicadas en español.",
+    "descriptionEn": "Medication provided during your visit, plus over-the-counter products, in Houston, TX. No second stop, with instructions explained in your language.",
+    "longDescription": "Al terminar su consulta en Clínica Hispana Airline le **entregamos los medicamentos indicados en esa consulta** y los productos de venta libre que necesite, sin tener que hacer una segunda parada.\n\n**Qué incluye**\n- Entrega de los medicamentos **indicados durante su consulta con nosotros**\n- Productos de **venta libre**: analgésicos, antigripales, antialérgicos, sueros de rehidratación y cuidado de heridas\n- Explicación de la dosis, los horarios y qué esperar, en español\n- Aviso de interacciones con lo que ya esté tomando\n\n**Lo que no hacemos**\nNo surtimos recetas emitidas por otros médicos ni resurtimos recetas externas. Para eso necesita una farmacia con licencia del Texas State Board of Pharmacy. Lo decimos claro para que no haga el viaje en balde.\n\n**Por qué importa la explicación**\nLa mayor parte de los tratamientos que fallan no fallan por el medicamento, sino por cómo se toma: a destiempo, a medias, o suspendido en cuanto desaparece el síntoma. Antes de que se vaya le explicamos **cuánto, cada cuánto y hasta cuándo**, y qué hacer si olvida una toma.\n\n**Dígannos qué toma ya**\nTraer la lista de sus medicamentos actuales, incluidos los de venta libre y los suplementos, evita interacciones. Hay combinaciones frecuentes que conviene conocer antes de añadir nada nuevo.\n\n**Si su tratamiento es crónico**\nLas recetas de control se revisan en sus visitas de seguimiento. Ver [control de condiciones crónicas](/services/condiciones-cronicas).",
+    "longDescriptionEn": "When your visit at Clínica Hispana Airline ends, we **provide the medications indicated during that visit** along with any over-the-counter products you need, so you do not have to make a second stop.\n\n**What it includes**\n- The medications **indicated during your visit with us**\n- **Over-the-counter** products: pain relievers, cold and allergy medicine, rehydration solutions and wound care\n- An explanation of dose, timing and what to expect, in your language\n- A heads-up on interactions with what you are already taking\n\n**What we do not do**\nWe do not fill prescriptions written by other physicians, and we do not refill outside prescriptions. That requires a pharmacy licensed by the Texas State Board of Pharmacy. We say so plainly so you do not make the trip for nothing.\n\n**Why the explanation matters**\nMost treatments that fail do not fail because of the medication but because of how it is taken: off schedule, half-finished, or stopped the moment the symptom disappears. Before you leave we explain **how much, how often and for how long**, and what to do if you miss a dose.\n\n**Tell us what you already take**\nBringing a list of your current medications, including over-the-counter products and supplements, prevents interactions. There are common combinations worth knowing about before adding anything new.\n\n**If your treatment is ongoing**\nMaintenance prescriptions are reviewed at your follow-up visits. See [chronic condition care](/services/condiciones-cronicas).",
     "icon": "Pill",
     "image": "/images/services/farmacia.webp",
     "category": "tratamientos",
     "keywords": [
-      "farmacia en houston",
-      "farmacia hispana houston",
-      "farmacia cerca de mí houston",
-      "surtir receta houston"
+      "medicamentos en la clinica houston",
+      "medicina de venta libre houston",
+      "clinica con medicamentos houston",
+      "consulta y medicamento houston"
     ],
     "keywordsEn": [
-      "pharmacy houston",
-      "hispanic pharmacy houston",
-      "pharmacy near me houston",
-      "fill prescription houston"
+      "clinic provided medication houston",
+      "over the counter medicine houston",
+      "walk in clinic medication houston",
+      "same visit medication houston"
     ],
     "features": [
-      "Surtido de tu receta al instante",
-      "Medicamentos de marca y genéricos",
-      "Medicamentos de venta libre (OTC)",
-      "Asesoría sobre tus medicamentos en español"
+      "Medicamentos indicados en su consulta",
+      "Productos de venta libre",
+      "Dosis y horarios explicados en español",
+      "Revisión de interacciones"
     ],
     "featuresEn": [
-      "Prescriptions filled on the spot",
-      "Brand-name and generic medications",
-      "Over-the-counter (OTC) medications",
-      "Guidance about your medications in Spanish"
+      "Medications indicated during your visit",
+      "Over-the-counter products",
+      "Dose and timing explained in your language",
+      "Interaction review"
     ],
     "highlighted": false,
     "order": 29
