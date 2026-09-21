@@ -42,10 +42,13 @@ export const SOCIAL_LINKS: SocialLinks = {
   google: "https://g.co/kgs/1RwVVhT",
 };
 
-// Google Reviews data - Hardcoded for now, will be replaced with API
+// Respaldo por si la API de Places falla: el sitio sirve estos números.
+// Se quedaron cortos meses (534 / 4,9 cuando Places ya daba 720 / 5,0), o sea
+// que el sitio se anunciaba peor de lo que es. Comprobado contra Places el
+// 2026-09-20; volver a comprobarlo en cada lote.
 export const GOOGLE_REVIEWS_DATA = {
-  totalReviews: 534,
-  averageRating: 4.9,
+  totalReviews: 720,
+  averageRating: 5.0,
   placeId: "ChIJsxclc5m5QIYRyAurHml5cWA",
 };
 
