@@ -48,7 +48,6 @@ export function PromotionsCarousel({
               <button
                 type="button"
                 onClick={() => setSelected(promo)}
-                aria-label={`${promo.title}. ${labels.openAria}`}
                 className="group relative flex h-full w-full flex-col overflow-hidden rounded-2xl border border-slate-100 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-red-primary/30 hover:shadow-xl hover:shadow-red-primary/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-primary focus-visible:ring-offset-2"
               >
                 {/* Flyer — shown complete (no crop) */}

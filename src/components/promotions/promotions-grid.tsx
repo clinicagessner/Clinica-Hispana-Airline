@@ -81,7 +81,6 @@ export function PromotionsGrid({
                 onClick={() => setSelected(promo)}
                 variant="outline"
                 className="mt-auto w-full gap-2"
-                aria-label={`${promo.title}. ${labels.openAria}`}
               >
                 {labels.viewDetail}
                 <ArrowRight className="size-4" weight="bold" />
