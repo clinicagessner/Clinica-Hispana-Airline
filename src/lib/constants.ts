@@ -110,8 +110,8 @@ export const SERVICES: Service[] = [
     "shortTitle": "Tiroides",
     "description": "Exámenes y tratamiento de la tiroides en Houston, TX. Pruebas de laboratorio y control en español, con precios accesibles.",
     "descriptionEn": "Thyroid testing and treatment in Houston, TX. Lab tests and follow-up in Spanish, with affordable pricing.",
-    "longDescription": "La tiroides regula tu energía, tu peso y tu ánimo. Cuando funciona de más o de menos aparecen síntomas que afectan tu día a día. En Clínica Hispana Airline evaluamos tu tiroides con análisis de laboratorio y te damos el tratamiento adecuado.\n\n**¿Qué incluye?**\n- Evaluación de síntomas\n- Pruebas de función tiroidea (TSH, T3, T4)\n- Diagnóstico de hipotiroidismo o hipertiroidismo\n- Inicio y ajuste del tratamiento\n- Seguimiento periódico\n\n**Síntomas frecuentes**\nCansancio, cambios de peso sin explicación, caída del cabello, frío o calor excesivo, nerviosismo o tristeza. Si los notas, una prueba sencilla puede dar la respuesta.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
-    "longDescriptionEn": "The thyroid regulates your energy, weight and mood. When it works too much or too little, symptoms appear that affect your daily life. At Clínica Hispana Airline we evaluate your thyroid with lab work and provide the right treatment.\n\n**What's included?**\n- Symptom evaluation\n- Thyroid function tests (TSH, T3, T4)\n- Diagnosis of hypothyroidism or hyperthyroidism\n- Treatment start and adjustment\n- Periodic follow-up\n\n**Common symptoms**\nFatigue, unexplained weight changes, hair loss, feeling too cold or too hot, nervousness or sadness. If you notice them, a simple test can give the answer.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
+    "longDescription": "La tiroides es una glándula pequeña en el cuello que regula el metabolismo. Cuando funciona de más o de menos, los síntomas se confunden con estrés, con la edad o con \"estar bajo de defensas\" durante años. En Clínica Hispana Airline la estudiamos con análisis de sangre, sin cita.\n\n**Cuando funciona de menos (hipotiroidismo)**\nCansancio que no se quita con descanso, subir de peso sin cambiar la alimentación, **sentir frío cuando nadie más lo siente**, piel seca, caída de cabello, estreñimiento, tristeza o lentitud mental. Es lo más frecuente, sobre todo en mujeres, y se instala tan despacio que cuesta notarlo.\n\n**Cuando funciona de más (hipertiroidismo)**\nNerviosismo, palpitaciones, perder peso comiendo igual o más, sudoración, temblor en las manos, dificultad para dormir.\n\n**Cómo se estudia**\nSe empieza por la **TSH**, que es la prueba más sensible, y según el resultado se amplía con T4 libre y T3. Si hay un bulto o la glándula se palpa crecida, se completa con [ultrasonido de tiroides](/services/ultrasonido). No hace falta ayuno para medir la TSH.\n\n**El tratamiento funciona bien, pero requiere control**\nEl hipotiroidismo se trata con hormona de reemplazo y la mayoría de las personas hace vida completamente normal. Lo que sí hace falta es **ajustar la dosis con análisis periódicos**: una dosis que servía hace dos años puede quedarse corta o pasarse.\n\n**Antes de asumir que es la tiroides**\nEl cansancio también viene de anemia, de B12 baja o de azúcar descontrolada. En una misma extracción se revisan todas. Ver [análisis de sangre](/services/examenes-sangre).",
+    "longDescriptionEn": "The thyroid is a small gland in the neck that regulates metabolism. When it runs fast or slow, the symptoms get blamed on stress, on age or on \"being run down\" for years. At Clínica Hispana Airline we work it up with blood tests, walk-in.\n\n**When it runs slow (hypothyroidism)**\nFatigue that rest does not fix, gaining weight without changing your diet, **feeling cold when nobody else does**, dry skin, hair loss, constipation, low mood or mental sluggishness. It is the more common one, especially in women, and it settles in so gradually that it is hard to notice.\n\n**When it runs fast (hyperthyroidism)**\nRestlessness, palpitations, losing weight while eating the same or more, sweating, trembling hands, trouble sleeping.\n\n**How it is worked up**\nWe start with **TSH**, the most sensitive test, and expand to free T4 and T3 depending on the result. If there is a lump or the gland feels enlarged, we add a [thyroid ultrasound](/services/ultrasonido). No fasting is needed to measure TSH.\n\n**Treatment works well, but it needs monitoring**\nHypothyroidism is treated with replacement hormone and most people live completely normal lives. What it does require is **adjusting the dose with periodic lab work**: a dose that worked two years ago can end up too low or too high.\n\n**Before assuming it is the thyroid**\nFatigue also comes from anemia, low B12 or uncontrolled blood sugar. A single draw checks them all. See [blood tests](/services/examenes-sangre).",
     "icon": "Activity",
     "image": "/images/services/tiroides.webp",
     "category": "medicina-general",
@@ -128,16 +128,16 @@ export const SERVICES: Service[] = [
       "thyroid clinic houston"
     ],
     "features": [
-      "Pruebas de función tiroidea (TSH, T3, T4)",
-      "Diagnóstico de hipo e hipertiroidismo",
-      "Tratamiento y ajuste de medicamentos",
-      "Seguimiento en español"
+      "TSH, T4 libre y T3",
+      "Ultrasonido si se palpa un nódulo",
+      "Ajuste de dosis con control periódico",
+      "Sin ayuno para la TSH"
     ],
     "featuresEn": [
-      "Thyroid function tests (TSH, T3, T4)",
-      "Diagnosis of hypo- and hyperthyroidism",
-      "Treatment and medication adjustment",
-      "Follow-up in Spanish"
+      "TSH, free T4 and T3",
+      "Ultrasound if a nodule is felt",
+      "Dose adjustment with periodic monitoring",
+      "No fasting needed for TSH"
     ],
     "highlighted": false,
     "order": 2
@@ -312,8 +312,8 @@ export const SERVICES: Service[] = [
     "shortTitle": "Prueba de Embarazo",
     "description": "Examen y diagnóstico de embarazo en Houston, TX. Pruebas confiables y orientación en español, con precios accesibles.",
     "descriptionEn": "Pregnancy testing and confirmation in Houston, TX. Reliable tests and guidance in Spanish, with affordable pricing.",
-    "longDescription": "Si crees que podrías estar embarazada, una prueba confiable te da tranquilidad y claridad. En Clínica Hispana Airline realizamos pruebas de embarazo y te orientamos sobre lo que sigue, en español y sin juicios.\n\n**¿Qué incluye?**\n- Prueba de embarazo (orina o sangre)\n- Confirmación médica del resultado\n- Orientación sobre tus siguientes pasos\n- Información sobre control prenatal y referencias\n\n**Con confianza y respeto**\nTe explicamos el resultado con claridad y te acompañamos en la decisión que tomes, siempre con respeto y privacidad.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
-    "longDescriptionEn": "If you think you might be pregnant, a reliable test gives you peace of mind and clarity. At Clínica Hispana Airline we perform pregnancy tests and guide you on what comes next, in Spanish and without judgment.\n\n**What's included?**\n- Pregnancy test (urine or blood)\n- Medical confirmation of the result\n- Guidance on your next steps\n- Information on prenatal care and referrals\n\n**With trust and respect**\nWe explain the result clearly and support you in whatever decision you make, always with respect and privacy.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
+    "longDescription": "Prueba de embarazo en Clínica Hispana Airline, sin cita y con el resultado explicado en español.\n\n**Prueba de orina y prueba de sangre**\nLa de orina es la que se usa primero y detecta la hormona hCG a partir del retraso. La de **sangre** es más sensible: detecta el embarazo antes y, sobre todo, puede **medir la cantidad** de hormona, que es lo que sirve cuando hay dudas sobre cómo va evolucionando.\n\n**Cuándo hacérsela**\nLo más fiable es esperar al primer día de retraso. Antes de eso el nivel de hormona puede ser todavía demasiado bajo y salir un negativo aunque sí haya embarazo. Si la prueba sale negativa y el retraso continúa, **repítala en una semana**: es la recomendación más útil y la que más gente se salta.\n\n**Si sale positivo**\nLe orientamos sobre los siguientes pasos y, si lo desea, confirmamos y datamos el embarazo con [ultrasonido](/services/ultrasonido), que es lo que dice de cuántas semanas se trata y si el desarrollo va como debe.\n\n**Importante:** no hacemos control prenatal ni partos. Le orientamos la referencia para el seguimiento del embarazo.\n\n**Si sale negativo y el retraso sigue**\nUn retraso no siempre es embarazo. La tiroides, el estrés, cambios de peso y el síndrome de ovario poliquístico alteran el ciclo. Si se repite, conviene revisarlo con [análisis de sangre](/services/examenes-sangre) y [tiroides](/services/tiroides).\n\n**Confidencial**\nNo tiene que explicar por qué viene ni traer acompañante.",
+    "longDescriptionEn": "Pregnancy testing at Clínica Hispana Airline, walk-in, with the result explained in your language.\n\n**Urine test and blood test**\nThe urine test is the first one used and detects hCG from the time your period is late. The **blood** test is more sensitive: it detects pregnancy earlier and, more importantly, can **measure the amount** of hormone, which is what helps when there are questions about how things are progressing.\n\n**When to test**\nThe most reliable point is the first day your period is late. Before that the hormone level may still be too low and give a negative even when you are pregnant. If the test is negative and your period still does not come, **repeat it in a week**: it is the most useful advice and the one most people skip.\n\n**If it is positive**\nWe explain the next steps and, if you wish, confirm and date the pregnancy with [ultrasound](/services/ultrasonido), which is what tells you how many weeks along you are and whether development is on track.\n\n**Important:** we do not provide prenatal care or deliveries. We help direct the referral for pregnancy follow-up.\n\n**If it is negative and your period still has not come**\nA late period is not always pregnancy. Thyroid problems, stress, weight changes and polycystic ovary syndrome all disrupt the cycle. If it keeps happening, it is worth checking with [blood work](/services/examenes-sangre) and [thyroid testing](/services/tiroides).\n\n**Confidential**\nYou do not have to explain why you came or bring anyone with you.",
     "icon": "Heart",
     "image": "/images/services/prueba-embarazo.webp",
     "category": "salud-mujer",
@@ -330,16 +330,16 @@ export const SERVICES: Service[] = [
       "pregnancy testing houston"
     ],
     "features": [
-      "Prueba de embarazo confiable",
-      "Confirmación médica",
-      "Orientación sobre próximos pasos",
-      "Atención en español"
+      "Prueba de orina y de sangre",
+      "Confirmación por ultrasonido si la desea",
+      "Confidencial y sin cita",
+      "Orientación sobre los siguientes pasos"
     ],
     "featuresEn": [
-      "Reliable pregnancy test",
-      "Medical confirmation",
-      "Guidance on next steps",
-      "Care in Spanish"
+      "Urine and blood testing",
+      "Ultrasound confirmation if you want it",
+      "Confidential and walk-in",
+      "Guidance on next steps"
     ],
     "highlighted": false,
     "order": 7
@@ -513,8 +513,8 @@ export const SERVICES: Service[] = [
     "shortTitle": "Infecciones Urinarias",
     "description": "Examen de orina y tratamiento de infecciones urinarias en Houston, TX, sin cita previa. Atención rápida en español, con precios accesibles.",
     "descriptionEn": "Urinalysis and urinary infection treatment in Houston, TX, walk-in. Prompt care in Spanish, with affordable pricing.",
-    "longDescription": "El examen de orina ayuda a detectar infecciones urinarias y otras condiciones. En Clínica Hispana Airline te hacemos la prueba y, si hay infección, iniciamos el tratamiento sin demora.\n\n**¿Qué incluye?**\n- Examen general de orina (urianálisis)\n- Evaluación de síntomas\n- Diagnóstico de infección urinaria\n- Tratamiento adecuado sin demora\n- Indicaciones para evitar que regrese\n\n**Síntomas frecuentes**\nArdor al orinar, ganas constantes de ir al baño, orina turbia o con mal olor y dolor en la parte baja del abdomen. No esperes: una infección sin tratar puede llegar a los riñones.\n\n**Tratamiento de infecciones urinarias en una clínica hispana cerca de ti**\nSomos una clínica hispana cerca de ti en Houston: te hacemos el examen de orina y, si hay infección, sales con tu tratamiento indicado, sin esperas, sin cita previa y en español.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
-    "longDescriptionEn": "A urine test helps detect urinary infections and other conditions. At Clínica Hispana Airline we run the test and, if there's an infection, we start treatment without delay.\n\n**What's included?**\n- General urinalysis\n- Symptom evaluation\n- Diagnosis of urinary infection\n- Prompt, appropriate treatment\n- Tips to prevent it from coming back\n\n**Common symptoms**\nBurning when urinating, a constant urge to go, cloudy or foul-smelling urine and lower-abdomen pain. Don't wait: an untreated infection can reach the kidneys.\n\n**UTI treatment at a Hispanic clinic near you**\nWe are a Hispanic clinic near you in Houston: we run your urine test and, if there is an infection, you leave with treatment, no waiting, no appointment needed and in Spanish.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
+    "longDescription": "Examen de orina y tratamiento de infecciones urinarias en Clínica Hispana Airline, **sin cita previa** y con atención rápida en español.\n\n**Los síntomas típicos**\nArdor al orinar, ganas constantes de ir aunque salga poco, orina turbia o con olor fuerte, molestia en la parte baja del abdomen. En mujeres es una de las consultas más frecuentes; en hombres es menos común y **siempre conviene estudiarla mejor**, porque suele haber una causa detrás.\n\n**Por qué se hace el examen y no se trata a ciegas**\nEl examen de orina confirma que hay infección y orienta el antibiótico adecuado. Tratar sin analizar es lo que lleva a tomar el medicamento equivocado, a que los síntomas vuelvan a las dos semanas y a que la bacteria se haga resistente.\n\n**Cuándo no esperar**\nSi aparece **dolor en la espalda baja o en el costado, fiebre o escalofríos**, la infección puede haber subido a los riñones. Eso ya no es una cistitis simple y se atiende de inmediato.\n\n**Si se repiten**\nTres o más infecciones al año no es normal y no se resuelve repitiendo antibiótico. Conviene buscar la causa: control de la glucosa, hábitos, o en hombres un estudio de próstata. Ver [control de condiciones crónicas](/services/condiciones-cronicas) y [exámenes de salud del hombre](/services/salud-hombre).\n\n**Lo que sí ayuda**\nBeber agua de verdad —no solo cuando ya duele—, no aguantarse las ganas, y terminar el antibiótico completo aunque el ardor desaparezca al segundo día. Los remedios de arándano no sustituyen al tratamiento.",
+    "longDescriptionEn": "Urinalysis and treatment of urinary infections at Clínica Hispana Airline, **walk-in**, with prompt care in Spanish or English.\n\n**The typical symptoms**\nBurning when you urinate, a constant urge to go even when little comes out, cloudy or strong-smelling urine, discomfort in the lower abdomen. In women it is one of the most common visits; in men it is less common and **always worth looking into further**, because there is usually a cause behind it.\n\n**Why we test instead of treating blind**\nThe urine test confirms there is an infection and points to the right antibiotic. Treating without testing is what leads to the wrong medication, symptoms returning two weeks later, and bacteria becoming resistant.\n\n**When not to wait**\nIf **lower back or flank pain, fever or chills** appear, the infection may have moved up to the kidneys. That is no longer simple cystitis and is attended to immediately.\n\n**If they keep coming back**\nThree or more infections a year is not normal and does not get solved by repeating antibiotics. It is worth finding the cause: glucose control, habits, or in men a prostate workup. See [chronic condition care](/services/condiciones-cronicas) and [men's health exams](/services/salud-hombre).\n\n**What actually helps**\nDrinking water properly — not only once it already hurts — not holding it in, and finishing the full antibiotic course even if the burning stops on day two. Cranberry remedies do not replace treatment.",
     "icon": "Drop",
     "image": "/images/services/infecciones-urinarias.webp",
     "category": "tratamientos",
@@ -531,16 +531,16 @@ export const SERVICES: Service[] = [
       "uti doctor houston"
     ],
     "features": [
-      "Examen de orina en la clínica",
-      "Diagnóstico de infección urinaria",
-      "Tratamiento sin demora",
-      "Atención sin cita en español"
+      "Examen de orina para tratar con diagnóstico",
+      "Atención sin cita previa",
+      "Estudio de las infecciones que se repiten",
+      "Señales de alarma explicadas"
     ],
     "featuresEn": [
-      "In-clinic urinalysis",
-      "Diagnosis of urinary infection",
-      "Same-day treatment",
-      "Walk-in care in Spanish"
+      "Urinalysis to treat with a diagnosis",
+      "Walk-in care",
+      "Workup for recurring infections",
+      "Warning signs explained"
     ],
     "highlighted": false,
     "order": 12
@@ -553,8 +553,8 @@ export const SERVICES: Service[] = [
     "shortTitle": "Examen de Heces",
     "description": "Exámenes de heces fecales en Houston, TX. Detección de parásitos e infecciones, en español, con precios accesibles.",
     "descriptionEn": "Stool tests in Houston, TX. Detection of parasites and infections, in Spanish, with affordable pricing.",
-    "longDescription": "Los problemas digestivos a veces tienen una causa que solo un análisis de heces puede revelar. En Clínica Hispana Airline realizamos exámenes de heces fecales para encontrar el origen y darte el tratamiento correcto.\n\n**¿Qué incluye?**\n- Análisis general de heces fecales\n- Detección de parásitos\n- Identificación de infecciones intestinales\n- Evaluación de sangre oculta cuando se requiere\n- Resultados explicados en español\n\n**Cuándo es útil**\nDiarrea persistente, dolor abdominal, gases, cambios en las evacuaciones o pérdida de peso sin explicación. El examen ayuda a un diagnóstico preciso.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
-    "longDescriptionEn": "Digestive problems sometimes have a cause that only a stool test can reveal. At Clínica Hispana Airline we perform stool tests to find the source and give you the right treatment.\n\n**What's included?**\n- General stool analysis\n- Parasite detection\n- Identification of intestinal infections\n- Occult-blood evaluation when needed\n- Results explained in Spanish\n\n**When it helps**\nPersistent diarrhea, abdominal pain, gas, changes in bowel movements or unexplained weight loss. The test helps with an accurate diagnosis.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
+    "longDescription": "El examen de heces busca lo que un análisis de sangre no ve: **parásitos, sus huevos, bacterias y sangre oculta** en el tubo digestivo. En Clínica Hispana Airline se hace sin cita.\n\n**Cuándo tiene sentido**\n- Diarrea que dura más de unos días o que va y viene\n- Dolor abdominal o cólicos sin causa clara\n- Pérdida de peso sin explicación\n- Picazón anal, sobre todo en niños\n- Después de un viaje o de tomar agua de procedencia dudosa\n- Cansancio con anemia, que puede venir de un sangrado digestivo lento\n\n**Qué se puede detectar**\n- **Parásitos y huevos:** giardia, amebas, oxiuros y otros\n- **Sangre oculta:** sangrado que no se ve a simple vista\n- **Bacterias** causantes de infección intestinal\n- Grasa en heces, que orienta a problemas de absorción\n\n**Por qué importa tratarlo bien**\nLos parásitos intestinales son frecuentes y muchas veces se tratan \"a ojo\", con el remedio que alguien recomendó. El problema es que no todos responden al mismo medicamento: identificar cuál es evita meses de tratamiento equivocado y de síntomas que vuelven.\n\n**Cómo se recoge la muestra**\nLe damos el recipiente y las instrucciones. Algunos estudios piden más de una muestra en días distintos, porque los parásitos no se eliminan de forma continua y una sola muestra puede salir negativa aunque sí los haya. Si es su caso, se lo explicamos al entregarle el recipiente.\n\n**En niños**\nEs de los estudios más útiles en la infancia. Si hay picazón anal nocturna o dolor de barriga que se repite, conviene hacerlo.",
+    "longDescriptionEn": "A stool test looks for what blood work cannot see: **parasites, their eggs, bacteria and occult blood** in the digestive tract. At Clínica Hispana Airline it is done walk-in.\n\n**When it makes sense**\n- Diarrhea lasting more than a few days, or that comes and goes\n- Abdominal pain or cramping with no clear cause\n- Unexplained weight loss\n- Anal itching, especially in children\n- After travel or drinking water of uncertain origin\n- Fatigue with anemia, which can come from slow digestive bleeding\n\n**What it can detect**\n- **Parasites and eggs:** giardia, amoebas, pinworms and others\n- **Occult blood:** bleeding not visible to the naked eye\n- **Bacteria** causing intestinal infection\n- Fat in stool, which points to absorption problems\n\n**Why treating it correctly matters**\nIntestinal parasites are common and often get treated by guesswork, with whatever remedy someone recommended. The problem is that they do not all respond to the same medication: identifying which one you have prevents months of wrong treatment and returning symptoms.\n\n**How the sample is collected**\nWe give you the container and the instructions. Some studies call for more than one sample on different days, because parasites are not shed continuously and a single sample can come back negative even when they are present. If that applies, we explain it when we hand you the container.\n\n**In children**\nIt is one of the most useful studies in childhood. If there is nighttime anal itching or recurring stomach pain, it is worth doing.",
     "icon": "TestTube",
     "image": "/images/services/examen-heces.webp",
     "category": "laboratorio",
@@ -571,16 +571,16 @@ export const SERVICES: Service[] = [
       "stool lab houston"
     ],
     "features": [
-      "Análisis de heces fecales",
-      "Detección de parásitos e infecciones",
-      "Evaluación de síntomas digestivos",
-      "Resultados explicados en español"
+      "Parásitos, huevos y bacterias",
+      "Detección de sangre oculta",
+      "Instrucciones claras de recogida",
+      "Muy útil en niños"
     ],
     "featuresEn": [
-      "Stool analysis",
-      "Detection of parasites and infections",
-      "Digestive symptom evaluation",
-      "Results explained in Spanish"
+      "Parasites, eggs and bacteria",
+      "Occult blood detection",
+      "Clear collection instructions",
+      "Especially useful in children"
     ],
     "highlighted": false,
     "order": 13
@@ -593,8 +593,8 @@ export const SERVICES: Service[] = [
     "shortTitle": "Prueba de Strep",
     "description": "Prueba de estreptococo (strep test) en Houston, TX. Resultado rápido y tratamiento en español, con precios accesibles.",
     "descriptionEn": "Strep test in Houston, TX. Fast result and treatment in Spanish, with affordable pricing.",
-    "longDescription": "No todo dolor de garganta es igual: la faringitis por estreptococo necesita tratamiento específico. En Clínica Hispana Airline hacemos la prueba rápida de strep y te damos el resultado y el tratamiento el mismo día.\n\n**¿Qué incluye?**\n- Prueba rápida de estreptococo (hisopado de garganta)\n- Resultado en pocos minutos\n- Evaluación del dolor de garganta\n- Tratamiento adecuado si el resultado es positivo\n- Indicaciones de recuperación\n\n**Cuándo hacerla**\nDolor de garganta fuerte, fiebre, dificultad para tragar o placas blancas en las amígdalas, sobre todo en niños. La prueba evita tratamientos innecesarios.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
-    "longDescriptionEn": "Not every sore throat is the same: strep throat needs specific treatment. At Clínica Hispana Airline we run the rapid strep test and give you the result and treatment the same day.\n\n**What's included?**\n- Rapid strep test (throat swab)\n- Result in minutes\n- Sore-throat evaluation\n- Appropriate treatment if the result is positive\n- Recovery instructions\n\n**When to get it**\nSevere sore throat, fever, trouble swallowing or white patches on the tonsils, especially in children. The test avoids unnecessary treatments.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
+    "longDescription": "No todo dolor de garganta es estreptococo, y esa es exactamente la razón de hacer la prueba. En Clínica Hispana Airline la hacemos sin cita y damos **resultado y tratamiento el mismo día**.\n\n**Por qué importa distinguirlo**\nLa mayoría de los dolores de garganta son **virales** y se curan solos: el antibiótico no les hace nada y solo genera resistencia. El estreptococo, en cambio, es bacteriano y **sí** necesita antibiótico, porque sin tratar puede complicarse. La prueba separa los dos casos en minutos.\n\n**Señales que apuntan a estreptococo**\n- Dolor de garganta intenso y de aparición brusca\n- Fiebre\n- Ganglios del cuello hinchados y dolorosos\n- Manchas blancas en las amígdalas\n- **Ausencia de tos**, que es un dato sorprendentemente útil\n\nCuanta más tos y más mocos, más probable que sea viral.\n\n**Cómo es la prueba**\nUn hisopo en la garganta, unos segundos. Es molesto pero muy breve y no requiere ninguna preparación.\n\n**Si sale positivo**\nSe inicia el antibiótico ese mismo día. **Complete el tratamiento entero** aunque a los dos días se sienta bien: dejarlo a medias es lo que permite las complicaciones que se quieren evitar. Deja de ser contagioso aproximadamente al día siguiente de empezar el antibiótico.\n\n**En niños**\nEs frecuente en edad escolar y se transmite con facilidad en el aula. Si un hermano lo tiene y otro empieza con dolor de garganta y fiebre, conviene revisarlo.",
+    "longDescriptionEn": "Not every sore throat is strep, and that is exactly why the test exists. At Clínica Hispana Airline we run it walk-in and give **result and treatment the same day**.\n\n**Why telling them apart matters**\nMost sore throats are **viral** and clear on their own: antibiotics do nothing for them and only breed resistance. Strep, by contrast, is bacterial and **does** need an antibiotic, because untreated it can lead to complications. The test separates the two in minutes.\n\n**Signs that point to strep**\n- Severe sore throat that came on suddenly\n- Fever\n- Swollen, tender neck glands\n- White patches on the tonsils\n- **No cough**, which is a surprisingly useful clue\n\nThe more cough and congestion, the more likely it is viral.\n\n**What the test is like**\nA swab in the throat, a few seconds. Uncomfortable but very brief, and it needs no preparation.\n\n**If it is positive**\nThe antibiotic is started that same day. **Finish the whole course** even if you feel fine after two days: stopping halfway is what allows the complications you are trying to avoid. You stop being contagious roughly a day after starting the antibiotic.\n\n**In children**\nIt is common at school age and spreads easily in the classroom. If one sibling has it and another starts with a sore throat and fever, it is worth checking.",
     "icon": "TestTube",
     "image": "/images/services/prueba-strep.webp",
     "category": "laboratorio",
@@ -611,16 +611,16 @@ export const SERVICES: Service[] = [
       "strep throat doctor houston"
     ],
     "features": [
-      "Prueba rápida de estreptococo",
-      "Resultado el mismo día",
-      "Tratamiento si es positivo",
-      "Atención sin cita en español"
+      "Resultado y tratamiento el mismo día",
+      "Distingue viral de bacteriano",
+      "Hisopo rápido, sin preparación",
+      "Frecuente en edad escolar"
     ],
     "featuresEn": [
-      "Rapid strep test",
-      "Same-day result",
-      "Treatment if positive",
-      "Walk-in care in Spanish"
+      "Result and treatment the same day",
+      "Tells viral from bacterial",
+      "Quick swab, no preparation",
+      "Common at school age"
     ],
     "highlighted": false,
     "order": 14
@@ -633,8 +633,8 @@ export const SERVICES: Service[] = [
     "shortTitle": "Tuberculosis",
     "description": "Examen de tuberculosis (TB/PPD) en Houston, TX. Para trabajo y escuela, en español, con precios accesibles.",
     "descriptionEn": "Tuberculosis (TB/PPD) test in Houston, TX. For work and school, in Spanish, with affordable pricing.",
-    "longDescription": "Muchos trabajos y escuelas piden una prueba de tuberculosis al día. En Clínica Hispana Airline la aplicamos y leemos el resultado, con todo explicado en español.\n\n**¿Qué incluye?**\n- Prueba cutánea de tuberculosis (PPD)\n- Cita de lectura del resultado (48–72 horas después)\n- Documentación del resultado para tu trámite\n- Orientación si el resultado requiere seguimiento\n\n**Para qué la piden**\nEmpleos de salud, escuelas, trámites y voluntariado suelen requerir una prueba de TB vigente. Te ayudamos a cumplir el requisito sin complicaciones.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
-    "longDescriptionEn": "Many jobs and schools require an up-to-date tuberculosis test. At Clínica Hispana Airline we administer it and read the result, with everything explained in Spanish.\n\n**What's included?**\n- Tuberculosis skin test (PPD)\n- Result-reading appointment (48–72 hours later)\n- Documentation of the result for your paperwork\n- Guidance if the result needs follow-up\n\n**Why it's required**\nHealthcare jobs, schools, paperwork and volunteering often require a current TB test. We help you meet the requirement without hassle.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
+    "longDescription": "Examen de tuberculosis en Clínica Hispana Airline, sin cita. Es el que piden para trabajo, escuela y trámites de inmigración.\n\n**Las dos formas de hacerlo**\n- **Prueba cutánea (PPD).** Se inyecta una pequeña cantidad bajo la piel del antebrazo y hay que **volver a las 48-72 horas** para que la lea alguien del equipo médico. No vale mirarla usted: se mide el endurecimiento, no el enrojecimiento, y esa diferencia es la que se interpreta mal en casa.\n- **Prueba de sangre (IGRA).** Una sola extracción, sin necesidad de volver. Es la indicada si le pusieron la vacuna **BCG**, porque esa vacuna puede hacer que la prueba cutánea salga positiva sin que haya infección.\n\nMucha gente vacunada con BCG en su país de origen se lleva un susto innecesario con el PPD. Si es su caso, dígalo antes y se elige la prueba adecuada.\n\n**Si sale positivo**\nUn resultado positivo significa contacto con la bacteria, **no necesariamente enfermedad activa**. La mayoría de las personas con una prueba positiva tienen infección latente: la bacteria está dormida, no da síntomas y no contagia. Para distinguir una cosa de otra se hace **radiografía de tórax** y se valoran los síntomas.\n\n**Importante:** si ya tuvo un PPD positivo alguna vez, **no hay que repetir la prueba cutánea**. Dígalo y se resuelve con otro estudio.\n\n**Para el examen de inmigración**\nVa incluida en el I-693. Ver [examen médico de inmigración](/services/examenes-inmigracion).",
+    "longDescriptionEn": "Tuberculosis testing at Clínica Hispana Airline, walk-in. It is the test required for work, school and immigration filings.\n\n**The two ways to do it**\n- **Skin test (PPD).** A small amount is injected under the skin of the forearm, and you have to **come back in 48 to 72 hours** for someone on the medical team to read it. Reading it yourself does not count: what is measured is the firmness, not the redness, and that distinction is what gets misread at home.\n- **Blood test (IGRA).** A single draw, no return visit needed. It is the right choice if you were given the **BCG** vaccine, because that vaccine can make the skin test positive without there being any infection.\n\nMany people vaccinated with BCG in their home country get an unnecessary scare from a PPD. If that applies to you, say so beforehand and the right test gets chosen.\n\n**If it is positive**\nA positive result means contact with the bacteria, **not necessarily active disease**. Most people with a positive test have latent infection: the bacteria are dormant, cause no symptoms and are not contagious. To tell the two apart, a **chest X-ray** is done and symptoms are assessed.\n\n**Important:** if you have ever had a positive PPD, **the skin test should not be repeated**. Say so and it gets resolved with a different study.\n\n**For the immigration exam**\nIt is included in the I-693. See [immigration medical exam](/services/examenes-inmigracion).",
     "icon": "ShieldCheck",
     "image": "/images/services/prueba-tuberculosis.webp",
     "category": "laboratorio",
@@ -651,16 +651,16 @@ export const SERVICES: Service[] = [
       "tb skin test houston"
     ],
     "features": [
-      "Prueba cutánea de tuberculosis (PPD)",
-      "Lectura del resultado",
-      "Útil para trabajo y escuela",
-      "Atención en español"
+      "Prueba cutánea (PPD) y de sangre (IGRA)",
+      "Lectura por personal médico",
+      "Alternativa para vacunados con BCG",
+      "Válida para trabajo, escuela e inmigración"
     ],
     "featuresEn": [
-      "Tuberculosis skin test (PPD)",
-      "Result reading",
-      "Useful for work and school",
-      "Care in Spanish"
+      "Skin test (PPD) and blood test (IGRA)",
+      "Read by medical staff",
+      "Alternative for those vaccinated with BCG",
+      "Valid for work, school and immigration"
     ],
     "highlighted": false,
     "order": 15
@@ -713,8 +713,8 @@ export const SERVICES: Service[] = [
     "shortTitle": "Alcohol y Drogas",
     "description": "Exámenes de alcohol y drogas en Houston, TX. Para empleo y trámites, en español, con precios accesibles.",
     "descriptionEn": "Alcohol and drug testing in Houston, TX. For employment and paperwork, in Spanish, with affordable pricing.",
-    "longDescription": "Muchos empleos y trámites requieren una prueba de alcohol y drogas. En Clínica Hispana Airline la realizamos de forma rápida y te entregamos la documentación que necesitas.\n\n**¿Qué incluye?**\n- Prueba de detección de drogas\n- Prueba de alcohol\n- Proceso ágil y discreto\n- Documentación del resultado para tu empleador o trámite\n\n**Para trabajo y trámites**\nAtendemos solicitudes de empleo, requisitos laborales y trámites personales. Te explicamos el proceso en español para que llegues tranquilo.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
-    "longDescriptionEn": "Many jobs and processes require an alcohol and drug test. At Clínica Hispana Airline we perform it quickly and give you the documentation you need.\n\n**What's included?**\n- Drug screening test\n- Alcohol test\n- Quick, discreet process\n- Result documentation for your employer or paperwork\n\n**For work and paperwork**\nWe handle job applications, workplace requirements and personal paperwork. We explain the process in Spanish so you arrive with peace of mind.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
+    "longDescription": "Exámenes de alcohol y drogas para empleo y trámites en Clínica Hispana Airline, sin cita y con la documentación que le pidan.\n\n**Para qué se piden**\n- Contratación y exámenes periódicos de empresa\n- Trámites laborales y administrativos\n- Solicitud de la propia persona\n\n**Qué debe traer**\n- **Identificación con foto.** Sin identificación válida no se puede procesar la muestra.\n- **El formulario o la carta de su empleador**, si se lo dieron. Ahí suele indicarse qué panel piden.\n- **La lista de sus medicamentos**, incluidos los de receta y los de venta libre.\n\nLo de los medicamentos importa más de lo que parece: varios de uso común pueden alterar el resultado. Declararlos antes evita tener que explicar después un resultado inesperado.\n\n**Cómo es el proceso**\nSe verifica su identidad, se recoge la muestra siguiendo el procedimiento de custodia y se procesa. Le entregamos el resultado con la documentación que su trámite requiera.\n\n**Alcohol**\nSe mide aparte del panel de drogas. Es una prueba distinta y hay que pedirla específicamente, así que **revise qué le está pidiendo su empleador** antes de venir: no es lo mismo un panel de drogas que una prueba de alcohol, aunque mucha gente las confunde.\n\n**Antes de venir**\nConsulte con su empleador qué panel exacto necesita y si hay alguna condición previa. Si viene con la carta, se lo resolvemos en la misma visita.",
+    "longDescriptionEn": "Alcohol and drug testing for employment and filings at Clínica Hispana Airline, walk-in, with the documentation you are asked for.\n\n**Why they are requested**\n- Hiring and periodic company testing\n- Employment and administrative filings\n- Individual request\n\n**What to bring**\n- **Photo identification.** Without valid ID the sample cannot be processed.\n- **The form or letter from your employer**, if you were given one. It usually states which panel is required.\n- **A list of your medications**, prescription and over-the-counter alike.\n\nThe medication list matters more than it seems: several common ones can affect a result. Declaring them beforehand saves you from having to explain an unexpected result afterward.\n\n**How the process works**\nYour identity is verified, the sample is collected following chain-of-custody procedure, and it is processed. We give you the result with whatever documentation your filing requires.\n\n**Alcohol**\nIt is measured separately from the drug panel. It is a different test and has to be requested specifically, so **check what your employer is actually asking for** before you come: a drug panel and an alcohol test are not the same thing, though many people mix them up.\n\n**Before you come**\nCheck with your employer which exact panel you need and whether there are any prior conditions. If you bring the letter, we resolve it in the same visit.",
     "icon": "Flask",
     "image": "/images/services/examen-alcohol-drogas.webp",
     "category": "examenes",
@@ -731,16 +731,16 @@ export const SERVICES: Service[] = [
       "drug screening houston"
     ],
     "features": [
-      "Prueba de drogas para empleo",
-      "Prueba de alcohol",
-      "Proceso rápido",
-      "Documentación del resultado"
+      "Para empleo y trámites",
+      "Identificación con foto obligatoria",
+      "Alcohol y panel de drogas por separado",
+      "Documentación para su trámite"
     ],
     "featuresEn": [
-      "Drug test for employment",
-      "Alcohol test",
-      "Fast process",
-      "Result documentation"
+      "For employment and filings",
+      "Photo ID required",
+      "Alcohol and drug panel are separate",
+      "Documentation for your filing"
     ],
     "highlighted": false,
     "order": 17

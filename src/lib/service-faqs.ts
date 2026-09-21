@@ -42,30 +42,30 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "tiroides": {
     "faqs": [
       {
-        "question": "¿Qué prueba se usa para revisar la tiroides?",
-        "answer": "Usamos principalmente la TSH y, si es necesario, T3 y T4 para evaluar cómo funciona tu tiroides."
+        "question": "¿Tengo que estar en ayunas para el examen de tiroides?",
+        "answer": "No, la TSH no requiere ayuno. Si en la misma extracción se van a revisar glucosa o colesterol, entonces sí conviene venir en ayunas."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
+        "question": "Si empiezo tratamiento, ¿es para siempre?",
+        "answer": "Depende de la causa. En el hipotiroidismo suele ser un tratamiento continuado, pero lo importante es ajustar la dosis con análisis periódicos: la que servía hace dos años puede quedarse corta."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "Estoy cansado todo el tiempo, ¿es la tiroides?",
+        "answer": "Puede serlo, pero también la anemia, la B12 baja o el azúcar descontrolado. Se parecen mucho entre sí y en una misma extracción se revisan todas."
       }
     ],
     "faqsEn": [
       {
-        "question": "What test is used to check the thyroid?",
-        "answer": "We mainly use TSH and, if needed, T3 and T4 to evaluate how your thyroid is working."
+        "question": "Do I need to fast for a thyroid test?",
+        "answer": "No, TSH does not require fasting. If glucose or cholesterol are being checked in the same draw, then it is worth coming fasted."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
+        "question": "If I start treatment, is it for life?",
+        "answer": "It depends on the cause. Hypothyroidism is usually an ongoing treatment, but what matters is adjusting the dose with periodic lab work: the dose that worked two years ago can end up too low."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "I am tired all the time — is it my thyroid?",
+        "answer": "It could be, but so could anemia, low B12 or uncontrolled blood sugar. They look very much alike, and a single draw checks them all."
       }
     ]
   },
@@ -192,30 +192,30 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "prueba-embarazo": {
     "faqs": [
       {
-        "question": "¿Qué tan confiable es la prueba de embarazo?",
-        "answer": "Nuestras pruebas son confiables y las confirma personal médico; también podemos orientarte sobre los siguientes pasos."
+        "question": "¿Cuándo es fiable hacerse la prueba?",
+        "answer": "Desde el primer día de retraso. Antes de eso el nivel de hormona puede ser demasiado bajo y dar un negativo aunque sí haya embarazo. Si el retraso sigue, repítala en una semana."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Hacen control prenatal?",
+        "answer": "No. Hacemos la prueba, y si lo desea confirmamos y datamos el embarazo con ultrasonido. Para el seguimiento del embarazo y el parto le orientamos la referencia."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "Salió negativo pero no me baja, ¿qué puede ser?",
+        "answer": "Un retraso no siempre es embarazo. La tiroides, el estrés, los cambios de peso y el ovario poliquístico alteran el ciclo. Si se repite, conviene revisarlo con análisis."
       }
     ],
     "faqsEn": [
       {
-        "question": "How reliable is the pregnancy test?",
-        "answer": "Our tests are reliable and confirmed by medical staff; we can also guide you on next steps."
+        "question": "When is the test reliable?",
+        "answer": "From the first day your period is late. Before that the hormone level may be too low and give a negative even if you are pregnant. If your period still does not come, repeat it in a week."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
+        "question": "Do you provide prenatal care?",
+        "answer": "No. We do the test, and if you wish we confirm and date the pregnancy with ultrasound. For pregnancy follow-up and delivery we help direct the referral."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "It was negative but my period has not come — what could it be?",
+        "answer": "A late period is not always pregnancy. Thyroid, stress, weight changes and polycystic ovary syndrome all disrupt the cycle. If it keeps happening, it is worth checking with lab work."
       }
     ]
   },
@@ -342,120 +342,120 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "infecciones-urinarias": {
     "faqs": [
       {
-        "question": "¿Puedo recibir tratamiento en la misma visita?",
-        "answer": "Sí, hacemos el examen de orina y, si hay infección, iniciamos el tratamiento sin demora."
+        "question": "¿Por qué no me dan el antibiótico directamente?",
+        "answer": "Porque el examen de orina confirma la infección y orienta cuál antibiótico sirve. Tratar a ciegas lleva al medicamento equivocado, a que los síntomas vuelvan y a la resistencia bacteriana."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Cuándo debo venir de inmediato?",
+        "answer": "Si además del ardor aparece dolor en la espalda baja o el costado, fiebre o escalofríos. Eso puede indicar que la infección subió a los riñones y no espera."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "Me repiten las infecciones urinarias, ¿es normal?",
+        "answer": "Tres o más al año no lo es, y no se arregla repitiendo antibiótico. Conviene buscar la causa: glucosa, hábitos o, en hombres, un estudio de próstata."
       }
     ],
     "faqsEn": [
       {
-        "question": "Can I get treatment during the same visit?",
-        "answer": "Yes, we run the urine test and, if there's an infection, we start treatment without delay."
+        "question": "Why not just give me the antibiotic?",
+        "answer": "Because the urine test confirms the infection and points to which antibiotic works. Treating blind leads to the wrong medication, returning symptoms and bacterial resistance."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
+        "question": "When should I come in immediately?",
+        "answer": "If along with the burning you get lower back or flank pain, fever or chills. That can mean the infection has moved up to the kidneys, and it does not wait."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "My urinary infections keep coming back — is that normal?",
+        "answer": "Three or more a year is not, and repeating antibiotics does not fix it. It is worth finding the cause: glucose, habits or, in men, a prostate workup."
       }
     ]
   },
   "examen-heces": {
     "faqs": [
       {
-        "question": "¿Cómo se toma la muestra de heces?",
-        "answer": "Te entregamos un recipiente e instrucciones claras para recolectar la muestra en casa y traerla a la clínica."
+        "question": "¿Por qué me piden más de una muestra?",
+        "answer": "Porque los parásitos no se eliminan de forma continua: pueden no aparecer en una muestra y sí en la del día siguiente. Recoger varias en días distintos evita un negativo falso."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿No basta con tomar el remedio para parásitos?",
+        "answer": "No siempre. No todos los parásitos responden al mismo medicamento, así que tratar sin saber cuál es suele acabar en síntomas que vuelven a los pocos meses."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Sirve para niños?",
+        "answer": "Sí, es de los estudios más útiles en la infancia. Si hay picazón anal por la noche o dolor de barriga que se repite, conviene hacerlo."
       }
     ],
     "faqsEn": [
       {
-        "question": "How is the stool sample collected?",
-        "answer": "We give you a container and clear instructions to collect the sample at home and bring it to the clinic."
+        "question": "Why do they ask for more than one sample?",
+        "answer": "Because parasites are not shed continuously: they may be absent from one sample and present in the next day's. Collecting several on different days prevents a false negative."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
+        "question": "Is it not enough to just take a deworming remedy?",
+        "answer": "Not always. Different parasites respond to different medications, so treating without knowing which one you have usually ends in symptoms returning within months."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Is it useful for children?",
+        "answer": "Yes, it is one of the most useful studies in childhood. If there is nighttime anal itching or recurring stomach pain, it is worth doing."
       }
     ]
   },
   "prueba-strep": {
     "faqs": [
       {
-        "question": "¿Cuánto tarda el resultado del strep test?",
-        "answer": "La prueba rápida de estreptococo da resultado en pocos minutos durante tu visita."
+        "question": "Me duele la garganta, ¿necesito antibiótico?",
+        "answer": "Solo si es estreptococo. La mayoría de los dolores de garganta son virales y se curan solos; el antibiótico no les hace nada. La prueba lo aclara en minutos."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Qué señales apuntan a estreptococo?",
+        "answer": "Dolor intenso y repentino, fiebre, ganglios del cuello hinchados, manchas blancas en las amígdalas y, curiosamente, ausencia de tos. Cuanta más tos, más probable que sea viral."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Hasta cuándo contagia?",
+        "answer": "Aproximadamente hasta el día siguiente de empezar el antibiótico. Aun así, complete el tratamiento entero aunque ya se sienta bien."
       }
     ],
     "faqsEn": [
       {
-        "question": "How long does the strep test take?",
-        "answer": "The rapid strep test gives a result in just a few minutes during your visit."
+        "question": "My throat hurts — do I need an antibiotic?",
+        "answer": "Only if it is strep. Most sore throats are viral and clear on their own; antibiotics do nothing for them. The test settles it in minutes."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
+        "question": "What signs point to strep?",
+        "answer": "Severe, sudden pain, fever, swollen neck glands, white patches on the tonsils and, oddly enough, no cough. The more cough there is, the more likely it is viral."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "How long am I contagious?",
+        "answer": "Roughly until a day after starting the antibiotic. Even so, finish the entire course even once you feel better."
       }
     ]
   },
   "prueba-tuberculosis": {
     "faqs": [
       {
-        "question": "¿Tengo que regresar para leer la prueba de TB?",
-        "answer": "Sí, la prueba cutánea (PPD) se lee entre 48 y 72 horas después de aplicarla; te damos la cita de lectura."
+        "question": "Me vacunaron con BCG, ¿me sirve la prueba de la piel?",
+        "answer": "Puede salir positiva por la vacuna aunque no haya infección. En ese caso lo indicado es la prueba de sangre (IGRA), que no se ve afectada por la BCG. Díganoslo antes de empezar."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Tengo que volver para que me la lean?",
+        "answer": "Con la prueba cutánea sí, a las 48-72 horas, y tiene que leerla el equipo médico: se mide el endurecimiento, no el enrojecimiento. Con la prueba de sangre no hace falta volver."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "Salí positivo, ¿tengo tuberculosis?",
+        "answer": "No necesariamente. Un positivo indica contacto con la bacteria; la mayoría tiene infección latente, que no da síntomas ni contagia. Se distingue con radiografía de tórax y valoración de síntomas."
       }
     ],
     "faqsEn": [
       {
-        "question": "Do I have to come back to read the TB test?",
-        "answer": "Yes, the skin test (PPD) is read 48 to 72 hours after it's placed; we schedule your reading appointment."
+        "question": "I had the BCG vaccine — does the skin test work for me?",
+        "answer": "It can come back positive because of the vaccine even with no infection. In that case the blood test (IGRA) is the right one, as BCG does not affect it. Tell us before we start."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
+        "question": "Do I have to come back to have it read?",
+        "answer": "With the skin test yes, at 48 to 72 hours, and it has to be read by the medical team: what is measured is firmness, not redness. With the blood test there is no return visit."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "I tested positive — do I have tuberculosis?",
+        "answer": "Not necessarily. A positive indicates contact with the bacteria; most people have latent infection, which causes no symptoms and is not contagious. A chest X-ray and symptom assessment tell them apart."
       }
     ]
   },
@@ -492,30 +492,30 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "examen-alcohol-drogas": {
     "faqs": [
       {
-        "question": "¿Entregan documentación para el trabajo?",
-        "answer": "Sí, te entregamos la documentación del resultado para tu empleador o trámite."
+        "question": "¿Qué necesito traer?",
+        "answer": "Identificación con foto, que es obligatoria, y el formulario o la carta de su empleador si se lo dieron. Traiga también la lista de sus medicamentos, incluidos los de venta libre."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Por qué tengo que declarar mis medicamentos?",
+        "answer": "Porque varios medicamentos de uso común pueden alterar el resultado. Declararlos antes evita tener que explicar después un resultado inesperado."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿El examen de drogas incluye el de alcohol?",
+        "answer": "No. Son pruebas distintas y hay que pedir cada una. Revise con su empleador qué le está pidiendo exactamente antes de venir."
       }
     ],
     "faqsEn": [
       {
-        "question": "Do you provide documentation for work?",
-        "answer": "Yes, we give you documentation of the result for your employer or paperwork."
+        "question": "What do I need to bring?",
+        "answer": "Photo identification, which is mandatory, and the form or letter from your employer if you were given one. Also bring a list of your medications, including over-the-counter ones."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
+        "question": "Why do I have to declare my medications?",
+        "answer": "Because several common medications can affect the result. Declaring them beforehand saves you from having to explain an unexpected result afterward."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Does the drug test include alcohol?",
+        "answer": "No. They are separate tests and each has to be requested. Check with your employer exactly what is being asked for before you come."
       }
     ]
   },
