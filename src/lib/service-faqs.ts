@@ -72,90 +72,90 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "alergias": {
     "faqs": [
       {
-        "question": "¿Tratan alergias en la piel y respiratorias?",
-        "answer": "Sí, evaluamos y tratamos alergias respiratorias (rinitis, congestión) y de la piel (ronchas, comezón)."
+        "question": "¿Cómo sé si es alergia o infección?",
+        "answer": "La alergia pica y no da fiebre, el moco es claro y los síntomas vuelven siempre en la misma época o el mismo sitio. Si hay fiebre o el moco espesa y cambia de color, probablemente sea infección."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Por qué empecé con alergia justo al mudarme a Houston?",
+        "answer": "Porque aquí la temporada de polen se alarga casi todo el año y la humedad favorece el moho. Es muy común empezar con síntomas a los pocos meses de llegar."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿La alergia se quita con antibiótico?",
+        "answer": "No. El antibiótico actúa sobre bacterias y la alergia no es una infección. Tomarlo no ayuda y contribuye a la resistencia; el tratamiento es otro."
       }
     ],
     "faqsEn": [
       {
-        "question": "Do you treat both skin and respiratory allergies?",
-        "answer": "Yes, we evaluate and treat respiratory allergies (rhinitis, congestion) and skin allergies (hives, itching)."
+        "question": "How do I know if it is allergy or infection?",
+        "answer": "Allergy itches and causes no fever, the mucus is clear, and symptoms return at the same time of year or in the same place. If there is fever or the mucus thickens and changes color, it is probably an infection."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
+        "question": "Why did my allergies start right after moving to Houston?",
+        "answer": "Because pollen season here runs most of the year and the humidity encourages mold. Starting to have symptoms a few months after arriving is very common."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Will an antibiotic clear up my allergies?",
+        "answer": "No. Antibiotics act on bacteria, and allergy is not an infection. Taking one does not help and contributes to resistance; the treatment is different."
       }
     ]
   },
   "enfermedades-respiratorias": {
     "faqs": [
       {
-        "question": "¿Hacen prueba de flu y de COVID el mismo día?",
-        "answer": "Sí, hacemos pruebas rápidas de influenza y COVID y te damos el resultado y el tratamiento el mismo día."
+        "question": "¿Me van a dar antibiótico?",
+        "answer": "Solo si lo que tiene lo necesita. La mayoría de las gripes y bronquitis son virales y el antibiótico no les hace nada; tomarlo sin necesidad genera resistencia. Por eso hacemos la prueba primero."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Cuándo debo ir a emergencias en vez de a la clínica?",
+        "answer": "Si hay dificultad real para respirar, labios o uñas azulados, confusión, o fiebre alta en un bebé de menos de tres meses. Eso no espera."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "Toso cada primavera, ¿es gripe?",
+        "answer": "Probablemente no. Una tos que vuelve siempre en la misma época suele ser alergia, no infección, y se estudia y se trata de otra manera."
       }
     ],
     "faqsEn": [
       {
-        "question": "Do you test for flu and COVID the same day?",
-        "answer": "Yes, we run rapid flu and COVID tests and give you the result and treatment the same day."
+        "question": "Will I get an antibiotic?",
+        "answer": "Only if what you have needs one. Most flu and bronchitis cases are viral and antibiotics do nothing for them; taking one unnecessarily breeds resistance. That is why we test first."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
+        "question": "When should I go to an ER instead of the clinic?",
+        "answer": "If there is real difficulty breathing, bluish lips or nails, confusion, or high fever in a baby under three months. That does not wait."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "I cough every spring — is that the flu?",
+        "answer": "Probably not. A cough that returns at the same time every year is usually allergy, not infection, and it gets worked up and treated differently."
       }
     ]
   },
   "examen-fisico-escolar": {
     "faqs": [
       {
-        "question": "¿Llenan el formulario de la escuela o el equipo?",
-        "answer": "Sí, trae el formulario de tu escuela o equipo deportivo y lo completamos durante la visita."
+        "question": "¿Traigo el formulario de la escuela?",
+        "answer": "Sí, tráigalo si ya se lo dieron y lo completamos y firmamos en la visita. Si no lo tiene, igual hacemos el examen y le entregamos el resultado por escrito."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Qué es lo más importante del examen deportivo?",
+        "answer": "El historial familiar de problemas cardiacos. Es la pregunta que más pesa, porque lo que se busca es detectar lo que podría dar un problema durante el esfuerzo."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Cuándo conviene hacerlo?",
+        "answer": "Antes de que empiece la temporada, no la semana en que arranca. En agosto se llenan todas las clínicas con el mismo trámite y la espera se alarga mucho."
       }
     ],
     "faqsEn": [
       {
-        "question": "Do you fill out the school or team form?",
-        "answer": "Yes, bring your school or sports-team form and we complete it during the visit."
+        "question": "Should I bring the school form?",
+        "answer": "Yes, bring it if you already have it and we will complete and sign it during the visit. If you do not have it, we still perform the exam and give you the results in writing."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
+        "question": "What matters most in a sports physical?",
+        "answer": "Family history of cardiac problems. It is the heaviest question on the form, because what we are looking for is anything that could cause trouble during exertion."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "When is the best time to come?",
+        "answer": "Before the season starts, not the week it begins. In August every clinic fills up with the same paperwork and the wait gets much longer."
       }
     ]
   },
@@ -462,30 +462,30 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "enfermedades-transmision-sexual": {
     "faqs": [
       {
-        "question": "¿Las pruebas son confidenciales?",
-        "answer": "Sí, todas las pruebas de STD son completamente confidenciales y se realizan con respeto y sin juicios."
+        "question": "¿Es confidencial?",
+        "answer": "Sí. No tiene que explicar por qué viene ni traer acompañante, y su resultado es suyo. Se lo entregamos y se lo explicamos a usted."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
+        "question": "Tuve una relación de riesgo hace tres días, ¿me hago la prueba ya?",
+        "answer": "Puede venir, pero cada infección tiene un periodo de ventana y hacerse la prueba demasiado pronto puede dar un negativo falso. Le decimos cuándo conviene repetirla para que el resultado sea fiable."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "No tengo ningún síntoma, ¿para qué hacérmela?",
+        "answer": "Porque muchas ETS no dan síntomas durante meses o años y aun así se transmiten y dejan secuelas. La clamidia y la gonorrea sin tratar son causa frecuente de infertilidad."
       }
     ],
     "faqsEn": [
       {
-        "question": "Is the testing confidential?",
-        "answer": "Yes, all STD testing is completely confidential and done with respect and without judgment."
+        "question": "Is it confidential?",
+        "answer": "Yes. You do not have to explain why you came or bring anyone, and your result is yours. We hand it to you and explain it to you."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
+        "question": "I had a risky encounter three days ago — should I test now?",
+        "answer": "You can come in, but each infection has a window period and testing too early can give a false negative. We will tell you when to repeat it so the result is reliable."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "I have no symptoms — why get tested?",
+        "answer": "Because many STDs cause no symptoms for months or years and still spread and leave damage. Untreated chlamydia and gonorrhea are a common cause of infertility."
       }
     ]
   },
@@ -642,30 +642,30 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "vacunas": {
     "faqs": [
       {
-        "question": "¿Qué vacunas aplican?",
-        "answer": "Aplicamos la vacuna contra la influenza (flu) y el toxoide tetánico; pregúntanos cuál te conviene."
+        "question": "¿La vacuna de la gripe me puede dar gripe?",
+        "answer": "No. El brazo dolorido o el cansancio de un día o dos son la respuesta normal del sistema inmune, no una infección. La vacuna no contiene virus capaz de enfermarle."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Cada cuánto necesito el refuerzo de tétanos?",
+        "answer": "Cada 10 años. Y antes si sufre una herida profunda o sucia y hace más de cinco años de su última dosis."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Sirve la vacuna de la gripe del año pasado?",
+        "answer": "No. Se reformula cada temporada porque el virus cambia, así que hay que repetirla cada otoño para que proteja."
       }
     ],
     "faqsEn": [
       {
-        "question": "Which vaccines do you give?",
-        "answer": "We administer the influenza (flu) vaccine and tetanus toxoid; ask us which one you need."
+        "question": "Can the flu shot give me the flu?",
+        "answer": "No. A sore arm or a day or two of tiredness is the normal immune response, not an infection. The vaccine contains no virus capable of making you sick."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
+        "question": "How often do I need a tetanus booster?",
+        "answer": "Every 10 years. And sooner if you get a deep or dirty wound and it has been more than five years since your last dose."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Does last year's flu shot still work?",
+        "answer": "No. It is reformulated every season because the virus changes, so it has to be repeated each fall to protect you."
       }
     ]
   },
@@ -792,30 +792,30 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "drenaje-abscesos": {
     "faqs": [
       {
-        "question": "¿El drenaje de un absceso duele?",
-        "answer": "Se realiza con anestesia local para reducir las molestias y aliviar el dolor del absceso rápidamente."
+        "question": "¿No se me quita con antibiótico?",
+        "answer": "Normalmente no. Dentro de la bolsa de pus casi no hay circulación, así que el antibiótico no llega bien. Hay que drenarlo; el antibiótico, si hace falta, va después."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Duele el drenaje?",
+        "answer": "Se aplica anestesia local antes de abrir. El alivio suele ser inmediato, porque la mayor parte del dolor viene de la presión y esa desaparece al drenar."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Cuándo no debo esperar?",
+        "answer": "Si hay fiebre, si salen líneas rojas que se extienden desde la zona, o si el absceso está en la cara o cerca de los ojos. Eso se ve el mismo día."
       }
     ],
     "faqsEn": [
       {
-        "question": "Does abscess drainage hurt?",
-        "answer": "It's done with local anesthesia to reduce discomfort and quickly relieve the abscess pain."
+        "question": "Will antibiotics clear it up?",
+        "answer": "Usually not. There is almost no circulation inside a pocket of pus, so antibiotics do not reach it well. It has to be drained; antibiotics, if needed, come afterward."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday to Sunday from 9 AM to 9 PM. You can also call us to reserve a time."
+        "question": "Does the drainage hurt?",
+        "answer": "Local anesthesia is applied before opening it. Relief is usually immediate, because most of the pain comes from pressure and that goes away as soon as it drains."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "When should I not wait?",
+        "answer": "If there is fever, if red streaks spread from the area, or if the abscess is on your face or near your eyes. That gets seen the same day."
       }
     ]
   },

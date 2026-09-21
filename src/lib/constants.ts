@@ -150,8 +150,8 @@ export const SERVICES: Service[] = [
     "shortTitle": "Alergias",
     "description": "Exámenes y tratamiento de alergias en Houston, TX. Diagnóstico y manejo en español, con precios accesibles.",
     "descriptionEn": "Allergy testing and treatment in Houston, TX. Diagnosis and management in Spanish, with affordable pricing.",
-    "longDescription": "Las alergias pueden afectar tu respiración, tu piel y tu descanso. En Clínica Hispana Airline identificamos qué las provoca y te ayudamos a controlarlas para que recuperes tu bienestar.\n\n**¿Qué incluye?**\n- Evaluación de síntomas y posibles desencadenantes\n- Tratamiento de alergias estacionales y respiratorias\n- Manejo de rinitis, estornudos y congestión\n- Atención de alergias en la piel (ronchas, comezón)\n- Recomendaciones para evitar las crisis\n\n**Cuándo consultar**\nEstornudos frecuentes, ojos llorosos, comezón, ronchas o congestión que no mejora son señales de alergia. Un tratamiento adecuado marca la diferencia.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
-    "longDescriptionEn": "Allergies can affect your breathing, your skin and your rest. At Clínica Hispana Airline we identify what triggers them and help you control them so you feel well again.\n\n**What's included?**\n- Evaluation of symptoms and possible triggers\n- Treatment of seasonal and respiratory allergies\n- Management of rhinitis, sneezing and congestion\n- Care for skin allergies (hives, itching)\n- Recommendations to avoid flare-ups\n\n**When to seek care**\nFrequent sneezing, watery eyes, itching, hives or congestion that won't improve are signs of allergy. The right treatment makes the difference.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
+    "longDescription": "Una tos que vuelve siempre en la misma época, estornudos por la mañana o una piel que reacciona sin motivo claro casi nunca es una gripe repetida: es alergia. En Clínica Hispana Airline la estudiamos y la tratamos, sin cita y en español.\n\n**Houston es un sitio difícil para los alérgicos**\nAquí la temporada de polen se alarga casi todo el año, y a eso se suma la humedad, que favorece el moho. Muchas personas que llegan de otro estado o de otro país empiezan con síntomas al poco de mudarse y no entienden por qué.\n\n**Cómo se distingue de una infección**\n- La alergia **pica**: nariz, ojos, garganta, paladar. Una infección no suele picar.\n- La alergia **no da fiebre**. Si hay fiebre, es otra cosa.\n- El moco de la alergia es **claro y líquido**; el de una infección suele espesar y cambiar de color.\n- La alergia **vuelve siempre igual**: la misma época, el mismo sitio, el mismo animal.\n\n**Qué hacemos**\n- Evaluación de sus síntomas y de cuándo aparecen\n- Pruebas para identificar el desencadenante cuando el patrón no está claro\n- Tratamiento con antihistamínicos, corticoides nasales u otras opciones según el caso\n- Plan para la temporada fuerte, que es lo que más alivia\n\n**Cuándo no es solo alergia**\nSi además hay silbido en el pecho, falta de aire o tos que despierta de noche, puede haber un componente asmático y eso se maneja distinto. Si es su caso, díganoslo en la consulta.",
+    "longDescriptionEn": "A cough that returns at the same time every year, morning sneezing, or skin that reacts for no clear reason is almost never repeated flu: it is allergy. At Clínica Hispana Airline we work it up and treat it, walk-in and in your language.\n\n**Houston is a hard place to be allergic**\nPollen season here stretches across most of the year, and humidity adds mold on top of it. Many people who move from another state or country start having symptoms shortly after arriving and cannot work out why.\n\n**How to tell it from an infection**\n- Allergy **itches**: nose, eyes, throat, palate. Infections usually do not itch.\n- Allergy **does not cause fever**. If there is fever, it is something else.\n- Allergic mucus is **clear and runny**; with an infection it usually thickens and changes color.\n- Allergy **comes back the same way**: same season, same place, same animal.\n\n**What we do**\n- Evaluation of your symptoms and when they appear\n- Testing to identify the trigger when the pattern is not obvious\n- Treatment with antihistamines, nasal steroids or other options depending on the case\n- A plan for the heavy season, which is what helps most\n\n**When it is not just allergy**\nIf there is also wheezing, shortness of breath or a cough that wakes you at night, there may be an asthmatic component, and that is managed differently. If that sounds like you, tell us during the visit.",
     "icon": "Wind",
     "image": "/images/services/alergias.webp",
     "category": "medicina-general",
@@ -168,16 +168,16 @@ export const SERVICES: Service[] = [
       "allergy clinic houston"
     ],
     "features": [
-      "Evaluación de síntomas y desencadenantes",
-      "Tratamiento de alergias respiratorias y de piel",
-      "Manejo de rinitis y congestión",
-      "Atención en español"
+      "Identificación del desencadenante",
+      "Tratamiento para la temporada fuerte",
+      "Diferenciación entre alergia e infección",
+      "Atención sin cita previa"
     ],
     "featuresEn": [
-      "Evaluation of symptoms and triggers",
-      "Treatment of respiratory and skin allergies",
-      "Management of rhinitis and congestion",
-      "Care in Spanish"
+      "Trigger identification",
+      "Treatment for the heavy season",
+      "Telling allergy from infection",
+      "Walk-in care"
     ],
     "highlighted": false,
     "order": 3
@@ -190,8 +190,8 @@ export const SERVICES: Service[] = [
     "shortTitle": "Respiratorias",
     "description": "Pruebas de flu y COVID y tratamiento de enfermedades respiratorias en Houston, TX. Sin cita previa, en español.",
     "descriptionEn": "Flu and COVID testing and respiratory illness treatment in Houston, TX. Walk-ins welcome, in Spanish.",
-    "longDescription": "Cuando empiezan la fiebre, la tos o el malestar, saber si es flu o COVID ayuda a tratarte a tiempo. En Clínica Hispana Airline hacemos pruebas rápidas y te damos tratamiento el mismo día, sin cita.\n\n**¿Qué incluye?**\n- Prueba rápida de influenza (flu)\n- Prueba de COVID-19\n- Evaluación de síntomas respiratorios\n- Tratamiento de gripe, tos, bronquitis e infecciones de garganta\n- Indicaciones de recuperación y cuidado\n\n**No dejes que avance**\nSi la fiebre es alta, la tos no mejora o cuesta respirar, es mejor evaluarte. Un diagnóstico oportuno acorta la enfermedad y evita complicaciones.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
-    "longDescriptionEn": "When fever, cough or discomfort begin, knowing whether it's flu or COVID helps treat you in time. At Clínica Hispana Airline we run rapid tests and provide same-day treatment, no appointment needed.\n\n**What's included?**\n- Rapid influenza (flu) test\n- COVID-19 test\n- Respiratory symptom evaluation\n- Treatment of flu, cough, bronchitis and throat infections\n- Recovery and care instructions\n\n**Don't let it progress**\nIf the fever is high, the cough won't improve or breathing is hard, it's best to get evaluated. Timely diagnosis shortens the illness and prevents complications.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
+    "longDescription": "Gripe, COVID, bronquitis o una alergia que parece gripe: se parecen mucho y se tratan distinto. En Clínica Hispana Airline hacemos las pruebas rápidas sin cita y te damos el resultado y el tratamiento **el mismo día**.\n\n**Por qué conviene la prueba y no adivinar**\nLa influenza tiene tratamiento antiviral que solo funciona si se empieza pronto. El COVID tiene su propio manejo. Una bronquitis viral no mejora con antibiótico, y tomarlo \"por si acaso\" solo genera resistencia. Saber qué es cambia el tratamiento desde el primer día.\n\n**Qué hacemos**\n- Prueba rápida de **influenza A y B**\n- Prueba rápida de **COVID-19**\n- Prueba de **estreptococo** cuando el cuadro apunta a la garganta\n- Exploración de garganta, oídos y pulmones\n- Tratamiento y receta según el resultado\n\n**Cuándo venir el mismo día**\nFiebre alta que no cede, dolor de garganta intenso, tos con flema de color, dolor en el pecho al respirar, o síntomas que llevan más de una semana sin mejorar.\n\n**Cuándo ir a emergencias en vez de aquí**\nDificultad real para respirar, labios o uñas azulados, confusión, o fiebre alta en un bebé de menos de tres meses. Eso no es para una clínica.\n\n**Si se repite cada temporada**\nUna tos que vuelve cada primavera o cada vez que cambia el clima muchas veces no es infección, es alergia. Si es su caso, se estudia como alergia y no como gripe.",
+    "longDescriptionEn": "Flu, COVID, bronchitis, or an allergy that looks like the flu: they resemble each other closely and are treated differently. At Clínica Hispana Airline we run the rapid tests walk-in and give you the result and the treatment **the same day**.\n\n**Why test instead of guessing**\nInfluenza has antiviral treatment that only works if started early. COVID has its own management. Viral bronchitis does not improve with an antibiotic, and taking one \"just in case\" only breeds resistance. Knowing which it is changes the treatment from day one.\n\n**What we do**\n- Rapid **influenza A and B** test\n- Rapid **COVID-19** test\n- **Strep** test when the picture points to the throat\n- Examination of throat, ears and lungs\n- Treatment and prescription based on the result\n\n**When to come the same day**\nHigh fever that will not break, severe sore throat, cough with colored phlegm, chest pain when breathing, or symptoms that have gone more than a week without improving.\n\n**When to go to an ER instead**\nReal difficulty breathing, bluish lips or nails, confusion, or high fever in a baby under three months. That is not for a clinic.\n\n**If it comes back every season**\nA cough that returns every spring or whenever the weather shifts is often not an infection — it is allergy. If that is your case, it gets worked up as allergy, not as flu.",
     "icon": "Wind",
     "image": "/images/services/enfermedades-respiratorias.webp",
     "category": "medicina-general",
@@ -208,16 +208,16 @@ export const SERVICES: Service[] = [
       "respiratory illness houston"
     ],
     "features": [
-      "Prueba rápida de flu y COVID",
-      "Diagnóstico el mismo día",
-      "Tratamiento de gripe, tos y bronquitis",
-      "Atención sin cita en español"
+      "Prueba rápida de influenza A y B",
+      "Prueba rápida de COVID-19",
+      "Resultado y tratamiento el mismo día",
+      "Exploración de garganta, oídos y pulmones"
     ],
     "featuresEn": [
-      "Rapid flu and COVID testing",
-      "Same-day diagnosis",
-      "Treatment of flu, cough and bronchitis",
-      "Walk-in care in Spanish"
+      "Rapid influenza A and B test",
+      "Rapid COVID-19 test",
+      "Result and treatment the same day",
+      "Throat, ear and lung examination"
     ],
     "highlighted": false,
     "order": 4
@@ -230,8 +230,8 @@ export const SERVICES: Service[] = [
     "shortTitle": "Examen Físico",
     "description": "Chequeos físicos escolares y deportivos en Houston, TX. Rápidos, en español y con precios accesibles.",
     "descriptionEn": "School and sports physical exams in Houston, TX. Fast, in Spanish, with affordable pricing.",
-    "longDescription": "Antes de inscribirse en la escuela o practicar un deporte, los niños y jóvenes necesitan un chequeo físico. En Clínica Hispana Airline lo hacemos de forma rápida y completa, con todos los formularios listos.\n\n**¿Qué incluye?**\n- Examen físico general\n- Revisión de signos vitales (peso, talla, presión)\n- Evaluación de visión y audición\n- Llenado de los formularios requeridos\n- Recomendaciones de salud\n\n**Para la escuela y el deporte**\nCumple los requisitos de inscripción escolar y la evaluación para practicar deportes con seguridad. Trae el formulario de tu escuela o equipo y lo completamos.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
-    "longDescriptionEn": "Before enrolling in school or playing a sport, children and teens need a physical exam. At Clínica Hispana Airline we do it quickly and thoroughly, with all the forms ready.\n\n**What's included?**\n- General physical exam\n- Vital-signs check (weight, height, blood pressure)\n- Vision and hearing screening\n- Completion of required forms\n- Health recommendations\n\n**For school and sports**\nMeet school enrollment requirements and the evaluation to play sports safely. Bring your school or team form and we'll complete it.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
+    "longDescription": "Chequeos físicos para la escuela y para deportes en Clínica Hispana Airline, **sin cita** y con el formulario completado antes de que se vaya. Traiga el papel del distrito o del equipo: lo llenamos y lo firmamos en la visita.\n\n**Qué revisa el examen deportivo**\nNo es un trámite. Lo que se busca, sobre todo, es detectar lo que podría dar un problema durante el esfuerzo:\n\n- **Historial familiar de problemas cardiacos**, que es la pregunta más importante de todo el formulario\n- Presión arterial, pulso y auscultación del corazón\n- Vista y oído\n- Columna, articulaciones y lesiones previas mal curadas\n- Peso, talla y desarrollo\n\nSi el historial familiar o la exploración levantan una duda cardiaca, se lo decimos y orientamos la referencia antes de autorizar el deporte.\n\n**Para la escuela**\nRevisión general, vacunas al día y el formulario del distrito completo. Si faltan vacunas, se aplican en la misma visita: ver [vacunas](/services/vacunas).\n\n**Venga preparado**\n- El **formulario** de la escuela o del equipo, si ya se lo dieron\n- La **cartilla de vacunas**\n- Lentes o audífono si los usa\n- Lista de medicamentos y de alergias\n\n**La mejor época para hacerlo**\nAntes de que empiece la temporada, no la semana en que arranca. En agosto se llenan todas las clínicas de Houston con el mismo trámite y la espera se dispara.",
+    "longDescriptionEn": "School and sports physicals at Clínica Hispana Airline, **walk-in**, with the form completed before you leave. Bring the district or team paperwork: we fill it in and sign it during the visit.\n\n**What a sports physical checks**\nIt is not a formality. What it is mostly looking for is anything that could cause a problem during exertion:\n\n- **Family history of cardiac problems**, which is the single most important question on the form\n- Blood pressure, pulse and heart auscultation\n- Vision and hearing\n- Spine, joints and previous injuries that never healed properly\n- Weight, height and development\n\nIf family history or the exam raises a cardiac question, we tell you and help direct the referral before clearing the sport.\n\n**For school**\nGeneral check, vaccines up to date, and the district form completed. If vaccines are missing, they are given in the same visit: see [vaccines](/services/vacunas).\n\n**Come prepared**\n- The **form** from the school or team, if you already have it\n- The **vaccination record**\n- Glasses or hearing aid if used\n- A list of medications and allergies\n\n**The best time to come**\nBefore the season starts, not the week it begins. In August every clinic in Houston fills up with the same paperwork and the wait goes through the roof.",
     "icon": "Clipboard",
     "image": "/images/services/examen-fisico-escolar.webp",
     "category": "examenes",
@@ -248,16 +248,16 @@ export const SERVICES: Service[] = [
       "kids physical houston"
     ],
     "features": [
-      "Examen físico completo",
-      "Revisión de signos vitales",
-      "Formularios escolares y deportivos llenados",
-      "Atención en español"
+      "Formulario completado en la visita",
+      "Revisión cardiaca y de historial familiar",
+      "Vacunas al día en la misma cita",
+      "Sin cita previa"
     ],
     "featuresEn": [
-      "Complete physical exam",
-      "Vital-signs check",
-      "School and sports forms completed",
-      "Care in Spanish"
+      "Form completed during the visit",
+      "Cardiac and family history screening",
+      "Vaccines brought up to date same visit",
+      "Walk-in"
     ],
     "highlighted": false,
     "order": 5
@@ -673,8 +673,8 @@ export const SERVICES: Service[] = [
     "shortTitle": "STD",
     "description": "Pruebas de ETS/STD confidenciales en Houston, TX, sin cita previa. Resultados y tratamiento en español, con precios accesibles.",
     "descriptionEn": "Confidential walk-in STD testing in Houston, TX. Private results and treatment in Spanish, with affordable pricing.",
-    "longDescription": "Cuidar tu salud sexual es un acto de responsabilidad. En Clínica Hispana Airline ofrecemos pruebas de enfermedades de transmisión sexual de forma confidencial y respetuosa, con tratamiento cuando es necesario.\n\n**¿Qué incluye?**\n- Evaluación de síntomas y factores de riesgo\n- Pruebas de las infecciones más comunes\n- Análisis de laboratorio\n- Tratamiento y orientación si el resultado es positivo\n- Total confidencialidad\n\n**Cuándo hacerte la prueba**\nSi tuviste contacto de riesgo, tienes síntomas o simplemente quieres estar tranquilo, hacerte la prueba es la mejor decisión. La detección temprana facilita el tratamiento.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
-    "longDescriptionEn": "Taking care of your sexual health is an act of responsibility. At Clínica Hispana Airline we offer confidential, respectful testing for sexually transmitted diseases, with treatment when needed.\n\n**What's included?**\n- Symptom and risk-factor assessment\n- Testing for the most common infections\n- Laboratory analysis\n- Treatment and guidance if the result is positive\n- Complete confidentiality\n\n**When to get tested**\nIf you had a risky encounter, have symptoms or simply want peace of mind, getting tested is the best decision. Early detection makes treatment easier.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
+    "longDescription": "Pruebas de ETS **confidenciales y sin cita** en Clínica Hispana Airline. No hace falta explicar por qué viene ni traer a nadie: se registra, se hace la prueba y se va.\n\n**Por qué hacérselas aunque se sienta bien**\nBuena parte de las infecciones de transmisión sexual **no dan síntomas durante meses o años**, y mientras tanto se transmiten y pueden dejar secuelas. La clamidia y la gonorrea sin tratar son causa frecuente de infertilidad, y muchas mujeres se enteran cuando ya intentan embarazarse.\n\n**Qué se puede revisar**\n- VIH\n- Sífilis\n- Clamidia y gonorrea\n- Hepatitis B y C\n- Herpes, según el caso\n\n**Cuándo hacerse la prueba**\n- Al empezar una relación nueva, los dos\n- Si hubo una relación sin protección\n- Si su pareja recibió un resultado positivo\n- Si aparecen ardor al orinar, flujo distinto, llagas o verrugas\n- Como revisión periódica si tiene varias parejas\n\nHay un detalle importante: **hacerse la prueba demasiado pronto puede dar un negativo falso**. Cada infección tiene su periodo de ventana. Si el contacto fue hace pocos días, se lo decimos y le indicamos cuándo repetirla.\n\n**Si sale positivo**\nSe trata aquí lo que se puede tratar aquí, y se le explica qué significa el resultado sin rodeos. Si requiere seguimiento especializado, se lo decimos y orientamos la referencia. **Avise a su pareja**: tratar a uno solo casi siempre termina en reinfección.",
+    "longDescriptionEn": "**Confidential, walk-in STD testing** at Clínica Hispana Airline. You do not have to explain why you came or bring anyone with you: you register, get tested, and leave.\n\n**Why test even if you feel fine**\nMany sexually transmitted infections **cause no symptoms for months or years**, and in the meantime they spread and can leave lasting damage. Untreated chlamydia and gonorrhea are a common cause of infertility, and many women find out only when they start trying to conceive.\n\n**What can be tested**\n- HIV\n- Syphilis\n- Chlamydia and gonorrhea\n- Hepatitis B and C\n- Herpes, depending on the case\n\n**When to get tested**\n- At the start of a new relationship, both of you\n- After unprotected sex\n- If your partner tested positive\n- If burning on urination, unusual discharge, sores or warts appear\n- As routine screening if you have multiple partners\n\nOne detail matters: **testing too early can produce a false negative**. Each infection has its own window period. If the exposure was only days ago, we tell you and let you know when to repeat it.\n\n**If a result is positive**\nWe treat what can be treated here, and we explain what the result means without talking around it. If it needs specialized follow-up, we say so and help direct the referral. **Tell your partner**: treating only one person almost always ends in reinfection.",
     "icon": "ShieldCheck",
     "image": "/images/services/enfermedades-transmision-sexual.webp",
     "category": "laboratorio",
@@ -691,16 +691,16 @@ export const SERVICES: Service[] = [
       "sti testing houston"
     ],
     "features": [
-      "Pruebas confidenciales y sin juicios",
-      "Evaluación de síntomas y riesgo",
-      "Tratamiento disponible",
-      "Atención en español"
+      "Confidencial y sin cita",
+      "VIH, sífilis, clamidia y gonorrea",
+      "Orientación sobre el periodo de ventana",
+      "Tratamiento de lo tratable aquí"
     ],
     "featuresEn": [
-      "Confidential, judgment-free testing",
-      "Symptom and risk assessment",
-      "Treatment available",
-      "Care in Spanish"
+      "Confidential and walk-in",
+      "HIV, syphilis, chlamydia and gonorrhea",
+      "Guidance on window periods",
+      "Treatment of what can be treated here"
     ],
     "highlighted": false,
     "order": 16
@@ -919,8 +919,8 @@ export const SERVICES: Service[] = [
     "shortTitle": "Vacunas",
     "description": "Vacunas de flu y toxoide tetánico en Houston, TX. Aplicación por personal médico en español, con precios accesibles.",
     "descriptionEn": "Flu and tetanus vaccines in Houston, TX. Administered by medical staff in Spanish, with affordable pricing.",
-    "longDescription": "Las vacunas son una de las formas más sencillas de cuidar tu salud. En Clínica Hispana Airline aplicamos la vacuna contra la influenza y el toxoide tetánico de forma segura y rápida.\n\n**¿Qué incluye?**\n- Vacuna anual contra la influenza (flu)\n- Toxoide tetánico (refuerzo del tétanos)\n- Aplicación por personal médico\n- Orientación sobre cuándo aplicar refuerzos\n- Atención en español\n\n**Por qué vacunarte**\nLa vacuna de la flu reduce el riesgo de enfermarte de gravedad en temporada de gripe, y el toxoide tetánico te protege ante cortes y heridas. Pregúntanos cuál te conviene.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
-    "longDescriptionEn": "Vaccines are one of the simplest ways to protect your health. At Clínica Hispana Airline we administer the influenza vaccine and tetanus toxoid safely and quickly.\n\n**What's included?**\n- Annual influenza (flu) vaccine\n- Tetanus toxoid (tetanus booster)\n- Administered by medical staff\n- Guidance on when boosters are due\n- Care in Spanish\n\n**Why get vaccinated**\nThe flu vaccine lowers your risk of getting seriously ill during flu season, and the tetanus toxoid protects you from cuts and wounds. Ask us which one you need.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
+    "longDescription": "Aplicamos **vacuna contra la influenza y toxoide tetánico (Td/Tdap)** en Clínica Hispana Airline, sin cita y con la aplicación a cargo de personal médico.\n\n**Influenza**\nLa vacuna de la gripe se reformula cada temporada porque el virus cambia. Por eso **no sirve la del año pasado** y hay que repetirla cada otoño. Tarda unas dos semanas en hacer efecto, así que ponérsela antes de que empiece la temporada es lo que tiene sentido.\n\nNo causa gripe. Lo que algunos sienten un día o dos —brazo dolorido, algo de cansancio— es la respuesta normal del sistema inmune, no una infección.\n\n**Toxoide tetánico (Td / Tdap)**\nEl tétanos no se contagia de persona a persona: entra por heridas contaminadas con tierra, óxido o material sucio. El refuerzo se pone **cada 10 años**, y antes si tiene una herida profunda y hace más de cinco años de la última dosis.\n\nEs también la vacuna que piden muchos trabajos y trámites, y la que hace falta cuando alguien llega con una herida que requiere [curación o suturas](/services/suturas-heridas).\n\n**Para inmigración**\nEl examen I-693 exige un registro de vacunación completo. Las que falten se aplican durante ese proceso; vea [examen médico de inmigración](/services/examenes-inmigracion).\n\n**Traiga su cartilla**\nSi tiene registro de vacunas, tráigalo aunque sea de su país y esté en otro idioma. Evita repetir dosis que ya tiene puestas.",
+    "longDescriptionEn": "We administer the **influenza vaccine and tetanus toxoid (Td/Tdap)** at Clínica Hispana Airline, walk-in, given by medical staff.\n\n**Influenza**\nThe flu shot is reformulated every season because the virus changes. That is why **last year's shot does not work** and it has to be repeated each fall. It takes about two weeks to take effect, so getting it before the season starts is what makes sense.\n\nIt does not cause the flu. What some people feel for a day or two — a sore arm, some tiredness — is the normal immune response, not an infection.\n\n**Tetanus toxoid (Td / Tdap)**\nTetanus does not spread from person to person: it enters through wounds contaminated with soil, rust or dirty material. The booster is given **every 10 years**, and sooner if you have a deep wound and it has been more than five years since your last dose.\n\nIt is also the vaccine many jobs and filings require, and the one needed when someone arrives with a wound that needs [wound care or sutures](/services/suturas-heridas).\n\n**For immigration**\nThe I-693 exam requires a complete vaccination record. Whatever is missing gets administered during that process; see [immigration medical exam](/services/examenes-inmigracion).\n\n**Bring your card**\nIf you have a vaccination record, bring it even if it is from your home country and in another language. It keeps you from repeating doses you already have.",
     "icon": "Syringe",
     "image": "/images/services/vacunas.webp",
     "category": "tratamientos",
@@ -937,16 +937,16 @@ export const SERVICES: Service[] = [
       "tdap vaccine houston"
     ],
     "features": [
-      "Vacuna contra la influenza (flu)",
-      "Toxoide tetánico",
+      "Influenza, cada temporada",
+      "Toxoide tetánico Td/Tdap",
       "Aplicación por personal médico",
-      "Atención en español"
+      "Válidas para trabajo y trámites"
     ],
     "featuresEn": [
-      "Influenza (flu) vaccine",
-      "Tetanus toxoid",
+      "Influenza, every season",
+      "Tetanus toxoid Td/Tdap",
       "Administered by medical staff",
-      "Care in Spanish"
+      "Valid for work and filings"
     ],
     "highlighted": false,
     "order": 22
@@ -1119,8 +1119,8 @@ export const SERVICES: Service[] = [
     "shortTitle": "Drenaje de Abscesos",
     "description": "Drenaje de abscesos en Houston, TX. Tratamiento de infecciones de piel en español, con precios accesibles.",
     "descriptionEn": "Abscess drainage in Houston, TX. Treatment of skin infections in Spanish, with affordable pricing.",
-    "longDescription": "Un absceso es una acumulación de pus que causa dolor e hinchazón y necesita drenarse. En Clínica Hispana Airline lo tratamos de forma segura para aliviar la molestia y prevenir que la infección avance.\n\n**¿Qué incluye?**\n- Evaluación del absceso o infección de piel\n- Drenaje con anestesia local\n- Limpieza y desinfección de la zona\n- Tratamiento de la infección cuando se requiere\n- Indicaciones de cuidado y seguimiento\n\n**No lo dejes pasar**\nUn bulto rojo, caliente y doloroso, a veces con fiebre, necesita atención. Drenarlo a tiempo evita complicaciones y alivia el dolor rápidamente.\n\n**¿Por qué elegir Clínica Hispana Airline?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 934 E Tidwell Rd, Houston, TX 77022, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Houston, TX y todo el norte de la ciudad: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline y comunidades cercanas.",
-    "longDescriptionEn": "An abscess is a buildup of pus that causes pain and swelling and needs to be drained. At Clínica Hispana Airline we treat it safely to relieve the discomfort and prevent the infection from spreading.\n\n**What's included?**\n- Evaluation of the abscess or skin infection\n- Drainage with local anesthesia\n- Cleaning and disinfection of the area\n- Treatment of the infection when needed\n- Care and follow-up instructions\n\n**Don't let it go**\nA red, warm, painful lump, sometimes with fever, needs attention. Draining it in time prevents complications and relieves pain quickly.\n\n**Why choose Clínica Hispana Airline?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 934 E Tidwell Rd, Houston, TX 77022, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Houston, TX and the entire north side of the city: Northside, Independence Heights, Lindale Park, Near Northside, Acres Homes, Northline and nearby communities.",
+    "longDescription": "Un absceso es una bolsa de pus bajo la piel. **No se cura con antibiótico solo**: hay que drenarlo. En Clínica Hispana Airline lo hacemos sin cita, con anestesia local y en la misma visita.\n\n**Cómo se reconoce**\nUna zona hinchada, roja, caliente y dolorosa, que va creciendo en días y se siente blanda o con líquido por dentro. A veces aparece un punto amarillento en el centro. Es distinto de una simple picadura o de un grano: el absceso duele cada vez más y no cede solo.\n\n**Por qué no basta con el antibiótico**\nEl antibiótico llega por la sangre, y dentro de la bolsa de pus prácticamente no hay circulación. Por eso un absceso tratado solo con pastillas suele seguir creciendo. El tratamiento es abrir, drenar y limpiar; el antibiótico, cuando hace falta, va después.\n\n**Cómo es el procedimiento**\nSe limpia la zona, se aplica **anestesia local**, se abre lo mínimo necesario, se drena y se lava por dentro. Según el tamaño puede dejarse una mecha para que siga drenando unos días. Todo se hace en la misma visita.\n\nEl alivio es casi inmediato: la mayor parte del dolor viene de la presión, y esa desaparece al drenar.\n\n**Cuidados después**\nLe explicamos cómo mantener la zona limpia, cuándo cambiar el apósito y qué señales vigilar. Si le dejamos mecha, se revisa a los pocos días.\n\n**Cuándo no esperar**\nFiebre, líneas rojas que se extienden desde la zona, o un absceso en la cara o cerca de los ojos. Eso se ve el mismo día.",
+    "longDescriptionEn": "An abscess is a pocket of pus under the skin. **Antibiotics alone will not clear it**: it has to be drained. At Clínica Hispana Airline we do that walk-in, with local anesthesia, in the same visit.\n\n**How to recognize one**\nA swollen, red, hot and painful area that grows over days and feels soft or fluid-filled inside. Sometimes a yellowish point appears at the center. It is different from a bite or a pimple: an abscess hurts more and more and does not resolve on its own.\n\n**Why antibiotics are not enough**\nAntibiotics arrive through the bloodstream, and inside a pocket of pus there is almost no circulation. That is why an abscess treated with pills alone usually keeps growing. The treatment is to open, drain and clean it; antibiotics, when needed, come afterward.\n\n**What the procedure is like**\nThe area is cleaned, **local anesthesia** is applied, the smallest necessary opening is made, and the cavity is drained and washed out. Depending on size, packing may be left in so it keeps draining for a few days. It is all done in the same visit.\n\nRelief is almost immediate: most of the pain comes from pressure, and that goes away as soon as it drains.\n\n**Aftercare**\nWe explain how to keep the area clean, when to change the dressing and what warning signs to watch for. If packing is left in, it gets checked a few days later.\n\n**When not to wait**\nFever, red streaks spreading from the area, or an abscess on the face or near the eyes. That gets seen the same day.",
     "icon": "Drop",
     "image": "/images/services/drenaje-abscesos.webp",
     "category": "tratamientos",
@@ -1137,16 +1137,16 @@ export const SERVICES: Service[] = [
       "boil treatment houston"
     ],
     "features": [
-      "Drenaje del absceso",
-      "Limpieza y desinfección",
-      "Anestesia local",
-      "Indicaciones de cuidado posterior"
+      "Drenaje con anestesia local",
+      "Resuelto en la misma visita",
+      "Limpieza y cuidados explicados",
+      "Revisión posterior si se deja mecha"
     ],
     "featuresEn": [
-      "Abscess drainage",
-      "Cleaning and disinfection",
-      "Local anesthesia",
-      "After-care instructions"
+      "Drainage under local anesthesia",
+      "Resolved in the same visit",
+      "Cleaning and aftercare explained",
+      "Follow-up if packing is left in"
     ],
     "highlighted": false,
     "order": 27
