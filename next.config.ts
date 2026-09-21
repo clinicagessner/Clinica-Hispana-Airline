@@ -429,6 +429,48 @@ const nextConfig: NextConfig = {
             key: "Permissions-Policy",
             value: "camera=(), microphone=(), geolocation=(self)",
           },
+          {
+            // Los dominios salen de las peticiones reales de la home medidas
+            // con Lighthouse, no de una lista genérica. `analytics.google.com`
+            // va desde el principio a propósito: omitirlo bloquea GA4 en
+            // silencio y los datos se pierden durante meses sin avisar.
+            key: "Content-Security-Policy",
+            value: [
+              "default-src 'self'",
+              "base-uri 'self'",
+              "object-src 'none'",
+              "frame-ancestors 'none'",
+              "form-action 'self'",
+              "upgrade-insecure-requests",
+              [
+                "script-src 'self' 'unsafe-inline' 'unsafe-eval'",
+                "https://www.googletagmanager.com https://www.google-analytics.com",
+                "https://connect.facebook.net https://cdn.callrail.com https://js.callrail.com",
+                "https://www.google.com https://www.googleadservices.com",
+                "https://googleads.g.doubleclick.net https://*.vercel-scripts.com",
+              ].join(" "),
+              "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+              "font-src 'self' data: https://fonts.gstatic.com",
+              [
+                "img-src 'self' data: blob:",
+                "https://lh3.googleusercontent.com https://maps.gstatic.com",
+                "https://maps.googleapis.com https://www.google-analytics.com",
+                "https://www.google.com https://www.facebook.com",
+                "https://googleads.g.doubleclick.net https://ad.doubleclick.net",
+              ].join(" "),
+              [
+                "connect-src 'self'",
+                "https://analytics.google.com https://*.analytics.google.com",
+                "https://*.google-analytics.com https://www.googletagmanager.com",
+                "https://maps.googleapis.com https://connect.facebook.net",
+                "https://*.callrail.com https://*.vercel-insights.com",
+                "https://googleads.g.doubleclick.net",
+              ].join(" "),
+              "frame-src 'self' https://www.google.com https://www.facebook.com https://td.doubleclick.net",
+              "media-src 'self'",
+              "worker-src 'self' blob:",
+            ].join("; "),
+          },
         ],
       },
     ];
