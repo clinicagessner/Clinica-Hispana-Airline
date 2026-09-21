@@ -57,6 +57,7 @@ In the consultation we explain **what you have, what the options are and what ea
 
 This part matters as much as the last one:
 
+- **We do not attend deliveries.** We do provide basic pregnancy follow-up and the checks that can be handled in a clinic visit; for the delivery we help direct the referral.
 - **We are not an emergency room.** Chest pain, trouble breathing, weakness on one side of the body, or bleeding that will not stop: call 911 or go to an ER. Do not come here.
 - **We do not have board-certified specialists on staff.** Care is provided by our **general medical team**. When a result calls for a specialist, we tell you and help direct the referral.
 - **We do not fill other doctors' prescriptions.** We provide the medications indicated during your visit with us, plus over-the-counter products.

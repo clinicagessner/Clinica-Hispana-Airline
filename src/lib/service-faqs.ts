@@ -196,8 +196,8 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
         "answer": "Desde el primer día de retraso. Antes de eso el nivel de hormona puede ser demasiado bajo y dar un negativo aunque sí haya embarazo. Si el retraso sigue, repítala en una semana."
       },
       {
-        "question": "¿Hacen control prenatal?",
-        "answer": "No. Hacemos la prueba, y si lo desea confirmamos y datamos el embarazo con ultrasonido. Para el seguimiento del embarazo y el parto le orientamos la referencia."
+        "question": "¿Hacen seguimiento del embarazo?",
+        "answer": "Hacemos el seguimiento básico del embarazo y los controles que se resuelven en consulta, además de la prueba y el ultrasonido para datarlo. No atendemos partos: para eso le orientamos la referencia."
       },
       {
         "question": "Salió negativo pero no me baja, ¿qué puede ser?",
@@ -210,8 +210,8 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
         "answer": "From the first day your period is late. Before that the hormone level may be too low and give a negative even if you are pregnant. If your period still does not come, repeat it in a week."
       },
       {
-        "question": "Do you provide prenatal care?",
-        "answer": "No. We do the test, and if you wish we confirm and date the pregnancy with ultrasound. For pregnancy follow-up and delivery we help direct the referral."
+        "question": "Do you provide pregnancy follow-up?",
+        "answer": "We provide basic pregnancy follow-up and the checks that can be handled in a clinic visit, along with the test and a dating ultrasound. We do not attend deliveries: for that we help direct the referral."
       },
       {
         "question": "It was negative but my period has not come — what could it be?",

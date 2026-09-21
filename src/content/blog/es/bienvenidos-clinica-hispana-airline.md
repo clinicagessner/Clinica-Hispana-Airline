@@ -57,6 +57,7 @@ En la consulta le explicamos **qué tiene, qué opciones hay y cuánto cuesta ca
 
 Esta parte importa tanto como la anterior:
 
+- **No atendemos partos.** Sí hacemos el seguimiento básico del embarazo y los controles que se resuelven en consulta; para el parto le orientamos la referencia.
 - **No somos sala de emergencias.** Dolor en el pecho, dificultad para respirar, debilidad en un lado del cuerpo o sangrado que no para: llame al 911 o vaya a emergencias. No venga aquí.
 - **No tenemos médicos especialistas titulados en plantilla.** La atención la da nuestro **equipo médico general**. Cuando un resultado requiere un especialista, se lo decimos y orientamos la referencia.
 - **No surtimos recetas de otros médicos.** Entregamos los medicamentos indicados en su consulta con nosotros y productos de venta libre.
