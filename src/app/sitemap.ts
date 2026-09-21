@@ -6,18 +6,29 @@ import { locales } from "@/i18n/config";
 type SitemapEntry = {
   url: string;
   lastModified: Date;
-  changeFrequency: "always" | "hourly" | "daily" | "weekly" | "monthly" | "yearly" | "never";
-  priority: number;
-  alternates?: {
-    languages: Record<string, string>;
-  };
+  alternates?: { languages: Record<string, string> };
 };
+
+// Fecha de la última edición **de contenido** de cada página estática, sacada
+// del historial de git. Se actualiza en el mismo commit que cambia la página.
+// Un `lastmod` con la fecha del build miente en cada despliegue y Google deja
+// de fiarse de él justo cuando más falta hace, al reescribir el contenido.
+const PAGE_DATES: Record<string, string> = {
+  "": "2026-09-02", // carrusel de promociones
+  "/services": "2026-08-29", // títulos y descripciones del catálogo
+  "/promociones": "2026-09-02",
+  "/blog": "2026-08-18", // post más reciente
+  "/privacy": "2026-05-05",
+};
+
+// Última revisión del catálogo de servicios. Un servicio con `dateModified`
+// propio en constants.ts gana a este valor: así B3 puede ir marcando los que
+// se reescriben sin mover la fecha de los demás.
+const SERVICES_LAST_MODIFIED = "2026-08-29";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = SITE_CONFIG.baseUrl;
-  const now = new Date();
 
-  // Helper to create alternates for hreflang
   const createAlternates = (path: string) => ({
     languages: {
       es: `${baseUrl}${path}`,
@@ -26,46 +37,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   });
 
-  // Static pages
-  const staticPages = [
-    { path: "", priority: 1.0, changeFrequency: "daily" as const },
-    { path: "/services", priority: 0.9, changeFrequency: "weekly" as const },
-    { path: "/promociones", priority: 0.8, changeFrequency: "monthly" as const },
-    { path: "/blog", priority: 0.8, changeFrequency: "daily" as const },
-    { path: "/privacy", priority: 0.3, changeFrequency: "monthly" as const },
-  ];
-
-  const staticRoutes: SitemapEntry[] = staticPages.flatMap((page) =>
+  const entry = (path: string, lastModified: Date): SitemapEntry[] =>
     locales.map((locale) => ({
-      url: `${baseUrl}${locale === "es" ? "" : `/${locale}`}${page.path}`,
-      lastModified: now,
-      changeFrequency: page.changeFrequency,
-      priority: page.priority,
-      alternates: createAlternates(page.path),
-    }))
+      url: `${baseUrl}${locale === "es" ? "" : `/${locale}`}${path}`,
+      lastModified,
+      alternates: createAlternates(path),
+    }));
+
+  const staticRoutes = Object.entries(PAGE_DATES).flatMap(([path, date]) =>
+    entry(path, new Date(date))
   );
 
-  // Service pages
-  const serviceRoutes: SitemapEntry[] = SERVICES.flatMap((service) =>
-    locales.map((locale) => ({
-      url: `${baseUrl}${locale === "es" ? "" : `/${locale}`}/services/${service.slug}`,
-      lastModified: now,
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-      alternates: createAlternates(`/services/${service.slug}`),
-    }))
+  const serviceRoutes = SERVICES.flatMap((service) =>
+    entry(
+      `/services/${service.slug}`,
+      new Date(service.dateModified ?? SERVICES_LAST_MODIFIED)
+    )
   );
 
-  // Blog posts
-  const blogPosts = getBlogPosts("es");
-  const blogRoutes: SitemapEntry[] = blogPosts.flatMap((post) =>
-    locales.map((locale) => ({
-      url: `${baseUrl}${locale === "es" ? "" : `/${locale}`}/blog/${post.slug}`,
-      lastModified: new Date(post.date),
-      changeFrequency: "monthly" as const,
-      priority: 0.6,
-      alternates: createAlternates(`/blog/${post.slug}`),
-    }))
+  const blogRoutes = getBlogPosts("es").flatMap((post) =>
+    entry(`/blog/${post.slug}`, new Date(post.dateModified ?? post.date))
   );
 
   return [...staticRoutes, ...serviceRoutes, ...blogRoutes];

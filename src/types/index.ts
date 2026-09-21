@@ -19,6 +19,8 @@ export interface Service {
   faqsEn?: { question: string; answer: string }[];
   highlighted?: boolean;
   order: number;
+  /** Fecha de la última reescritura de este servicio; alimenta el `lastmod`. */
+  dateModified?: string;
 }
 
 export interface Promotion {
