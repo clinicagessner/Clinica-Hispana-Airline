@@ -5,6 +5,7 @@ import { Link } from "@/i18n/routing";
 import { ContactForm } from "@/components/forms/contact-form";
 import { PromotionsGrid } from "@/components/promotions/promotions-grid";
 import {
+  JsonLdMedicalClinic,
   JsonLdBreadcrumb,
   JsonLdCollectionPage,
   JsonLdFAQ,
@@ -94,6 +95,7 @@ export default async function PromotionsPage({ params }: Props) {
 
   return (
     <>
+      <JsonLdMedicalClinic />
       <JsonLdCollectionPage
         name={t("pageTitle")}
         description={t("pageSubtitle")}

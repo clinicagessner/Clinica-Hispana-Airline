@@ -6,7 +6,6 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { ScrollToTop } from "@/components/layout/scroll-to-top";
-import { JsonLdMedicalClinic } from "@/components/seo/json-ld";
 import { ScrollAnimations } from "@/components/animations/scroll-animations";
 import { Analytics } from "@vercel/analytics/next";
 import { GoogleAnalytics } from "@next/third-parties/google";
@@ -174,7 +173,6 @@ export default async function LocaleLayout({ children, params }: Props) {
           <TooltipProvider>
             {children}
             <ScrollToTop />
-            <JsonLdMedicalClinic />
             <ScrollAnimations />
             <Analytics />
           </TooltipProvider>

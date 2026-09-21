@@ -1,7 +1,21 @@
 import { SITE_CONFIG, CONTACT_INFO, SERVICES, SOCIAL_LINKS, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
 import { getGooglePlaceData } from "@/lib/google-places";
 
-export async function JsonLdMedicalClinic() {
+/**
+ * Nodo de la clínica. `full` solo en la home: lleva rating, catálogo completo y
+ * todos los datos de la ficha. El resto de páginas emiten `light`, que es el
+ * mismo `@id` con lo mínimo para enlazar la entidad.
+ *
+ * Lo emite cada página, nunca un layout: si el layout pone uno y la página otro,
+ * salen dos nodos con el mismo `@id` y Google se queda con el pobre.
+ */
+export async function JsonLdMedicalClinic({
+  variant = "light",
+}: {
+  variant?: "full" | "light";
+} = {}) {
+  if (variant === "light") return <JsonLdClinicLight />;
+
   const googleData = await getGooglePlaceData();
   const ratingValue = googleData?.rating ?? GOOGLE_REVIEWS_DATA.averageRating;
   const reviewCount = googleData?.totalReviews ?? GOOGLE_REVIEWS_DATA.totalReviews;
@@ -65,15 +79,21 @@ export async function JsonLdMedicalClinic() {
         hasOfferCatalog: {
           "@type": "OfferCatalog",
           name: "Servicios Médicos",
-          itemListElement: SERVICES.slice(0, 10).map((service, index) => ({
-            "@type": "Offer",
-            itemOffered: {
-              "@type": "MedicalProcedure",
-              name: service.title,
-              description: service.description,
-            },
-            position: index + 1,
-          })),
+          // Los 29, no una muestra: el catálogo es lo que Google lee para saber
+          // qué se ofrece aquí.
+          itemListElement: [...SERVICES]
+            .sort((a, b) => a.order - b.order)
+            .map((service, index) => ({
+              "@type": "Offer",
+              itemOffered: {
+                "@type": "MedicalProcedure",
+                "@id": `${SITE_CONFIG.baseUrl}/services/${service.slug}#procedure`,
+                name: service.title,
+                description: service.description,
+                url: `${SITE_CONFIG.baseUrl}/services/${service.slug}`,
+              },
+              position: index + 1,
+            })),
         },
         sameAs: [
           SOCIAL_LINKS.facebook,
@@ -102,13 +122,11 @@ export async function JsonLdMedicalClinic() {
             name: `${name}, Houston, TX`,
           })),
         ],
-        medicalSpecialty: [
-          "Family Medicine",
-          "Urgent Care",
-          "Preventive Medicine",
-          "Gynecology",
-          "Immigration Medical Exam",
-        ],
+        // Solo valores válidos de MedicalSpecialty y solo los que no afirman un
+        // titulado. "Gynecology" e "Immigration Medical Exam" salieron de aquí:
+        // el segundo ni siquiera es un valor de schema.org y el primero necesita
+        // confirmación escrita del cliente (§9 del playbook).
+        medicalSpecialty: ["PrimaryCare", "PublicHealth"],
       },
       {
         "@type": "WebSite",
@@ -222,6 +240,7 @@ export function JsonLdMedicalProcedure({
   const schema = {
     "@context": "https://schema.org",
     "@type": "MedicalProcedure",
+    "@id": `${url}#procedure`,
     name,
     description,
     image: `${SITE_CONFIG.baseUrl}${image}`,
@@ -229,20 +248,9 @@ export function JsonLdMedicalProcedure({
     procedureType: `https://schema.org/${procedureType}`,
     ...(bodyLocation && { bodyLocation }),
     howPerformed: description,
-    provider: {
-      "@type": "MedicalClinic",
-      "@id": `${SITE_CONFIG.baseUrl}/#clinic`,
-      name: SITE_CONFIG.name,
-      telephone: CONTACT_INFO.phone,
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: CONTACT_INFO.address,
-        addressLocality: CONTACT_INFO.city,
-        addressRegion: CONTACT_INFO.state,
-        postalCode: CONTACT_INFO.zip,
-        addressCountry: "US",
-      },
-    },
+    // Solo la referencia: repetir aquí los datos de la clínica creaba un segundo
+    // nodo MedicalClinic con el mismo @id en cada página de servicio.
+    provider: { "@id": `${SITE_CONFIG.baseUrl}/#clinic` },
   };
 
   return (
@@ -266,9 +274,42 @@ export function JsonLdCollectionPage({ name, description, url }: { name: string;
     about: {
       "@id": `${SITE_CONFIG.baseUrl}/#clinic`,
     },
-    provider: {
-      "@type": "MedicalClinic",
-      "@id": `${SITE_CONFIG.baseUrl}/#clinic`,
+    // Referencia, no un nodo: con "@type" aquí salía un segundo MedicalClinic
+    // con el mismo @id en /blog, /services y /promociones.
+    provider: { "@id": `${SITE_CONFIG.baseUrl}/#clinic` },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+/**
+ * Nodo mínimo con el mismo `@id` que el completo de la home: identifica la
+ * entidad en las páginas interiores sin repetir rating ni catálogo.
+ */
+function JsonLdClinicLight() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "MedicalClinic",
+    "@id": `${SITE_CONFIG.baseUrl}/#clinic`,
+    name: SITE_CONFIG.name,
+    url: SITE_CONFIG.baseUrl,
+    telephone: CONTACT_INFO.phone,
+    logo: {
+      "@type": "ImageObject",
+      url: `${SITE_CONFIG.baseUrl}${SITE_CONFIG.logoUrl}`,
+    },
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: CONTACT_INFO.address,
+      addressLocality: CONTACT_INFO.city,
+      addressRegion: CONTACT_INFO.state,
+      postalCode: CONTACT_INFO.zip,
+      addressCountry: "US",
     },
   };
 

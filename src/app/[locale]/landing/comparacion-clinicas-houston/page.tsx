@@ -31,6 +31,7 @@ import {
 } from "@/lib/constants";
 import { getGooglePlaceData } from "@/lib/google-places";
 import { getLocalizedService } from "@/lib/utils";
+import { JsonLdMedicalClinic } from "@/components/seo/json-ld";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -594,6 +595,7 @@ export default async function LandingComparacionClinicasHouston({ params }: Prop
           </div>
         </div>
       </section>
+      <JsonLdMedicalClinic />
     </main>
   );
 }

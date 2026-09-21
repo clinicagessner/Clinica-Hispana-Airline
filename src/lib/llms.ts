@@ -62,12 +62,6 @@ function socials(): string {
   ].join("\n");
 }
 
-function serviceTitle(slug: string, locale: Locale): string {
-  const service = SERVICES.find((s) => s.slug === slug);
-  if (!service) return slug;
-  return locale === "en" ? service.titleEn ?? service.title : service.title;
-}
-
 function sortedServices() {
   return [...SERVICES].sort((a, b) => a.order - b.order);
 }
