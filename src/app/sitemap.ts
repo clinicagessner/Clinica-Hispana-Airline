@@ -15,16 +15,16 @@ type SitemapEntry = {
 // de fiarse de él justo cuando más falta hace, al reescribir el contenido.
 const PAGE_DATES: Record<string, string> = {
   "": "2026-09-02", // carrusel de promociones
-  "/services": "2026-08-29", // títulos y descripciones del catálogo
+  "/services": "2026-09-21", // B3: descripciones del catálogo reescritas
   "/promociones": "2026-09-02",
-  "/blog": "2026-08-18", // post más reciente
+  "/blog": "2026-09-21", // B3: los 9 posts reescritos
   "/privacy": "2026-05-05",
 };
 
 // Última revisión del catálogo de servicios. Un servicio con `dateModified`
 // propio en constants.ts gana a este valor: así B3 puede ir marcando los que
 // se reescriben sin mover la fecha de los demás.
-const SERVICES_LAST_MODIFIED = "2026-08-29";
+const SERVICES_LAST_MODIFIED = "2026-09-21"; // B3: los 29 reescritos
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = SITE_CONFIG.baseUrl;
