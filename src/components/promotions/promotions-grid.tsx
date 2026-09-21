@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { promoThumb } from "@/lib/promo-image";
 import { useEffect, useState } from "react";
 import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
@@ -42,7 +43,7 @@ export function PromotionsGrid({
   return (
     <>
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-        {promotions.map((promo) => (
+        {promotions.map((promo, i) => (
           <article
             key={promo.slug}
             className="group flex flex-col overflow-hidden rounded-2xl border border-slate-100 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-red-primary/30 hover:shadow-xl hover:shadow-red-primary/10"
@@ -50,9 +51,11 @@ export function PromotionsGrid({
             {/* Flyer thumbnail — shown complete (no crop) */}
             <div className="relative aspect-4/5 w-full bg-red-bg">
               <Image
-                src={promo.image}
+                src={promoThumb(promo.image)}
                 alt={promo.alt}
                 fill
+                priority={i === 0}
+                loading={i === 0 ? undefined : "lazy"}
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                 className="object-contain"
               />

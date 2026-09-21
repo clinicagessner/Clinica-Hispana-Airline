@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { promoThumb } from "@/lib/promo-image";
 import { useCallback, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
@@ -40,7 +41,7 @@ export function PromotionsCarousel({
     <div className="relative">
       <div className="overflow-hidden" ref={emblaRef}>
         <div className="flex -ml-4 md:-ml-6">
-          {promotions.map((promo) => (
+          {promotions.map((promo, i) => (
             <div
               key={promo.slug}
               className="flex-[0_0_80%] min-w-0 pl-4 sm:flex-[0_0_50%] md:pl-6 lg:flex-[0_0_33.333%]"
@@ -53,9 +54,11 @@ export function PromotionsCarousel({
                 {/* Flyer — shown complete (no crop) */}
                 <div className="relative aspect-4/5 w-full shrink-0 bg-red-bg">
                   <Image
-                    src={promo.image}
+                    src={promoThumb(promo.image)}
                     alt={promo.alt}
                     fill
+                    priority={i === 0}
+                    loading={i === 0 ? undefined : "lazy"}
                     sizes="(max-width: 640px) 80vw, (max-width: 1024px) 50vw, 33vw"
                     className="object-contain"
                   />
