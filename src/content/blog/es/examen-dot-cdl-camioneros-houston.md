@@ -1,193 +1,83 @@
 ---
 slug: "examen-dot-cdl-camioneros-houston"
-title: "Examen DOT para Camioneros en Houston: Todo lo que Necesita Saber"
-description: "Guía completa del examen físico DOT para licencia CDL en Houston TX. Requisitos, qué esperar, costo y dónde hacerlo en español. Sin cita previa."
+title: "Examen DOT en Houston: Cómo Llegar Aprobado"
+metaTitle: "Examen DOT en Houston: Cómo Llegar Aprobado"
+description: "Examen físico DOT para CDL en Houston: qué revisan, los límites de presión y visión que marca FMCSA, qué llevar y por qué unos certificados duran menos."
 date: "2026-04-11"
-dateModified: "2026-04-11"
+dateModified: "2026-09-21"
 author: "Clínica Hispana Airline"
 image: "/images/services/examen-dot.webp"
-featured: true
+featured: false
 category: "Salud Ocupacional"
-readTime: 7
+readTime: 6
 keywords:
   - "examen DOT Houston"
-  - "DOT physical Houston"
-  - "examen CDL Houston"
-  - "examen físico camioneros Houston"
-  - "DOT medical exam español Houston"
-  - "tarjeta médica CDL Houston"
+  - "examen físico CDL Houston"
+  - "DOT physical español Houston"
+  - "certificado médico camionero Houston"
+  - "examen DOT sin cita 77022"
 relatedServices:
   - "examen-dot"
   - "examen-alcohol-drogas"
   - "examenes-sangre"
 ---
 
-# Examen DOT para Camioneros en Houston: Todo lo que Necesita Saber
+# Examen DOT en Houston: Cómo Llegar Aprobado
 
-Si usted es camionero, conductor de autobús o maneja un vehículo comercial en Houston, necesita un **examen físico DOT** vigente para obtener o renovar su licencia CDL. En Clínica Hispana Airline realizamos este examen con atención **100% en español**, sin cita previa y con resultados el mismo día.
+**El examen físico DOT no se aprueba o se reprueba: se certifica por un plazo.** Y ese plazo depende sobre todo de su presión arterial. En Clínica Hispana Airline lo hacemos sin cita, en español, con **certificado el mismo día**, en el 934 E Tidwell Rd.
 
-## ¿Qué es el Examen DOT?
+Si maneja un vehículo comercial, esto es lo que conviene saber antes de venir.
 
-El examen DOT (Department of Transportation) es un **examen físico obligatorio** que el gobierno federal requiere para todos los conductores de vehículos comerciales (CMV). Su propósito es verificar que usted está en condiciones de salud adecuadas para operar un vehículo grande de manera segura.
+## ¿Qué revisan exactamente?
 
-Este examen es diferente a un chequeo médico regular. Está diseñado específicamente para evaluar las capacidades físicas necesarias para conducir un camión, autobús o vehículo comercial por largas horas.
+El examen sigue los estándares de la [FMCSA](https://www.fmcsa.dot.gov/regulations/medical) e incluye historial médico, visión, audición, presión arterial, examen físico y un análisis de orina.
 
-## ¿Quién Necesita un Examen DOT?
+Ese análisis de orina **no es una prueba antidrogas**. Busca proteína, azúcar y sangre, que son señales de problemas de riñón o de una diabetes sin diagnosticar. La prueba de drogas es otra cosa, la pide su empleador y la hacemos aparte en [exámenes de alcohol y drogas](/services/examen-alcohol-drogas).
 
-Necesita un examen DOT si usted:
+## La presión arterial decide la duración
 
-- **Maneja un camión** de más de 10,001 libras
-- **Conduce un autobús** con capacidad para 16 o más pasajeros
-- **Transporta materiales peligrosos** (HAZMAT)
-- **Necesita obtener** una licencia CDL (Commercial Driver's License) por primera vez
-- **Necesita renovar** su tarjeta médica CDL (cada 2 años o según indicación del médico)
+Esta es la parte que a más conductores sorprende. Según los criterios de FMCSA:
 
-## ¿Qué Incluye el Examen DOT?
+- **Menos de 140/90:** certificado de hasta **2 años**.
+- **140-159 / 90-99:** certificado de **1 año**.
+- **160-179 / 100-109:** certificado temporal de **3 meses**, por una sola vez, para que controle la presión.
+- **180/110 o más:** no se certifica hasta bajarla.
 
-Durante el examen, nuestro médico evaluará las siguientes áreas:
+Por eso un conductor con la presión alta sin tratar acaba pagando el examen tres veces al año en lugar de una vez cada dos. Si ese es su caso, sale mucho más barato controlar la presión: es lo que hacemos en [control de condiciones crónicas](/services/condiciones-cronicas).
 
-### Visión
-- Agudeza visual de al menos 20/40 en cada ojo (con o sin lentes)
-- Campo visual de al menos 70 grados en cada ojo
-- Capacidad de distinguir colores de señales de tráfico
+## Visión y audición
 
-### Audición
-- Debe percibir un susurro forzado a 5 pies de distancia
-- Se puede usar audífono si es necesario
+**Visión:** se pide al menos 20/40 en cada ojo y en ambos juntos, con lentes si los usa, más un campo visual de al menos 70 grados en cada ojo. Si usa lentes o de contacto, **tráigalos puestos**.
 
-### Presión Arterial
-- Se mide durante el examen
-- Si su presión está elevada, el certificado puede ser por un período más corto (1 año en lugar de 2)
-- Presión arterial muy alta puede requerir tratamiento antes de la certificación
+**Audición:** debe percibir un susurro forzado a metro y medio en al menos un oído, o cumplir el umbral en audiometría. Si usa audífono, tráigalo.
 
-### Análisis de Orina
-- Prueba de glucosa y proteínas
-- **No es una prueba de drogas** (las pruebas de drogas las realiza su empleador por separado)
+## Qué traer
 
-### Examen Físico General
-- Evaluación cardiovascular (corazón y pulmones)
-- Evaluación neurológica (reflejos, coordinación)
-- Evaluación musculoesquelética (fuerza, movilidad)
-- Revisión del abdomen
-- Evaluación de hernias
+- **Licencia** y, si la tiene, su tarjeta médica anterior.
+- **Lentes o lentes de contacto**, y audífono si usa.
+- **Lista completa de sus medicamentos**, con dosis.
+- Si tiene **apnea del sueño**: su reporte de cumplimiento del CPAP.
+- Si es **diabético**: sus últimos análisis, especialmente la A1C.
+- Si tuvo un **evento cardiaco** o cirugía: el alta médica de su especialista.
 
-### Historial Médico
-- Condiciones actuales y pasadas
-- Medicamentos que toma
-- Cirugías previas
-- Historial de convulsiones, diabetes, problemas cardíacos
+Traer los papeles de una condición ya controlada es lo que marca la diferencia entre certificarse ese día y tener que volver.
 
-## Condiciones que Pueden Afectar su Certificación
+## Cómo llegar en mejores condiciones
 
-Algunas condiciones médicas pueden afectar la duración de su certificado o requerir documentación adicional:
+**No tome café ni bebidas energéticas** antes de venir: suben la presión justo cuando se la vamos a medir. Un conductor bien controlado puede salir en el rango peor solo por dos cafés de camino.
 
-### Diabetes
-- Si controla su diabetes **sin insulina** (solo con dieta, ejercicio o pastillas), generalmente puede obtener un certificado de 2 años
-- Si usa **insulina**, necesita una exención especial del FMCSA (Federal Motor Carrier Safety Administration)
+**Duerma.** Venir después de un turno largo sube la presión y el pulso.
 
-### Presión Arterial Alta
-| Nivel de Presión | Certificación |
-|---|---|
-| Menos de 140/90 | 2 años |
-| 140-159/90-99 | 1 año |
-| 160-179/100-109 | Certificación temporal, requiere tratamiento |
-| 180/110 o más | No se certifica hasta que baje |
+**Tome su medicación como siempre.** No la suspenda pensando que "sale mejor" sin ella; sale peor.
 
-### Apnea del Sueño
-- Si le han diagnosticado apnea del sueño, debe traer documentación de que está usando su máquina CPAP
-- Su médico puede requerir resultados de un estudio del sueño reciente
+**Traiga sus papeles.** Es el consejo más repetido de esta página porque es el que más certificados salva.
 
-### Problemas de Visión
-- Si necesita lentes o lentes de contacto, su licencia tendrá una restricción que indica que debe usarlos al conducir
-- Si no alcanza 20/40 incluso con corrección en un ojo, puede solicitar una exención de visión
+## ¿Necesito cita o seguro?
 
-## ¿Qué Documentos Necesita Traer?
+Ninguno de los dos. Atendemos **sin cita, los siete días de 9 AM a 9 PM**, y no necesita seguro médico. Pregunte el precio antes del examen.
 
-Para que su examen sea rápido y sin complicaciones, traiga lo siguiente:
+## Dónde estamos
 
-1. **Identificación con foto** (licencia de conducir, pasaporte o ID estatal)
-2. **Lista de medicamentos** que toma actualmente (nombre, dosis, frecuencia)
-3. **Lentes o audífonos** si los usa
-4. **Resultados de estudios recientes** si tiene condiciones como diabetes, apnea del sueño o problemas cardíacos
-5. **Nombre y contacto de su médico de cabecera** (si tiene uno)
+**934 E Tidwell Rd, Houston, TX 77022**, en el norte de la ciudad, con estacionamiento. Vea los detalles en [examen físico DOT para licencia CDL](/services/examen-dot).
 
-## ¿Cuánto Cuesta el Examen DOT?
-
-En Clínica Hispana Airline ofrecemos el examen DOT a **precios accesibles y competitivos**. El costo incluye:
-
-- Examen físico completo
-- Análisis de orina
-- Certificado médico DOT (formulario MCSA-5876)
-- Tarjeta médica de conductor
-
-**Aceptamos efectivo y todas las tarjetas de crédito y débito.** Muchas empresas de transporte cubren el costo del examen para sus conductores — consulte con su empleador.
-
-## ¿Cada Cuánto Tiempo se Renueva?
-
-- **Certificado estándar:** cada **2 años**
-- **Con condiciones médicas** (presión alta controlada, diabetes sin insulina): puede ser cada **1 año**
-- **Si su certificado venció:** necesita un nuevo examen completo antes de poder conducir
-
-**Consejo:** No espere a que su tarjeta médica expire. Programe su renovación **al menos 2 semanas antes** del vencimiento para evitar quedarse sin poder trabajar.
-
-## ¿Qué Pasa si No Paso el Examen?
-
-Si el médico determina que usted no cumple con los requisitos en el momento del examen, tiene opciones:
-
-- **Presión alta:** Puede recibir un certificado temporal mientras comienza tratamiento. Regrese cuando su presión esté controlada.
-- **Problemas de visión:** Obtenga lentes recetados y regrese para una re-evaluación.
-- **Diabetes con insulina:** Solicite la exención especial del FMCSA con la ayuda de su endocrinólogo.
-- **Otras condiciones:** El médico le explicará exactamente qué necesita para poder certificarse.
-
-En Clínica Hispana Airline **nunca le rechazamos sin explicarle qué hacer**. Le damos un plan claro para resolver cualquier situación y poder obtener su certificado.
-
-## ¿Por Qué Elegir Clínica Hispana Airline para su Examen DOT?
-
-### 100% en Español
-Todo el proceso — desde el registro hasta la entrega de su certificado — es en español. No necesita traductor ni preocuparse por malentendidos.
-
-### Sin Cita Previa
-Venga cuando le convenga. Atendemos de **lunes a domingo de 9 AM a 9 PM**. Esto es especialmente útil para camioneros con horarios irregulares.
-
-### Resultados el Mismo Día
-Sale de nuestra clínica con su **certificado médico DOT y tarjeta médica** en mano. No tiene que esperar días ni volver otra cita.
-
-### Precios Accesibles
-Ofrecemos precios competitivos sin sacrificar la calidad del examen. Aceptamos efectivo y tarjetas.
-
-### Ubicación Conveniente
-Estamos en **934 E Tidwell Rd, Houston, TX 77022**, cerca de la Highway 59/69, con amplio estacionamiento gratuito para camiones y vehículos grandes.
-
-### Experiencia con Camioneros Hispanos
-Entendemos las necesidades específicas de la comunidad de camioneros hispanos en Houston. Muchos de nuestros pacientes son conductores que confían en nosotros para sus renovaciones año tras año.
-
-## Preguntas Frecuentes sobre el Examen DOT
-
-### ¿El examen DOT incluye prueba de drogas?
-**No.** El examen DOT físico y la prueba de drogas son dos cosas separadas. Nosotros realizamos el examen físico. Las pruebas de drogas y alcohol son responsabilidad de su empleador o del consorcio de pruebas al que esté inscrito.
-
-### ¿Puedo hacer el examen DOT si tengo diabetes?
-**Sí**, si su diabetes está controlada con dieta, ejercicio o medicamentos orales (sin insulina). Si usa insulina, necesita una exención especial del FMCSA.
-
-### ¿Qué pasa si mi presión está alta el día del examen?
-Si está ligeramente elevada, el médico puede emitir un certificado por 1 año en lugar de 2. Si está muy alta, le recomendaremos tratamiento y podrá regresar cuando esté controlada.
-
-### ¿Necesito cita previa?
-**No.** Atendemos sin cita previa, de lunes a domingo de 9 AM a 9 PM.
-
-### ¿Cuánto tiempo toma el examen?
-Aproximadamente **30-45 minutos**. Sale con su certificado el mismo día.
-
-### ¿Aceptan walk-ins para renovaciones?
-**Sí.** Tanto exámenes nuevos como renovaciones se atienden sin cita previa.
-
-## Contacto
-
-¿Listo para su examen DOT? Conozca todos los detalles en nuestra página de [examen físico DOT en Houston](/services/examen-dot) o visite Clínica Hispana Airline hoy:
-
-- **Teléfono:** (346) 204-4668
-- **Dirección:** 934 E Tidwell Rd, Houston, TX 77022
-- **Horario:** Lunes a Domingo, 9:00 AM - 9:00 PM
-- **Sin cita previa** — Walk-ins bienvenidos
-
-*Su salud y su licencia están en buenas manos con Clínica Hispana Airline.*
+Si tiene una condición que le preocupa de cara al examen, llámenos antes y le decimos qué documentación conviene traer.
