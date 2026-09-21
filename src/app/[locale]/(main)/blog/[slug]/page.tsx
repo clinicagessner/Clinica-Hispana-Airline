@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button";
 import { CalendarDots, Clock, ArrowLeft, Phone } from "@phosphor-icons/react/dist/ssr";
 import { JsonLdBlogPosting } from "@/components/seo/json-ld-blog";
 import { JsonLdMedicalClinic } from "@/components/seo/json-ld";
+import { seoTitle, seoDescription, buildSocial } from "@/lib/seo";
 
 type Props = {
   params: Promise<{ locale: string; slug: string }>;
@@ -38,40 +39,31 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const localePath = locale === "en" ? "/en" : "";
 
+  const url = `${SITE_CONFIG.baseUrl}${localePath}/blog/${slug}`;
+  const title = seoTitle(post.metaTitle ?? post.title);
+  const description = seoDescription(post.metaDescription ?? post.description);
+
   return {
-    title: post.title,
-    description: post.description,
+    title,
+    description,
     alternates: {
-      canonical: `${SITE_CONFIG.baseUrl}${localePath}/blog/${slug}`,
+      canonical: url,
       languages: {
         es: `/blog/${slug}`,
         en: `/en/blog/${slug}`,
       },
     },
-    openGraph: {
-      title: post.title,
-      description: post.description,
+    ...buildSocial({
+      title,
+      description,
+      url,
+      image: post.image,
+      imageAlt: post.title,
       type: "article",
+      locale,
       publishedTime: post.date,
       authors: [post.author],
-      url: `${SITE_CONFIG.baseUrl}${localePath}/blog/${slug}`,
-      images: post.image
-        ? [
-            {
-              url: post.image,
-              width: 1200,
-              height: 630,
-              alt: post.title,
-            },
-          ]
-        : undefined,
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: post.title,
-      description: post.description,
-      images: post.image ? [post.image] : undefined,
-    },
+    }),
   };
 }
 

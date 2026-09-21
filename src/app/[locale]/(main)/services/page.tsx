@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ServicesFilter } from "@/components/services/services-filter";
 import { SERVICES, SITE_CONFIG } from "@/lib/constants";
 import { getLocalizedService } from "@/lib/utils";
+import { seoTitle, seoDescription, buildSocial } from "@/lib/seo";
 import {
   JsonLdMedicalClinic,
   JsonLdCollectionPage,
@@ -27,31 +28,32 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
   const t = await getTranslations({ locale, namespace: "services" });
   const localePath = locale === "en" ? "/en" : "";
 
+  const url = `${SITE_CONFIG.baseUrl}${localePath}/services`;
+  const title = seoTitle(t("title"));
+  const description = seoDescription(
+    locale === "en"
+      ? "Medical services in Houston TX: family medicine, I-693 exams, lab tests, gynecology, ultrasound and DOT physicals. Walk-ins, Spanish-speaking staff."
+      : "Servicios médicos en Houston TX: medicina familiar, exámenes I-693, laboratorio, ginecología, ultrasonido y examen DOT. Sin cita previa y en español."
+  );
+
   return {
-    title: t("title"),
-    description: locale === "en"
-      ? "Medical services in Houston TX: family medicine, I-693 immigration exams, lab tests, gynecology, ultrasound, DOT physicals and more. Walk-ins welcome, Spanish-speaking staff."
-      : "Servicios médicos en Houston TX: medicina familiar, exámenes I-693, laboratorio, ginecología, ultrasonido, examen DOT y más. Sin cita previa, atención en español.",
+    title,
+    description,
     alternates: {
-      canonical: `${SITE_CONFIG.baseUrl}${localePath}/services`,
+      canonical: url,
       languages: {
         es: "/services",
         en: "/en/services",
       },
     },
-    openGraph: {
-      title: t("title"),
-      description: t("subtitle"),
-      url: `${SITE_CONFIG.baseUrl}${localePath}/services`,
-      images: [
-        {
-          url: `${SITE_CONFIG.baseUrl}/images/clinic-interior.webp`,
-          width: 1200,
-          height: 630,
-          alt: t("title"),
-        },
-      ],
-    },
+    ...buildSocial({
+      title,
+      description,
+      url,
+      image: "/images/clinic-interior.webp",
+      imageAlt: t("title"),
+      locale,
+    }),
   };
 }
 

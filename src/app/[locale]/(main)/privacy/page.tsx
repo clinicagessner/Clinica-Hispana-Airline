@@ -4,6 +4,7 @@ import { setRequestLocale } from "next-intl/server";
 import { Phone, MapPin, Envelope, ArrowLeft } from "@phosphor-icons/react/dist/ssr";
 import { SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
 import { JsonLdMedicalClinic } from "@/components/seo/json-ld";
+import { seoTitle, seoDescription, buildSocial } from "@/lib/seo";
 
 type MetadataProps = {
   params: Promise<{ locale: string }>;
@@ -13,22 +14,28 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
   const { locale } = await params;
   const localePath = locale === "en" ? "/en" : "";
 
+  const url = `${SITE_CONFIG.baseUrl}${localePath}/privacy`;
+  const en = locale === "en";
+  const title = seoTitle(
+    en ? "HIPAA Privacy Policy" : "Política de Privacidad HIPAA"
+  );
+  const description = seoDescription(
+    en
+      ? `Privacy policy and HIPAA notice of privacy practices for ${SITE_CONFIG.name}. Learn how we protect your health information.`
+      : `Política de privacidad y aviso de prácticas de privacidad HIPAA de ${SITE_CONFIG.name}. Conozca cómo protegemos su información de salud.`
+  );
+
   return {
-    title: "Política de Privacidad HIPAA",
-    description: `Política de privacidad y aviso de prácticas de privacidad HIPAA de ${SITE_CONFIG.name}. Conozca cómo protegemos su información de salud.`,
+    title,
+    description,
     alternates: {
-      canonical: `${SITE_CONFIG.baseUrl}${localePath}/privacy`,
+      canonical: url,
       languages: {
         es: "/privacy",
         en: "/en/privacy",
       },
     },
-    openGraph: {
-      title: `Política de Privacidad HIPAA | ${SITE_CONFIG.name}`,
-      description: `Política de privacidad y aviso de prácticas de privacidad HIPAA. Conozca cómo protegemos su información de salud en ${SITE_CONFIG.name}.`,
-      url: `${SITE_CONFIG.baseUrl}${localePath}/privacy`,
-      type: "website",
-    },
+    ...buildSocial({ title, description, url, locale }),
     robots: {
       index: true,
       follow: true,

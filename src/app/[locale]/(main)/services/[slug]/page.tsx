@@ -38,6 +38,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { SERVICES, SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
 import { getLocalizedService } from "@/lib/utils";
 import { getServiceFAQs } from "@/lib/service-faqs";
+import { seoTitle, seoDescription, buildSocial } from "@/lib/seo";
 import {
   JsonLdMedicalClinic,
   JsonLdBreadcrumb,
@@ -98,30 +99,29 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const service = getLocalizedService(rawService, locale);
   const localePath = locale === "en" ? "/en" : "";
 
+  const url = `${SITE_CONFIG.baseUrl}${localePath}/services/${slug}`;
+  const title = seoTitle(service.title);
+  const description = seoDescription(service.description);
+
   return {
-    title: service.title,
-    description: service.description,
+    title,
+    description,
     keywords: service.keywords,
     alternates: {
-      canonical: `${SITE_CONFIG.baseUrl}${localePath}/services/${slug}`,
+      canonical: url,
       languages: {
         es: `/services/${slug}`,
         en: `/en/services/${slug}`,
       },
     },
-    openGraph: {
-      title: `${service.title} | ${SITE_CONFIG.name}`,
-      description: service.description,
-      url: `${SITE_CONFIG.baseUrl}${localePath}/services/${slug}`,
-      images: [
-        {
-          url: `${SITE_CONFIG.baseUrl}${service.image}`,
-          width: 1200,
-          height: 630,
-          alt: service.title,
-        },
-      ],
-    },
+    ...buildSocial({
+      title,
+      description,
+      url,
+      image: service.image,
+      imageAlt: service.title,
+      locale,
+    }),
   };
 }
 

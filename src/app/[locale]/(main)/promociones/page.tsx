@@ -13,6 +13,7 @@ import {
 import { getLocalizedPromotions } from "@/lib/promotions";
 import { CONTACT_INFO, GOOGLE_REVIEWS_DATA, SITE_CONFIG } from "@/lib/constants";
 import { getGooglePlaceData } from "@/lib/google-places";
+import { seoTitle, seoDescription, buildSocial } from "@/lib/seo";
 
 type MetadataProps = {
   params: Promise<{ locale: string }>;
@@ -23,29 +24,28 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
   const t = await getTranslations({ locale, namespace: "promotions" });
   const localePath = locale === "en" ? "/en" : "";
 
+  const url = `${SITE_CONFIG.baseUrl}${localePath}/promociones`;
+  const title = seoTitle(t("metaTitle"));
+  const description = seoDescription(t("metaDescription"));
+
   return {
-    title: t("metaTitle"),
-    description: t("metaDescription"),
+    title,
+    description,
     alternates: {
-      canonical: `${SITE_CONFIG.baseUrl}${localePath}/promociones`,
+      canonical: url,
       languages: {
         es: "/promociones",
         en: "/en/promociones",
       },
     },
-    openGraph: {
-      title: t("metaTitle"),
-      description: t("metaDescription"),
-      url: `${SITE_CONFIG.baseUrl}${localePath}/promociones`,
-      images: [
-        {
-          url: `${SITE_CONFIG.baseUrl}/images/clinic-interior.webp`,
-          width: 1200,
-          height: 630,
-          alt: t("pageTitle"),
-        },
-      ],
-    },
+    ...buildSocial({
+      title,
+      description,
+      url,
+      image: "/images/clinic-interior.webp",
+      imageAlt: t("pageTitle"),
+      locale,
+    }),
   };
 }
 

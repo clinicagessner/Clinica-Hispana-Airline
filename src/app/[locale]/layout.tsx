@@ -11,6 +11,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import Script from "next/script";
 import { SITE_CONFIG, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
+import { seoTitle, seoDescription, buildSocial } from "@/lib/seo";
 import { getGooglePlaceData } from "@/lib/google-places";
 import "../globals.css";
 
@@ -49,11 +50,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const ogDescription = t("ogDescription", { reviews, rating });
 
   return {
+    // Sin `template`: cada página compone su propio título con `seoTitle`, que
+    // solo añade la marca si cabe en 60. La plantilla metía 34 caracteres fijos
+    // y dejaba 67 de las 86 URLs por encima del límite.
     title: {
-      default: t("title"),
-      template: t("titleTemplate"),
+      default: seoTitle(t("title"), ""),
+      // "%s" = sin plantilla: la página manda su título ya compuesto.
+      template: "%s",
     },
-    description: t("description"),
+    description: seoDescription(t("description")),
     keywords: [
       "clínica hispana Houston",
       "médico español Houston",
@@ -83,29 +88,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         en: "/en",
       },
     },
-    openGraph: {
-      type: "website",
-      locale: locale === "es" ? "es_MX" : "en_US",
-      alternateLocale: locale === "es" ? "en_US" : "es_MX",
-      url: SITE_CONFIG.baseUrl,
-      siteName: SITE_CONFIG.name,
-      title: t("title"),
-      description: ogDescription,
-      images: [
-        {
-          url: `${SITE_CONFIG.baseUrl}/images/og-image.jpg`,
-          width: 1200,
-          height: 630,
-          alt: `${SITE_CONFIG.name} - Clínica médica hispana en Houston TX`,
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: t("title"),
-      description: ogDescription,
-      images: [`${SITE_CONFIG.baseUrl}/images/og-image.jpg`],
-    },
+    ...buildSocial({
+      title: seoTitle(t("title"), ""),
+      description: seoDescription(ogDescription),
+      url: locale === "en" ? `${SITE_CONFIG.baseUrl}/en` : SITE_CONFIG.baseUrl,
+      image: "/images/og-image.jpg",
+      imageAlt: `${SITE_CONFIG.name} - Clínica médica hispana en Houston TX`,
+      locale,
+    }),
     robots: {
       index: true,
       follow: true,

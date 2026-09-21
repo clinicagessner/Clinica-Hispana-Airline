@@ -17,6 +17,10 @@ function readBlogFile(slug: string, locale: string): BlogPost | null {
     slug: data.slug || slug,
     title: data.title || "",
     description: data.description || "",
+    // Opcionales: cuando el titular del post no cabe en 60 caracteres o la
+    // entradilla pasa de 155, el frontmatter manda sobre el título visible.
+    metaTitle: data.metaTitle,
+    metaDescription: data.metaDescription,
     date: data.date || "",
     dateModified: data.dateModified,
     author: data.author || "Clínica Hispana Airline",

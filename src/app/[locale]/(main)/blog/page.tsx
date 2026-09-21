@@ -7,6 +7,7 @@ import { getBlogPosts, getFeaturedPost } from "@/lib/blog";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { CalendarDots, Clock, ArrowRight } from "@phosphor-icons/react/dist/ssr";
+import { seoTitle, seoDescription, buildSocial } from "@/lib/seo";
 import {
   JsonLdMedicalClinic,
   JsonLdCollectionPage,
@@ -22,22 +23,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const localePath = locale === "en" ? "/en" : "";
 
+  const url = `${SITE_CONFIG.baseUrl}${localePath}/blog`;
+  const title = seoTitle(t("metaTitle"));
+  const description = seoDescription(t("metaDescription"));
+
   return {
-    title: t("metaTitle"),
-    description: t("metaDescription"),
+    title,
+    description,
     alternates: {
-      canonical: `${SITE_CONFIG.baseUrl}${localePath}/blog`,
+      canonical: url,
       languages: {
         es: "/blog",
         en: "/en/blog",
       },
     },
-    openGraph: {
-      title: t("metaTitle"),
-      description: t("metaDescription"),
-      type: "website",
-      url: `${SITE_CONFIG.baseUrl}${localePath}/blog`,
-    },
+    ...buildSocial({ title, description, url, locale }),
   };
 }
 

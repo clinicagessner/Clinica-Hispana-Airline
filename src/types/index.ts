@@ -76,6 +76,10 @@ export interface BlogPost {
   titleEn?: string;
   description: string;
   descriptionEn?: string;
+  /** Título para `<title>` cuando el del post no cabe en 60 caracteres. */
+  metaTitle?: string;
+  /** Descripción para `<meta name="description">` cuando la del post pasa de 155. */
+  metaDescription?: string;
   date: string;
   dateModified?: string;
   author: string;
