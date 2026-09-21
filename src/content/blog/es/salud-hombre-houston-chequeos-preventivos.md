@@ -14,6 +14,10 @@ keywords:
   - "prueba PSA Houston español"
   - "chequeo médico hombres Houston"
   - "testosterona baja Houston"
+relatedServices:
+  - "salud-hombre"
+  - "examenes-sangre"
+  - "electrocardiograma"
 ---
 
 # Salud del Hombre en Houston: Chequeos Preventivos que Pueden Salvarle la Vida

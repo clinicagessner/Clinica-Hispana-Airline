@@ -80,6 +80,8 @@ export interface BlogPost {
   metaTitle?: string;
   /** Descripción para `<meta name="description">` cuando la del post pasa de 155. */
   metaDescription?: string;
+  /** Slugs de servicios que el post enlaza al final. Alimenta el enlazado interno. */
+  relatedServices?: string[];
   date: string;
   dateModified?: string;
   author: string;

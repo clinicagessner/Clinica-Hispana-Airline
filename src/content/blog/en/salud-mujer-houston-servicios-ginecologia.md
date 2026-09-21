@@ -15,6 +15,10 @@ keywords:
   - "women's health Houston TX"
   - "Spanish speaking gynecologist Houston"
   - "pelvic exam Houston"
+relatedServices:
+  - "ginecologia"
+  - "ultrasonido"
+  - "anticonceptivos"
 ---
 
 # Women's Health in Houston: Gynecology Services in Spanish

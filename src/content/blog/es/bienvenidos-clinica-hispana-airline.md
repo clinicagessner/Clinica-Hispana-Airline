@@ -15,6 +15,10 @@ keywords:
   - "doctor hispano Houston TX"
   - "atención médica español"
   - "clínica sin cita Houston"
+relatedServices:
+  - "condiciones-cronicas"
+  - "examenes-sangre"
+  - "vacunas"
 ---
 
 # ¡Bienvenidos a Clínica Hispana Airline!

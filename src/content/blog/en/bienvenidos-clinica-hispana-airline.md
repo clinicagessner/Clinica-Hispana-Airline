@@ -15,6 +15,10 @@ keywords:
   - "Hispanic doctor Houston TX"
   - "medical care in Spanish Houston"
   - "walk-in clinic Houston"
+relatedServices:
+  - "condiciones-cronicas"
+  - "examenes-sangre"
+  - "vacunas"
 ---
 
 # Welcome to Clínica Hispana Airline!

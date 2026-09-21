@@ -15,6 +15,10 @@ keywords:
   - "prueba glucosa Houston TX"
   - "examen colesterol Houston"
   - "resultados mismo día Houston"
+relatedServices:
+  - "examenes-sangre"
+  - "examen-heces"
+  - "infecciones-urinarias"
 ---
 
 # Laboratorio Clínico en Houston: Análisis de Sangre con Resultados Rápidos

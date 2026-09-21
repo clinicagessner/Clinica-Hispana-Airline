@@ -14,6 +14,10 @@ keywords:
   - "PSA test Houston"
   - "men's checkup Houston TX"
   - "low testosterone Houston"
+relatedServices:
+  - "salud-hombre"
+  - "examenes-sangre"
+  - "electrocardiograma"
 ---
 
 # Men's Health in Houston: Preventive Checkups That Can Save Your Life

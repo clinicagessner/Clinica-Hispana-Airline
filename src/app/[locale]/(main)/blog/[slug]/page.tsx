@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
+import { SITE_CONFIG, CONTACT_INFO, SERVICES } from "@/lib/constants";
 import { getBlogPosts, getBlogPost, getRelatedPosts } from "@/lib/blog";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -51,6 +51,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       languages: {
         es: `/blog/${slug}`,
         en: `/en/blog/${slug}`,
+        "x-default": `/blog/${slug}`,
       },
     },
     ...buildSocial({
@@ -86,6 +87,12 @@ export default async function BlogPostPage({ params }: Props) {
   }
 
   const relatedPosts = getRelatedPosts(slug, locale, 2);
+
+  // Enlaces del post a los servicios que trata. Junto con la rotación de
+  // relacionados, es lo que saca a los servicios de la cola de cada categoría.
+  const relatedServices = (post.relatedServices ?? [])
+    .map((s) => SERVICES.find((x) => x.slug === s))
+    .filter((s): s is (typeof SERVICES)[number] => Boolean(s));
 
   return (
     <>
@@ -180,6 +187,27 @@ export default async function BlogPostPage({ params }: Props) {
               </a>
             </div>
           </div>
+
+          {/* Related Services */}
+          {relatedServices.length > 0 && (
+            <div className="max-w-4xl mx-auto mt-16">
+              <h2 className="text-2xl font-heading font-bold text-slate-dark mb-6">
+                {t("relatedServices")}
+              </h2>
+              <ul className="grid sm:grid-cols-2 gap-3">
+                {relatedServices.map((service) => (
+                  <li key={service.slug}>
+                    <Link
+                      href={getLocalizedHref(`/services/${service.slug}`)}
+                      className="block rounded-lg border border-slate-200 px-4 py-3 text-slate-dark hover:border-red-primary hover:text-red-primary transition-colors"
+                    >
+                      {locale === "en" ? service.titleEn ?? service.title : service.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
 
           {/* Related Posts */}
           {relatedPosts.length > 0 && (

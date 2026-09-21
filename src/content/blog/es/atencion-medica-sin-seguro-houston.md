@@ -15,6 +15,10 @@ keywords:
   - "atención médica accesible Houston"
   - "doctor barato Houston"
   - "healthcare no insurance Houston"
+relatedServices:
+  - "condiciones-cronicas"
+  - "examenes-sangre"
+  - "examen-fisico-escolar"
 ---
 
 # Atención Médica Sin Seguro en Houston: Opciones Accesibles
