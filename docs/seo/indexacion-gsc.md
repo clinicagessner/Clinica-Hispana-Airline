@@ -10,18 +10,18 @@ Propiedad: `https://www.clinicahispanaairline.com/`, cuenta **clinicahispanaairl
 Solo las 12 no indexadas (español antes que inglés): el contenido lleva días publicado y las indexadas ya lo reflejan.
 Antes de la tanda 1, reenviar el sitemap en GSC (Sitemaps → `sitemap.xml`).
 
-## Tanda 1
+## Tanda 1  ✅ PEDIDA 25/09/2026
 
-- [ ] https://www.clinicahispanaairline.com/blog/atencion-medica-sin-seguro-houston  — rastreada sin indexar · 4 impr.
-- [ ] https://www.clinicahispanaairline.com/services/infecciones-urinarias  — descubierta sin indexar · 22 impr.
-- [ ] https://www.clinicahispanaairline.com/services/farmacia  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanaairline.com/services/tiroides  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanaairline.com/en/blog/examen-dot-cdl-camioneros-houston  — rastreada sin indexar · 10 impr.
-- [ ] https://www.clinicahispanaairline.com/en/blog/salud-mujer-houston-servicios-ginecologia  — rastreada sin indexar · 4 impr.
-- [ ] https://www.clinicahispanaairline.com/en/services/condiciones-cronicas  — rastreada sin indexar · 1 impr.
-- [ ] https://www.clinicahispanaairline.com/en/blog  — rastreada sin indexar · 0 impr.
-- [ ] https://www.clinicahispanaairline.com/en/blog/bienvenidos-clinica-hispana-airline  — rastreada sin indexar · 0 impr.
-- [ ] https://www.clinicahispanaairline.com/en/services/extraccion-implantes  — rastreada sin indexar · 0 impr.
+- [x] https://www.clinicahispanaairline.com/blog/atencion-medica-sin-seguro-houston  — rastreada sin indexar · 4 impr.
+- [x] https://www.clinicahispanaairline.com/services/infecciones-urinarias  — descubierta sin indexar · 22 impr.
+- [x] https://www.clinicahispanaairline.com/services/farmacia  — descubierta sin indexar · 0 impr.
+- [x] https://www.clinicahispanaairline.com/services/tiroides  — descubierta sin indexar · 0 impr.
+- [x] https://www.clinicahispanaairline.com/en/blog/examen-dot-cdl-camioneros-houston  — rastreada sin indexar · 10 impr.
+- [x] https://www.clinicahispanaairline.com/en/blog/salud-mujer-houston-servicios-ginecologia  — rastreada sin indexar · 4 impr.
+- [x] https://www.clinicahispanaairline.com/en/services/condiciones-cronicas  — rastreada sin indexar · 1 impr.
+- [x] https://www.clinicahispanaairline.com/en/blog  — rastreada sin indexar · 0 impr.
+- [x] https://www.clinicahispanaairline.com/en/blog/bienvenidos-clinica-hispana-airline  — rastreada sin indexar · 0 impr.
+- [x] https://www.clinicahispanaairline.com/en/services/extraccion-implantes  — rastreada sin indexar · 0 impr.
 
 ## Tanda 2
 
