@@ -23,7 +23,7 @@ Antes de la tanda 1, reenviar el sitemap en GSC (Sitemaps → `sitemap.xml`).
 - [x] https://www.clinicahispanaairline.com/en/blog/bienvenidos-clinica-hispana-airline  — rastreada sin indexar · 0 impr.
 - [x] https://www.clinicahispanaairline.com/en/services/extraccion-implantes  — rastreada sin indexar · 0 impr.
 
-## Tanda 2
+## Tanda 2  ✅ PEDIDA 27/09/2026
 
-- [ ] https://www.clinicahispanaairline.com/en/services/infecciones-urinarias  — rastreada sin indexar · 0 impr.
-- [ ] https://www.clinicahispanaairline.com/en/services/examenes-inmigracion  — descubierta sin indexar · 0 impr.
+- [x] https://www.clinicahispanaairline.com/en/services/infecciones-urinarias  — rastreada sin indexar · 0 impr.
+- [x] https://www.clinicahispanaairline.com/en/services/examenes-inmigracion  — descubierta sin indexar · 0 impr.
