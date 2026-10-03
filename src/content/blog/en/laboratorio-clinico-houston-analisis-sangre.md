@@ -4,7 +4,7 @@ title: "Clinical Laboratory in Houston: Walk-In Blood Tests"
 metaTitle: "Clinical Laboratory in Houston: Walk-In Blood Tests"
 description: "Walk-in blood tests in north Houston. What each panel measures, whether you need to fast, and how to get lab work done without insurance."
 date: "2026-03-21"
-dateModified: "2026-09-21"
+dateModified: "2026-10-03"
 author: "Clínica Hispana Airline"
 image: "/images/services/examenes-sangre.webp"
 featured: false
@@ -24,7 +24,7 @@ relatedServices:
 
 # Clinical Laboratory in Houston: Walk-In Blood Tests
 
-**Yes, you can get blood work done in Houston with no appointment and no insurance.** At Clínica Hispana Airline, 934 E Tidwell Rd, your sample is drawn the day you walk in, seven days a week from 9 AM to 9 PM, and our medical team explains the results to you in Spanish or English.
+**Yes, you can get [blood tests in Houston](/en/services/examenes-sangre) with no appointment and no insurance.** At Clínica Hispana Airline, 934 E Tidwell Rd, your sample is drawn the day you walk in, seven days a week from 9 AM to 9 PM, and our medical team explains the results to you in Spanish or English.
 
 What nobody explains is what each panel actually measures, and why your doctor ordered one and not another. That is what this guide is for.
 

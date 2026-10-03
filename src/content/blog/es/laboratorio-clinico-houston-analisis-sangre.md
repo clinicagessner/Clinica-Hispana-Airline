@@ -4,7 +4,7 @@ title: "Laboratorio Clínico en Houston: Análisis de Sangre sin Cita"
 metaTitle: "Laboratorio Clínico en Houston: Análisis de Sangre"
 description: "Análisis de sangre sin cita en el norte de Houston. Qué mide cada panel, si hace falta ayuno y cómo hacerlo sin seguro médico, explicado en español."
 date: "2026-03-21"
-dateModified: "2026-09-21"
+dateModified: "2026-10-03"
 author: "Clínica Hispana Airline"
 image: "/images/services/examenes-sangre.webp"
 featured: false
@@ -24,7 +24,7 @@ relatedServices:
 
 # Laboratorio Clínico en Houston: Análisis de Sangre sin Cita
 
-**Sí, puede hacerse análisis de sangre en Houston sin cita y sin seguro médico.** En Clínica Hispana Airline, en el 934 E Tidwell Rd, se toma la muestra el mismo día que llega, de lunes a domingo de 9 AM a 9 PM, y los resultados se los explica nuestro equipo médico en español.
+**Sí, puede hacerse [análisis de sangre en Houston](/services/examenes-sangre) sin cita y sin seguro médico.** En Clínica Hispana Airline, en el 934 E Tidwell Rd, se toma la muestra el mismo día que llega, de lunes a domingo de 9 AM a 9 PM, y los resultados se los explica nuestro equipo médico en español.
 
 Lo que casi nadie explica es qué mide cada panel y por qué su médico le pidió uno y no otro. Esta guía va de eso.
 
