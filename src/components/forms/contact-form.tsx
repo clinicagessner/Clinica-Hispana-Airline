@@ -1,8 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { useForm } from "react-hook-form";
-import { zodResolver } from "@hookform/resolvers/zod";
+import { useForm, type FieldErrors, type Resolver } from "react-hook-form";
 import { useTranslations } from "next-intl";
 import { CircleNotch, CheckCircle, XCircle } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
@@ -16,8 +15,19 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { contactFormSchema, type ContactFormData, serviceOptions } from "@/lib/validations";
+import { type ContactFormData, serviceOptions, validateContactForm } from "@/lib/contact-form";
 import { sendContactEmail } from "@/app/actions/send-contact-email";
+
+// Validación sin zod en el navegador (ver `lib/contact-form.ts`): zod y @hookform/resolvers
+// metían ~400 KB de JS en la home. El servidor sigue validando con zod.
+const contactResolver: Resolver<ContactFormData> = async (values) => {
+  const found = validateContactForm(values);
+  const fields = Object.keys(found) as (keyof ContactFormData)[];
+  if (fields.length === 0) return { values, errors: {} };
+  const errors: FieldErrors<ContactFormData> = {};
+  for (const field of fields) errors[field] = { type: "validation", message: found[field] };
+  return { values: {}, errors };
+};
 
 export function ContactForm() {
   const t = useTranslations("contact.form");
@@ -30,7 +40,7 @@ export function ContactForm() {
     reset,
     formState: { errors },
   } = useForm<ContactFormData>({
-    resolver: zodResolver(contactFormSchema),
+    resolver: contactResolver,
     defaultValues: {
       nombre: "",
       telefono: "",
