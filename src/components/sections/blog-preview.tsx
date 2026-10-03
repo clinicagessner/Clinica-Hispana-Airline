@@ -89,6 +89,7 @@ export async function BlogPreview() {
                   className="inline-flex items-center gap-2 text-red-primary font-semibold hover:gap-3 transition-all"
                 >
                   {t("readMore")}
+                  <span className="sr-only">: {featuredPost.title}</span>
                   <ArrowRight className="size-5" />
                 </Link>
               </CardContent>
