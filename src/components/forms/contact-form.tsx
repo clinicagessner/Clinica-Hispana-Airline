@@ -17,6 +17,7 @@ import {
 } from "@/components/ui/select";
 import { type ContactFormData, serviceOptions, validateContactForm } from "@/lib/contact-form";
 import { sendContactEmail } from "@/app/actions/send-contact-email";
+import { trackEvent } from "@/components/analytics/conversion-events";
 
 // Validación sin zod en el navegador (ver `lib/contact-form.ts`): zod y @hookform/resolvers
 // metían ~400 KB de JS en la home. El servidor sigue validando con zod.
@@ -55,6 +56,7 @@ export function ContactForm() {
     try {
       const result = await sendContactEmail(data);
       if (result.success) {
+        trackEvent("formulario", { form: "contacto", page_path: window.location.pathname });
         setStatus("success");
         reset();
         setTimeout(() => setStatus("idle"), 5000);

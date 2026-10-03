@@ -9,6 +9,7 @@ import { ScrollToTop } from "@/components/layout/scroll-to-top";
 import { ScrollAnimations } from "@/components/animations/scroll-animations";
 import { Analytics } from "@vercel/analytics/next";
 import { GoogleTags } from "@/components/analytics/google-tags";
+import { ConversionEvents } from "@/components/analytics/conversion-events";
 import { SITE_CONFIG, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
 import { seoTitle, seoDescription, buildSocial } from "@/lib/seo";
 import { getGooglePlaceData } from "@/lib/google-places";
@@ -163,6 +164,7 @@ export default async function LocaleLayout({ children, params }: Props) {
         </NextIntlClientProvider>
       </body>
       <GoogleTags />
+      <ConversionEvents />
     </html>
   );
 }

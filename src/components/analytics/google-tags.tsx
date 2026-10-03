@@ -42,6 +42,7 @@ declare global {
     fbq?: Fbq;
     _fbq?: Fbq;
     __tagsLoaded?: boolean;
+    __gtagConfigured?: boolean;
   }
 }
 
@@ -84,6 +85,11 @@ export function GoogleTags() {
         // eslint-disable-next-line prefer-rest-params
         window.dataLayer.push(arguments);
       };
+    }
+    // `trackEvent` (conversion-events.tsx) también puede crear `gtag`: la
+    // configuración va aparte para que se haga siempre, una sola vez.
+    if (!window.__gtagConfigured) {
+      window.__gtagConfigured = true;
       window.gtag("js", new Date());
       window.gtag("config", GA4_ID);
       window.gtag("config", ADS_ID);
