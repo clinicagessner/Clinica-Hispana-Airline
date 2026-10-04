@@ -67,7 +67,7 @@ This part matters as much as the last one:
 
 **934 E Tidwell Rd, Houston, TX 77022**
 Monday to Sunday, 9:00 AM to 9:00 PM
-Walk-ins welcome · No insurance required · Parking available
+Walk-ins welcome · No insurance required · Free parking
 Wheelchair accessible entrance, parking and restroom
 
 If you are not sure whether your case is for us or for an emergency room, call and we will tell you in a minute.

@@ -67,7 +67,7 @@ Esta parte importa tanto como la anterior:
 
 **934 E Tidwell Rd, Houston, TX 77022**
 Lunes a domingo, 9:00 AM a 9:00 PM
-Sin cita previa · Sin seguro requerido · Estacionamiento disponible
+Sin cita previa · Sin seguro requerido · Estacionamiento gratuito
 Entrada, estacionamiento y sanitarios accesibles en silla de ruedas
 
 Si no sabe si su caso es para nosotros o para emergencias, llámenos y se lo decimos en un minuto.

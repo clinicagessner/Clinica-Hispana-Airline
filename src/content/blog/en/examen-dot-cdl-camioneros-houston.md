@@ -78,6 +78,6 @@ Neither. We see drivers **walk-in, seven days a week, 9 AM to 9 PM**, and no ins
 
 ## Where we are
 
-**934 E Tidwell Rd, Houston, TX 77022**, on the north side of the city, with parking. See the details at [DOT physical exam for CDL](/services/examen-dot).
+**934 E Tidwell Rd, Houston, TX 77022**, on the north side of the city, with free parking. See the details at [DOT physical exam for CDL](/services/examen-dot).
 
 If you have a condition you are worried about, call us first and we will tell you which paperwork to bring.

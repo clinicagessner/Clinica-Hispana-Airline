@@ -78,6 +78,6 @@ Ninguno de los dos. Atendemos **sin cita, los siete días de 9 AM a 9 PM**, y no
 
 ## Dónde estamos
 
-**934 E Tidwell Rd, Houston, TX 77022**, en el norte de la ciudad, con estacionamiento. Vea los detalles en [examen físico DOT para licencia CDL](/services/examen-dot).
+**934 E Tidwell Rd, Houston, TX 77022**, en el norte de la ciudad, con estacionamiento gratuito. Vea los detalles en [examen físico DOT para licencia CDL](/services/examen-dot).
 
 Si tiene una condición que le preocupa de cara al examen, llámenos antes y le decimos qué documentación conviene traer.
