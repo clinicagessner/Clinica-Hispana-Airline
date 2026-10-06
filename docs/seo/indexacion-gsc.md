@@ -13,18 +13,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 4 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-09).
 <!-- /tandas:auto -->
 
-## Tanda 3 — 📨 ENVIADA 05/10/2026
+## Tanda 3  ✅ PEDIDA 05/10/2026
 
-- [ ] https://www.clinicahispanaairline.com/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-10-03 · rastreada 2026-09-21 · indexada · 2588 impr.
-- [ ] https://www.clinicahispanaairline.com/services/examenes-inmigracion  — cambiada 2026-10-03 · rastreada 2026-09-09 · indexada · 1862 impr.
-- [ ] https://www.clinicahispanaairline.com/promociones  — cambiada 2026-09-21 · rastreada 2026-09-20 · indexada · 1122 impr.
-- [ ] https://www.clinicahispanaairline.com/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-10-04 · rastreada 2026-09-21 · indexada · 961 impr.
-- [ ] https://www.clinicahispanaairline.com/services/electrocardiograma  — cambiada 2026-09-21 · rastreada 2026-09-19 · indexada · 677 impr.
-- [ ] https://www.clinicahispanaairline.com/services/examenes-sangre  — cambiada 2026-10-03 · rastreada 2026-09-19 · indexada · 490 impr.
-- [ ] https://www.clinicahispanaairline.com/services/ginecologia  — cambiada 2026-09-21 · rastreada 2026-09-10 · indexada · 273 impr.
-- [ ] https://www.clinicahispanaairline.com/blog/bienvenidos-clinica-hispana-airline  — cambiada 2026-10-04 · rastreada 2026-08-27 · indexada · 233 impr.
-- [ ] https://www.clinicahispanaairline.com/services/enfermedades-transmision-sexual  — cambiada 2026-09-21 · rastreada 2026-08-28 · indexada · 211 impr.
-- [ ] https://www.clinicahispanaairline.com/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-09-21 · rastreada 2026-08-23 · indexada · 204 impr.
+- [x] https://www.clinicahispanaairline.com/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-10-03 · rastreada 2026-09-21 · indexada · 2588 impr.
+- [x] https://www.clinicahispanaairline.com/services/examenes-inmigracion  — cambiada 2026-10-03 · rastreada 2026-09-09 · indexada · 1862 impr.
+- [x] https://www.clinicahispanaairline.com/promociones  — cambiada 2026-09-21 · rastreada 2026-09-20 · indexada · 1122 impr.
+- [x] https://www.clinicahispanaairline.com/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-10-04 · rastreada 2026-09-21 · indexada · 961 impr.
+- [x] https://www.clinicahispanaairline.com/services/electrocardiograma  — cambiada 2026-09-21 · rastreada 2026-09-19 · indexada · 677 impr.
+- [x] https://www.clinicahispanaairline.com/services/examenes-sangre  — cambiada 2026-10-03 · rastreada 2026-09-19 · indexada · 490 impr.
+- [x] https://www.clinicahispanaairline.com/services/ginecologia  — cambiada 2026-09-21 · rastreada 2026-09-10 · indexada · 273 impr.
+- [x] https://www.clinicahispanaairline.com/blog/bienvenidos-clinica-hispana-airline  — cambiada 2026-10-04 · rastreada 2026-08-27 · indexada · 233 impr.
+- [x] https://www.clinicahispanaairline.com/services/enfermedades-transmision-sexual  — cambiada 2026-09-21 · rastreada 2026-08-28 · indexada · 211 impr.
+- [x] https://www.clinicahispanaairline.com/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-09-21 · rastreada 2026-08-23 · indexada · 204 impr.
 
 ## Tanda 4
 
