@@ -13,18 +13,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 4 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-09).
 <!-- /tandas:auto -->
 
-## Tanda 4  📨 ENVIADA 06/10/2026
+## Tanda 4  ✅ PEDIDA 06/10/2026
 
-- [ ] https://www.clinicahispanaairline.com/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-09-21 · rastreada 2026-08-27 · indexada · 106 impr.
-- [ ] https://www.clinicahispanaairline.com/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-09-21 · rastreada 2026-08-27 · indexada · 105 impr.
-- [ ] https://www.clinicahispanaairline.com/services/examen-fisico-escolar  — cambiada 2026-09-21 · rastreada 2026-08-20 · indexada · 94 impr.
-- [ ] https://www.clinicahispanaairline.com/services/prueba-embarazo  — cambiada 2026-09-21 · rastreada 2026-08-21 · indexada · 94 impr.
-- [ ] https://www.clinicahispanaairline.com/services/enfermedades-respiratorias  — cambiada 2026-09-21 · rastreada 2026-08-29 · indexada · 80 impr.
-- [ ] https://www.clinicahispanaairline.com/services/anticonceptivos  — cambiada 2026-09-21 · rastreada 2026-08-22 · indexada · 71 impr.
-- [ ] https://www.clinicahispanaairline.com/services/drenaje-abscesos  — cambiada 2026-09-21 · rastreada 2026-08-21 · indexada · 69 impr.
-- [ ] https://www.clinicahispanaairline.com/services/examen-alcohol-drogas  — cambiada 2026-09-21 · rastreada 2026-08-21 · indexada · 62 impr.
-- [ ] https://www.clinicahispanaairline.com/services/unas-encarnadas  — cambiada 2026-09-21 · rastreada 2026-09-06 · indexada · 61 impr.
-- [ ] https://www.clinicahispanaairline.com/services/examen-heces  — cambiada 2026-09-21 · rastreada 2026-08-18 · indexada · 55 impr.
+- [x] https://www.clinicahispanaairline.com/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-09-21 · rastreada 2026-08-27 · indexada · 106 impr.
+- [x] https://www.clinicahispanaairline.com/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-09-21 · rastreada 2026-08-27 · indexada · 105 impr.
+- [x] https://www.clinicahispanaairline.com/services/examen-fisico-escolar  — cambiada 2026-09-21 · rastreada 2026-08-20 · indexada · 94 impr.
+- [x] https://www.clinicahispanaairline.com/services/prueba-embarazo  — cambiada 2026-09-21 · rastreada 2026-08-21 · indexada · 94 impr.
+- [x] https://www.clinicahispanaairline.com/services/enfermedades-respiratorias  — cambiada 2026-09-21 · rastreada 2026-08-29 · indexada · 80 impr.
+- [x] https://www.clinicahispanaairline.com/services/anticonceptivos  — cambiada 2026-09-21 · rastreada 2026-08-22 · indexada · 71 impr.
+- [x] https://www.clinicahispanaairline.com/services/drenaje-abscesos  — cambiada 2026-09-21 · rastreada 2026-08-21 · indexada · 69 impr.
+- [x] https://www.clinicahispanaairline.com/services/examen-alcohol-drogas  — cambiada 2026-09-21 · rastreada 2026-08-21 · indexada · 62 impr.
+- [x] https://www.clinicahispanaairline.com/services/unas-encarnadas  — cambiada 2026-09-21 · rastreada 2026-09-06 · indexada · 61 impr.
+- [x] https://www.clinicahispanaairline.com/services/examen-heces  — cambiada 2026-09-21 · rastreada 2026-08-18 · indexada · 55 impr.
 
 ## Tanda 5
 
