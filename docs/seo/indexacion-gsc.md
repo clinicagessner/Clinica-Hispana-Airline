@@ -6,14 +6,13 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanaairline.com/`, cuenta **clinicahispanaairline@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-08; URL Inspection API, datos ANTIGUOS del 2026-10-05: antiguos (2026-10-05): --sin-fetch):** 77 de 86 URLs del sitemap indexadas · 9 sin indexar (3 rastreada sin indexar · 2 desconocida · 2 descubierta sin indexar · 2 sin datos).
+**Estado (actualizado 2026-10-09; URL Inspection API, datos ANTIGUOS del 2026-10-05: antiguos (2026-10-05): --sin-fetch):** 77 de 86 URLs del sitemap indexadas · 9 sin indexar (3 rastreada sin indexar · 2 desconocida · 2 descubierta sin indexar · 2 sin datos).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 39 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 0 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 39 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 4 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-4 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-09).
 <!-- /tandas:auto -->
 
-## Tanda 5  📨 ENVIADA 08/10/2026
+## Tanda 5  📨 ENVIADA 09/10/2026
 
 - [ ] https://www.clinicahispanaairline.com/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-09-21 · rastreada 2026-08-20 · indexada · 48 impr.
 - [ ] https://www.clinicahispanaairline.com/services/alergias  — cambiada 2026-09-21 · rastreada 2026-08-17 · indexada · 38 impr.
@@ -76,6 +75,13 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanaairline.com/en/blog/vacuna-gripe-otono-quien-cuando-dudas  — cambiada 2026-10-05 · sin datos de inspección · 0 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/examenes-inmigracion  — cambiada 2026-10-03 · descubierta sin indexar · pedida 2026-09-27 · 0 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/infecciones-urinarias  — cambiada 2026-10-04 · rastreada 2026-04-09 · rastreada sin indexar · pedida 2026-09-27 · 0 impr.
+- [ ] https://www.clinicahispanaairline.com/services/farmacia  — cambiada 2026-09-21 · desconocida · pedida 2026-09-25 · 0 impr.
+
+## Tanda 10
+
+- [ ] https://www.clinicahispanaairline.com/services/tiroides  — cambiada 2026-09-21 · desconocida · pedida 2026-09-25 · 0 impr.
+- [ ] https://www.clinicahispanaairline.com/en/services/condiciones-cronicas  — cambiada 2026-09-21 · rastreada 2026-08-25 · rastreada sin indexar · pedida 2026-09-25 · 1 impr.
+- [ ] https://www.clinicahispanaairline.com/en/services/extraccion-implantes  — cambiada 2026-09-21 · rastreada 2026-09-06 · rastreada sin indexar · pedida 2026-09-25 · 0 impr.
 
 ## Historial (tandas pedidas)
 
