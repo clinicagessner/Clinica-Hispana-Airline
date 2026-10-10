@@ -6,13 +6,13 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanaairline.com/`, cuenta **clinicahispanaairline@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-09; URL Inspection API, datos ANTIGUOS del 2026-10-05: antiguos (2026-10-05): --sin-fetch):** 77 de 86 URLs del sitemap indexadas · 9 sin indexar (3 rastreada sin indexar · 2 desconocida · 2 descubierta sin indexar · 2 sin datos).
+**Estado (actualizado 2026-10-10; URL Inspection API, datos ANTIGUOS del 2026-10-05: antiguos (2026-10-05): --sin-fetch):** 77 de 86 URLs del sitemap indexadas · 9 sin indexar (3 rastreada sin indexar · 2 desconocida · 2 descubierta sin indexar · 2 sin datos).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 39 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 4 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 <!-- /tandas:auto -->
 
-## Tanda 5  📨 ENVIADA 09/10/2026
+## Tanda 5  📨 ENVIADA 10/10/2026
 
 - [ ] https://www.clinicahispanaairline.com/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-09-21 · rastreada 2026-08-20 · indexada · 48 impr.
 - [ ] https://www.clinicahispanaairline.com/services/alergias  — cambiada 2026-09-21 · rastreada 2026-08-17 · indexada · 38 impr.
