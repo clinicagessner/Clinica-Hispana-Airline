@@ -6,26 +6,14 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanaairline.com/`, cuenta **clinicahispanaairline@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-10; URL Inspection API, datos ANTIGUOS del 2026-10-05: antiguos (2026-10-05): --sin-fetch):** 77 de 86 URLs del sitemap indexadas · 9 sin indexar (3 rastreada sin indexar · 2 desconocida · 2 descubierta sin indexar · 2 sin datos).
+**Estado (actualizado 2026-10-11; URL Inspection API, datos ANTIGUOS del 2026-10-05: antiguos (2026-10-05): --sin-fetch):** 77 de 86 URLs del sitemap indexadas · 9 sin indexar (3 rastreada sin indexar · 2 desconocida · 2 descubierta sin indexar · 2 sin datos).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 39 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 4 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
+1 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-25).
 <!-- /tandas:auto -->
 
-## Tanda 5  ✅ PEDIDA 11/10/2026
-
-- [x] https://www.clinicahispanaairline.com/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-09-21 · rastreada 2026-08-20 · indexada · 48 impr.
-- [x] https://www.clinicahispanaairline.com/services/alergias  — cambiada 2026-09-21 · rastreada 2026-08-17 · indexada · 38 impr.
-- [x] https://www.clinicahispanaairline.com/services/cirugias-menores  — cambiada 2026-09-21 · rastreada 2026-08-22 · indexada · 25 impr.
-- [x] https://www.clinicahispanaairline.com/services/prueba-strep  — cambiada 2026-09-21 · rastreada 2026-08-18 · indexada · 24 impr.
-- [x] https://www.clinicahispanaairline.com/services/sueros-vitaminados  — cambiada 2026-09-21 · rastreada 2026-09-06 · indexada · 24 impr.
-- [x] https://www.clinicahispanaairline.com/services/salud-hombre  — cambiada 2026-09-21 · rastreada 2026-09-19 · indexada · 23 impr.
-- [x] https://www.clinicahispanaairline.com/services/prueba-tuberculosis  — cambiada 2026-09-21 · rastreada 2026-08-19 · indexada · 21 impr.
-- [x] https://www.clinicahispanaairline.com/services/infecciones-urinarias  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-09-25 · 20 impr.
-- [x] https://www.clinicahispanaairline.com/services/curacion-heridas  — cambiada 2026-09-21 · rastreada 2026-08-21 · indexada · 19 impr.
-- [x] https://www.clinicahispanaairline.com/blog/salud-hombre-houston-chequeos-preventivos  — cambiada 2026-09-21 · rastreada 2026-08-18 · indexada · 13 impr.
-
-## Tanda 6
+## Tanda 6  📨 ENVIADA 11/10/2026
 
 - [ ] https://www.clinicahispanaairline.com/services/suturas-heridas  — cambiada 2026-09-21 · rastreada 2026-09-06 · indexada · 12 impr.
 - [ ] https://www.clinicahispanaairline.com/services/extraccion-implantes  — cambiada 2026-09-21 · rastreada 2026-09-06 · indexada · 6 impr.
@@ -128,3 +116,16 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [x] https://www.clinicahispanaairline.com/services/examen-alcohol-drogas  — cambiada 2026-09-21 · rastreada 2026-08-21 · indexada · 62 impr.
 - [x] https://www.clinicahispanaairline.com/services/unas-encarnadas  — cambiada 2026-09-21 · rastreada 2026-09-06 · indexada · 61 impr.
 - [x] https://www.clinicahispanaairline.com/services/examen-heces  — cambiada 2026-09-21 · rastreada 2026-08-18 · indexada · 55 impr.
+
+## Tanda 5  ✅ PEDIDA 11/10/2026
+
+- [x] https://www.clinicahispanaairline.com/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-09-21 · rastreada 2026-08-20 · indexada · 48 impr.
+- [x] https://www.clinicahispanaairline.com/services/alergias  — cambiada 2026-09-21 · rastreada 2026-08-17 · indexada · 38 impr.
+- [x] https://www.clinicahispanaairline.com/services/cirugias-menores  — cambiada 2026-09-21 · rastreada 2026-08-22 · indexada · 25 impr.
+- [x] https://www.clinicahispanaairline.com/services/prueba-strep  — cambiada 2026-09-21 · rastreada 2026-08-18 · indexada · 24 impr.
+- [x] https://www.clinicahispanaairline.com/services/sueros-vitaminados  — cambiada 2026-09-21 · rastreada 2026-09-06 · indexada · 24 impr.
+- [x] https://www.clinicahispanaairline.com/services/salud-hombre  — cambiada 2026-09-21 · rastreada 2026-09-19 · indexada · 23 impr.
+- [x] https://www.clinicahispanaairline.com/services/prueba-tuberculosis  — cambiada 2026-09-21 · rastreada 2026-08-19 · indexada · 21 impr.
+- [x] https://www.clinicahispanaairline.com/services/infecciones-urinarias  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-09-25 · 20 impr.
+- [x] https://www.clinicahispanaairline.com/services/curacion-heridas  — cambiada 2026-09-21 · rastreada 2026-08-21 · indexada · 19 impr.
+- [x] https://www.clinicahispanaairline.com/blog/salud-hombre-houston-chequeos-preventivos  — cambiada 2026-09-21 · rastreada 2026-08-18 · indexada · 13 impr.
