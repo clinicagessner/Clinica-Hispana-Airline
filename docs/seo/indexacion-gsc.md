@@ -13,6 +13,11 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 1 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-25).
 <!-- /tandas:auto -->
 
+## Tanda 11 — cambios del 2026-10-13 (consulta inicial gratis en la home)
+
+- [ ] https://www.clinicahispanaairline.com/  — cambiada 2026-10-13
+- [ ] https://www.clinicahispanaairline.com/en  — cambiada 2026-10-13
+
 ## Tanda 6  ✅ PEDIDA 13/10/2026
 
 - [x] https://www.clinicahispanaairline.com/services/suturas-heridas  — cambiada 2026-09-21 · rastreada 2026-09-06 · indexada · 12 impr.
