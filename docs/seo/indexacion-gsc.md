@@ -13,18 +13,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 1 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-25).
 <!-- /tandas:auto -->
 
-## Tanda 6  📨 ENVIADA 13/10/2026
+## Tanda 6  ✅ PEDIDA 13/10/2026
 
-- [ ] https://www.clinicahispanaairline.com/services/suturas-heridas  — cambiada 2026-09-21 · rastreada 2026-09-06 · indexada · 12 impr.
-- [ ] https://www.clinicahispanaairline.com/services/extraccion-implantes  — cambiada 2026-09-21 · rastreada 2026-09-06 · indexada · 6 impr.
-- [ ] https://www.clinicahispanaairline.com/services/examen-dot  — cambiada 2026-09-21 · rastreada 2026-08-20 · indexada · 4 impr.
-- [ ] https://www.clinicahispanaairline.com/services/vacunas  — cambiada 2026-09-21 · rastreada 2026-09-06 · indexada · 1 impr.
-- [ ] https://www.clinicahispanaairline.com/blog/vacuna-gripe-otono-quien-cuando-dudas  — cambiada 2026-10-05 · sin datos de inspección · 0 impr.
-- [ ] https://www.clinicahispanaairline.com/en  — cambiada 2026-10-03 · rastreada 2026-10-03 · indexada · 12208 impr.
-- [ ] https://www.clinicahispanaairline.com/en/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-10-03 · rastreada 2026-08-22 · indexada · 626 impr.
-- [ ] https://www.clinicahispanaairline.com/en/services/enfermedades-respiratorias  — cambiada 2026-09-21 · rastreada 2026-08-19 · indexada · 191 impr.
-- [ ] https://www.clinicahispanaairline.com/en/services/vacunas  — cambiada 2026-09-21 · rastreada 2026-08-21 · indexada · 161 impr.
-- [ ] https://www.clinicahispanaairline.com/en/blog/bienvenidos-clinica-hispana-airline  — cambiada 2026-10-04 · rastreada 2026-09-26 · indexada · pedida 2026-09-25 · 130 impr.
+- [x] https://www.clinicahispanaairline.com/services/suturas-heridas  — cambiada 2026-09-21 · rastreada 2026-09-06 · indexada · 12 impr.
+- [x] https://www.clinicahispanaairline.com/services/extraccion-implantes  — cambiada 2026-09-21 · rastreada 2026-09-06 · indexada · 6 impr.
+- [x] https://www.clinicahispanaairline.com/services/examen-dot  — cambiada 2026-09-21 · rastreada 2026-08-20 · indexada · 4 impr.
+- [x] https://www.clinicahispanaairline.com/services/vacunas  — cambiada 2026-09-21 · rastreada 2026-09-06 · indexada · 1 impr.
+- [x] https://www.clinicahispanaairline.com/blog/vacuna-gripe-otono-quien-cuando-dudas  — cambiada 2026-10-05 · sin datos de inspección · 0 impr.
+- [x] https://www.clinicahispanaairline.com/en  — cambiada 2026-10-03 · rastreada 2026-10-03 · indexada · 12208 impr.
+- [x] https://www.clinicahispanaairline.com/en/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-10-03 · rastreada 2026-08-22 · indexada · 626 impr.
+- [x] https://www.clinicahispanaairline.com/en/services/enfermedades-respiratorias  — cambiada 2026-09-21 · rastreada 2026-08-19 · indexada · 191 impr.
+- [x] https://www.clinicahispanaairline.com/en/services/vacunas  — cambiada 2026-09-21 · rastreada 2026-08-21 · indexada · 161 impr.
+- [x] https://www.clinicahispanaairline.com/en/blog/bienvenidos-clinica-hispana-airline  — cambiada 2026-10-04 · rastreada 2026-09-26 · indexada · pedida 2026-09-25 · 130 impr.
 
 ## Tanda 7
 
