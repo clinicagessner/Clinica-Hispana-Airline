@@ -4,7 +4,7 @@ title: "Atención Médica Sin Seguro en Houston: Qué Opciones Tiene"
 metaTitle: "Atención Médica Sin Seguro en Houston"
 description: "Sin seguro médico en Houston: qué opciones reales existen, cuándo ir a una clínica y cuándo a emergencias, y cómo funciona el pago directo en español."
 date: "2026-03-17"
-dateModified: "2026-09-21"
+dateModified: "2026-10-15"
 author: "Clínica Hispana Airline"
 image: "/images/services/condiciones-cronicas.webp"
 featured: false
@@ -76,7 +76,7 @@ Lo que sí hacemos es decirle qué necesita y qué no. Si viene por un examen y 
 - Vacunas de influenza y toxoide tetánico
 - Atención de urgencias menores
 
-En la consulta le entregamos los medicamentos indicados y productos de venta libre cuando corresponde.
+Al terminar la consulta, compra en nuestra farmacia en la clínica los medicamentos que le recetó el médico, sin otra parada.
 
 ## Dónde estamos
 

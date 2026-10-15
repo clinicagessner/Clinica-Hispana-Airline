@@ -4,7 +4,7 @@ title: "What Clínica Hispana Airline Is and How We Work"
 metaTitle: "What Clínica Hispana Airline Is and How We Work"
 description: "A Hispanic clinic in north Houston, at Tidwell and Airline. What we treat, how a walk-in visit works, and what we do not do. Plainly stated."
 date: "2026-03-16"
-dateModified: "2026-09-21"
+dateModified: "2026-10-15"
 author: "Clínica Hispana Airline"
 image: "/images/blog/welcome.webp"
 featured: false
@@ -49,7 +49,7 @@ Beyond that: basic gynecology, ultrasound, EKG, STD testing, flu and tetanus vac
 
 You walk in, register and wait your turn. Without appointments, order is by arrival — unless someone arrives in worse shape. That happens, and you will understand it when it is your turn.
 
-In the consultation we explain **what you have, what the options are and what each one costs**, before doing anything. If you need medication indicated during that visit, we provide it there, along with over-the-counter products where appropriate.
+In the consultation we explain **what you have, what the options are and what each one costs**, before doing anything. If our doctor prescribes something, you buy it right there at the clinic's on-site pharmacy, no extra stop.
 
 **Ask the price first.** We will tell you straight. We accept cash, debit and credit.
 
@@ -60,7 +60,7 @@ This part matters as much as the last one:
 - **We do not attend deliveries.** We do provide basic pregnancy follow-up and the checks that can be handled in a clinic visit; for the delivery we help direct the referral.
 - **We are not an emergency room.** Chest pain, trouble breathing, weakness on one side of the body, or bleeding that will not stop: call 911 or go to an ER. Do not come here.
 - **We do not have board-certified specialists on staff.** Care is provided by our **general medical team**. When a result calls for a specialist, we tell you and help direct the referral.
-- **We do not fill other doctors' prescriptions.** We provide the medications indicated during your visit with us, plus over-the-counter products.
+- **We do not sell medicines on other doctors' prescriptions.** Our on-site pharmacy only sells what our doctor prescribes during your visit.
 - **We do not give immigration legal advice.** We perform the I-693 medical exam; your case belongs with your attorney.
 
 ## How to find us

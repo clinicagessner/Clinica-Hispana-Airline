@@ -852,8 +852,12 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "farmacia": {
     "faqs": [
       {
-        "question": "¿Puedo llevar la receta de otro médico para que me la surtan?",
-        "answer": "No. Entregamos los medicamentos indicados en su consulta con nosotros y productos de venta libre. Surtir recetas de otros médicos requiere una farmacia con licencia del Texas State Board of Pharmacy."
+        "question": "¿Puedo comprar en la clínica los medicamentos que me recetaron?",
+        "answer": "Sí, si se los recetó nuestro médico. Tenemos farmacia en la clínica: al terminar la consulta compra ahí mismo sus medicamentos, sin pasar por otra farmacia."
+      },
+      {
+        "question": "¿Puedo traer la receta de otro médico?",
+        "answer": "No. La farmacia de la clínica solo vende los medicamentos que receta nuestro médico en su consulta con nosotros; no atendemos recetas de otros médicos ni de otras clínicas."
       },
       {
         "question": "¿Me explican cómo tomar el medicamento?",
@@ -866,8 +870,12 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     ],
     "faqsEn": [
       {
-        "question": "Can I bring a prescription from another doctor to be filled?",
-        "answer": "No. We provide the medications indicated during your visit with us, plus over-the-counter products. Filling other physicians' prescriptions requires a pharmacy licensed by the Texas State Board of Pharmacy."
+        "question": "Can I buy the medicines I was prescribed at the clinic?",
+        "answer": "Yes, if our doctor prescribed them. We have an on-site pharmacy: after your visit you buy your medicines right there, without stopping at another pharmacy."
+      },
+      {
+        "question": "Can I bring a prescription from another doctor?",
+        "answer": "No. The clinic's pharmacy only sells the medicines our doctor prescribes during your visit with us; we do not take prescriptions from other doctors or other clinics."
       },
       {
         "question": "Will you explain how to take the medication?",

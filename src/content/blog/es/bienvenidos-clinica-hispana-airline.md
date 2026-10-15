@@ -4,7 +4,7 @@ title: "Qué Es Clínica Hispana Airline y Cómo Trabajamos"
 metaTitle: "Qué Es Clínica Hispana Airline y Cómo Trabajamos"
 description: "Clínica hispana en el norte de Houston, en Tidwell y Airline. Qué atendemos, cómo funciona una visita sin cita y qué no hacemos. Explicado sin rodeos."
 date: "2026-03-16"
-dateModified: "2026-09-21"
+dateModified: "2026-10-15"
 author: "Clínica Hispana Airline"
 image: "/images/blog/welcome.webp"
 featured: false
@@ -49,7 +49,7 @@ Además, ginecología básica, ultrasonido, electrocardiograma, pruebas de ETS, 
 
 Llega, se registra y espera su turno. Sin cita, el orden es de llegada, salvo que alguien llegue en peor estado —eso pasa y lo entenderá cuando le toque a usted.
 
-En la consulta le explicamos **qué tiene, qué opciones hay y cuánto cuesta cada una**, antes de hacer nada. Si necesita medicamentos indicados en esa consulta, se los entregamos ahí mismo, junto con productos de venta libre cuando corresponde.
+En la consulta le explicamos **qué tiene, qué opciones hay y cuánto cuesta cada una**, antes de hacer nada. Si nuestro médico le receta algo, lo compra ahí mismo en la farmacia de la clínica, sin hacer otra parada.
 
 **Pregunte el precio antes.** Se lo decimos de frente. Aceptamos efectivo, débito y crédito.
 
@@ -60,7 +60,7 @@ Esta parte importa tanto como la anterior:
 - **No atendemos partos.** Sí hacemos el seguimiento básico del embarazo y los controles que se resuelven en consulta; para el parto le orientamos la referencia.
 - **No somos sala de emergencias.** Dolor en el pecho, dificultad para respirar, debilidad en un lado del cuerpo o sangrado que no para: llame al 911 o vaya a emergencias. No venga aquí.
 - **No tenemos médicos especialistas titulados en plantilla.** La atención la da nuestro **equipo médico general**. Cuando un resultado requiere un especialista, se lo decimos y orientamos la referencia.
-- **No surtimos recetas de otros médicos.** Entregamos los medicamentos indicados en su consulta con nosotros y productos de venta libre.
+- **No vendemos medicamentos con recetas de otros médicos.** Nuestra farmacia en la clínica vende solo lo que le receta nuestro médico en su consulta.
 - **No asesoramos en temas legales de inmigración.** Hacemos el examen médico I-693; su caso lo lleva su abogado.
 
 ## Cómo encontrarnos

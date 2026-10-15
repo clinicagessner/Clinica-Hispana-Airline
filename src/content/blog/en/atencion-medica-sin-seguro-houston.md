@@ -4,7 +4,7 @@ title: "Healthcare Without Insurance in Houston: Your Real Options"
 metaTitle: "Healthcare Without Insurance in Houston"
 description: "No health insurance in Houston: the options that actually exist, when to use a clinic instead of the ER, and how self-pay works at a walk-in clinic."
 date: "2026-03-17"
-dateModified: "2026-09-21"
+dateModified: "2026-10-15"
 author: "Clínica Hispana Airline"
 image: "/images/services/condiciones-cronicas.webp"
 featured: false
@@ -76,7 +76,7 @@ What we also do is tell you what you need and what you do not. If you come in fo
 - Flu and tetanus vaccines
 - Minor urgent care
 
-During the visit we provide the medications indicated for your care and over-the-counter products where appropriate.
+After your visit, you buy the medicines the doctor prescribed at our on-site pharmacy, with no extra stop.
 
 ## Where we are
 

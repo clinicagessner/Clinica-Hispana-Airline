@@ -1203,37 +1203,37 @@ export const SERVICES: Service[] = [
   {
     "id": "farmacia",
     "slug": "farmacia",
-    "title": "Farmacia",
-    "titleEn": "Pharmacy",
+    "title": "Farmacia en la clínica",
+    "titleEn": "On-Site Pharmacy",
     "shortTitle": "Farmacia",
-    "description": "Entrega de medicamentos en la consulta y productos de venta libre en Houston, TX. Sin segunda parada y con las indicaciones explicadas en español.",
-    "descriptionEn": "Medication provided during your visit, plus over-the-counter products, in Houston, TX. No second stop, with instructions explained in your language.",
-    "longDescription": "Al terminar su consulta en Clínica Hispana Airline le **entregamos los medicamentos indicados en esa consulta** y los productos de venta libre que necesite, sin tener que hacer una segunda parada.\n\n**Qué incluye**\n- Entrega de los medicamentos **indicados durante su consulta con nosotros**\n- Productos de **venta libre**: analgésicos, antigripales, antialérgicos, sueros de rehidratación y cuidado de heridas\n- Explicación de la dosis, los horarios y qué esperar, en español\n- Aviso de interacciones con lo que ya esté tomando\n\n**Lo que no hacemos**\nNo surtimos recetas emitidas por otros médicos ni resurtimos recetas externas. Para eso necesita una farmacia con licencia del Texas State Board of Pharmacy. Lo decimos claro para que no haga el viaje en balde.\n\n**Por qué importa la explicación**\nLa mayor parte de los tratamientos que fallan no fallan por el medicamento, sino por cómo se toma: a destiempo, a medias, o suspendido en cuanto desaparece el síntoma. Antes de que se vaya le explicamos **cuánto, cada cuánto y hasta cuándo**, y qué hacer si olvida una toma.\n\n**Dígannos qué toma ya**\nTraer la lista de sus medicamentos actuales, incluidos los de venta libre y los suplementos, evita interacciones. Hay combinaciones frecuentes que conviene conocer antes de añadir nada nuevo.\n\n**Si su tratamiento es crónico**\nLas recetas de control se revisan en sus visitas de seguimiento. Ver [control de condiciones crónicas](/services/condiciones-cronicas).",
-    "longDescriptionEn": "When your visit at Clínica Hispana Airline ends, we **provide the medications indicated during that visit** along with any over-the-counter products you need, so you do not have to make a second stop.\n\n**What it includes**\n- The medications **indicated during your visit with us**\n- **Over-the-counter** products: pain relievers, cold and allergy medicine, rehydration solutions and wound care\n- An explanation of dose, timing and what to expect, in your language\n- A heads-up on interactions with what you are already taking\n\n**What we do not do**\nWe do not fill prescriptions written by other physicians, and we do not refill outside prescriptions. That requires a pharmacy licensed by the Texas State Board of Pharmacy. We say so plainly so you do not make the trip for nothing.\n\n**Why the explanation matters**\nMost treatments that fail do not fail because of the medication but because of how it is taken: off schedule, half-finished, or stopped the moment the symptom disappears. Before you leave we explain **how much, how often and for how long**, and what to do if you miss a dose.\n\n**Tell us what you already take**\nBringing a list of your current medications, including over-the-counter products and supplements, prevents interactions. There are common combinations worth knowing about before adding anything new.\n\n**If your treatment is ongoing**\nMaintenance prescriptions are reviewed at your follow-up visits. See [chronic condition care](/services/condiciones-cronicas).",
+    "description": "Farmacia en la clínica en Houston, TX: al salir de la consulta compra aquí los medicamentos que le recetó nuestro médico, sin otra parada.",
+    "descriptionEn": "On-site pharmacy in Houston, TX: after your visit, buy the medicines our doctor prescribed right here, with no extra stop.",
+    "longDescription": "Clínica Hispana Airline tiene **farmacia en la clínica**. Al terminar su consulta, **compra aquí mismo los medicamentos que le recetó nuestro médico** y se va con su tratamiento, sin hacer otra parada camino a casa.\n\n**Qué incluye**\n- Farmacia propia dentro de la clínica, en el mismo local de 934 E Tidwell Rd\n- Venta de los medicamentos **que le recetó nuestro médico en su consulta**\n- Explicación de la dosis, los horarios y qué esperar, en español\n- Aviso de interacciones con lo que ya esté tomando\n\n**Solo recetas de nuestra consulta**\nLa farmacia vende únicamente los medicamentos que receta el médico de Clínica Hispana Airline. No vendemos medicamentos con recetas de otros médicos o de otras clínicas. Lo decimos claro para que no haga el viaje en balde.\n\n**Por qué importa la explicación**\nLa mayor parte de los tratamientos que fallan no fallan por el medicamento, sino por cómo se toma: a destiempo, a medias, o suspendido en cuanto desaparece el síntoma. Antes de que se vaya le explicamos **cuánto, cada cuánto y hasta cuándo**, y qué hacer si olvida una toma.\n\n**Dígannos qué toma ya**\nTraer la lista de sus medicamentos actuales, incluidos los de venta libre y los suplementos, evita interacciones. Hay combinaciones frecuentes que conviene conocer antes de añadir nada nuevo.\n\n**Si su tratamiento es crónico**\nLas recetas de control se revisan en sus visitas de seguimiento. Ver [control de condiciones crónicas](/services/condiciones-cronicas).",
+    "longDescriptionEn": "Clínica Hispana Airline has an **on-site pharmacy**. After your visit, **you buy the medicines our doctor prescribed right here** and leave with your treatment, no extra stop on the way home.\n\n**What it includes**\n- The clinic's own pharmacy, in the same building at 934 E Tidwell Rd\n- The medicines **our doctor prescribed during your visit**\n- An explanation of dose, timing and what to expect, in your language\n- A heads-up on interactions with what you are already taking\n\n**Only prescriptions from our own visits**\nThe pharmacy only sells medicines prescribed by the Clínica Hispana Airline doctor. We do not sell medicines on prescriptions from other doctors or other clinics. We say so plainly so you do not make the trip for nothing.\n\n**Why the explanation matters**\nMost treatments that fail do not fail because of the medication but because of how it is taken: off schedule, half-finished, or stopped the moment the symptom disappears. Before you leave we explain **how much, how often and for how long**, and what to do if you miss a dose.\n\n**Tell us what you already take**\nBringing a list of your current medications, including over-the-counter products and supplements, prevents interactions. There are common combinations worth knowing about before adding anything new.\n\n**If your treatment is ongoing**\nMaintenance prescriptions are reviewed at your follow-up visits. See [chronic condition care](/services/condiciones-cronicas).",
     "icon": "Pill",
     "image": "/images/services/farmacia.webp",
     "category": "tratamientos",
     "keywords": [
+      "farmacia en la clinica houston",
       "medicamentos en la clinica houston",
-      "medicina de venta libre houston",
-      "clinica con medicamentos houston",
+      "clinica con farmacia houston",
       "consulta y medicamento houston"
     ],
     "keywordsEn": [
-      "clinic provided medication houston",
-      "over the counter medicine houston",
+      "on-site pharmacy clinic houston",
+      "clinic with pharmacy houston",
       "walk in clinic medication houston",
       "same visit medication houston"
     ],
     "features": [
-      "Medicamentos indicados en su consulta",
-      "Productos de venta libre",
+      "Farmacia dentro de la clínica",
+      "Compra los medicamentos que le recetó nuestro médico",
       "Dosis y horarios explicados en español",
       "Revisión de interacciones"
     ],
     "featuresEn": [
-      "Medications indicated during your visit",
-      "Over-the-counter products",
+      "Pharmacy inside the clinic",
+      "Buy the medicines our doctor prescribed",
       "Dose and timing explained in your language",
       "Interaction review"
     ],

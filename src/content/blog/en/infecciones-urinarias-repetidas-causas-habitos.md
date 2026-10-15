@@ -4,7 +4,7 @@ title: "Recurring UTIs: Why They Come Back and What Helps"
 metaTitle: "Recurring UTIs: Why They Come Back and What Helps"
 description: "Why a urinary tract infection keeps returning, which habits genuinely help and why a urine culture matters. Walk-in care on Airline, Houston 77022."
 date: "2026-10-12"
-dateModified: "2026-10-12"
+dateModified: "2026-10-15"
 author: "Clínica Hispana Airline"
 image: "/images/services/infecciones-urinarias.webp"
 featured: false
@@ -102,4 +102,4 @@ Do not wait for a clinic visit if you develop **high fever with chills and pain 
 
 Jot down the approximate dates of your last few infections, what you were prescribed and whether a culture was done. If the burning has already started, leave the leftover pills alone until after your visit: an antibiotic-free sample is what lets the culture pin down the bacteria behind your repeat infections.
 
-We see patients walk-in or by appointment over the phone at **934 E Tidwell Rd, Houston, TX 77022**, with free parking. To save you another stop on the way home through north Houston, medications prescribed during the visit are provided at the clinic, along with a note on when to check back for your culture result.
+We see patients walk-in or by appointment over the phone at **934 E Tidwell Rd, Houston, TX 77022**, with free parking. To save you another stop on the way home through north Houston, you buy the medicines our doctor prescribed at the clinic's on-site pharmacy and take home a note on when to check back for your culture result.
