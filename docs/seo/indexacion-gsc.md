@@ -13,13 +13,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 2 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-25).
 <!-- /tandas:auto -->
 
-## Tanda 11 — cambios del 2026-10-13 (consulta inicial gratis en la home)  📨 ENVIADA 15/10/2026
-
-- [ ] https://www.clinicahispanaairline.com/  — cambiada 2026-10-13
-- [ ] https://www.clinicahispanaairline.com/en  — cambiada 2026-10-13
-- [ ] https://www.clinicahispanaairline.com/blog/infecciones-urinarias-repetidas-causas-habitos  — cambiada 2026-10-12 · sin datos de inspección · 0 impr.
-
-## Tanda 16 — cambios del 2026-10-15 (farmacia en la clínica)
+## Tanda 16 — cambios del 2026-10-15 (farmacia en la clínica)  📨 ENVIADA 15/10/2026
 
 - [ ] https://www.clinicahispanaairline.com/services/farmacia  — cambiada 2026-10-15
 - [ ] https://www.clinicahispanaairline.com/en/services/farmacia  — cambiada 2026-10-15
@@ -28,6 +22,9 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanaairline.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-10-15
 - [ ] https://www.clinicahispanaairline.com/en/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-10-15
 - [ ] https://www.clinicahispanaairline.com/en/blog/infecciones-urinarias-repetidas-causas-habitos  — cambiada 2026-10-15
+- [ ] https://www.clinicahispanaairline.com/  — cambiada 2026-10-13
+- [ ] https://www.clinicahispanaairline.com/en  — cambiada 2026-10-13
+- [ ] https://www.clinicahispanaairline.com/blog/infecciones-urinarias-repetidas-causas-habitos  — cambiada 2026-10-12 · sin datos de inspección · 0 impr.
 
 ## Tanda 12
 
