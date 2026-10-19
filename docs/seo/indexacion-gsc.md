@@ -13,6 +13,11 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 3 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-25).
 <!-- /tandas:auto -->
 
+## Tanda 20 — cambios del 2026-10-19 (post del blog semanal) 📨 ENVIADA 19/10/2026
+
+- [ ] https://www.clinicahispanaairline.com/blog/como-prepararse-ultrasonido-ayuno-vejiga-llena  — cambiada 2026-10-19
+- [ ] https://www.clinicahispanaairline.com/en/blog/como-prepararse-ultrasonido-ayuno-vejiga-llena  — cambiada 2026-10-19
+
 ## Tanda 17
 
 - [ ] https://www.clinicahispanaairline.com/en/services/examenes-sangre  — cambiada 2026-10-03 · rastreada 2026-09-16 · indexada · 159 impr.
