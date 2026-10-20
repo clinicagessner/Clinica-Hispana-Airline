@@ -3,7 +3,48 @@ import Image from "next/image";
 import { getTranslations, getLocale } from "next-intl/server";
 import { Phone, MapPin, Clock, InstagramLogo, FacebookLogo, XLogo, LinkedinLogo, GoogleLogo } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
-import { SITE_CONFIG, CONTACT_INFO, SOCIAL_LINKS, NAV_ITEMS, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
+import { SITE_CONFIG, CONTACT_INFO, SOCIAL_LINKS, NAV_ITEMS, GOOGLE_REVIEWS_DATA, SERVICES } from "@/lib/constants";
+
+/** Etiqueta corta en inglés de cada servicio para el pie (en español se usa `shortTitle`). */
+const SERVICE_LABEL_EN: Record<string, string> = {
+  "condiciones-cronicas": "Chronic Conditions",
+  "tiroides": "Thyroid",
+  "alergias": "Allergies",
+  "enfermedades-respiratorias": "Respiratory Illness",
+  "examen-fisico-escolar": "School Physical",
+  "ginecologia": "Gynecology",
+  "prueba-embarazo": "Pregnancy Test",
+  "anticonceptivos": "Birth Control",
+  "extraccion-implantes": "Implant Removal",
+  "salud-hombre": "Men's Health",
+  "examenes-sangre": "Blood Tests",
+  "infecciones-urinarias": "Urinary Infections",
+  "examen-heces": "Stool Test",
+  "prueba-strep": "Strep Test",
+  "prueba-tuberculosis": "TB Test",
+  "enfermedades-transmision-sexual": "STD Testing",
+  "examen-alcohol-drogas": "Drug & Alcohol Testing",
+  "electrocardiograma": "EKG",
+  "ultrasonido": "Ultrasound",
+  "examen-dot": "DOT Physical",
+  "examenes-inmigracion": "Immigration Exam",
+  "vacunas": "Vaccines",
+  "sueros-vitaminados": "IV Vitamin Therapy",
+  "suturas-heridas": "Stitches",
+  "curacion-heridas": "Wound Care",
+  "cirugias-menores": "Minor Surgery",
+  "drenaje-abscesos": "Abscess Drainage",
+  "unas-encarnadas": "Ingrown Nails",
+  "farmacia": "Pharmacy",
+};
+
+const FOOTER_CATEGORIES = [
+  { key: "medicina-general", es: "Medicina general", en: "General medicine" },
+  { key: "salud-mujer", es: "Salud de la mujer", en: "Women's health" },
+  { key: "examenes", es: "Exámenes y certificados", en: "Exams & certificates" },
+  { key: "laboratorio", es: "Laboratorio y pruebas", en: "Lab & testing" },
+  { key: "tratamientos", es: "Tratamientos", en: "Treatments" },
+] as const;
 import { getGooglePlaceData } from "@/lib/google-places";
 
 type FooterProps = {
@@ -213,6 +254,37 @@ export async function Footer({ phoneOverride }: FooterProps = {}) {
             </div>
           </div>
         </div>
+
+        {/* Servicios por categoría: enlaza todas las páginas de servicio desde cada página */}
+        <nav
+          aria-label={locale === "en" ? "Our services" : "Nuestros servicios"}
+          className="mt-12 pt-10 border-t border-white/10"
+        >
+          <h3 className="font-heading font-bold text-lg mb-6">
+            {locale === "en" ? "Our services" : "Nuestros servicios"}
+          </h3>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+            {FOOTER_CATEGORIES.map((cat) => (
+              <div key={cat.key}>
+                <p className="text-sm font-semibold text-white mb-3">{locale === "en" ? cat.en : cat.es}</p>
+                <ul className="space-y-2">
+                  {SERVICES.filter((s) => s.category === cat.key)
+                    .sort((a, b) => a.order - b.order)
+                    .map((s) => (
+                      <li key={s.slug}>
+                        <Link
+                          href={getLocalizedHref(`/services/${s.slug}`)}
+                          className="text-white/70 hover:text-white transition-colors text-sm"
+                        >
+                          {locale === "en" ? SERVICE_LABEL_EN[s.slug] ?? s.shortTitle : s.shortTitle}
+                        </Link>
+                      </li>
+                    ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </nav>
       </div>
 
       {/* Bottom Bar */}
