@@ -207,9 +207,15 @@
     "ctaCall": "Llamar Ahora"
   },
   "chronicCare": {
+    "features": {
+      "lab": "Laboratorio en la clínica, resultados rápidos",
+      "followUp": "Seguimiento médico continuo",
+      "spanish": "Atención 100% en español",
+      "walkIn": "Sin cita previa necesaria"
+    },
     "badge": "Cuidado Continuo",
     "title": "Control de Diabetes e Hipertensión en Houston",
-    "subtitle": "Programa integral de monitoreo y tratamiento para diabetes, hipertensión, colesterol alto y tiroides. Laboratorio con resultados el mismo día, ajuste de medicamentos y educación en español.",
+    "subtitle": "Programa integral de monitoreo y tratamiento para diabetes, hipertensión, colesterol alto y tiroides. Laboratorio en la clínica con resultados rápidos, ajuste de medicamentos y educación en español.",
     "conditionsTitle": "Condiciones que tratamos",
     "conditions": {
       "diabetes": "Diabetes",

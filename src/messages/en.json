@@ -207,9 +207,15 @@
     "ctaCall": "Call Now"
   },
   "chronicCare": {
+    "features": {
+      "lab": "On-site lab, fast results",
+      "followUp": "Ongoing medical follow-up",
+      "spanish": "Care 100% in Spanish",
+      "walkIn": "No appointment needed"
+    },
     "badge": "Ongoing Care",
     "title": "Diabetes & Hypertension Management in Houston",
-    "subtitle": "Comprehensive monitoring and treatment program for diabetes, hypertension, high cholesterol, and thyroid conditions. Same-day lab results, medication adjustments, and patient education in Spanish.",
+    "subtitle": "Comprehensive monitoring and treatment program for diabetes, hypertension, high cholesterol, and thyroid conditions. On-site lab with fast results, medication adjustments, and patient education in Spanish.",
     "conditionsTitle": "Conditions we manage",
     "conditions": {
       "diabetes": "Diabetes",

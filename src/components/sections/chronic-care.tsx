@@ -25,10 +25,10 @@ const conditions = [
 ];
 
 const features = [
-  { icon: CheckCircle, text: "Laboratorio con resultados el mismo día" },
-  { icon: CalendarCheck, text: "Seguimiento médico continuo" },
-  { icon: CheckCircle, text: "Atención 100% en español" },
-  { icon: Phone, text: "Sin cita previa necesaria" },
+  { icon: CheckCircle, key: "lab" },
+  { icon: CalendarCheck, key: "followUp" },
+  { icon: CheckCircle, key: "spanish" },
+  { icon: Phone, key: "walkIn" },
 ];
 
 export function ChronicCare() {
@@ -97,7 +97,7 @@ export function ChronicCare() {
                 <div className="size-9 md:size-10 rounded-full bg-red-primary/30 flex items-center justify-center shrink-0">
                   <feature.icon className="size-4 md:size-5 text-red-light" weight="fill" />
                 </div>
-                <span className="text-xs md:text-sm text-white/90">{feature.text}</span>
+                <span className="text-xs md:text-sm text-white/90">{t(`features.${feature.key}`)}</span>
               </div>
             ))}
           </div>

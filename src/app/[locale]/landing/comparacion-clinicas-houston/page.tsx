@@ -60,7 +60,7 @@ const copy = {
       { title: "Sin seguro requerido", desc: "Aceptamos pacientes con o sin cobertura." },
       { title: "Precios accesibles", desc: "Tarifas transparentes antes de atenderle." },
       { title: "Estacionamiento gratis", desc: "Amplio parking frente a la clínica." },
-      { title: "Laboratorio en sitio", desc: "Resultados el mismo día sin enviarle a otro lugar." },
+      { title: "Laboratorio en sitio", desc: "Resultados rápidos sin enviarle a otro lugar." },
     ],
     offeringsTitle: "Lo que ofrecemos",
     offeringsDesc: "Todo lo que necesita en una sola visita, sin complicaciones.",
@@ -72,7 +72,7 @@ const copy = {
       { label: "Idioma", value: "100% Español" },
       { label: "Examen I-693", value: "Civil Surgeon USCIS" },
       { label: "Estacionamiento", value: "Gratis y amplio" },
-      { label: "Laboratorio", value: "Resultados el mismo día" },
+      { label: "Laboratorio", value: "Resultados rápidos" },
     ],
     reviewsLabel: (avg: number, total: number) => `${total}+ con ${avg}★`,
     servicesTitle: "Servicios principales",
@@ -105,7 +105,7 @@ const copy = {
       },
       {
         q: "¿Tienen laboratorio en la clínica?",
-        a: "Sí, contamos con laboratorio clínico en sitio. La mayoría de pruebas (glucosa, colesterol, A1C, tiroides, embarazo) tienen resultados el mismo día.",
+        a: "Sí, contamos con laboratorio clínico en sitio. Las pruebas más comunes (glucosa, colesterol, A1C, tiroides, embarazo) se procesan aquí y los resultados salen rápido.",
       },
       {
         q: "¿Realizan exámenes de inmigración I-693?",
@@ -143,7 +143,7 @@ const copy = {
       { title: "No insurance required", desc: "We see patients without insurance, with affordable self-pay pricing." },
       { title: "Affordable pricing", desc: "Transparent rates shared before any service." },
       { title: "Free parking", desc: "Ample parking right in front of the clinic." },
-      { title: "On-site laboratory", desc: "Same-day results without sending you elsewhere." },
+      { title: "On-site laboratory", desc: "Fast results without sending you elsewhere." },
     ],
     offeringsTitle: "What we offer",
     offeringsDesc: "Everything you need in a single visit, without the hassle.",
@@ -155,7 +155,7 @@ const copy = {
       { label: "Language", value: "100% Spanish" },
       { label: "I-693 Exam", value: "USCIS Civil Surgeon" },
       { label: "Parking", value: "Free and ample" },
-      { label: "Laboratory", value: "Same-day results" },
+      { label: "Laboratory", value: "Fast results" },
     ],
     reviewsLabel: (avg: number, total: number) => `${total}+ with ${avg}★`,
     servicesTitle: "Main services",
@@ -188,7 +188,7 @@ const copy = {
       },
       {
         q: "Do you have a laboratory on-site?",
-        a: "Yes, we have an on-site clinical laboratory. Most tests (glucose, cholesterol, A1C, thyroid, pregnancy) have same-day results.",
+        a: "Yes, we have an on-site clinical laboratory. The most common tests (glucose, cholesterol, A1C, thyroid, pregnancy) are processed here and results come back fast.",
       },
       {
         q: "Do you perform I-693 immigration medical exams?",
