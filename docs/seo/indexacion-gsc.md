@@ -12,16 +12,16 @@ Propiedad: `https://www.clinicahispanaairline.com/`, cuenta **clinicahispanaairl
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 <!-- /tandas:auto -->
 
-## Tanda 21 — cambios del 2026-10-20 (análisis diario: pie con los 29 servicios y crónicas sin plazo de laboratorio)  📨 ENVIADA 20/10/2026
+## Tanda 21 — cambios del 2026-10-20 (análisis diario: pie con los 29 servicios y crónicas sin plazo de laboratorio)  ✅ PEDIDA 20/10/2026
 
-- [ ] https://www.clinicahispanaairline.com/  — cambiada 2026-10-20
-- [ ] https://www.clinicahispanaairline.com/en  — cambiada 2026-10-20
-- [ ] https://www.clinicahispanaairline.com/services/infecciones-urinarias  — cambiada 2026-10-20
-- [ ] https://www.clinicahispanaairline.com/en/services/infecciones-urinarias  — cambiada 2026-10-20
-- [ ] https://www.clinicahispanaairline.com/services/examen-dot  — cambiada 2026-10-20
-- [ ] https://www.clinicahispanaairline.com/services/tiroides  — cambiada 2026-10-20
-- [ ] https://www.clinicahispanaairline.com/services/farmacia  — cambiada 2026-10-20
-- [ ] https://www.clinicahispanaairline.com/en/services/examenes-inmigracion  — cambiada 2026-10-20
+- [x] https://www.clinicahispanaairline.com/  — cambiada 2026-10-20
+- [x] https://www.clinicahispanaairline.com/en  — cambiada 2026-10-20
+- [x] https://www.clinicahispanaairline.com/services/infecciones-urinarias  — cambiada 2026-10-20
+- [x] https://www.clinicahispanaairline.com/en/services/infecciones-urinarias  — cambiada 2026-10-20
+- [x] https://www.clinicahispanaairline.com/services/examen-dot  — cambiada 2026-10-20
+- [x] https://www.clinicahispanaairline.com/services/tiroides  — cambiada 2026-10-20
+- [x] https://www.clinicahispanaairline.com/services/farmacia  — cambiada 2026-10-20
+- [x] https://www.clinicahispanaairline.com/en/services/examenes-inmigracion  — cambiada 2026-10-20
 
 ## Tanda 22
 
