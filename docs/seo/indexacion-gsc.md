@@ -6,22 +6,12 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanaairline.com/`, cuenta **clinicahispanaairline@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-20; URL Inspection API, datos de hoy 2026-10-20):** 81 de 90 URLs del sitemap indexadas · 9 sin indexar (3 rastreada sin indexar · 3 descubierta sin indexar · 3 desconocida).
+**Estado (actualizado 2026-10-21; URL Inspection API, datos ANTIGUOS del 2026-10-20: antiguos (2026-10-20): --sin-fetch):** 81 de 90 URLs del sitemap indexadas · 9 sin indexar (3 rastreada sin indexar · 3 descubierta sin indexar · 3 desconocida).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 23 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 2 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
+6 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-03).
 <!-- /tandas:auto -->
-
-## Tanda 21 — cambios del 2026-10-20 (análisis diario: pie con los 29 servicios y crónicas sin plazo de laboratorio)  ✅ PEDIDA 20/10/2026
-
-- [x] https://www.clinicahispanaairline.com/  — cambiada 2026-10-20
-- [x] https://www.clinicahispanaairline.com/en  — cambiada 2026-10-20
-- [x] https://www.clinicahispanaairline.com/services/infecciones-urinarias  — cambiada 2026-10-20
-- [x] https://www.clinicahispanaairline.com/en/services/infecciones-urinarias  — cambiada 2026-10-20
-- [x] https://www.clinicahispanaairline.com/services/examen-dot  — cambiada 2026-10-20
-- [x] https://www.clinicahispanaairline.com/services/tiroides  — cambiada 2026-10-20
-- [x] https://www.clinicahispanaairline.com/services/farmacia  — cambiada 2026-10-20
-- [x] https://www.clinicahispanaairline.com/en/services/examenes-inmigracion  — cambiada 2026-10-20
 
 ## Tanda 22
 
@@ -146,3 +136,14 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 - [x] https://www.clinicahispanaairline.com/blog/como-prepararse-ultrasonido-ayuno-vejiga-llena  — cambiada 2026-10-19
 - [x] https://www.clinicahispanaairline.com/en/blog/como-prepararse-ultrasonido-ayuno-vejiga-llena  — cambiada 2026-10-19
+
+## Tanda 21 — cambios del 2026-10-20 (análisis diario: pie con los 29 servicios y crónicas sin plazo de laboratorio)  ✅ PEDIDA 20/10/2026
+
+- [x] https://www.clinicahispanaairline.com/  — cambiada 2026-10-20
+- [x] https://www.clinicahispanaairline.com/en  — cambiada 2026-10-20
+- [x] https://www.clinicahispanaairline.com/services/infecciones-urinarias  — cambiada 2026-10-20
+- [x] https://www.clinicahispanaairline.com/en/services/infecciones-urinarias  — cambiada 2026-10-20
+- [x] https://www.clinicahispanaairline.com/services/examen-dot  — cambiada 2026-10-20
+- [x] https://www.clinicahispanaairline.com/services/tiroides  — cambiada 2026-10-20
+- [x] https://www.clinicahispanaairline.com/services/farmacia  — cambiada 2026-10-20
+- [x] https://www.clinicahispanaairline.com/en/services/examenes-inmigracion  — cambiada 2026-10-20
