@@ -4,7 +4,7 @@ title: "What Clínica Hispana Airline Is and How We Work"
 metaTitle: "What Clínica Hispana Airline Is and How We Work"
 description: "A Hispanic clinic in north Houston, at Tidwell and Airline. What we treat, how a walk-in visit works, and what we do not do. Plainly stated."
 date: "2026-03-16"
-dateModified: "2026-10-15"
+dateModified: "2026-10-23"
 author: "Clínica Hispana Airline"
 image: "/images/blog/welcome.webp"
 featured: false
@@ -59,7 +59,6 @@ This part matters as much as the last one:
 
 - **We do not attend deliveries.** We do provide basic pregnancy follow-up and the checks that can be handled in a clinic visit; for the delivery we help direct the referral.
 - **We are not an emergency room.** Chest pain, trouble breathing, weakness on one side of the body, or bleeding that will not stop: call 911 or go to an ER. Do not come here.
-- **We do not have board-certified specialists on staff.** Care is provided by our **general medical team**. When a result calls for a specialist, we tell you and help direct the referral.
 - **We do not sell medicines on other doctors' prescriptions.** Our on-site pharmacy only sells what our doctor prescribes during your visit.
 - **We do not give immigration legal advice.** We perform the I-693 medical exam; your case belongs with your attorney.
 

@@ -4,7 +4,7 @@ title: "Qué Es Clínica Hispana Airline y Cómo Trabajamos"
 metaTitle: "Qué Es Clínica Hispana Airline y Cómo Trabajamos"
 description: "Clínica hispana en el norte de Houston, en Tidwell y Airline. Qué atendemos, cómo funciona una visita sin cita y qué no hacemos. Explicado sin rodeos."
 date: "2026-03-16"
-dateModified: "2026-10-15"
+dateModified: "2026-10-23"
 author: "Clínica Hispana Airline"
 image: "/images/blog/welcome.webp"
 featured: false
@@ -59,7 +59,6 @@ Esta parte importa tanto como la anterior:
 
 - **No atendemos partos.** Sí hacemos el seguimiento básico del embarazo y los controles que se resuelven en consulta; para el parto le orientamos la referencia.
 - **No somos sala de emergencias.** Dolor en el pecho, dificultad para respirar, debilidad en un lado del cuerpo o sangrado que no para: llame al 911 o vaya a emergencias. No venga aquí.
-- **No tenemos médicos especialistas titulados en plantilla.** La atención la da nuestro **equipo médico general**. Cuando un resultado requiere un especialista, se lo decimos y orientamos la referencia.
 - **No vendemos medicamentos con recetas de otros médicos.** Nuestra farmacia en la clínica vende solo lo que le receta nuestro médico en su consulta.
 - **No asesoramos en temas legales de inmigración.** Hacemos el examen médico I-693; su caso lo lleva su abogado.
 
