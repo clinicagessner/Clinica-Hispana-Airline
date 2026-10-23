@@ -4,7 +4,7 @@ title: "Women's Health in Houston: What to Check and How Often"
 metaTitle: "Women's Health in Houston: What to Check"
 description: "Pap smears, vaginal cultures and pelvic ultrasound in north Houston. How often each one is due, what the results mean, and where to get them walk-in."
 date: "2026-03-20"
-dateModified: "2026-09-21"
+dateModified: "2026-10-23"
 author: "Clínica Hispana Airline"
 image: "/images/services/ginecologia.webp"
 featured: false
@@ -25,8 +25,6 @@ relatedServices:
 # Women's Health in Houston: What to Check and How Often
 
 **Most gynecological problems are caught by two inexpensive things: a Pap smear on schedule, and a culture when there are symptoms.** At Clínica Hispana Airline we do both, walk-in, in Spanish or English, at 934 E Tidwell Rd.
-
-First, something worth stating plainly: care is provided by our **general medical team**. We do not have a board-certified gynecologist on staff. We perform the basic exams and treatments, and when a result calls for a specialist, we tell you and help direct the referral.
 
 ## How often is a Pap smear due?
 

@@ -4,7 +4,7 @@ title: "Recurring UTIs: Why They Come Back and What Helps"
 metaTitle: "Recurring UTIs: Why They Come Back and What Helps"
 description: "Why a urinary tract infection keeps returning, which habits genuinely help and why a urine culture matters. Walk-in care on Airline, Houston 77022."
 date: "2026-10-12"
-dateModified: "2026-10-15"
+dateModified: "2026-10-23"
 author: "Clínica Hispana Airline"
 image: "/images/services/infecciones-urinarias.webp"
 featured: false
@@ -82,9 +82,9 @@ Waiting on that result does not mean waiting on relief, because at a visit for a
 
 Depending on the case, [blood work](/services/examenes-sangre) is added to check glucose and kidney function, or the genital area is examined when discharge or irritation points to another cause, as part of our [basic gynecology care](/services/ginecologia).
 
-## When a urology referral is recommended
+## When a urology evaluation makes sense
 
-As part of the basic urology care offered at the clinic, we help direct a referral to a urologist when a result calls for it, for example:
+A urology evaluation makes sense when a result calls for it, for example:
 
 - Infections that keep returning despite prevention and culture-guided treatment
 - Blood in the urine that persists once the infection is gone
@@ -92,7 +92,7 @@ As part of the basic urology care offered at the clinic, we help direct a referr
 - More than one episode that reaches the kidney
 - Unusual bacteria on the culture
 
-We explain why that step is being recommended and what to bring to that appointment, including your culture results.
+Keep your culture results: they help decide the next step.
 
 ## When a repeat infection becomes an emergency
 

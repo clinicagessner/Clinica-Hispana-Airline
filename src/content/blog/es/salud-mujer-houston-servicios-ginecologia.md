@@ -4,7 +4,7 @@ title: "Salud de la Mujer en Houston: Qué Revisarse y Cada Cuánto"
 metaTitle: "Salud de la Mujer en Houston: Qué Revisarse"
 description: "Papanicolaou, cultivos vaginales y ultrasonido en el norte de Houston. Cada cuánto toca cada examen, qué significan los resultados y dónde hacerlo sin cita."
 date: "2026-03-20"
-dateModified: "2026-09-21"
+dateModified: "2026-10-23"
 author: "Clínica Hispana Airline"
 image: "/images/services/ginecologia.webp"
 featured: false
@@ -25,8 +25,6 @@ relatedServices:
 # Salud de la Mujer en Houston: Qué Revisarse y Cada Cuánto
 
 **La mayoría de los problemas ginecológicos se detectan con dos cosas baratas: el papanicolaou a tiempo y un cultivo cuando hay síntomas.** En Clínica Hispana Airline hacemos las dos, sin cita, en español, en el 934 E Tidwell Rd.
-
-Antes de nada, algo que conviene decir claro: la atención la da nuestro **equipo médico general**. No tenemos ginecólogo titulado en plantilla. Hacemos los exámenes y tratamientos básicos, y cuando un resultado requiere especialista, se lo decimos y orientamos la referencia.
 
 ## ¿Cada cuánto toca el papanicolaou?
 

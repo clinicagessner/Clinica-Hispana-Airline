@@ -166,10 +166,6 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
         "answer": "Como pauta general, cada 3 años entre los 21 y los 29, y entre los 30 y los 65 cada 3 años con citología o cada 5 con prueba de VPH. Si tuvo un resultado anormal antes, la frecuencia es otra y se la indicamos."
       },
       {
-        "question": "¿Tienen ginecólogo titulado?",
-        "answer": "No. La atención la da nuestro equipo médico general, que hace los exámenes y tratamientos básicos. Cuando un resultado requiere especialista, se lo decimos y orientamos la referencia."
-      },
-      {
         "question": "¿Por qué hacer un cultivo si ya sé que es infección?",
         "answer": "Porque no todas se tratan igual. Una infección por hongos y una vaginosis bacteriana se sienten parecido y necesitan tratamientos distintos; el cultivo evita adivinar y que el tratamiento equivocado empeore la molestia."
       }
@@ -178,10 +174,6 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       {
         "question": "How often should I have a Pap smear?",
         "answer": "As a general guideline, every 3 years between ages 21 and 29, and between 30 and 65 every 3 years with cytology or every 5 with HPV testing. If you have had an abnormal result, the schedule differs and we will tell you."
-      },
-      {
-        "question": "Do you have a board-certified gynecologist?",
-        "answer": "No. Care is provided by our general medical team, which performs the basic exams and treatments. When a result calls for a specialist, we tell you and help direct the referral."
       },
       {
         "question": "Why run a culture if I already know it is an infection?",
@@ -197,7 +189,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Hacen seguimiento del embarazo?",
-        "answer": "Hacemos el seguimiento básico del embarazo y los controles que se resuelven en consulta, además de la prueba y el ultrasonido para datarlo. No atendemos partos: para eso le orientamos la referencia."
+        "answer": "Hacemos el seguimiento básico del embarazo y los controles que se resuelven en consulta, además de la prueba y el ultrasonido para datarlo."
       },
       {
         "question": "Salió negativo pero no me baja, ¿qué puede ser?",
@@ -211,7 +203,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "Do you provide pregnancy follow-up?",
-        "answer": "We provide basic pregnancy follow-up and the checks that can be handled in a clinic visit, along with the test and a dating ultrasound. We do not attend deliveries: for that we help direct the referral."
+        "answer": "We provide basic pregnancy follow-up and the checks that can be handled in a clinic visit, along with the test and a dating ultrasound."
       },
       {
         "question": "It was negative but my period has not come — what could it be?",
