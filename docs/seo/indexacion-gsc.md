@@ -6,14 +6,14 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanaairline.com/`, cuenta **clinicahispanaairline@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-23; URL Inspection API, datos ANTIGUOS del 2026-10-20: antiguos (2026-10-20): --sin-fetch):** 81 de 90 URLs del sitemap indexadas · 9 sin indexar (3 rastreada sin indexar · 3 descubierta sin indexar · 3 desconocida).
+**Estado (actualizado 2026-10-24; URL Inspection API, datos ANTIGUOS del 2026-10-20: antiguos (2026-10-20): --sin-fetch):** 81 de 90 URLs del sitemap indexadas · 9 sin indexar (3 rastreada sin indexar · 3 descubierta sin indexar · 3 desconocida).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 21 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 2 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 23 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 2 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 6 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-03).
 <!-- /tandas:auto -->
 
-## Tanda 25 — cambios del 2026-10-23 (regla Ads = referencia (urología/ginecología))
+## Tanda 25 — cambios del 2026-10-23 (regla Ads = referencia (urología/ginecología)) 📨 ENVIADA 24/10/2026
 
 - [ ] https://www.clinicahispanaairline.com/services/ginecologia  — cambiada 2026-10-23
 - [ ] https://www.clinicahispanaairline.com/services/salud-hombre  — cambiada 2026-10-23
@@ -28,6 +28,8 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 ## Tanda 26
 
+- [ ] https://www.clinicahispanaairline.com/blog/bienvenidos-clinica-hispana-airline  — cambiada 2026-10-23 · rastreada 2026-10-17 · indexada · pedida 2026-10-16 · 204 impr.
+- [ ] https://www.clinicahispanaairline.com/en/blog/bienvenidos-clinica-hispana-airline  — cambiada 2026-10-23 · rastreada 2026-10-18 · indexada · pedida 2026-10-16 · 410 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/examenes-sangre  — cambiada 2026-10-03 · rastreada 2026-09-16 · indexada · 122 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/ultrasonido  — cambiada 2026-09-21 · rastreada 2026-08-25 · indexada · 101 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/electrocardiograma  — cambiada 2026-09-21 · rastreada 2026-08-23 · indexada · 34 impr.
@@ -36,11 +38,11 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanaairline.com/en/services/unas-encarnadas  — cambiada 2026-09-21 · rastreada 2026-09-19 · indexada · 10 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/examen-dot  — cambiada 2026-09-21 · rastreada 2026-09-06 · indexada · 6 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/alergias  — cambiada 2026-09-21 · rastreada 2026-08-17 · indexada · 3 impr.
-- [ ] https://www.clinicahispanaairline.com/en/services/prueba-tuberculosis  — cambiada 2026-09-21 · rastreada 2026-08-19 · indexada · 3 impr.
-- [ ] https://www.clinicahispanaairline.com/en/services/examen-fisico-escolar  — cambiada 2026-09-21 · rastreada 2026-08-22 · indexada · 2 impr.
 
 ## Tanda 27
 
+- [ ] https://www.clinicahispanaairline.com/en/services/prueba-tuberculosis  — cambiada 2026-09-21 · rastreada 2026-08-19 · indexada · 3 impr.
+- [ ] https://www.clinicahispanaairline.com/en/services/examen-fisico-escolar  — cambiada 2026-09-21 · rastreada 2026-08-22 · indexada · 2 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/examen-heces  — cambiada 2026-09-21 · rastreada 2026-08-18 · indexada · 2 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/sueros-vitaminados  — cambiada 2026-09-21 · rastreada 2026-09-07 · indexada · 2 impr.
 - [ ] https://www.clinicahispanaairline.com/en/blog/salud-hombre-houston-chequeos-preventivos  — cambiada 2026-09-21 · rastreada 2026-08-22 · indexada · 1 impr.
@@ -49,11 +51,11 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanaairline.com/en/services/curacion-heridas  — cambiada 2026-09-21 · rastreada 2026-09-06 · indexada · 1 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/examen-alcohol-drogas  — cambiada 2026-09-21 · rastreada 2026-08-21 · indexada · 1 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/prueba-strep  — cambiada 2026-09-21 · rastreada 2026-08-18 · indexada · 1 impr.
-- [ ] https://www.clinicahispanaairline.com/en/services/tiroides  — cambiada 2026-09-21 · rastreada 2026-08-21 · indexada · 1 impr.
-- [ ] https://www.clinicahispanaairline.com/en/blog/vacuna-gripe-otono-quien-cuando-dudas  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
 
 ## Tanda 28
 
+- [ ] https://www.clinicahispanaairline.com/en/services/tiroides  — cambiada 2026-09-21 · rastreada 2026-08-21 · indexada · 1 impr.
+- [ ] https://www.clinicahispanaairline.com/en/blog/vacuna-gripe-otono-quien-cuando-dudas  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/suturas-heridas  — cambiada 2026-09-21 · rastreada 2026-08-21 · indexada · 0 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/condiciones-cronicas  — cambiada 2026-09-21 · rastreada 2026-08-25 · rastreada sin indexar · pedida 2026-09-25 · 0 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/extraccion-implantes  — cambiada 2026-09-21 · rastreada 2026-09-06 · rastreada sin indexar · pedida 2026-09-25 · 0 impr.
