@@ -13,7 +13,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 6 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-03).
 <!-- /tandas:auto -->
 
-## Tanda 25 — cambios del 2026-10-23 (regla Ads = referencia (urología/ginecología)) 📨 ENVIADA 24/10/2026
+## Tanda 25 — cambios del 2026-10-23 (regla Ads = referencia (urología/ginecología)) 📨 ENVIADA 24/10/2026 · APLAZADA por el usuario: la pide el 25/10/2026, va primero ese día (no repetir en otra tanda)
 
 - [ ] https://www.clinicahispanaairline.com/services/ginecologia  — cambiada 2026-10-23
 - [ ] https://www.clinicahispanaairline.com/services/salud-hombre  — cambiada 2026-10-23
