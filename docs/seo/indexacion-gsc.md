@@ -13,12 +13,12 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 6 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-03).
 <!-- /tandas:auto -->
 
-## Tanda 29 — cambios del 2026-10-23 (tanda del día: páginas cambiadas y aún no pedidas) 📨 ENVIADA 26/10/2026
+## Tanda 29 — cambios del 2026-10-23 (tanda del día: páginas cambiadas y aún no pedidas) ✅ PEDIDA 26/10/2026
 
-- [ ] https://www.clinicahispanaairline.com/blog/colesterol-ldl-hdl-trigliceridos-analisis  — post nuevo 2026-10-26 (blog semanal)
-- [ ] https://www.clinicahispanaairline.com/en/blog/colesterol-ldl-hdl-trigliceridos-analisis  — post nuevo 2026-10-26 (blog semanal)
-- [ ] https://www.clinicahispanaairline.com/blog/bienvenidos-clinica-hispana-airline  — cambiada 2026-10-23 · rastreada 2026-10-17 · indexada · pedida 2026-10-16 · 376 impr.
-- [ ] https://www.clinicahispanaairline.com/en/blog/bienvenidos-clinica-hispana-airline  — cambiada 2026-10-23 · rastreada 2026-10-18 · indexada · pedida 2026-10-16 · 494 impr.
+- [x] https://www.clinicahispanaairline.com/blog/colesterol-ldl-hdl-trigliceridos-analisis  — post nuevo 2026-10-26 (blog semanal)
+- [x] https://www.clinicahispanaairline.com/en/blog/colesterol-ldl-hdl-trigliceridos-analisis  — post nuevo 2026-10-26 (blog semanal)
+- [x] https://www.clinicahispanaairline.com/blog/bienvenidos-clinica-hispana-airline  — cambiada 2026-10-23 · rastreada 2026-10-17 · indexada · pedida 2026-10-16 · 376 impr.
+- [x] https://www.clinicahispanaairline.com/en/blog/bienvenidos-clinica-hispana-airline  — cambiada 2026-10-23 · rastreada 2026-10-18 · indexada · pedida 2026-10-16 · 494 impr.
 
 ## Tanda 26
 
