@@ -13,13 +13,10 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 2 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-16).
 <!-- /tandas:auto -->
 
-## Tanda 33 — cambios del 2026-11-02 (sueros solo B12 (orden de red))
+## Tanda 33 — cambios del 2026-11-02 (sueros solo B12 (orden de red))  📨 ENVIADA 03/11/2026
 
 - [ ] https://www.clinicahispanaairline.com/services/sueros-vitaminados  — cambiada 2026-11-02
 - [ ] https://www.clinicahispanaairline.com/en/services/sueros-vitaminados  — cambiada 2026-11-02
-
-## Tanda 37 — cambios del 2026-11-02 (anuncios = referencia)
-
 - [ ] https://www.clinicahispanaairline.com/  — cambiada 2026-11-02
 - [ ] https://www.clinicahispanaairline.com/en  — cambiada 2026-11-02
 - [ ] https://www.clinicahispanaairline.com/services/ginecologia  — cambiada 2026-11-02
