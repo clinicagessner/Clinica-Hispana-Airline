@@ -963,26 +963,26 @@ export const SERVICES: Service[] = [
   {
     "id": "sueros-vitaminados",
     "slug": "sueros-vitaminados",
-    "title": "Sueros Vitaminados (Terapia IV)",
-    "titleEn": "Vitamin IV Therapy",
+    "title": "Suero Vitaminado de B12 (Terapia IV)",
+    "titleEn": "Vitamin B12 IV Therapy",
     "shortTitle": "Sueros Vitaminados",
-    "description": "Sueros vitaminados (terapia IV) en Houston, TX. Hidratación y vitaminas en español, con precios accesibles.",
-    "descriptionEn": "Vitamin IV therapy in Houston, TX. Hydration and vitamins in Spanish, with affordable pricing.",
-    "longDescription": "Aplicación de sueros vitaminados por vía intravenosa en Clínica Hispana Airline, con la aplicación a cargo de personal médico y en un entorno clínico.\n\n**Cómo es la sesión**\nSe coloca una vía en el brazo y el suero pasa lentamente mientras usted está sentado. Dura entre treinta y sesenta minutos. Puede leer, mirar el teléfono o simplemente esperar. Al terminar se retira la vía y se va.\n\n**Antes de aplicarlo revisamos si es adecuado para usted**\nNo es un servicio que se dé sin más. Se valoran su historial, sus medicamentos actuales y si hay condiciones que lo desaconsejen —problemas de riñón o de corazón, por ejemplo—. Si no es adecuado en su caso, se lo decimos.\n\n**Lo que conviene saber**\nSi lo que busca es resolver un cansancio que lleva meses, **el orden razonable es al revés**: primero medir. La anemia, la vitamina B12 baja, la tiroides y el azúcar descontrolado producen exactamente ese cansancio y se detectan con una extracción de sangre. Tratar sin medir deja la causa real sin atender.\n\nPor eso lo habitual aquí es empezar por [análisis de sangre y laboratorio](/services/examenes-sangre), y con el resultado delante decidir qué tiene sentido.\n\n**Seguridad**\nLa aplicación la hace personal médico, en clínica, y se vigila durante la sesión. Avise si ha tenido reacciones a algún medicamento intravenoso o si está embarazada.",
-    "longDescriptionEn": "Intravenous vitamin infusions at Clínica Hispana Airline, administered by medical staff in a clinical setting.\n\n**What the session is like**\nA line is placed in your arm and the infusion runs slowly while you sit. It takes thirty to sixty minutes. You can read, use your phone or simply wait. When it finishes the line comes out and you leave.\n\n**Before administering it we check whether it suits you**\nThis is not a service given on request without review. We assess your history, your current medications and whether any condition makes it inadvisable — kidney or heart problems, for instance. If it is not appropriate in your case, we tell you.\n\n**Worth knowing**\nIf what you are after is resolving months of fatigue, **the sensible order is the other way around**: measure first. Anemia, low vitamin B12, thyroid problems and uncontrolled blood sugar produce exactly that fatigue, and a blood draw detects them. Treating without measuring leaves the real cause unattended.\n\nThat is why the usual path here is to start with [blood tests and lab work](/services/examenes-sangre), and decide what makes sense with the results in hand.\n\n**Safety**\nAdministration is by medical staff, in a clinic, with monitoring during the session. Tell us if you have reacted to any intravenous medication before or if you are pregnant.",
+    "description": "Suero vitaminado de B12 (terapia IV) en Houston, TX: vitamina B12 por vía intravenosa, en español y con precios accesibles.",
+    "descriptionEn": "Vitamin B12 IV therapy in Houston, TX: vitamin B12 given through a vein, in Spanish, with affordable pricing.",
+    "longDescription": "Aplicación de suero vitaminado de B12 por vía intravenosa en Clínica Hispana Airline, con la aplicación a cargo de personal médico y en un entorno clínico.\n\n**Cómo es la sesión**\nSe coloca una vía en el brazo y el suero pasa lentamente mientras usted está sentado. Dura entre treinta y sesenta minutos. Puede leer, mirar el teléfono o simplemente esperar. Al terminar se retira la vía y se va.\n\n**Antes de aplicarlo revisamos si es adecuado para usted**\nNo es un servicio que se dé sin más. Se valoran su historial, sus medicamentos actuales y si hay condiciones que lo desaconsejen —problemas de riñón o de corazón, por ejemplo—. Si no es adecuado en su caso, se lo decimos.\n\n**Lo que conviene saber**\nSi lo que busca es resolver un cansancio que lleva meses, **el orden razonable es al revés**: primero medir. La anemia, la vitamina B12 baja, la tiroides y el azúcar descontrolado producen exactamente ese cansancio y se detectan con una extracción de sangre. Tratar sin medir deja la causa real sin atender.\n\nPor eso lo habitual aquí es empezar por [análisis de sangre y laboratorio](/services/examenes-sangre), y con el resultado delante decidir qué tiene sentido.\n\n**Seguridad**\nLa aplicación la hace personal médico, en clínica, y se vigila durante la sesión. Avise si ha tenido reacciones a algún medicamento intravenoso o si está embarazada.",
+    "longDescriptionEn": "Intravenous vitamin B12 infusions at Clínica Hispana Airline, administered by medical staff in a clinical setting.\n\n**What the session is like**\nA line is placed in your arm and the infusion runs slowly while you sit. It takes thirty to sixty minutes. You can read, use your phone or simply wait. When it finishes the line comes out and you leave.\n\n**Before administering it we check whether it suits you**\nThis is not a service given on request without review. We assess your history, your current medications and whether any condition makes it inadvisable — kidney or heart problems, for instance. If it is not appropriate in your case, we tell you.\n\n**Worth knowing**\nIf what you are after is resolving months of fatigue, **the sensible order is the other way around**: measure first. Anemia, low vitamin B12, thyroid problems and uncontrolled blood sugar produce exactly that fatigue, and a blood draw detects them. Treating without measuring leaves the real cause unattended.\n\nThat is why the usual path here is to start with [blood tests and lab work](/services/examenes-sangre), and decide what makes sense with the results in hand.\n\n**Safety**\nAdministration is by medical staff, in a clinic, with monitoring during the session. Tell us if you have reacted to any intravenous medication before or if you are pregnant.",
     "icon": "Drop",
     "image": "/images/services/sueros-vitaminados.webp",
     "category": "tratamientos",
     "keywords": [
       "sueros vitaminados houston",
       "terapia iv houston",
-      "suero de vitaminas houston",
-      "hidratacion intravenosa houston"
+      "suero de vitamina b12 houston",
+      "suero vitaminado b12 houston"
     ],
     "keywordsEn": [
       "vitamin iv therapy houston",
       "iv drip houston",
-      "iv hydration houston",
+      "vitamin b12 iv drip houston",
       "vitamin drip houston"
     ],
     "features": [
