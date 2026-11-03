@@ -6,19 +6,19 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanaairline.com/`, cuenta **clinicahispanaairline@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-02; URL Inspection API, datos de hoy 2026-11-02):** 84 de 92 URLs del sitemap indexadas · 8 sin indexar (4 desconocida · 3 rastreada sin indexar · 1 descubierta sin indexar).
+**Estado (actualizado 2026-11-03; URL Inspection API, datos ANTIGUOS del 2026-11-02: antiguos (2026-11-02): --sin-fetch):** 84 de 94 URLs del sitemap indexadas · 10 sin indexar (4 desconocida · 3 rastreada sin indexar · 2 sin datos · 1 descubierta sin indexar).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 16 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 2 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 15 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 8 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-6 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-03).
+2 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-16).
 <!-- /tandas:auto -->
 
-## Tanda 32 — cambios del 2026-11-02 (post del blog semanal)  ✅ PEDIDA 02/11/2026
+## Tanda 33 — cambios del 2026-11-02 (sueros solo B12 (orden de red))
 
-- [x] https://www.clinicahispanaairline.com/blog/examen-fisico-escolar-deportivo-que-llevar  — cambiada 2026-11-02
-- [x] https://www.clinicahispanaairline.com/en/blog/examen-fisico-escolar-deportivo-que-llevar  — cambiada 2026-11-02
+- [ ] https://www.clinicahispanaairline.com/services/sueros-vitaminados  — cambiada 2026-11-02
+- [ ] https://www.clinicahispanaairline.com/en/services/sueros-vitaminados  — cambiada 2026-11-02
 
-## Tanda 30
+## Tanda 34
 
 - [ ] https://www.clinicahispanaairline.com/en/services/ultrasonido  — cambiada 2026-09-21 · rastreada 2026-08-25 · indexada · 188 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/alergias  — cambiada 2026-09-21 · rastreada 2026-08-17 · indexada · 112 impr.
@@ -28,19 +28,27 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanaairline.com/en/services/examen-fisico-escolar  — cambiada 2026-09-21 · rastreada 2026-08-22 · indexada · 34 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/tiroides  — cambiada 2026-09-21 · rastreada 2026-08-21 · indexada · 29 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/examen-alcohol-drogas  — cambiada 2026-09-21 · rastreada 2026-08-21 · indexada · 28 impr.
-- [ ] https://www.clinicahispanaairline.com/en/services/sueros-vitaminados  — cambiada 2026-09-21 · rastreada 2026-09-07 · indexada · 18 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/cirugias-menores  — cambiada 2026-09-21 · rastreada 2026-09-06 · indexada · 17 impr.
-
-## Tanda 31
-
 - [ ] https://www.clinicahispanaairline.com/en/services/curacion-heridas  — cambiada 2026-09-21 · rastreada 2026-09-06 · indexada · 16 impr.
+
+## Tanda 35
+
 - [ ] https://www.clinicahispanaairline.com/en/services/examen-heces  — cambiada 2026-09-21 · rastreada 2026-08-18 · indexada · 16 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/unas-encarnadas  — cambiada 2026-09-21 · rastreada 2026-09-19 · indexada · 11 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/examen-dot  — cambiada 2026-09-21 · rastreada 2026-09-06 · indexada · 10 impr.
 - [ ] https://www.clinicahispanaairline.com/en/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-09-21 · rastreada 2026-08-21 · indexada · 2 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/suturas-heridas  — cambiada 2026-09-21 · rastreada 2026-08-21 · indexada · 1 impr.
+- [ ] https://www.clinicahispanaairline.com/services/infecciones-urinarias  — cambiada 2026-10-04 · desconocida · pedida 2026-10-20 · 11 impr.
+- [ ] https://www.clinicahispanaairline.com/services/examen-dot  — cambiada 2026-09-21 · rastreada 2026-08-20 · rastreada sin indexar · pedida 2026-10-20 · 5 impr.
+- [ ] https://www.clinicahispanaairline.com/services/farmacia  — cambiada 2026-10-15 · desconocida · pedida 2026-10-20 · 0 impr.
+- [ ] https://www.clinicahispanaairline.com/services/tiroides  — cambiada 2026-09-21 · desconocida · pedida 2026-10-20 · 0 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/condiciones-cronicas  — cambiada 2026-09-21 · rastreada 2026-08-25 · rastreada sin indexar · pedida 2026-09-25 · 1 impr.
+
+## Tanda 36
+
+- [ ] https://www.clinicahispanaairline.com/en/services/examenes-inmigracion  — cambiada 2026-10-03 · descubierta sin indexar · pedida 2026-10-20 · 0 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/extraccion-implantes  — cambiada 2026-09-21 · rastreada 2026-09-06 · rastreada sin indexar · pedida 2026-09-25 · 0 impr.
+- [ ] https://www.clinicahispanaairline.com/en/services/infecciones-urinarias  — cambiada 2026-10-04 · desconocida · pedida 2026-10-20 · 0 impr.
 
 ## Historial (tandas pedidas)
 
@@ -162,3 +170,8 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [x] https://www.clinicahispanaairline.com/en/blog/colesterol-ldl-hdl-trigliceridos-analisis  — post nuevo 2026-10-26 (blog semanal)
 - [x] https://www.clinicahispanaairline.com/blog/bienvenidos-clinica-hispana-airline  — cambiada 2026-10-23 · rastreada 2026-10-17 · indexada · pedida 2026-10-16 · 376 impr.
 - [x] https://www.clinicahispanaairline.com/en/blog/bienvenidos-clinica-hispana-airline  — cambiada 2026-10-23 · rastreada 2026-10-18 · indexada · pedida 2026-10-16 · 494 impr.
+
+## Tanda 32 — cambios del 2026-11-02 (post del blog semanal)  ✅ PEDIDA 02/11/2026
+
+- [x] https://www.clinicahispanaairline.com/blog/examen-fisico-escolar-deportivo-que-llevar  — cambiada 2026-11-02
+- [x] https://www.clinicahispanaairline.com/en/blog/examen-fisico-escolar-deportivo-que-llevar  — cambiada 2026-11-02
