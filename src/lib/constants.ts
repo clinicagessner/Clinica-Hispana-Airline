@@ -440,7 +440,7 @@ export const SERVICES: Service[] = [
   {
     "id": "salud-hombre",
     "slug": "salud-hombre",
-    "title": "Examen de Próstata en Houston: PSA y Salud del Hombre",
+    "title": "Urología y Salud del Hombre en Houston: Próstata y Orina",
     "titleEn": "Prostate Exam in Houston: PSA and Men's Health",
     "shortTitle": "Salud del Hombre",
     "description": "Examen de próstata en Houston, TX: antígeno prostático (PSA), laboratorio y chequeo general del hombre. En español, con precios accesibles.",
