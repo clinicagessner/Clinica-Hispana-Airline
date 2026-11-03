@@ -22,7 +22,7 @@
   "hero": {
     "badge": "Atención médica de calidad",
     "title": "Su Clínica Hispana de Confianza en Houston",
-    "subtitle": "Una de las clínicas hispanas líderes en Houston TX. Medicina familiar, ginecología, diabetes y laboratorio. Sin cita previa, precios accesibles.",
+    "subtitle": "Una de las clínicas hispanas líderes en Houston TX. Medicina familiar, ginecología, diabetes y lab en sitio con resultados el mismo día. Walk-in sin cita previa, con o sin seguro médico, con doctores que hablan tu idioma. Consulta inicial gratis; consulta médica desde $19.",
     "freeConsultation": "Consulta inicial gratis",
     "ctaCall": "Llamar Ahora",
     "ctaWhatsapp": "WhatsApp",
@@ -106,7 +106,7 @@
     "q1": "¿Necesito cita previa?",
     "a1": "No, atendemos pacientes sin cita previa. Simplemente venga a nuestra clínica durante nuestro horario de atención y lo atenderemos lo más pronto posible. Sin embargo, si prefiere asegurar un horario específico, puede llamarnos para hacer una cita.",
     "q2": "¿Aceptan pacientes sin seguro médico?",
-    "a2": "Sí. No necesitas seguro médico para atenderte. Ofrecemos precios accesibles de pago directo y aceptamos efectivo y tarjetas para que todos puedan recibir la atención médica que necesitan.",
+    "a2": "Sí. No necesitas seguro médico para atenderte. Ofrecemos precios accesibles de pago directo y aceptamos efectivo y tarjetas para que todos puedan recibir la atención médica que necesitan. La consulta inicial es gratis y la consulta médica, desde $19.",
     "q3": "¿Hablan español en la clínica?",
     "a3": "Sí, todo nuestro personal habla español. Nuestra clínica fue creada específicamente para servir a la comunidad hispana de Houston, y nos aseguramos de que pueda comunicarse cómodamente en su idioma.",
     "q4": "¿Cuáles son sus horarios de atención?",
@@ -118,7 +118,7 @@
     "q7": "¿Dónde están ubicados en Houston?",
     "a7": "Estamos ubicados en 934 E Tidwell Rd, Houston, TX 77022, en el área norte de Houston cerca de la autopista 59/69. Contamos con amplio estacionamiento gratuito y fácil acceso en transporte público.",
     "q8": "¿Realizan exámenes médicos de inmigración I-693?",
-    "a8": "Sí, contamos con médicos Civil Surgeon certificados por USCIS para realizar el examen médico de inmigración I-693 requerido para la Green Card. Ofrecemos resultados rápidos, vacunas disponibles en sitio, y atención 100% en español.",
+    "a8": "Sí, contamos con médicos Civil Surgeon autorizados por USCIS para realizar el examen médico de inmigración I-693 requerido para la Green Card. Ofrecemos resultados rápidos, vacunas disponibles en sitio, y atención 100% en español.",
     "q9": "¿Cuánto tiempo debo esperar sin cita?",
     "a9": "El tiempo de espera varía según la demanda del día, pero generalmente atendemos a los pacientes en 15-30 minutos. Le recomendamos llegar temprano para asegurar una atención más rápida.",
     "q10": "¿Hay estacionamiento disponible?",
@@ -208,14 +208,14 @@
   },
   "chronicCare": {
     "features": {
-      "lab": "Laboratorio en la clínica, resultados rápidos",
+      "lab": "Lab en sitio, resultados el mismo día",
       "followUp": "Seguimiento médico continuo",
       "spanish": "Atención 100% en español",
       "walkIn": "Sin cita previa necesaria"
     },
     "badge": "Cuidado Continuo",
     "title": "Control de Diabetes e Hipertensión en Houston",
-    "subtitle": "Programa integral de monitoreo y tratamiento para diabetes, hipertensión, colesterol alto y tiroides. Laboratorio en la clínica con resultados rápidos, ajuste de medicamentos y educación en español.",
+    "subtitle": "Programa integral de monitoreo y tratamiento para diabetes, hipertensión, colesterol alto y tiroides. Laboratorio en sitio con resultados el mismo día, ajuste de medicamentos y educación en español.",
     "conditionsTitle": "Condiciones que tratamos",
     "conditions": {
       "diabetes": "Diabetes",

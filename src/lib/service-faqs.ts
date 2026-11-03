@@ -22,6 +22,10 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       {
         "question": "¿Qué revisiones anuales necesito además de los análisis?",
         "answer": "Pies, riñón, ojos y, según su caso, corazón. Las de pies y riñón se las hacemos aquí; la de retina es con oftalmólogo y le decimos cuándo toca."
+      },
+      {
+        "question": "¿Puedo venir sin cita y sin seguro?",
+        "answer": "Sí. Es una clínica abierta sin cita para toda la familia, los 7 días de 9 AM a 9 PM: atención el mismo día, con o sin seguro médico, con médicos hispanos que hablan tu idioma."
       }
     ],
     "faqsEn": [
@@ -36,6 +40,10 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       {
         "question": "What yearly screening do I need besides lab work?",
         "answer": "Feet, kidneys, eyes and, depending on your case, heart. We do the foot and kidney checks here; the retinal exam is with an ophthalmologist and we tell you when it is due."
+      },
+      {
+        "question": "Can I come in without an appointment or insurance?",
+        "answer": "Yes. It is a walk-in clinic for the whole family, open 7 days from 9 AM to 9 PM: same-day care, with or without health insurance, with Hispanic doctors who speak your language."
       }
     ]
   },
@@ -168,6 +176,14 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       {
         "question": "¿Por qué hacer un cultivo si ya sé que es infección?",
         "answer": "Porque no todas se tratan igual. Una infección por hongos y una vaginosis bacteriana se sienten parecido y necesitan tratamientos distintos; el cultivo evita adivinar y que el tratamiento equivocado empeore la molestia."
+      },
+      {
+        "question": "¿Me puede atender una doctora?",
+        "answer": "Sí. En la clínica hay doctoras hispanas que hablan tu idioma. La consulta es sin cita previa, con o sin seguro médico, de lunes a domingo de 9 AM a 9 PM."
+      },
+      {
+        "question": "¿Atienden a mujeres embarazadas?",
+        "answer": "Sí: prueba de embarazo, ultrasonido y seguimiento básico del embarazo en la clínica, además del examen pélvico y de seno y la planificación familiar, en español."
       }
     ],
     "faqsEn": [
@@ -178,6 +194,14 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       {
         "question": "Why run a culture if I already know it is an infection?",
         "answer": "Because they are not all treated the same way. A yeast infection and bacterial vaginosis feel similar and need different treatments; the culture keeps us from guessing and from making things worse with the wrong one."
+      },
+      {
+        "question": "Can a female doctor see me?",
+        "answer": "Yes. The clinic has Hispanic female doctors who speak your language. Visits are walk-in, with or without health insurance, Monday to Sunday from 9 AM to 9 PM."
+      },
+      {
+        "question": "Do you see pregnant women?",
+        "answer": "Yes: pregnancy test, ultrasound and basic pregnancy follow-up at the clinic, along with the pelvic and breast exam and family planning, in Spanish."
       }
     ]
   },
@@ -284,6 +308,10 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       {
         "question": "¿Desde qué edad debo hacerme el PSA?",
         "answer": "Conviene hablarlo a partir de los 50, y antes si hay antecedentes familiares de problemas de próstata."
+      },
+      {
+        "question": "¿Atienden el ardor al orinar y la infección urinaria?",
+        "answer": "Sí, con atención el mismo día: examen de orina en la clínica y, si hay infección, sales con tu tratamiento el mismo día. Sin cita previa y con o sin seguro médico."
       }
     ],
     "faqsEn": [
@@ -298,6 +326,10 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       {
         "question": "At what age should I start PSA testing?",
         "answer": "It is worth discussing from age 50, and earlier if there is a family history of prostate problems."
+      },
+      {
+        "question": "Do you treat burning urination and urinary tract infections?",
+        "answer": "Yes, with same-day care: a urine test in the clinic and, if there is an infection, you leave with your treatment the same day. Walk-in, with or without health insurance."
       }
     ]
   },

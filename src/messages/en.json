@@ -22,7 +22,7 @@
   "hero": {
     "badge": "Quality medical care",
     "title": "Your Trusted Hispanic Clinic in Houston",
-    "subtitle": "One of the leading hispanic clinics in Houston TX. Family medicine, gynecology, diabetes care, and laboratory. Walk-ins welcome, affordable prices.",
+    "subtitle": "One of the leading hispanic clinics in Houston TX. Family medicine, gynecology, diabetes care, and an on-site lab with same-day results. Walk-ins welcome, with or without health insurance, with doctors who speak your language. Free initial consultation; medical visits from $19.",
     "freeConsultation": "Free initial consultation",
     "ctaCall": "Call Now",
     "ctaWhatsapp": "WhatsApp",
@@ -106,7 +106,7 @@
     "q1": "Do I need an appointment?",
     "a1": "No, we accept walk-in patients. Simply come to our clinic during business hours and we'll see you as soon as possible. However, if you prefer to secure a specific time slot, you can call us to make an appointment.",
     "q2": "Do you accept patients without insurance?",
-    "a2": "Yes. You don't need insurance to be seen. We offer affordable self-pay pricing and accept cash and cards so everyone can receive the medical care they need.",
+    "a2": "Yes. You don't need insurance to be seen. We offer affordable self-pay pricing and accept cash and cards so everyone can receive the medical care they need. The initial consultation is free, and medical visits start at $19.",
     "q3": "Do you speak Spanish at the clinic?",
     "a3": "Yes, all our staff speaks Spanish. Our clinic was specifically created to serve Houston's Hispanic community, and we make sure you can communicate comfortably in your language.",
     "q4": "What are your business hours?",
@@ -118,7 +118,7 @@
     "q7": "Where are you located in Houston?",
     "a7": "We are located at 934 E Tidwell Rd, Houston, TX 77022, in the north Houston area near Highway 59/69. We have ample free parking and easy access by public transportation.",
     "q8": "Do you perform I-693 immigration medical exams?",
-    "a8": "Yes, we have USCIS-certified Civil Surgeon physicians to perform the I-693 immigration medical exam required for the Green Card. We offer fast results, on-site vaccines, and 100% Spanish-language service.",
+    "a8": "Yes, we have USCIS-designated Civil Surgeon physicians to perform the I-693 immigration medical exam required for the Green Card. We offer fast results, on-site vaccines, and 100% Spanish-language service.",
     "q9": "How long is the wait without an appointment?",
     "a9": "Wait times vary depending on daily demand, but we generally see patients within 15-30 minutes. We recommend arriving early to ensure faster service.",
     "q10": "Is parking available?",
@@ -208,14 +208,14 @@
   },
   "chronicCare": {
     "features": {
-      "lab": "On-site lab, fast results",
+      "lab": "On-site lab, same-day results",
       "followUp": "Ongoing medical follow-up",
       "spanish": "Care 100% in Spanish",
       "walkIn": "No appointment needed"
     },
     "badge": "Ongoing Care",
     "title": "Diabetes & Hypertension Management in Houston",
-    "subtitle": "Comprehensive monitoring and treatment program for diabetes, hypertension, high cholesterol, and thyroid conditions. On-site lab with fast results, medication adjustments, and patient education in Spanish.",
+    "subtitle": "Comprehensive monitoring and treatment program for diabetes, hypertension, high cholesterol, and thyroid conditions. On-site lab with same-day results, medication adjustments, and patient education in Spanish.",
     "conditionsTitle": "Conditions we manage",
     "conditions": {
       "diabetes": "Diabetes",
