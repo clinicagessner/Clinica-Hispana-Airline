@@ -13,6 +13,11 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 2 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-16).
 <!-- /tandas:auto -->
 
+## Tanda 41 — cambios del 2026-11-04 (título de urología aprobado)
+
+- [ ] https://www.clinicahispanaairline.com/services/salud-hombre  — cambiada 2026-11-04
+- [ ] https://www.clinicahispanaairline.com/en/services/salud-hombre  — cambiada 2026-11-04
+
 ## Tanda 33 — cambios del 2026-11-02 (sueros solo B12 (orden de red))  ✅ PEDIDA 03/11/2026
 
 - [x] https://www.clinicahispanaairline.com/services/sueros-vitaminados  — cambiada 2026-11-02
