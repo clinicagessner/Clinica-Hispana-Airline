@@ -6,32 +6,19 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanaairline.com/`, cuenta **clinicahispanaairline@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-03; URL Inspection API, datos ANTIGUOS del 2026-11-02: antiguos (2026-11-02): --sin-fetch):** 84 de 94 URLs del sitemap indexadas · 10 sin indexar (4 desconocida · 3 rastreada sin indexar · 2 sin datos · 1 descubierta sin indexar).
+**Estado (actualizado 2026-11-04; URL Inspection API, datos ANTIGUOS del 2026-11-02: antiguos (2026-11-02): --sin-fetch):** 84 de 94 URLs del sitemap indexadas · 10 sin indexar (4 desconocida · 3 rastreada sin indexar · 2 sin datos · 1 descubierta sin indexar).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 15 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 7 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-2 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-16).
+3 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-16).
 <!-- /tandas:auto -->
 
-## Tanda 41 — cambios del 2026-11-04 (título de urología aprobado)
+## Tanda 41 — cambios del 2026-11-04 (título de urología aprobado)  📨 ENVIADA 04/11/2026
 
 - [ ] https://www.clinicahispanaairline.com/services/salud-hombre  — cambiada 2026-11-04
 - [ ] https://www.clinicahispanaairline.com/en/services/salud-hombre  — cambiada 2026-11-04
 
-## Tanda 33 — cambios del 2026-11-02 (sueros solo B12 (orden de red))  ✅ PEDIDA 03/11/2026
-
-- [x] https://www.clinicahispanaairline.com/services/sueros-vitaminados  — cambiada 2026-11-02
-- [x] https://www.clinicahispanaairline.com/en/services/sueros-vitaminados  — cambiada 2026-11-02
-- [x] https://www.clinicahispanaairline.com/  — cambiada 2026-11-02
-- [x] https://www.clinicahispanaairline.com/en  — cambiada 2026-11-02
-- [x] https://www.clinicahispanaairline.com/services/ginecologia  — cambiada 2026-11-02
-- [x] https://www.clinicahispanaairline.com/en/services/ginecologia  — cambiada 2026-11-02
-- [x] https://www.clinicahispanaairline.com/services/salud-hombre  — cambiada 2026-11-02
-- [x] https://www.clinicahispanaairline.com/en/services/salud-hombre  — cambiada 2026-11-02
-- [x] https://www.clinicahispanaairline.com/services/condiciones-cronicas  — cambiada 2026-11-02
-- [x] https://www.clinicahispanaairline.com/en/services/condiciones-cronicas  — cambiada 2026-11-02
-
-## Tanda 38
+## Tanda 42
 
 - [ ] https://www.clinicahispanaairline.com/en/services/ultrasonido  — cambiada 2026-09-21 · rastreada 2026-08-25 · indexada · 188 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/alergias  — cambiada 2026-09-21 · rastreada 2026-08-17 · indexada · 112 impr.
@@ -44,7 +31,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanaairline.com/en/services/cirugias-menores  — cambiada 2026-09-21 · rastreada 2026-09-06 · indexada · 17 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/curacion-heridas  — cambiada 2026-09-21 · rastreada 2026-09-06 · indexada · 16 impr.
 
-## Tanda 39
+## Tanda 43
 
 - [ ] https://www.clinicahispanaairline.com/en/services/examen-heces  — cambiada 2026-09-21 · rastreada 2026-08-18 · indexada · 16 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/unas-encarnadas  — cambiada 2026-09-21 · rastreada 2026-09-19 · indexada · 11 impr.
@@ -57,7 +44,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanaairline.com/services/tiroides  — cambiada 2026-09-21 · desconocida · pedida 2026-10-20 · 0 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/examenes-inmigracion  — cambiada 2026-10-03 · descubierta sin indexar · pedida 2026-10-20 · 0 impr.
 
-## Tanda 40
+## Tanda 44
 
 - [ ] https://www.clinicahispanaairline.com/en/services/extraccion-implantes  — cambiada 2026-09-21 · rastreada 2026-09-06 · rastreada sin indexar · pedida 2026-09-25 · 0 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/infecciones-urinarias  — cambiada 2026-10-04 · desconocida · pedida 2026-10-20 · 0 impr.
@@ -187,3 +174,16 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 - [x] https://www.clinicahispanaairline.com/blog/examen-fisico-escolar-deportivo-que-llevar  — cambiada 2026-11-02
 - [x] https://www.clinicahispanaairline.com/en/blog/examen-fisico-escolar-deportivo-que-llevar  — cambiada 2026-11-02
+
+## Tanda 33 — cambios del 2026-11-02 (sueros solo B12 (orden de red))  ✅ PEDIDA 03/11/2026
+
+- [x] https://www.clinicahispanaairline.com/services/sueros-vitaminados  — cambiada 2026-11-02
+- [x] https://www.clinicahispanaairline.com/en/services/sueros-vitaminados  — cambiada 2026-11-02
+- [x] https://www.clinicahispanaairline.com/  — cambiada 2026-11-02
+- [x] https://www.clinicahispanaairline.com/en  — cambiada 2026-11-02
+- [x] https://www.clinicahispanaairline.com/services/ginecologia  — cambiada 2026-11-02
+- [x] https://www.clinicahispanaairline.com/en/services/ginecologia  — cambiada 2026-11-02
+- [x] https://www.clinicahispanaairline.com/services/salud-hombre  — cambiada 2026-11-02
+- [x] https://www.clinicahispanaairline.com/en/services/salud-hombre  — cambiada 2026-11-02
+- [x] https://www.clinicahispanaairline.com/services/condiciones-cronicas  — cambiada 2026-11-02
+- [x] https://www.clinicahispanaairline.com/en/services/condiciones-cronicas  — cambiada 2026-11-02
