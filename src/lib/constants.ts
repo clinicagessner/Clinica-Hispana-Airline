@@ -288,14 +288,14 @@ export const SERVICES: Service[] = [
     "category": "salud-mujer",
     "keywords": [
       "ginecologia en houston",
-      "ginecologo houston español",
+      "clinica para la mujer houston",
       "papanicolaou houston",
       "cultivo vaginal houston",
       "infeccion vaginal tratamiento houston"
     ],
     "keywordsEn": [
       "gynecology houston",
-      "gynecologist houston spanish",
+      "womens clinic houston spanish",
       "pap smear houston",
       "vaginal culture houston",
       "vaginal infection treatment houston"
