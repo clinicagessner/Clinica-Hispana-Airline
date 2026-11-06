@@ -1,15 +1,16 @@
 import Image from "next/image";
-import { getTranslations } from "next-intl/server";
+import { getLocale, getTranslations } from "next-intl/server";
 import { Phone, MapPin, Clock, Star, CheckCircle, ArrowRight, WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { CONTACT_INFO, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
 import { getGooglePlaceData } from "@/lib/google-places";
 
 export async function Hero() {
-  const [t, tCta, googleData] = await Promise.all([
+  const [t, tCta, googleData, locale] = await Promise.all([
     getTranslations("hero"),
     getTranslations("cta"),
     getGooglePlaceData(),
+    getLocale(),
   ]);
   const totalReviews = googleData?.totalReviews ?? GOOGLE_REVIEWS_DATA.totalReviews;
 
@@ -39,6 +40,21 @@ export async function Hero() {
       {/* Content */}
       <div className="container relative z-10 mx-auto px-4 pt-28 md:pt-32 pb-40 md:pb-32">
         <div className="max-w-4xl mx-auto text-center">
+
+          {/* /en recibe búsquedas en español ("clinica hispana near me"): enlace visible a la versión en español */}
+          {locale === "en" && (
+            <p className="animate-hero-title mb-4">
+              <a
+                href="/"
+                hrefLang="es"
+                lang="es"
+                className="inline-flex items-center gap-1.5 text-base font-semibold text-white underline decoration-white/50 underline-offset-4 hover:decoration-white"
+              >
+                ¿Prefiere español? Ver la página en español
+                <ArrowRight className="size-4" weight="bold" />
+              </a>
+            </p>
+          )}
 
           {/* Google Rating Badge */}
           <div className="animate-hero-title inline-flex items-center gap-3 bg-white/15 backdrop-blur-sm border border-white/30 rounded-full px-5 py-2.5 mb-6">
