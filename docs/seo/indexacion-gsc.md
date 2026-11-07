@@ -6,25 +6,12 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanaairline.com/`, cuenta **clinicahispanaairline@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-06; URL Inspection API, datos de hoy 2026-11-06):** 86 de 94 URLs del sitemap indexadas · 8 sin indexar (3 rastreada sin indexar · 3 desconocida · 2 descubierta sin indexar).
+**Estado (actualizado 2026-11-07; URL Inspection API, datos ANTIGUOS del 2026-11-06: antiguos (2026-11-06): --sin-fetch):** 86 de 94 URLs del sitemap indexadas · 8 sin indexar (3 rastreada sin indexar · 3 desconocida · 2 descubierta sin indexar).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 15 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 3 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-1 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-17).
+5 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-17).
 <!-- /tandas:auto -->
-
-## Tanda 45 — cambios del 2026-11-06 (análisis diario: landings de Ads alineadas, /en con enlace a español; + páginas aún sin indexar)  📨 ENVIADA 06/11/2026  ✅ PEDIDA 06/11/2026
-
-- [x] https://www.clinicahispanaairline.com/services/ginecologia  — cambiada 2026-11-06
-- [x] https://www.clinicahispanaairline.com/en/services/ginecologia  — cambiada 2026-11-06
-- [x] https://www.clinicahispanaairline.com/services/salud-hombre  — cambiada 2026-11-06
-- [x] https://www.clinicahispanaairline.com/en/services/salud-hombre  — cambiada 2026-11-06
-- [x] https://www.clinicahispanaairline.com/en  — cambiada 2026-11-06
-- [x] https://www.clinicahispanaairline.com/services/infecciones-urinarias  — sin indexar (GSC 2026-11-06)
-- [x] https://www.clinicahispanaairline.com/en/services/infecciones-urinarias  — sin indexar (GSC 2026-11-06)
-- [x] https://www.clinicahispanaairline.com/en/services/examenes-inmigracion  — sin indexar (GSC 2026-11-06)
-- [x] https://www.clinicahispanaairline.com/services/tiroides  — sin indexar (GSC 2026-11-06)
-- [x] https://www.clinicahispanaairline.com  — cambiada 2026-11-06 · rastreada 2026-11-04 · indexada · pedida 2026-11-03 · 5072 impr.
 
 ## Tanda 46
 
@@ -193,3 +180,16 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 - [x] https://www.clinicahispanaairline.com/services/salud-hombre  — cambiada 2026-11-04
 - [x] https://www.clinicahispanaairline.com/en/services/salud-hombre  — cambiada 2026-11-04
+
+## Tanda 45 — cambios del 2026-11-06 (análisis diario: landings de Ads alineadas, /en con enlace a español; + páginas aún sin indexar)  📨 ENVIADA 06/11/2026  ✅ PEDIDA 06/11/2026
+
+- [x] https://www.clinicahispanaairline.com/services/ginecologia  — cambiada 2026-11-06
+- [x] https://www.clinicahispanaairline.com/en/services/ginecologia  — cambiada 2026-11-06
+- [x] https://www.clinicahispanaairline.com/services/salud-hombre  — cambiada 2026-11-06
+- [x] https://www.clinicahispanaairline.com/en/services/salud-hombre  — cambiada 2026-11-06
+- [x] https://www.clinicahispanaairline.com/en  — cambiada 2026-11-06
+- [x] https://www.clinicahispanaairline.com/services/infecciones-urinarias  — sin indexar (GSC 2026-11-06)
+- [x] https://www.clinicahispanaairline.com/en/services/infecciones-urinarias  — sin indexar (GSC 2026-11-06)
+- [x] https://www.clinicahispanaairline.com/en/services/examenes-inmigracion  — sin indexar (GSC 2026-11-06)
+- [x] https://www.clinicahispanaairline.com/services/tiroides  — sin indexar (GSC 2026-11-06)
+- [x] https://www.clinicahispanaairline.com  — cambiada 2026-11-06 · rastreada 2026-11-04 · indexada · pedida 2026-11-03 · 5072 impr.
