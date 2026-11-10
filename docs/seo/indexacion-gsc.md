@@ -10,15 +10,10 @@ Propiedad: `https://www.clinicahispanaairline.com/`, cuenta **clinicahispanaairl
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 15 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 3 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-5 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-17).
+7 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-17).
 <!-- /tandas:auto -->
 
-## Tanda 48 — cambios del 2026-11-09 (post del blog semanal)  📨 ENVIADA 09/11/2026  ✅ PEDIDA 10/11/2026
-
-- [x] https://www.clinicahispanaairline.com/blog/herida-infectada-pus-enrojecimiento-cuando-revisar  — cambiada 2026-11-09
-- [x] https://www.clinicahispanaairline.com/en/blog/herida-infectada-pus-enrojecimiento-cuando-revisar  — cambiada 2026-11-09
-
-## Tanda 49 — cambios del 2026-11-10 (quitar superlativos aprobados 2026-11-09)
+## Tanda 49 — cambios del 2026-11-10 (quitar superlativos aprobados 2026-11-09)  📨 ENVIADA 10/11/2026
 
 - [ ] https://www.clinicahispanaairline.com  — cambiada 2026-11-10
 - [ ] https://www.clinicahispanaairline.com/en  — cambiada 2026-11-10
@@ -203,3 +198,8 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [x] https://www.clinicahispanaairline.com/en/services/examenes-inmigracion  — sin indexar (GSC 2026-11-06)
 - [x] https://www.clinicahispanaairline.com/services/tiroides  — sin indexar (GSC 2026-11-06)
 - [x] https://www.clinicahispanaairline.com  — cambiada 2026-11-06 · rastreada 2026-11-04 · indexada · pedida 2026-11-03 · 5072 impr.
+
+## Tanda 48 — cambios del 2026-11-09 (post del blog semanal)  📨 ENVIADA 09/11/2026  ✅ PEDIDA 10/11/2026
+
+- [x] https://www.clinicahispanaairline.com/blog/herida-infectada-pus-enrojecimiento-cuando-revisar  — cambiada 2026-11-09
+- [x] https://www.clinicahispanaairline.com/en/blog/herida-infectada-pus-enrojecimiento-cuando-revisar  — cambiada 2026-11-09
