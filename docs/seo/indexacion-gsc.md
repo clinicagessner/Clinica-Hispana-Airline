@@ -6,18 +6,14 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanaairline.com/`, cuenta **clinicahispanaairline@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-13; URL Inspection API, datos ANTIGUOS del 2026-11-09: antiguos (2026-11-09): --sin-fetch):** 86 de 96 URLs del sitemap indexadas · 10 sin indexar (3 rastreada sin indexar · 3 desconocida · 2 descubierta sin indexar · 2 sin datos).
+**Estado (actualizado 2026-11-14; URL Inspection API, datos ANTIGUOS del 2026-11-09: antiguos (2026-11-09): --sin-fetch):** 86 de 96 URLs del sitemap indexadas · 10 sin indexar (3 rastreada sin indexar · 3 desconocida · 2 descubierta sin indexar · 2 sin datos).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 15 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 3 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 7 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-17).
 <!-- /tandas:auto -->
 
-## Tanda 52 — cambios del 2026-11-14 (YouTube en el footer de toda la web)
-
-- [ ] https://www.clinicahispanaairline.com/es  — cambiada 2026-11-14
-
-## Tanda 53 — cambios del 2026-11-13 (análisis 3 días: web adaptada a los anuncios activos de Meta)
+## Tanda 53 — cambios del 2026-11-13 (análisis 3 días: web adaptada a los anuncios activos de Meta)  📨 ENVIADA 14/11/2026
 
 - [ ] https://www.clinicahispanaairline.com/  — cambiada 2026-11-13
 - [ ] https://www.clinicahispanaairline.com/en  — cambiada 2026-11-13
@@ -26,7 +22,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanaairline.com/promociones  — cambiada 2026-11-13
 - [ ] https://www.clinicahispanaairline.com/en/promociones  — cambiada 2026-11-13
 
-## Tanda 50
+## Tanda 54
 
 - [ ] https://www.clinicahispanaairline.com/en/services/ultrasonido  — cambiada 2026-09-21 · rastreada 2026-08-25 · indexada · 217 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/alergias  — cambiada 2026-09-21 · rastreada 2026-08-17 · indexada · 112 impr.
@@ -39,7 +35,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanaairline.com/en/services/cirugias-menores  — cambiada 2026-09-21 · rastreada 2026-09-06 · indexada · 18 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/curacion-heridas  — cambiada 2026-09-21 · rastreada 2026-09-06 · indexada · 16 impr.
 
-## Tanda 51
+## Tanda 55
 
 - [ ] https://www.clinicahispanaairline.com/en/services/examen-heces  — cambiada 2026-09-21 · rastreada 2026-08-18 · indexada · 16 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/unas-encarnadas  — cambiada 2026-09-21 · rastreada 2026-09-19 · indexada · 14 impr.
