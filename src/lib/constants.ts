@@ -1256,18 +1256,18 @@ export const PROMOTIONS: Promotion[] = [
     titleEn: "Complete General Checkup",
     price: "$99",
     blurb:
-      "Chequeo general completo con valor regular de $250, que incluye examen general de sangre, A1C, examen general de orina y consulta médica gratis.",
+      "Chequeo general completo con detección de diabetes y valor regular de $250, que incluye examen general de sangre, hemoglobina A1c, examen general de orina y consulta médica gratis.",
     blurbEn:
-      "A complete general checkup with a regular value of $250, including a general blood test, A1C, a general urine test, and a free medical consultation.",
+      "A complete general checkup with diabetes screening and a regular value of $250, including a general blood test, hemoglobin A1c, a general urine test, and a free medical consultation.",
     includes: [
       "Examen general de sangre",
-      "A1C (hemoglobina glicosilada)",
+      "Hemoglobina A1c (detección de diabetes)",
       "Examen general de orina",
       "Consulta médica gratis",
     ],
     includesEn: [
       "General blood test",
-      "A1C (glycated hemoglobin)",
+      "Hemoglobin A1c (diabetes screening)",
       "General urine test",
       "Free medical consultation",
     ],
