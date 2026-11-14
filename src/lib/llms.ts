@@ -59,6 +59,7 @@ function socials(): string {
     `- [X](${SOCIAL_LINKS.x})`,
     `- [LinkedIn](${SOCIAL_LINKS.linkedin})`,
     `- [Google Business Profile](${SOCIAL_LINKS.google})`,
+    `- [YouTube](${SOCIAL_LINKS.youtube})`,
   ].join("\n");
 }
 

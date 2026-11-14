@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { getTranslations, getLocale } from "next-intl/server";
-import { Phone, MapPin, Clock, InstagramLogo, FacebookLogo, XLogo, LinkedinLogo, GoogleLogo } from "@phosphor-icons/react/dist/ssr";
+import { Phone, MapPin, Clock, InstagramLogo, YoutubeLogo, FacebookLogo, XLogo, LinkedinLogo, GoogleLogo } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { SITE_CONFIG, CONTACT_INFO, SOCIAL_LINKS, NAV_ITEMS, GOOGLE_REVIEWS_DATA, SERVICES } from "@/lib/constants";
 
@@ -233,6 +233,17 @@ export async function Footer({ phoneOverride }: FooterProps = {}) {
                   aria-label="Instagram"
                 >
                   <InstagramLogo className="size-5" weight="fill" />
+                </a>
+              )}
+              {SOCIAL_LINKS.youtube && (
+                <a
+                  href={SOCIAL_LINKS.youtube}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="size-11 rounded-full bg-white/10 flex items-center justify-center hover:bg-red-primary transition-colors"
+                  aria-label="YouTube"
+                >
+                  <YoutubeLogo className="size-5" weight="fill" />
                 </a>
               )}
             </div>

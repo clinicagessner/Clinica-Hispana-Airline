@@ -113,6 +113,7 @@ export async function JsonLdMedicalClinic({
         sameAs: [
           SOCIAL_LINKS.facebook,
           SOCIAL_LINKS.instagram,
+          SOCIAL_LINKS.youtube,
           SOCIAL_LINKS.x,
           SOCIAL_LINKS.linkedin,
           SOCIAL_LINKS.google,

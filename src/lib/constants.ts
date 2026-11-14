@@ -42,6 +42,7 @@ export const SOCIAL_LINKS: SocialLinks = {
   // Está en la ficha de Google y faltaba aquí.
   instagram: "https://www.instagram.com/clinicahispanaairline",
   facebook: "https://www.facebook.com/clinicahispanaairline/",
+  youtube: "https://www.youtube.com/@ClinicaHispanaAirline",
   linkedin: "https://www.linkedin.com/in/clinica-hispana-airline/",
   google: "https://g.co/kgs/1RwVVhT",
 };
