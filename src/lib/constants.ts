@@ -1540,6 +1540,11 @@ export const FAQ_ITEMS: FAQItem[] = [
     question: "faq.q12",
     answer: "faq.a12",
   },
+  {
+    id: "dolor-abdominal-sangrado",
+    question: "faq.q13",
+    answer: "faq.a13",
+  },
 ];
 
 export const NAV_ITEMS = [

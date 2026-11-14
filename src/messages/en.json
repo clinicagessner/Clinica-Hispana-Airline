@@ -126,7 +126,9 @@
     "q11": "Where can I find a Hispanic clinic near me in Houston?",
     "a11": "Clínica Hispana Airline is a Hispanic and Latino clinic at 934 E Tidwell Rd, Houston, TX 77022, in the north Houston area near Highway 59/69. We are open every day from 9:00 AM to 9:00 PM, no appointment needed.",
     "q12": "Can this clinic be my primary care doctor?",
-    "a12": "Yes. Many families choose us as their primary care provider and medical center close to home: general medicine visits, chronic condition management and lab work in one place."
+    "a12": "Yes. Many families choose us as their primary care provider and medical center close to home: general medicine visits, chronic condition management and lab work in one place.",
+    "q13": "Where can I get checked for persistent abdominal pain, bleeding when passing stool, or unexplained weight loss?",
+    "a13": "Right here, walk-in, without insurance and at affordable prices. These are signs worth not ignoring: we evaluate you and, if needed, order tests we do at the clinic, such as a stool test (it looks for hidden blood, parasites and bacteria) or an abdominal ultrasound. If the pain is severe or the bleeding is heavy, go to the emergency room."
   },
   "location": {
     "title": "Our Hispanic Clinic Near You in Houston",
