@@ -17,6 +17,15 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 - [ ] https://www.clinicahispanaairline.com/es  — cambiada 2026-11-14
 
+## Tanda 53 — cambios del 2026-11-13 (análisis 3 días: web adaptada a los anuncios activos de Meta)
+
+- [ ] https://www.clinicahispanaairline.com/  — cambiada 2026-11-13
+- [ ] https://www.clinicahispanaairline.com/en  — cambiada 2026-11-13
+- [ ] https://www.clinicahispanaairline.com/services/salud-hombre  — cambiada 2026-11-13
+- [ ] https://www.clinicahispanaairline.com/en/services/salud-hombre  — cambiada 2026-11-13
+- [ ] https://www.clinicahispanaairline.com/promociones  — cambiada 2026-11-13
+- [ ] https://www.clinicahispanaairline.com/en/promociones  — cambiada 2026-11-13
+
 ## Tanda 50
 
 - [ ] https://www.clinicahispanaairline.com/en/services/ultrasonido  — cambiada 2026-09-21 · rastreada 2026-08-25 · indexada · 217 impr.
