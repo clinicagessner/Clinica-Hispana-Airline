@@ -13,6 +13,11 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 5 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-17).
 <!-- /tandas:auto -->
 
+## Tanda 56 — cambios del 2026-11-16 (post del blog semanal)  📨 ENVIADA 16/11/2026
+
+- [ ] https://www.clinicahispanaairline.com/blog/metodos-anticonceptivos-como-elegir  — cambiada 2026-11-16
+- [ ] https://www.clinicahispanaairline.com/en/blog/metodos-anticonceptivos-como-elegir  — cambiada 2026-11-16
+
 ## Tanda 54
 
 - [ ] https://www.clinicahispanaairline.com/en/services/ultrasonido  — cambiada 2026-09-21 · rastreada 2026-08-25 · indexada · 273 impr.
