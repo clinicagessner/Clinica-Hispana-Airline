@@ -6,19 +6,14 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanaairline.com/`, cuenta **clinicahispanaairline@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-16; URL Inspection API, datos de hoy 2026-11-16):** 87 de 96 URLs del sitemap indexadas · 9 sin indexar (4 rastreada sin indexar · 4 desconocida · 1 descubierta sin indexar).
+**Estado (actualizado 2026-11-17; URL Inspection API, datos ANTIGUOS del 2026-11-16: antiguos (2026-11-16): --sin-fetch):** 87 de 98 URLs del sitemap indexadas · 11 sin indexar (4 rastreada sin indexar · 4 desconocida · 2 sin datos · 1 descubierta sin indexar).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 14 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 4 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 14 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 5 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-5 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-17).
+6 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-20).
 <!-- /tandas:auto -->
 
-## Tanda 56 — cambios del 2026-11-16 (post del blog semanal)  📨 ENVIADA 16/11/2026  ✅ PEDIDA 16/11/2026
-
-- [x] https://www.clinicahispanaairline.com/blog/metodos-anticonceptivos-como-elegir  — cambiada 2026-11-16
-- [x] https://www.clinicahispanaairline.com/en/blog/metodos-anticonceptivos-como-elegir  — cambiada 2026-11-16
-
-## Tanda 54
+## Tanda 57
 
 - [ ] https://www.clinicahispanaairline.com/en/services/ultrasonido  — cambiada 2026-09-21 · rastreada 2026-08-25 · indexada · 273 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/drenaje-abscesos  — cambiada 2026-09-21 · rastreada 2026-08-21 · indexada · 76 impr.
@@ -31,7 +26,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanaairline.com/en/services/examen-heces  — cambiada 2026-09-21 · rastreada 2026-08-18 · indexada · 17 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/curacion-heridas  — cambiada 2026-09-21 · rastreada 2026-09-06 · indexada · 16 impr.
 
-## Tanda 55
+## Tanda 58
 
 - [ ] https://www.clinicahispanaairline.com/en/services/unas-encarnadas  — cambiada 2026-09-21 · rastreada 2026-09-19 · indexada · 15 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/examen-dot  — cambiada 2026-09-21 · rastreada 2026-09-06 · indexada · 13 impr.
@@ -40,6 +35,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanaairline.com/services/examen-dot  — cambiada 2026-09-21 · rastreada 2026-08-20 · rastreada sin indexar · pedida 2026-10-20 · 5 impr.
 - [ ] https://www.clinicahispanaairline.com/services/farmacia  — cambiada 2026-10-15 · desconocida · pedida 2026-10-20 · 0 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/enfermedades-respiratorias  — cambiada 2026-09-21 · rastreada 2026-10-09 · rastreada sin indexar · pedida 2026-10-13 · 3 impr.
+- [ ] https://www.clinicahispanaairline.com/en/services/condiciones-cronicas  — cambiada 2026-09-21 · rastreada 2026-08-25 · rastreada sin indexar · pedida 2026-11-03 · 1 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/extraccion-implantes  — cambiada 2026-09-21 · rastreada 2026-09-06 · rastreada sin indexar · pedida 2026-09-25 · 0 impr.
 
 ## Historial (tandas pedidas)
@@ -217,3 +213,8 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [x] https://www.clinicahispanaairline.com/en/services/salud-hombre  — cambiada 2026-11-13
 - [x] https://www.clinicahispanaairline.com/promociones  — cambiada 2026-11-13
 - [x] https://www.clinicahispanaairline.com/en/promociones  — cambiada 2026-11-13
+
+## Tanda 56 — cambios del 2026-11-16 (post del blog semanal)  📨 ENVIADA 16/11/2026  ✅ PEDIDA 16/11/2026
+
+- [x] https://www.clinicahispanaairline.com/blog/metodos-anticonceptivos-como-elegir  — cambiada 2026-11-16
+- [x] https://www.clinicahispanaairline.com/en/blog/metodos-anticonceptivos-como-elegir  — cambiada 2026-11-16
