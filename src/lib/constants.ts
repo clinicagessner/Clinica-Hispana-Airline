@@ -43,7 +43,7 @@ export const SOCIAL_LINKS: SocialLinks = {
   instagram: "https://www.instagram.com/clinicahispanaairline",
   facebook: "https://www.facebook.com/clinicahispanaairline/",
   youtube: "https://www.youtube.com/@ClinicaHispanaAirline",
-  linkedin: "https://www.linkedin.com/in/clinica-hispana-airline/",
+  linkedin: "https://www.linkedin.com/company/clinica-hispana-airline/",
   tiktok: "https://www.tiktok.com/@clinica.hispana.a",
   yelp: "https://www.yelp.com/biz/cl%C3%ADnica-hispana-airline-houston",
   // g.co/kgs/1RwVVhT dejó de funcionar (Google cerró esos enlaces cortos): se usa el mapsUri de la ficha.
