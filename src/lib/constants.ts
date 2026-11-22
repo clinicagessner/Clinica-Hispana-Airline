@@ -44,7 +44,10 @@ export const SOCIAL_LINKS: SocialLinks = {
   facebook: "https://www.facebook.com/clinicahispanaairline/",
   youtube: "https://www.youtube.com/@ClinicaHispanaAirline",
   linkedin: "https://www.linkedin.com/in/clinica-hispana-airline/",
-  google: "https://g.co/kgs/1RwVVhT",
+  tiktok: "https://www.tiktok.com/@clinica.hispana.a",
+  yelp: "https://www.yelp.com/biz/cl%C3%ADnica-hispana-airline-houston",
+  // g.co/kgs/1RwVVhT dejó de funcionar (Google cerró esos enlaces cortos): se usa el mapsUri de la ficha.
+  google: "https://maps.google.com/maps?cid=6949469192402439112",
 };
 
 // Respaldo por si la API de Places falla: el sitio sirve estos números.

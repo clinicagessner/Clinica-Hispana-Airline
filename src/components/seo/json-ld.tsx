@@ -116,6 +116,8 @@ export async function JsonLdMedicalClinic({
           SOCIAL_LINKS.youtube,
           SOCIAL_LINKS.x,
           SOCIAL_LINKS.linkedin,
+          SOCIAL_LINKS.tiktok,
+          SOCIAL_LINKS.yelp,
           SOCIAL_LINKS.google,
         ].filter(Boolean),
         // Los barrios son los que el propio sitio ya publica en cada servicio

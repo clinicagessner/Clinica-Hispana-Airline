@@ -60,6 +60,9 @@ function socials(): string {
     `- [LinkedIn](${SOCIAL_LINKS.linkedin})`,
     `- [Google Business Profile](${SOCIAL_LINKS.google})`,
     `- [YouTube](${SOCIAL_LINKS.youtube})`,
+    `- [Instagram](${SOCIAL_LINKS.instagram})`,
+    `- [TikTok](${SOCIAL_LINKS.tiktok})`,
+    `- [Yelp](${SOCIAL_LINKS.yelp})`,
   ].join("\n");
 }
 

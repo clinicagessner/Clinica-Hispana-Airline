@@ -110,6 +110,7 @@ export interface SocialLinks {
   linkedin?: string;
   youtube?: string;
   tiktok?: string;
+  yelp?: string;
   google?: string;
 }
 
