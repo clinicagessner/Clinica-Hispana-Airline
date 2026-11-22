@@ -63,6 +63,7 @@ function socials(): string {
     `- [Instagram](${SOCIAL_LINKS.instagram})`,
     `- [TikTok](${SOCIAL_LINKS.tiktok})`,
     `- [Yelp](${SOCIAL_LINKS.yelp})`,
+    `- [Pinterest](${SOCIAL_LINKS.pinterest})`,
   ].join("\n");
 }
 

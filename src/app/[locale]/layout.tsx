@@ -116,6 +116,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         "DCDMoTBSEG-vc4DG4vI-mcHVC_b5UJCfrbAlyMHJx8U",
         "RmUdLh6Q3sdftfM2Zg9CvbwpnZh7cgOjf5yweef0TzY",
       ],
+      // Pinterest: reclamación del sitio (cuenta clinicahispanaairline).
+      other: { "p:domain_verify": "913f3ced7ceb0cd3ec14a2adae17bfbd" },
     },
   };
 }
