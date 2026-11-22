@@ -13,6 +13,11 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 2 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-30).
 <!-- /tandas:auto -->
 
+## Tanda 60 — cambios del 2026-11-22 (redes: TikTok, Yelp y Google en el pie y sameAs)
+
+- [ ] https://www.clinicahispanaairline.com/  — cambiada 2026-11-22
+- [ ] https://www.clinicahispanaairline.com/en  — cambiada 2026-11-22
+
 ## Tanda 57
 
 - [ ] https://www.clinicahispanaairline.com/en/services/ultrasonido  — cambiada 2026-09-21 · rastreada 2026-08-25 · indexada · 273 impr.
