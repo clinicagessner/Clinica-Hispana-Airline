@@ -13,7 +13,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 4 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-23).
 <!-- /tandas:auto -->
 
-## Tanda 60 — cambios del 2026-11-22 (redes: TikTok, Yelp y Google en el pie y sameAs)
+## Tanda 60 — cambios del 2026-11-22 (redes: TikTok, Yelp, Google y página de empresa de LinkedIn en el pie y sameAs)
 
 - [ ] https://www.clinicahispanaairline.com/  — cambiada 2026-11-22
 - [ ] https://www.clinicahispanaairline.com/en  — cambiada 2026-11-22
