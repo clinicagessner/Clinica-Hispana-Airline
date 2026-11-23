@@ -1,8 +1,8 @@
 ---
 slug: "como-prepararse-ultrasonido-ayuno-vejiga-llena"
 title: "Cómo Prepararse para un Ultrasonido: Ayuno, Vejiga y Ropa"
-metaTitle: "Cómo Prepararse para un Ultrasonido: Ayuno y Vejiga"
-description: "Ayuno para el abdominal, vejiga llena para el pélvico y el de embarazo, qué ropa ponerse y qué papeles traer a su ultrasonido en Airline, Houston 77022."
+metaTitle: "¿Ultrasonido en Ayunas o con Vejiga Llena? Cómo Prepararse"
+description: "¿Ultrasonido de embarazo en ayunas? Cuándo se pide ayuno (abdominal) y cuándo vejiga llena (pélvico y embarazo), qué ropa y qué papeles traer. Airline, Houston."
 date: "2026-10-19"
 dateModified: "2026-10-19"
 author: "Clínica Hispana Airline"

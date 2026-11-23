@@ -1,8 +1,8 @@
 ---
 slug: "colesterol-ldl-hdl-trigliceridos-analisis"
 title: "Colesterol en sus Análisis: LDL, HDL y Triglicéridos"
-metaTitle: "LDL, HDL y Triglicéridos: Cómo Leer su Colesterol"
-description: "Qué significa cada renglón del perfil de lípidos, por qué una L junto al HDL preocupa y qué mueve los triglicéridos. Guía desde Airline, Houston 77022."
+metaTitle: "¿Qué Significa LDL y HDL en un Examen de Sangre?"
+description: "Qué significa el LDL, el HDL y los triglicéridos en su examen de sangre, renglón por renglón, y por qué una L junto al HDL preocupa. Guía de Airline, Houston."
 date: "2026-10-26"
 dateModified: "2026-10-26"
 author: "Clínica Hispana Airline"
