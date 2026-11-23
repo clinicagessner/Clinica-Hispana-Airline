@@ -64,6 +64,7 @@ function socials(): string {
     `- [TikTok](${SOCIAL_LINKS.tiktok})`,
     `- [Yelp](${SOCIAL_LINKS.yelp})`,
     `- [Pinterest](${SOCIAL_LINKS.pinterest})`,
+    `- [Nextdoor](${SOCIAL_LINKS.nextdoor})`,
   ].join("\n");
 }
 

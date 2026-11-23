@@ -47,6 +47,7 @@ export const SOCIAL_LINKS: SocialLinks = {
   tiktok: "https://www.tiktok.com/@clinica.hispana.a",
   yelp: "https://www.yelp.com/biz/cl%C3%ADnica-hispana-airline-houston",
   pinterest: "https://www.pinterest.com/clinicahispanaairline/",
+  nextdoor: "https://nextdoor.com/page/clinica-hispana-airline-houston-tx/",
   // g.co/kgs/1RwVVhT dejó de funcionar (Google cerró esos enlaces cortos): se usa el mapsUri de la ficha.
   google: "https://maps.google.com/maps?cid=6949469192402439112",
 };
