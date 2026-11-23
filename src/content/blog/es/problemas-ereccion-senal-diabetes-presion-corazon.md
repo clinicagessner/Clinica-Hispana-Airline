@@ -23,9 +23,6 @@ relatedServices:
   - "electrocardiograma"
   - "farmacia"
 ---
-
-# Problemas de Erección: Aviso de Diabetes y Corazón
-
 **Muchos hombres viven los problemas de erección como algo que no se cuenta, ni a la pareja ni en una consulta. Sin embargo, ese cambio suele ser una de las primeras pistas de que algo falla en la circulación, a veces años antes de que la glucosa, la presión o el corazón den otra señal.** Aquí explicamos por qué ocurre, qué condiciones conviene descartar y cómo es hablarlo con el equipo médico de Clínica Hispana Airline, en español y con discreción.
 
 ## Una cuestión de tuberías, no de hombría

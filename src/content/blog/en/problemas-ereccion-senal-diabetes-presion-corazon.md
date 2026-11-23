@@ -23,9 +23,6 @@ relatedServices:
   - "electrocardiograma"
   - "farmacia"
 ---
-
-# Erection Problems: An Early Sign of Diabetes and Heart
-
 **Many men treat erection problems as something you keep to yourself, not mentioned to a partner and certainly not in an exam room. Yet that change is often one of the first clues that circulation is not working as it should, sometimes years before blood sugar, blood pressure or the heart give any other warning.** This article explains why it happens, which conditions are worth ruling out and what it is like to talk it over with the medical team at Clínica Hispana Airline, in Spanish or English and with discretion.
 
 ## A plumbing question, not a manhood question
