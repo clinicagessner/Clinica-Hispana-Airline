@@ -64,7 +64,7 @@ What we also do is tell you what you need and what you do not. If you come in fo
 
 **Get ahead of it.** Managed diabetes costs lab work every three months. Unmanaged diabetes costs hospital stays. The [CDC](https://www.cdc.gov/diabetes/) is clear that consistent control prevents damage to kidneys, eyes and nerves — and that damage is what truly ruins an uninsured family.
 
-**Do not wait for pain.** Most of what we treat would have been cheaper and simpler two weeks earlier.
+**Do not wait for pain.** Most of what we treat would have been simpler two weeks earlier.
 
 **Always ask the price.** At any clinic, including this one. If nobody gives you a straight answer, walk away.
 
@@ -76,7 +76,7 @@ What we also do is tell you what you need and what you do not. If you come in fo
 - Flu and tetanus vaccines
 - Minor urgent care
 
-After your visit, you buy the medicines the doctor prescribed at our on-site pharmacy, with no extra stop.
+After your visit, you buy the medicines the medical team prescribed at our on-site pharmacy, with no extra stop.
 
 ## Where we are
 

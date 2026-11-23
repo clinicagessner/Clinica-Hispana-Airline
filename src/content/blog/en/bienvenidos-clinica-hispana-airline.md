@@ -49,7 +49,7 @@ Beyond that: basic gynecology, ultrasound, EKG, STD testing, flu and tetanus vac
 
 You walk in, register and wait your turn. Without appointments, order is by arrival — unless someone arrives in worse shape. That happens, and you will understand it when it is your turn.
 
-In the consultation we explain **what you have, what the options are and what each one costs**, before doing anything. If our doctor prescribes something, you buy it right there at the clinic's on-site pharmacy, no extra stop.
+In the consultation we explain **what you have, what the options are and what each one costs**, before doing anything. If our medical team prescribes something, you buy it right there at the clinic's on-site pharmacy, no extra stop.
 
 **Ask the price first.** We will tell you straight. We accept cash, debit and credit.
 
@@ -59,7 +59,7 @@ This part matters as much as the last one:
 
 - **We do not attend deliveries.** We do provide basic pregnancy follow-up and the checks that can be handled in a clinic visit; for the delivery we help direct the referral.
 - **We are not an emergency room.** Chest pain, trouble breathing, weakness on one side of the body, or bleeding that will not stop: call 911 or go to an ER. Do not come here.
-- **We do not sell medicines on other doctors' prescriptions.** Our on-site pharmacy only sells what our doctor prescribes during your visit.
+- **We do not sell medicines on other doctors' prescriptions.** Our on-site pharmacy only sells what our medical team prescribes during your visit.
 - **We do not give immigration legal advice.** We perform the I-693 medical exam; your case belongs with your attorney.
 
 ## How to find us

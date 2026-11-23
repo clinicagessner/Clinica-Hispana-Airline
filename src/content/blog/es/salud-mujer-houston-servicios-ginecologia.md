@@ -24,7 +24,7 @@ relatedServices:
 
 # Salud de la Mujer en Houston: Qué Revisarse y Cada Cuánto
 
-**La mayoría de los problemas ginecológicos se detectan con dos cosas baratas: el papanicolaou a tiempo y un cultivo cuando hay síntomas.** En Clínica Hispana Airline hacemos las dos, sin cita, en español, en el 934 E Tidwell Rd.
+**La mayoría de los problemas ginecológicos se detectan con dos cosas sencillas: el papanicolaou a tiempo y un cultivo cuando hay síntomas.** En Clínica Hispana Airline hacemos las dos, sin cita, en español, en el 934 E Tidwell Rd.
 
 ## ¿Cada cuánto toca el papanicolaou?
 

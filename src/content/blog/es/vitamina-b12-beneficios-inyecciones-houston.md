@@ -24,7 +24,7 @@ relatedServices:
 
 # Vitamina B12: Cuándo Falta de Verdad y Cómo Saberlo
 
-**La vitamina B12 se mide con un análisis de sangre, y conviene medirla antes de empezar a inyectársela.** Es barato, se hace sin cita y evita tratar durante meses algo que no era B12.
+**La vitamina B12 se mide con un análisis de sangre, y conviene medirla antes de empezar a inyectársela.** Es sencillo, se hace sin cita y evita tratar durante meses algo que no era B12.
 
 El cansancio tiene muchas causas. La B12 es una. La tiroides es otra. La anemia por hierro es otra. Se parecen bastante entre sí y solo el laboratorio las separa.
 
@@ -73,4 +73,4 @@ Esa decisión —si hace falta, en qué forma y cada cuánto— la toma nuestro 
 
 **934 E Tidwell Rd, Houston, TX 77022**, norte de Houston. Abierto **los siete días de 9 AM a 9 PM**, sin cita y sin seguro médico. Pregunte el precio del análisis antes de la extracción.
 
-Si lleva meses cansado y nunca se ha hecho un análisis, empiece por ahí. Es lo más barato que puede hacer y lo que más información le da.
+Si lleva meses cansado y nunca se ha hecho un análisis, empiece por ahí. Es lo más sencillo que puede hacer y lo que más información le da.

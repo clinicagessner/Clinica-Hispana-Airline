@@ -56,7 +56,7 @@ La uretra de la mujer es corta y está cerca de la zona anal, así que las bacte
 Ordenados de más a menos respaldo científico:
 
 1. **Beber más agua de forma constante.** En mujeres con infecciones repetidas que tomaban poco líquido, aumentar el agua diaria redujo los episodios en estudios bien hechos. La meta práctica: orina clara y ganas de ir varias veces al día.
-2. **Orinar después de las relaciones.** Es barato, no tiene efectos secundarios y tiene lógica: arrastra las bacterias antes de que se instalen.
+2. **Orinar después de las relaciones.** No cuesta nada, no tiene efectos secundarios y tiene lógica: arrastra las bacterias antes de que se instalen.
 3. **No aguantarse.** Ir al baño a tiempo es un tema de salud, no de comodidad.
 4. **Tratar el estreñimiento.** Fibra, agua y movimiento; si no basta, se busca otra solución en consulta.
 5. **Limpiarse de adelante hacia atrás** y evitar duchas vaginales, que alteran la flora protectora.
@@ -102,4 +102,4 @@ No espere a una consulta si aparece **fiebre alta con escalofríos y dolor en el
 
 Apunte las fechas aproximadas de sus últimas infecciones, qué le recetaron y si tenía cultivo. Si ya tiene ardor, no tome las pastillas sobrantes antes de venir: la muestra sin antibiótico es la que permite que el cultivo identifique a la bacteria de su infección repetida.
 
-Atendemos sin cita o con cita llamando por teléfono en **934 E Tidwell Rd, Houston, TX 77022**, con estacionamiento gratuito. Para no hacer otra parada camino a casa en el norte de Houston, compra en la farmacia de la clínica los medicamentos que le recetó nuestro médico y se lleva la hoja que explica cuándo volver por el resultado del cultivo.
+Atendemos sin cita o con cita llamando por teléfono en **934 E Tidwell Rd, Houston, TX 77022**, con estacionamiento gratuito. Para no hacer otra parada camino a casa en el norte de Houston, compra en la farmacia de la clínica los medicamentos que le recetó nuestro equipo médico y se lleva la hoja que explica cuándo volver por el resultado del cultivo.

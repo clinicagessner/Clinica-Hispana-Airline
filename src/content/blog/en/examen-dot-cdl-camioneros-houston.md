@@ -24,7 +24,7 @@ relatedServices:
 
 # DOT Physical in Houston: How to Show Up Ready
 
-**A DOT physical is not pass or fail — it is certified for a length of time.** And that length depends mostly on your blood pressure. At Clínica Hispana Airline we perform it walk-in, in Spanish or English, with the **certificate issued the same day**, at 934 E Tidwell Rd.
+**A DOT physical is not pass or fail — it is certified for a length of time.** And that length depends mostly on your blood pressure. At Clínica Hispana Airline we perform it walk-in, in Spanish or English, at 934 E Tidwell Rd.
 
 If you drive a commercial vehicle, this is what is worth knowing before you come in.
 
@@ -43,7 +43,7 @@ This is the part that surprises most drivers. Under FMCSA criteria:
 - **160-179 / 100-109:** one-time **3-month** temporary certificate, to give you time to get it under control.
 - **180/110 or above:** not certified until it comes down.
 
-That is why a driver with untreated hypertension ends up paying for the exam three times a year instead of once every two years. If that is your situation, controlling your blood pressure is far cheaper — it is what we do in [chronic condition care](/services/condiciones-cronicas).
+That is why a driver with untreated hypertension ends up paying for the exam three times a year instead of once every two years. If that is your situation, controlling your blood pressure is the better deal — it is what we do in [chronic condition care](/services/condiciones-cronicas).
 
 ## Vision and hearing
 

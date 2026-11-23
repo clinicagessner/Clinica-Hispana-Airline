@@ -64,7 +64,7 @@ Lo que sí hacemos es decirle qué necesita y qué no. Si viene por un examen y 
 
 **Adelántese.** Una diabetes controlada cuesta análisis cada tres meses. Una diabetes descontrolada cuesta hospitalizaciones. Los [CDC](https://www.cdc.gov/diabetes/) son claros en que el control constante evita daño en riñones, ojos y nervios, y ese daño es lo que de verdad arruina a una familia sin seguro.
 
-**No espere a que duela.** La mayoría de lo que atendemos habría sido más barato y más simple dos semanas antes.
+**No espere a que duela.** La mayoría de lo que atendemos habría sido más simple dos semanas antes.
 
 **Pregunte siempre el precio.** En cualquier clínica, incluida esta. Si no se lo dicen claro, desconfíe.
 
@@ -76,7 +76,7 @@ Lo que sí hacemos es decirle qué necesita y qué no. Si viene por un examen y 
 - Vacunas de influenza y toxoide tetánico
 - Atención de urgencias menores
 
-Al terminar la consulta, compra en nuestra farmacia en la clínica los medicamentos que le recetó el médico, sin otra parada.
+Al terminar la consulta, compra en nuestra farmacia en la clínica los medicamentos que le recetó el equipo médico, sin otra parada.
 
 ## Dónde estamos
 

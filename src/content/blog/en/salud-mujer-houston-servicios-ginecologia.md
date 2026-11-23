@@ -24,7 +24,7 @@ relatedServices:
 
 # Women's Health in Houston: What to Check and How Often
 
-**Most gynecological problems are caught by two inexpensive things: a Pap smear on schedule, and a culture when there are symptoms.** At Clínica Hispana Airline we do both, walk-in, in Spanish or English, at 934 E Tidwell Rd.
+**Most gynecological problems are caught by two simple things: a Pap smear on schedule, and a culture when there are symptoms.** At Clínica Hispana Airline we do both, walk-in, in Spanish or English, at 934 E Tidwell Rd.
 
 ## How often is a Pap smear due?
 

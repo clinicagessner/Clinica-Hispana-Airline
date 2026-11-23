@@ -55,7 +55,7 @@ Our [blood testing lab](/services/examenes-sangre) measures glucose, cholesterol
 
 ### Electrocardiogram
 
-Heart disease is the number one cause of death in men. An [electrocardiogram](/services/electrocardiograma) evaluates your heart's rhythm and electrical activity in minutes, painlessly.
+Heart disease is the number one cause of death in men. An [electrocardiogram](/services/electrocardiograma) evaluates your heart's rhythm and electrical activity, painlessly.
 
 ### Chronic Condition Management
 
@@ -106,7 +106,7 @@ None of these signs go away on their own. Finding the cause early makes all the 
 
 ## Care in Spanish, Without Barriers
 
-We know many men put off the doctor because of language, cost or lack of time. At Clínica Hispana Airline we remove those barriers:
+We know many men put off the visit because of language, cost or lack of time. At Clínica Hispana Airline we remove those barriers:
 
 - Care 100% in Spanish, from start to finish
 - No appointment needed — walk in when you can

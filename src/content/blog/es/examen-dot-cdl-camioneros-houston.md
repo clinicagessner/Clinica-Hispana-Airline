@@ -24,7 +24,7 @@ relatedServices:
 
 # Examen DOT en Houston: Cómo Llegar Aprobado
 
-**El examen físico DOT no se aprueba o se reprueba: se certifica por un plazo.** Y ese plazo depende sobre todo de su presión arterial. En Clínica Hispana Airline lo hacemos sin cita, en español, con **certificado el mismo día**, en el 934 E Tidwell Rd.
+**El examen físico DOT no se aprueba o se reprueba: se certifica por un plazo.** Y ese plazo depende sobre todo de su presión arterial. En Clínica Hispana Airline lo hacemos sin cita y en español, en el 934 E Tidwell Rd.
 
 Si maneja un vehículo comercial, esto es lo que conviene saber antes de venir.
 
@@ -43,7 +43,7 @@ Esta es la parte que a más conductores sorprende. Según los criterios de FMCSA
 - **160-179 / 100-109:** certificado temporal de **3 meses**, por una sola vez, para que controle la presión.
 - **180/110 o más:** no se certifica hasta bajarla.
 
-Por eso un conductor con la presión alta sin tratar acaba pagando el examen tres veces al año en lugar de una vez cada dos. Si ese es su caso, sale mucho más barato controlar la presión: es lo que hacemos en [control de condiciones crónicas](/services/condiciones-cronicas).
+Por eso un conductor con la presión alta sin tratar acaba pagando el examen tres veces al año en lugar de una vez cada dos. Si ese es su caso, le conviene mucho más controlar la presión: es lo que hacemos en [control de condiciones crónicas](/services/condiciones-cronicas).
 
 ## Visión y audición
 

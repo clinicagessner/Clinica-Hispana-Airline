@@ -55,7 +55,7 @@ Nuestro [laboratorio de análisis de sangre](/services/examenes-sangre) mide glu
 
 ### Electrocardiograma
 
-La enfermedad del corazón es la primera causa de muerte en los hombres. Un [electrocardiograma](/services/electrocardiograma) evalúa el ritmo y la actividad eléctrica de su corazón en minutos, sin dolor.
+La enfermedad del corazón es la primera causa de muerte en los hombres. Un [electrocardiograma](/services/electrocardiograma) evalúa el ritmo y la actividad eléctrica de su corazón, sin dolor.
 
 ### Control de Condiciones Crónicas
 
@@ -106,7 +106,7 @@ Ninguna de estas señales se quita sola. Detectar la causa a tiempo hace toda la
 
 ## Atención en Español, Sin Barreras
 
-Sabemos que muchos hombres posponen el médico por el idioma, el costo o la falta de tiempo. En Clínica Hispana Airline eliminamos esas barreras:
+Sabemos que muchos hombres posponen la consulta por el idioma, el costo o la falta de tiempo. En Clínica Hispana Airline eliminamos esas barreras:
 
 - Atención 100% en español, de principio a fin
 - No necesita cita previa — llegue cuando pueda

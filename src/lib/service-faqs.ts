@@ -611,7 +611,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Por qué a unos les dan dos años de certificado y a otros tres meses?",
-        "answer": "Lo decide sobre todo la presión arterial. Cuanto más alta, más corto el certificado, hasta el punto de no poder certificar si está muy elevada. Controlarla sale mucho más barato que repetir el examen."
+        "answer": "Lo decide sobre todo la presión arterial. Cuanto más alta, más corto el certificado, hasta el punto de no poder certificar si está muy elevada. Controlarla le conviene mucho más que repetir el examen."
       },
       {
         "question": "¿Qué debo traer si tengo apnea del sueño o diabetes?",
@@ -625,7 +625,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "Why do some drivers get two years and others three months?",
-        "answer": "Blood pressure decides it more than anything. The higher it is, the shorter the certificate, to the point of not certifying at all if it is very high. Controlling it is far cheaper than repeating the exam."
+        "answer": "Blood pressure decides it more than anything. The higher it is, the shorter the certificate, to the point of not certifying at all if it is very high. Controlling it serves you far better than repeating the exam."
       },
       {
         "question": "What should I bring if I have sleep apnea or diabetes?",
@@ -877,11 +877,11 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqs": [
       {
         "question": "¿Puedo comprar en la clínica los medicamentos que me recetaron?",
-        "answer": "Sí, si se los recetó nuestro médico. Tenemos farmacia en la clínica: al terminar la consulta compra ahí mismo sus medicamentos, sin pasar por otra farmacia."
+        "answer": "Sí, si se los recetó nuestro equipo médico. Tenemos farmacia en la clínica: al terminar la consulta compra ahí mismo sus medicamentos, sin pasar por otra farmacia."
       },
       {
         "question": "¿Puedo traer la receta de otro médico?",
-        "answer": "No. La farmacia de la clínica solo vende los medicamentos que receta nuestro médico en su consulta con nosotros; no atendemos recetas de otros médicos ni de otras clínicas."
+        "answer": "No. La farmacia de la clínica solo vende los medicamentos que receta nuestro equipo médico en su consulta con nosotros; no atendemos recetas de otros médicos ni de otras clínicas."
       },
       {
         "question": "¿Me explican cómo tomar el medicamento?",
@@ -895,11 +895,11 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqsEn": [
       {
         "question": "Can I buy the medicines I was prescribed at the clinic?",
-        "answer": "Yes, if our doctor prescribed them. We have an on-site pharmacy: after your visit you buy your medicines right there, without stopping at another pharmacy."
+        "answer": "Yes, if our medical team prescribed them. We have an on-site pharmacy: after your visit you buy your medicines right there, without stopping at another pharmacy."
       },
       {
         "question": "Can I bring a prescription from another doctor?",
-        "answer": "No. The clinic's pharmacy only sells the medicines our doctor prescribes during your visit with us; we do not take prescriptions from other doctors or other clinics."
+        "answer": "No. The clinic's pharmacy only sells the medicines our medical team prescribes during your visit with us; we do not take prescriptions from other doctors or other clinics."
       },
       {
         "question": "Will you explain how to take the medication?",

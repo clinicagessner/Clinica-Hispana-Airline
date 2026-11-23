@@ -24,7 +24,7 @@ relatedServices:
 
 # Vitamin B12: When It Is Actually Low and How to Know
 
-**Vitamin B12 is measured with a blood test, and it is worth measuring before you start injecting it.** The test is inexpensive, walk-in, and it keeps you from spending months treating something that was never B12.
+**Vitamin B12 is measured with a blood test, and it is worth measuring before you start injecting it.** The test is simple, walk-in, and it keeps you from spending months treating something that was never B12.
 
 Fatigue has many causes. B12 is one. Thyroid is another. Iron-deficiency anemia is another. They look a lot alike, and only lab work separates them.
 
@@ -73,4 +73,4 @@ That decision — whether you need it, in what form, and how often — is made b
 
 **934 E Tidwell Rd, Houston, TX 77022**, north Houston. Open **seven days a week, 9 AM to 9 PM**, walk-in, no insurance needed. Ask the price of the test before the draw.
 
-If you have been tired for months and have never had lab work done, start there. It is the cheapest thing you can do and the one that tells you the most.
+If you have been tired for months and have never had lab work done, start there. It is the simplest thing you can do and the one that tells you the most.
