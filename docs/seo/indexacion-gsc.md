@@ -13,15 +13,8 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 4 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-23).
 <!-- /tandas:auto -->
 
-## Tanda 60 — cambios del 2026-11-22 (redes: TikTok, Yelp, Google, página de empresa de LinkedIn, Pinterest y Nextdoor en el pie y sameAs)
-
-- [ ] https://www.clinicahispanaairline.com/  — cambiada 2026-11-22
-- [ ] https://www.clinicahispanaairline.com/en  — cambiada 2026-11-22
-
 ## Tanda 65 — cambios del 2026-11-22 (limpieza §9 (equipo médico, plazos, sin «barato»))
 
-- [ ] https://www.clinicahispanaairline.com/services/examen-dot  — cambiada 2026-11-22
-- [ ] https://www.clinicahispanaairline.com/en/services/examen-dot  — cambiada 2026-11-22
 - [ ] https://www.clinicahispanaairline.com/services/farmacia  — cambiada 2026-11-22
 - [ ] https://www.clinicahispanaairline.com/en/services/farmacia  — cambiada 2026-11-22
 - [ ] https://www.clinicahispanaairline.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-22
@@ -42,16 +35,27 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanaairline.com/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-11-22
 - [ ] https://www.clinicahispanaairline.com/en/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-11-22
 
+## Tanda 76 — cambios del 2026-11-23 (análisis diario: frases de los anuncios de medicina familiar y walk-in; título y meta de 2 artículos)  📨 ENVIADA 23/11/2026
+
+- [ ] https://www.clinicahispanaairline.com/  — cambiada 2026-11-22 y 2026-11-23
+- [ ] https://www.clinicahispanaairline.com/en  — cambiada 2026-11-22 y 2026-11-23
+- [ ] https://www.clinicahispanaairline.com/services/condiciones-cronicas  — cambiada 2026-11-23
+- [ ] https://www.clinicahispanaairline.com/en/services/condiciones-cronicas  — cambiada 2026-11-23
+- [ ] https://www.clinicahispanaairline.com/services  — cambiada 2026-11-23
+- [ ] https://www.clinicahispanaairline.com/en/services  — cambiada 2026-11-23
+- [ ] https://www.clinicahispanaairline.com/blog/colesterol-ldl-hdl-trigliceridos-analisis  — cambiada 2026-11-23
+- [ ] https://www.clinicahispanaairline.com/blog/como-prepararse-ultrasonido-ayuno-vejiga-llena  — cambiada 2026-11-23
+- [ ] https://www.clinicahispanaairline.com/services/examen-dot  — cambiada 2026-11-22
+- [ ] https://www.clinicahispanaairline.com/en/services/examen-dot  — cambiada 2026-11-22
+
 ## Tanda 72
 
-- [ ] https://www.clinicahispanaairline.com/services  — cambiada 2026-09-20 · rastreada 2026-09-17 · indexada · 568 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/alergias  — cambiada 2026-09-21 · rastreada 2026-08-17 · indexada · 107 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/examenes-sangre  — cambiada 2026-10-03 · rastreada 2026-09-16 · indexada · 81 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/electrocardiograma  — cambiada 2026-09-20 · rastreada 2026-08-23 · indexada · 80 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/ultrasonido  — cambiada 2026-09-20 · rastreada 2026-08-25 · indexada · 67 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/drenaje-abscesos  — cambiada 2026-09-21 · rastreada 2026-08-21 · indexada · 65 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/prueba-tuberculosis  — cambiada 2026-09-21 · rastreada 2026-08-19 · indexada · 39 impr.
-- [ ] https://www.clinicahispanaairline.com/en/services  — cambiada 2026-09-20 · rastreada 2026-07-18 · indexada · 38 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/prueba-strep  — cambiada 2026-09-21 · rastreada 2026-08-18 · indexada · 36 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/examen-fisico-escolar  — cambiada 2026-09-21 · rastreada 2026-08-22 · indexada · 32 impr.
 
@@ -71,12 +75,9 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 ## Tanda 74
 
 - [ ] https://www.clinicahispanaairline.com/services/infecciones-urinarias  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-11-06 · 20 impr.
-- [ ] https://www.clinicahispanaairline.com/blog/colesterol-ldl-hdl-trigliceridos-analisis  — cambiada 2026-10-26 · sin datos de inspección · pedida 2026-10-26 · 0 impr.
-- [ ] https://www.clinicahispanaairline.com/blog/como-prepararse-ultrasonido-ayuno-vejiga-llena  — cambiada 2026-10-19 · sin datos de inspección · pedida 2026-10-19 · 0 impr.
 - [ ] https://www.clinicahispanaairline.com/blog/examen-fisico-escolar-deportivo-que-llevar  — cambiada 2026-11-02 · sin datos de inspección · pedida 2026-11-02 · 0 impr.
 - [ ] https://www.clinicahispanaairline.com/blog/vacuna-gripe-otono-quien-cuando-dudas  — cambiada 2026-10-05 · sin datos de inspección · pedida 2026-10-13 · 0 impr.
 - [ ] https://www.clinicahispanaairline.com/services/tiroides  — cambiada 2026-09-21 · descubierta sin indexar · pedida 2026-11-06 · 0 impr.
-- [ ] https://www.clinicahispanaairline.com/en/services/condiciones-cronicas  — cambiada 2026-09-20 · rastreada 2026-08-25 · rastreada sin indexar · pedida 2026-11-03 · 1 impr.
 - [ ] https://www.clinicahispanaairline.com/en/blog/colesterol-ldl-hdl-trigliceridos-analisis  — cambiada 2026-10-26 · sin datos de inspección · pedida 2026-10-26 · 0 impr.
 - [ ] https://www.clinicahispanaairline.com/en/blog/como-prepararse-ultrasonido-ayuno-vejiga-llena  — cambiada 2026-10-19 · sin datos de inspección · pedida 2026-10-19 · 0 impr.
 - [ ] https://www.clinicahispanaairline.com/en/blog/examen-fisico-escolar-deportivo-que-llevar  — cambiada 2026-11-02 · sin datos de inspección · pedida 2026-11-02 · 0 impr.
