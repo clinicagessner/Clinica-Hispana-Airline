@@ -34,18 +34,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanaairline.com/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-11-22
 - [ ] https://www.clinicahispanaairline.com/en/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-11-22
 
-## Tanda 76 — cambios del 2026-11-23 (análisis diario: frases de los anuncios de medicina familiar y walk-in; título y meta de 2 artículos)  📨 ENVIADA 24/11/2026
+## Tanda 76 — cambios del 2026-11-23 (análisis diario: frases de los anuncios de medicina familiar y walk-in; título y meta de 2 artículos)  📨 ENVIADA 24/11/2026  ✅ PEDIDA 24/11/2026
 
-- [ ] https://www.clinicahispanaairline.com/blog/problemas-ereccion-senal-diabetes-presion-corazon  — cambiada 2026-11-23 (post del blog semanal)
-- [ ] https://www.clinicahispanaairline.com/en/blog/problemas-ereccion-senal-diabetes-presion-corazon  — cambiada 2026-11-23 (post del blog semanal)
-- [ ] https://www.clinicahispanaairline.com/  — cambiada 2026-11-22 y 2026-11-23
-- [ ] https://www.clinicahispanaairline.com/en  — cambiada 2026-11-22 y 2026-11-23
-- [ ] https://www.clinicahispanaairline.com/services/condiciones-cronicas  — cambiada 2026-11-23
-- [ ] https://www.clinicahispanaairline.com/en/services/condiciones-cronicas  — cambiada 2026-11-23
-- [ ] https://www.clinicahispanaairline.com/services  — cambiada 2026-11-23
-- [ ] https://www.clinicahispanaairline.com/en/services  — cambiada 2026-11-23
-- [ ] https://www.clinicahispanaairline.com/blog/colesterol-ldl-hdl-trigliceridos-analisis  — cambiada 2026-11-23
-- [ ] https://www.clinicahispanaairline.com/blog/como-prepararse-ultrasonido-ayuno-vejiga-llena  — cambiada 2026-11-23
+- [x] https://www.clinicahispanaairline.com/blog/problemas-ereccion-senal-diabetes-presion-corazon  — cambiada 2026-11-23 (post del blog semanal)
+- [x] https://www.clinicahispanaairline.com/en/blog/problemas-ereccion-senal-diabetes-presion-corazon  — cambiada 2026-11-23 (post del blog semanal)
+- [x] https://www.clinicahispanaairline.com/  — cambiada 2026-11-22 y 2026-11-23
+- [x] https://www.clinicahispanaairline.com/en  — cambiada 2026-11-22 y 2026-11-23
+- [x] https://www.clinicahispanaairline.com/services/condiciones-cronicas  — cambiada 2026-11-23
+- [x] https://www.clinicahispanaairline.com/en/services/condiciones-cronicas  — cambiada 2026-11-23
+- [x] https://www.clinicahispanaairline.com/services  — cambiada 2026-11-23
+- [x] https://www.clinicahispanaairline.com/en/services  — cambiada 2026-11-23
+- [x] https://www.clinicahispanaairline.com/blog/colesterol-ldl-hdl-trigliceridos-analisis  — cambiada 2026-11-23
+- [x] https://www.clinicahispanaairline.com/blog/como-prepararse-ultrasonido-ayuno-vejiga-llena  — cambiada 2026-11-23
 
 ## Tanda 79 — cambios del 2026-11-23 (devueltas de la tanda 76 por el post del blog semanal)
 
