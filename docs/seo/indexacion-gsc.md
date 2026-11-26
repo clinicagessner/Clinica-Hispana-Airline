@@ -6,14 +6,14 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanaairline.com/`, cuenta **clinicahispanaairline@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-25; URL Inspection API, datos ANTIGUOS del 2026-11-23: antiguos (2026-11-23): --sin-fetch):** 90 de 100 URLs del sitemap indexadas · 10 sin indexar (3 rastreada sin indexar · 3 descubierta sin indexar · 2 desconocida · 2 sin datos).
+**Estado (actualizado 2026-11-26; URL Inspection API, datos ANTIGUOS del 2026-11-23: antiguos (2026-11-23): --sin-fetch):** 90 de 100 URLs del sitemap indexadas · 10 sin indexar (3 rastreada sin indexar · 3 descubierta sin indexar · 2 desconocida · 2 sin datos).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 8 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 5 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 3 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-12-08).
 <!-- /tandas:auto -->
 
-## Tanda 65 — cambios del 2026-11-22 (limpieza §9 (equipo médico, plazos, sin «barato»))  📨 ENVIADA 25/11/2026
+## Tanda 65 — cambios del 2026-11-22 (limpieza §9 (equipo médico, plazos, sin «barato»))  📨 ENVIADA 26/11/2026
 
 - [ ] https://www.clinicahispanaairline.com/services/farmacia  — cambiada 2026-11-22
 - [ ] https://www.clinicahispanaairline.com/en/services/farmacia  — cambiada 2026-11-22
@@ -37,7 +37,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanaairline.com/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-11-22
 - [ ] https://www.clinicahispanaairline.com/en/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-11-22
 
-## Tanda 80
+## Tanda 77
 
 - [ ] https://www.clinicahispanaairline.com/en/services/drenaje-abscesos  — cambiada 2026-09-21 · rastreada 2026-08-21 · indexada · 7 impr.
 - [ ] https://www.clinicahispanaairline.com/en/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-09-21 · rastreada 2026-08-24 · indexada · 4 impr.
@@ -50,7 +50,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanaairline.com/services/infecciones-urinarias  — cambiada 2026-10-04 · desconocida · pedida 2026-11-06 · 0 impr.
 - [ ] https://www.clinicahispanaairline.com/services/tiroides  — cambiada 2026-09-21 · descubierta sin indexar · pedida 2026-11-06 · 0 impr.
 
-## Tanda 81
+## Tanda 78
 
 - [ ] https://www.clinicahispanaairline.com/en/services/examenes-inmigracion  — cambiada 2026-10-03 · descubierta sin indexar · pedida 2026-11-06 · 0 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/extraccion-implantes  — cambiada 2026-09-21 · rastreada 2026-09-06 · rastreada sin indexar · pedida 2026-09-25 · 0 impr.
