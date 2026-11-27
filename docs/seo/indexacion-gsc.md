@@ -13,18 +13,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 3 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-12-08).
 <!-- /tandas:auto -->
 
-## Tanda 65 — cambios del 2026-11-22 (limpieza §9 (equipo médico, plazos, sin «barato»))  📨 ENVIADA 26/11/2026
+## Tanda 65 — cambios del 2026-11-22 (limpieza §9 (equipo médico, plazos, sin «barato»))  📨 ENVIADA 26/11/2026  ✅ PEDIDA 26/11/2026
 
-- [ ] https://www.clinicahispanaairline.com/services/farmacia  — cambiada 2026-11-22
-- [ ] https://www.clinicahispanaairline.com/en/services/farmacia  — cambiada 2026-11-22
-- [ ] https://www.clinicahispanaairline.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-22
-- [ ] https://www.clinicahispanaairline.com/en/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-22
-- [ ] https://www.clinicahispanaairline.com/blog/bienvenidos-clinica-hispana-airline  — cambiada 2026-11-22
-- [ ] https://www.clinicahispanaairline.com/en/blog/bienvenidos-clinica-hispana-airline  — cambiada 2026-11-22
-- [ ] https://www.clinicahispanaairline.com/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-11-22
-- [ ] https://www.clinicahispanaairline.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-11-22
-- [ ] https://www.clinicahispanaairline.com/services/examen-dot  — cambiada 2026-11-23
-- [ ] https://www.clinicahispanaairline.com/en/services/examen-dot  — cambiada 2026-11-23
+- [x] https://www.clinicahispanaairline.com/services/farmacia  — cambiada 2026-11-22
+- [x] https://www.clinicahispanaairline.com/en/services/farmacia  — cambiada 2026-11-22
+- [x] https://www.clinicahispanaairline.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-22
+- [x] https://www.clinicahispanaairline.com/en/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-22
+- [x] https://www.clinicahispanaairline.com/blog/bienvenidos-clinica-hispana-airline  — cambiada 2026-11-22
+- [x] https://www.clinicahispanaairline.com/en/blog/bienvenidos-clinica-hispana-airline  — cambiada 2026-11-22
+- [x] https://www.clinicahispanaairline.com/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-11-22
+- [x] https://www.clinicahispanaairline.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-11-22
+- [x] https://www.clinicahispanaairline.com/services/examen-dot  — cambiada 2026-11-23
+- [x] https://www.clinicahispanaairline.com/en/services/examen-dot  — cambiada 2026-11-23
 
 ## Tanda 71 — cambios del 2026-11-22 (limpieza §9 (equipo médico, plazos, sin «barato»), 2.ª parte)
 
