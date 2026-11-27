@@ -12,6 +12,8 @@ import { JsonLdBlogPosting } from "@/components/seo/json-ld-blog";
 import { MedicalReview } from "@/components/seo/medical-review";
 import { JsonLdMedicalClinic } from "@/components/seo/json-ld";
 import { seoTitle, seoDescription, buildSocial } from "@/lib/seo";
+import { AvisoPausaI693 } from "@/components/ui/aviso-pausa";
+import { I693_POST_SLUGS } from "@/lib/pausas";
 
 type Props = {
   params: Promise<{ locale: string; slug: string }>;
@@ -167,6 +169,9 @@ export default async function BlogPostPage({ params }: Props) {
         {/* Content Section */}
         <div className="container mx-auto px-4 py-12 md:py-16">
           <div className="max-w-3xl mx-auto">
+            {I693_POST_SLUGS.includes(post.slug) && (
+              <AvisoPausaI693 locale={locale} className="mb-8" />
+            )}
             <div className="blog-content">
               <div dangerouslySetInnerHTML={{ __html: parseMarkdown(post.content, locale) }} />
             </div>
