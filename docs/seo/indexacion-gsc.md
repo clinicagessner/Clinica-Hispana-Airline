@@ -6,28 +6,14 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanaairline.com/`, cuenta **clinicahispanaairline@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-26; URL Inspection API, datos ANTIGUOS del 2026-11-23: antiguos (2026-11-23): --sin-fetch):** 90 de 100 URLs del sitemap indexadas · 10 sin indexar (3 rastreada sin indexar · 3 descubierta sin indexar · 2 desconocida · 2 sin datos).
+**Estado (actualizado 2026-11-27; URL Inspection API, datos ANTIGUOS del 2026-11-23: antiguos (2026-11-23): --sin-fetch):** 90 de 100 URLs del sitemap indexadas · 10 sin indexar (3 rastreada sin indexar · 3 descubierta sin indexar · 2 desconocida · 2 sin datos).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 8 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 5 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-3 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-12-08).
+5 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-12-08).
 <!-- /tandas:auto -->
 
-## Tanda 65 — cambios del 2026-11-22 (limpieza §9 (equipo médico, plazos, sin «barato»))  📨 ENVIADA 26/11/2026  ✅ PEDIDA 26/11/2026
-
-- [x] https://www.clinicahispanaairline.com/services/farmacia  — cambiada 2026-11-22
-- [x] https://www.clinicahispanaairline.com/en/services/farmacia  — cambiada 2026-11-22
-- [x] https://www.clinicahispanaairline.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-22
-- [x] https://www.clinicahispanaairline.com/en/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-22
-- [x] https://www.clinicahispanaairline.com/blog/bienvenidos-clinica-hispana-airline  — cambiada 2026-11-22
-- [x] https://www.clinicahispanaairline.com/en/blog/bienvenidos-clinica-hispana-airline  — cambiada 2026-11-22
-- [x] https://www.clinicahispanaairline.com/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-11-22
-- [x] https://www.clinicahispanaairline.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-11-22
-- [x] https://www.clinicahispanaairline.com/services/examen-dot  — cambiada 2026-11-23
-- [x] https://www.clinicahispanaairline.com/en/services/examen-dot  — cambiada 2026-11-23
-
-## Tanda 71 — cambios del 2026-11-22 (limpieza §9 (equipo médico, plazos, sin «barato»), 2.ª parte)
-
+## Tanda 71 — cambios del 2026-11-22 (limpieza §9 (equipo médico, plazos, sin «barato»), 2.ª parte)  📨 ENVIADA 27/11/2026
 - [ ] https://www.clinicahispanaairline.com/blog/infecciones-urinarias-repetidas-causas-habitos  — cambiada 2026-11-22
 - [ ] https://www.clinicahispanaairline.com/en/blog/infecciones-urinarias-repetidas-causas-habitos  — cambiada 2026-11-22
 - [ ] https://www.clinicahispanaairline.com/blog/salud-hombre-houston-chequeos-preventivos  — cambiada 2026-11-22
@@ -236,6 +222,19 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 - [x] https://www.clinicahispanaairline.com/blog/metodos-anticonceptivos-como-elegir  — cambiada 2026-11-16
 - [x] https://www.clinicahispanaairline.com/en/blog/metodos-anticonceptivos-como-elegir  — cambiada 2026-11-16
+
+## Tanda 65 — cambios del 2026-11-22 (limpieza §9 (equipo médico, plazos, sin «barato»))  📨 ENVIADA 26/11/2026  ✅ PEDIDA 26/11/2026
+
+- [x] https://www.clinicahispanaairline.com/services/farmacia  — cambiada 2026-11-22
+- [x] https://www.clinicahispanaairline.com/en/services/farmacia  — cambiada 2026-11-22
+- [x] https://www.clinicahispanaairline.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-22
+- [x] https://www.clinicahispanaairline.com/en/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-22
+- [x] https://www.clinicahispanaairline.com/blog/bienvenidos-clinica-hispana-airline  — cambiada 2026-11-22
+- [x] https://www.clinicahispanaairline.com/en/blog/bienvenidos-clinica-hispana-airline  — cambiada 2026-11-22
+- [x] https://www.clinicahispanaairline.com/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-11-22
+- [x] https://www.clinicahispanaairline.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-11-22
+- [x] https://www.clinicahispanaairline.com/services/examen-dot  — cambiada 2026-11-23
+- [x] https://www.clinicahispanaairline.com/en/services/examen-dot  — cambiada 2026-11-23
 
 ## Tanda 76 — cambios del 2026-11-23 (análisis diario: frases de los anuncios de medicina familiar y walk-in; título y meta de 2 artículos)  📨 ENVIADA 24/11/2026  ✅ PEDIDA 24/11/2026
 
