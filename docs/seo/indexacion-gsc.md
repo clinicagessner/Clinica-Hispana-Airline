@@ -6,70 +6,49 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanaairline.com/`, cuenta **clinicahispanaairline@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-27; URL Inspection API, datos ANTIGUOS del 2026-09-30: antiguos (2026-09-30): --sin-fetch):** 77 de 100 URLs del sitemap indexadas · 23 sin indexar (16 sin datos · 3 rastreada sin indexar · 3 descubierta sin indexar · 1 desconocida).
+**Estado (actualizado 2026-11-28; URL Inspection API, datos ANTIGUOS del 2026-11-23: antiguos (2026-11-23): --sin-fetch):** 90 de 100 URLs del sitemap indexadas · 10 sin indexar (3 rastreada sin indexar · 3 descubierta sin indexar · 2 desconocida · 2 sin datos).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 18 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 11 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 8 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 4 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-8 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-30).
+5 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-12-08).
 <!-- /tandas:auto -->
 
-## Tanda 71 — cambios del 2026-11-22 (limpieza §9 (equipo médico, plazos, sin «barato»), 2.ª parte)  📨 ENVIADA 27/11/2026
+## Tanda 71 — cambios del 2026-11-22 (limpieza §9 (equipo médico, plazos, sin «barato»), 2.ª parte)
 
-- [ ] https://www.clinicahispanaairline.com/blog/infecciones-urinarias-repetidas-causas-habitos  — cambiada 2026-11-22
-- [ ] https://www.clinicahispanaairline.com/en/blog/infecciones-urinarias-repetidas-causas-habitos  — cambiada 2026-11-22
-- [ ] https://www.clinicahispanaairline.com/blog/salud-hombre-houston-chequeos-preventivos  — cambiada 2026-11-22
-- [ ] https://www.clinicahispanaairline.com/en/blog/salud-hombre-houston-chequeos-preventivos  — cambiada 2026-11-22
 - [ ] https://www.clinicahispanaairline.com/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-11-22
 - [ ] https://www.clinicahispanaairline.com/en/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-11-22
 - [ ] https://www.clinicahispanaairline.com/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-11-22
 - [ ] https://www.clinicahispanaairline.com/en/blog/vitamina-b12-beneficios-inyecciones-houston  — cambiada 2026-11-22
 
-## Tanda 79 — cambios del 2026-11-27 (aviso I-693 pausado)
-
+## Tanda 79 — cambios del 2026-11-27 (aviso I-693 pausado)  📨 ENVIADA 28/11/2026
 - [ ] https://www.clinicahispanaairline.com/services/examenes-inmigracion  — cambiada 2026-11-27
 - [ ] https://www.clinicahispanaairline.com/en/services/examenes-inmigracion  — cambiada 2026-11-27
 - [ ] https://www.clinicahispanaairline.com/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-11-27
 - [ ] https://www.clinicahispanaairline.com/en/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-11-27
 - [ ] https://www.clinicahispanaairline.com/  — cambiada 2026-11-27
 - [ ] https://www.clinicahispanaairline.com/en  — cambiada 2026-11-27
+- [ ] https://www.clinicahispanaairline.com/blog/infecciones-urinarias-repetidas-causas-habitos  — cambiada 2026-11-22
+- [ ] https://www.clinicahispanaairline.com/en/blog/infecciones-urinarias-repetidas-causas-habitos  — cambiada 2026-11-22
+- [ ] https://www.clinicahispanaairline.com/blog/salud-hombre-houston-chequeos-preventivos  — cambiada 2026-11-22
+- [ ] https://www.clinicahispanaairline.com/en/blog/salud-hombre-houston-chequeos-preventivos  — cambiada 2026-11-22
 
 ## Tanda 80
 
-- [ ] https://www.clinicahispanaairline.com/en/services/alergias  — cambiada 2026-09-21 · rastreada 2026-08-17 · indexada · 107 impr.
-- [ ] https://www.clinicahispanaairline.com/en/services/examenes-sangre  — cambiada 2026-10-03 · rastreada 2026-09-16 · indexada · 81 impr.
-- [ ] https://www.clinicahispanaairline.com/en/services/electrocardiograma  — cambiada 2026-09-20 · rastreada 2026-08-23 · indexada · 80 impr.
-- [ ] https://www.clinicahispanaairline.com/en/services/ultrasonido  — cambiada 2026-09-20 · rastreada 2026-08-25 · indexada · 67 impr.
-- [ ] https://www.clinicahispanaairline.com/en/services/drenaje-abscesos  — cambiada 2026-09-21 · rastreada 2026-08-21 · indexada · 65 impr.
-- [ ] https://www.clinicahispanaairline.com/en/services/prueba-tuberculosis  — cambiada 2026-09-21 · rastreada 2026-08-19 · indexada · 39 impr.
-- [ ] https://www.clinicahispanaairline.com/en/services/prueba-strep  — cambiada 2026-09-21 · rastreada 2026-08-18 · indexada · 36 impr.
-- [ ] https://www.clinicahispanaairline.com/en/services/examen-fisico-escolar  — cambiada 2026-09-21 · rastreada 2026-08-22 · indexada · 32 impr.
-- [ ] https://www.clinicahispanaairline.com/en/services/examen-alcohol-drogas  — cambiada 2026-09-21 · rastreada 2026-08-21 · indexada · 28 impr.
-- [ ] https://www.clinicahispanaairline.com/en/services/tiroides  — cambiada 2026-09-21 · rastreada 2026-08-21 · indexada · 28 impr.
+- [ ] https://www.clinicahispanaairline.com/en/services/drenaje-abscesos  — cambiada 2026-09-21 · rastreada 2026-08-21 · indexada · 7 impr.
+- [ ] https://www.clinicahispanaairline.com/en/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-09-21 · rastreada 2026-08-24 · indexada · 4 impr.
+- [ ] https://www.clinicahispanaairline.com/en/services/unas-encarnadas  — cambiada 2026-09-21 · rastreada 2026-09-19 · indexada · 4 impr.
+- [ ] https://www.clinicahispanaairline.com/en/services/examen-fisico-escolar  — cambiada 2026-09-21 · rastreada 2026-08-22 · indexada · 2 impr.
+- [ ] https://www.clinicahispanaairline.com/en/services/cirugias-menores  — cambiada 2026-09-21 · rastreada 2026-09-06 · indexada · 1 impr.
+- [ ] https://www.clinicahispanaairline.com/en/services/curacion-heridas  — cambiada 2026-09-21 · rastreada 2026-09-06 · indexada · 0 impr.
+- [ ] https://www.clinicahispanaairline.com/en/services/suturas-heridas  — cambiada 2026-09-21 · rastreada 2026-08-21 · indexada · 0 impr.
+- [ ] https://www.clinicahispanaairline.com/en/services/tiroides  — cambiada 2026-09-21 · rastreada 2026-08-21 · indexada · 0 impr.
+- [ ] https://www.clinicahispanaairline.com/services/infecciones-urinarias  — cambiada 2026-10-04 · desconocida · pedida 2026-11-06 · 0 impr.
+- [ ] https://www.clinicahispanaairline.com/services/tiroides  — cambiada 2026-09-21 · descubierta sin indexar · pedida 2026-11-06 · 0 impr.
 
 ## Tanda 81
 
-- [ ] https://www.clinicahispanaairline.com/en/services/cirugias-menores  — cambiada 2026-09-21 · rastreada 2026-09-06 · indexada · 16 impr.
-- [ ] https://www.clinicahispanaairline.com/en/services/curacion-heridas  — cambiada 2026-09-21 · rastreada 2026-09-06 · indexada · 16 impr.
-- [ ] https://www.clinicahispanaairline.com/en/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-09-21 · rastreada 2026-08-24 · indexada · 14 impr.
-- [ ] https://www.clinicahispanaairline.com/en/services/enfermedades-transmision-sexual  — cambiada 2026-09-21 · rastreada 2026-07-03 · indexada · 14 impr.
-- [ ] https://www.clinicahispanaairline.com/en/services/examen-heces  — cambiada 2026-09-21 · rastreada 2026-08-18 · indexada · 14 impr.
-- [ ] https://www.clinicahispanaairline.com/en/services/unas-encarnadas  — cambiada 2026-09-21 · rastreada 2026-09-19 · indexada · 6 impr.
-- [ ] https://www.clinicahispanaairline.com/en/services/suturas-heridas  — cambiada 2026-09-21 · rastreada 2026-08-21 · indexada · 1 impr.
-- [ ] https://www.clinicahispanaairline.com/en/blog/vacuna-gripe-otono-quien-cuando-dudas  — cambiada 2026-10-05 · sin datos de inspección · 0 impr.
-- [ ] https://www.clinicahispanaairline.com/services/infecciones-urinarias  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-11-06 · 20 impr.
-- [ ] https://www.clinicahispanaairline.com/blog/examen-fisico-escolar-deportivo-que-llevar  — cambiada 2026-11-02 · sin datos de inspección · pedida 2026-11-02 · 0 impr.
-
-## Tanda 82
-
-- [ ] https://www.clinicahispanaairline.com/blog/herida-infectada-pus-enrojecimiento-cuando-revisar  — cambiada 2026-11-09 · sin datos de inspección · pedida 2026-11-09 · 0 impr.
-- [ ] https://www.clinicahispanaairline.com/blog/vacuna-gripe-otono-quien-cuando-dudas  — cambiada 2026-10-05 · sin datos de inspección · pedida 2026-10-13 · 0 impr.
-- [ ] https://www.clinicahispanaairline.com/services/tiroides  — cambiada 2026-09-21 · descubierta sin indexar · pedida 2026-11-06 · 0 impr.
-- [ ] https://www.clinicahispanaairline.com/en/blog/colesterol-ldl-hdl-trigliceridos-analisis  — cambiada 2026-10-26 · sin datos de inspección · pedida 2026-10-26 · 0 impr.
-- [ ] https://www.clinicahispanaairline.com/en/blog/como-prepararse-ultrasonido-ayuno-vejiga-llena  — cambiada 2026-10-19 · sin datos de inspección · pedida 2026-10-19 · 0 impr.
-- [ ] https://www.clinicahispanaairline.com/en/blog/examen-fisico-escolar-deportivo-que-llevar  — cambiada 2026-11-02 · sin datos de inspección · pedida 2026-11-02 · 0 impr.
-- [ ] https://www.clinicahispanaairline.com/en/blog/herida-infectada-pus-enrojecimiento-cuando-revisar  — cambiada 2026-11-09 · sin datos de inspección · pedida 2026-11-09 · 0 impr.
 - [ ] https://www.clinicahispanaairline.com/en/services/extraccion-implantes  — cambiada 2026-09-21 · rastreada 2026-09-06 · rastreada sin indexar · pedida 2026-09-25 · 0 impr.
-- [ ] https://www.clinicahispanaairline.com/en/services/infecciones-urinarias  — cambiada 2026-10-04 · rastreada 2026-04-09 · rastreada sin indexar · pedida 2026-11-06 · 0 impr.
+- [ ] https://www.clinicahispanaairline.com/en/services/infecciones-urinarias  — cambiada 2026-10-04 · desconocida · pedida 2026-11-06 · 0 impr.
 
 ## Historial (tandas pedidas)
 
